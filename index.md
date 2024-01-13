@@ -8,30 +8,30 @@ pageNav: 2
 {% set projects = [
     {name: 'CATcher', students: [
         ['ARIF KHALID', 'Arif-Khalid'],
+        ['MISRA ADITYA', 'MadLamprey'],
         ['NEREUS NG WEI BIN', 'NereusWB922'],
-        ['NGUYEN KHOI NGUYEN', 'nknguyenhc'],
-        ['MISRA ADITYA', 'MadLamprey']
+        ['NGUYEN KHOI NGUYEN', 'nknguyenhc']
     ]},
     {name: 'MarkBind', students: [
         ['EYO KAI WEN, KEVIN', 'KevinEyo1'],
         ['LAM JIU FONG', 'LamJiuFong'],
-        ['WANG YIWEN', 'yiwen101'],
         ['WANG JINGTING', 'jingting1412'],
+        ['WANG YIWEN', 'yiwen101'],
         ['XU SHUYAO', 'Tim-Siu']
     ]},
     {name: 'RepoSense', students: [
-        ['GEORGE TAY QUAN YAO', 'asdfghjkxd'],
         ['ALVIS NG', 'supermii2'],
+        ['GEORGE TAY QUAN YAO', 'asdfghjkxd'],
         ['JONAS ONG SI WEI', 'jonasongg'],
         ['POON YIP HANG, RYAN', 'sopa301']
     ]},
     {name: 'TEAMMATES', students: [
-        ['TYE JIA JUN, MARQUES', 'marquestye'],
+        ['CHING MING YUAN', 'mingyuanc'],
         ['DOMINIC BERZIN CHUA WAY GIN', 'domoberzin'],
-        ['ZHU YUANXI', 'yuanxi1'],
-        ['YEO DI SHENG', 'dishenggg'],
+        ['TYE JIA JUN, MARQUES', 'marquestye'],
         ['XENOS FIORENZO ANONG', 'xenosf'],
-        ['CHING MING YUAN', 'mingyuanc']
+        ['YEO DI SHENG', 'dishenggg'],
+        ['ZHU YUANXI', 'yuanxi1']
     ]}
 ] %}
 
