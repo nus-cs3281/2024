@@ -16,3 +16,10 @@
 | ---- | ------------ |
 | 1 | Reviewed PR: [Hide 0 issue columns #223](https://github.com/CATcher-org/WATcher/pull/223) |
 | 1 | Reviewed PR: [Keep filters option when switching repos #226](https://github.com/CATcher-org/WATcher/pull/226) |
+
+
+### PR Reviews - CATcher
+
+| Week | Achievements |
+| ---- | ------------ |
+| 1 | Commented on PR: [Redirect invalid routes to 404 not found page #1238](https://github.com/CATcher-org/CATcher/pull/1238) |
