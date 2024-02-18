@@ -1,3 +1,24 @@
+## Docker
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. It is an isolated environment for code. This means that a container has no knowledge of the local operating system, or the local files.
+
+
+Container v.s. Virtual Machines:
+
+Containers virtualize the operating system instead of hardware, so they are more portable and lightweight. VM has a layer of hypervisor which allows multiple full OS running on the same machine.
+
+Container v.s. Microservices:
+
+The main difference between microservices and containers is that microservices are an architectural paradigm / design patterns, while containers are a means to implement that paradigm. Containers can host the individual microservices that form a microservices application.
+
+Resources:
+
+[Docker Official Documentation](https://docs.docker.com/get-started/overview/)
+[Containers From Scratch • Liz Rice • GOTO 2018](https://www.youtube.com/watch?v=8fi7uSYlOdc&t=1s)
+[DockerFile references](https://docs.docker.com/engine/reference/builder/)
+
+---
+# In CS3281
+
 ## Angular
 Angular is a development platform built on TypeScript. There are three types of Angular directices in general:
 
