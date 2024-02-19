@@ -3,4 +3,4 @@
 <span id="github">https://github.com/nknguyenhc</span>
 
 <!-- [CS3281: Give your NUS-OSS project][CS3282: give your internal and external projects related to the module] -->
-<span id="projects">[CATcher](https://github.com/CATcher-org/CATcher)</span>
+<span id="projects">[CATcher](https://github.com/CATcher-org/CATcher), [WATcher](https://github.com/CATcher-org/WATcher)</span>
