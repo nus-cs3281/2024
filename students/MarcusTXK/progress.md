@@ -10,8 +10,8 @@
 | 30/10/2023 | Reviewed PR: [Add dynamic positioning support for tooltips #2056](https://github.com/reposense/RepoSense/pull/2056)                                                 |
 | 30/10/2023 | Reviewed PR: [Fix tooltip zIndex such that it doesn't occlude next file title #2057](https://github.com/reposense/RepoSense/pull/2057)                              |
 | 30/10/2023 | Reviewed PR: [Add contributors section to the README #2062](https://github.com/reposense/RepoSense/pull/2062)                                                       |
-| 31/10/2023 | Authored PR: [Fix: Added contributors to the README.md #2064](https://github.com/reposense/RepoSense/pull/2064)                                                     |
-| 02/11/2023 | Authored PR: [Created CONTRIBUTING.md #2065](https://github.com/reposense/RepoSense/pull/2065)                                                                      |
+| 31/10/2023 | Reviewed PR: [Fix: Added contributors to the README.md #2064](https://github.com/reposense/RepoSense/pull/2064)                                                     |
+| 02/11/2023 | Reviewed PR: [Created CONTRIBUTING.md #2065](https://github.com/reposense/RepoSense/pull/2065)                                                                      |
 | 23/12/2023 | Reviewed PR: [Reduce scope of try-catch block in ArgsParser::parse #2074](https://github.com/reposense/RepoSense/pull/2074)                                         |
 | 23/12/2023 | Reviewed PR: [Move TimeUtil ParseException throwing to ArgsParser::parse method #2075](https://github.com/reposense/RepoSense/pull/2075)                            |
 | 23/12/2023 | Commented on Issue: [Reduce the scope of the try-catch block in ArgsParser::parse #1989](https://github.com/reposense/RepoSense/issues/1989)                        |
