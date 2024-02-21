@@ -12,6 +12,13 @@
 |---|---|
 | &lt;1 | <ul><li>[#1233](https://github.com/CATcher-org/CATcher/pull/1233) Fix broken duplicate links</li><li>[#1234](https://github.com/CATcher-org/CATcher/pull/1234) Default branch to `main`</li></ul> |
 | 4 | <ul><li>[#1241](https://github.com/CATcher-org/CATcher/pull/1241) Preserve line breaks in markdown</li></ul> |
+| 6 | <ul><li>[#1245](https://github.com/CATcher-org/CATcher/pull/1245) Fix markddown blockquote preview difference</li></ul> |
+
+**PRs reviewed**
+
+| Week | PR |
+|---|---|
+| 5 | <ul><li>[#1243](https://github.com/CATcher-org/CATcher/pull/1243)</li></ul> |
 
 #### WATcher
 
@@ -22,6 +29,7 @@
 | 2 | <ul><li>[#230](https://github.com/CATcher-org/WATcher/pull/230) Fix label filter not working</li></ul> |
 | 3 | <ul><li>[#235](https://github.com/CATcher-org/WATcher/pull/235) Show list of hidden users</li></ul> |
 | 4 | <ul><li>[#254](https://github.com/CATcher-org/WATcher/pull/254) Refactor Label model</li></ul> |
+| 5 | <ul><li>[#255](https://github.com/CATcher-org/WATcher/pull/255) Add shareable repo-specific URL</li></ul> |
 
 **Issues created**
 | Week | Issue |
