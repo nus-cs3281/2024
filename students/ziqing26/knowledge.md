@@ -1,3 +1,14 @@
+## Data Migration
+
+* Before data migration we need to make sure we are clear on the ERD and relationship mapping.
+* To test scripts on data migration, we set up a staging Cloud SQL.
+* Currently there is no way to persist data bundle in datastore. We are still figuring out a proper way to test it.
+* Data validation after migration such as ensuring Foreign Keys are mapped correctly is important. We will explore more on that
+
+## Terraform
+
+* Saves a lot of time for deploying staging server. It will definitely save a lot of time if we have a shared staging server for testing. However TEAMMATEs might not be operating at a large enough scale to see the benefits.
+
 ## Docker
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. It is an isolated environment for code. This means that a container has no knowledge of the local operating system, or the local files.
 
