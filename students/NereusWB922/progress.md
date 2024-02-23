@@ -7,4 +7,7 @@
 | 4 | Merged PR: [Refactor test cases for issue paginator #244](https://github.com/CATcher-org/WATcher/pull/244) |
 | 4 | Merged PR: [Refactor test cases for issue sorter #245](https://github.com/CATcher-org/WATcher/pull/245) |
 | 4 | Merged PR: [Refactor github label constants #246](https://github.com/CATcher-org/WATcher/pull/246) |
-| 4 | Merged PR: [PRefactor test cases for search filter #247](https://github.com/CATcher-org/WATcher/pull/247) |
+| 4 | Merged PR: [Refactor test cases for search filter #247](https://github.com/CATcher-org/WATcher/pull/247) |
+| 6 | Reviewed PR: [Refactor certain filters into its own service #259](https://github.com/CATcher-org/WATcher/pull/259) |
+| 6 | Merged PR: [Remove test cases for permissions service #260](https://github.com/CATcher-org/WATcher/pull/260) |
+| 6 | Submitted issue: [Improve E2E testing #1251](https://github.com/CATcher-org/CATcher/issues/1251) |
