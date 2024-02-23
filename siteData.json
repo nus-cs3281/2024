@@ -1,0 +1,1399 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "README.md",
+      "headings": {
+        "cs3281-and-amp-2-student-data-website": "CS3281&amp;2 student data website"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "cs3282-index.md",
+      "title": "CS3282 - 2024 Batch",
+      "headings": {
+        "cs3282-2024-batch": "CS3282 - 2024 Batch",
+        "catcher": "CATcher",
+        "goh-yee-chong-gabriel": "GOH YEE CHONG, GABRIEL",
+        "lee-xiong-jie-isaac": "LEE XIONG JIE, ISAAC",
+        "vignesh-sankar-iyer": "VIGNESH SANKAR IYER",
+        "wong-chee-hong": "WONG CHEE HONG",
+        "markbind": "MarkBind",
+        "chan-yu-cheng": "CHAN YU CHENG",
+        "elton-goh-jun-hao": "ELTON GOH JUN HAO",
+        "hannah-chia-kai-xin": "HANNAH CHIA KAI XIN",
+        "lee-wei-david": "LEE WEI, DAVID",
+        "reposense": "RepoSense",
+        "charisma-kausar": "CHARISMA KAUSAR",
+        "david-gareth-ong": "DAVID GARETH ONG",
+        "gokul-rajiv": "GOKUL RAJIV",
+        "marcus-tang-xin-kye": "MARCUS TANG XIN KYE",
+        "teammates": "TEAMMATES",
+        "chang-weng-yew-nicolas": "CHANG WENG YEW, NICOLAS",
+        "dominic-lim-kai-jun": "DOMINIC LIM KAI JUN",
+        "jay-aljelo-saez-ting": "JAY ALJELO SAEZ TING",
+        "kevin-foong-wei-tong": "KEVIN FOONG WEI TONG",
+        "mok-kheng-sheng-fergus": "MOK KHENG SHENG FERGUS",
+        "neo-wei-qing": "NEO WEI QING",
+        "ong-jun-heng-cedric": "ONG JUN HENG, CEDRIC",
+        "sim-sing-yee-eunice": "SIM SING YEE, EUNICE",
+        "zhang-ziqing": "ZHANG ZIQING"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "CS3281&2 - 2024 Batch",
+      "headings": {
+        "cs3281-2024-batch": "CS3281 - 2024 Batch",
+        "catcher": "CATcher",
+        "arif-khalid": "ARIF KHALID",
+        "misra-aditya": "MISRA ADITYA",
+        "nereus-ng-wei-bin": "NEREUS NG WEI BIN",
+        "nguyen-khoi-nguyen": "NGUYEN KHOI NGUYEN",
+        "markbind": "MarkBind",
+        "eyo-kai-wen-kevin": "EYO KAI WEN, KEVIN",
+        "lam-jiu-fong": "LAM JIU FONG",
+        "wang-jingting": "WANG JINGTING",
+        "wang-yiwen": "WANG YIWEN",
+        "xu-shuyao": "XU SHUYAO",
+        "reposense": "RepoSense",
+        "alvis-ng": "ALVIS NG",
+        "george-tay-quan-yao": "GEORGE TAY QUAN YAO",
+        "jonas-ong-si-wei": "JONAS ONG SI WEI",
+        "poon-yip-hang-ryan": "POON YIP HANG, RYAN",
+        "teammates": "TEAMMATES",
+        "ching-ming-yuan": "CHING MING YUAN",
+        "dominic-berzin-chua-way-gin": "DOMINIC BERZIN CHUA WAY GIN",
+        "tye-jia-jun-marques": "TYE JIA JUN, MARQUES",
+        "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
+        "yeo-di-sheng": "YEO DI SHENG",
+        "zhu-yuanxi": "ZHU YUANXI"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "instructions.md",
+      "title": "Updating this website",
+      "headings": {
+        "instructions-for-updating-this-website": "Instructions for Updating this Website",
+        "general-instructions-for-updating-this-repo": "General Instructions for Updating This Repo",
+        "updating-your-basic-info": "Updating Your Basic Info",
+        "updating-your-project-progress": "Updating Your Project Progress",
+        "cs3281-updating-the-knowledge-gained-page": "[CS3281] Updating the Knowledge Gained Page",
+        "cs3282-updating-the-observations-page": "[CS3282] Updating the Observations Page"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Arif-Khalid/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Arif-Khalid/knowledge.md",
+      "headings": {
+        "angular": "Angular",
+        "typescript": "TypeScript",
+        "testing": "Testing"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Arif-Khalid/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EltonGohJH/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EltonGohJH/knowledge.md",
+      "headings": {
+        "special-mention-to-chatgpt-and-github-copilot": "Special mention to ChatGPT and GitHub Copilot",
+        "vue-js": "Vue.js",
+        "monorepo-and-monorepo-management-tools": "Monorepo and Monorepo management tools",
+        "serverside-rendering-ssr": "Serverside Rendering (SSR)",
+        "webpack": "Webpack",
+        "i-learn-how-to-use-open-source-software": "I learn how to use Open Source Software"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EltonGohJH/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EltonGohJH/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EuniceSim142/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EuniceSim142/knowledge.md",
+      "headings": {
+        "frontend": "Frontend",
+        "backend": "Backend:",
+        "testing": "Testing",
+        "git": "Git",
+        "oss-related": "OSS-related"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EuniceSim142/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/EuniceSim142/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/FergusMok/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/FergusMok/knowledge.md",
+      "headings": {
+        "frontend": "Frontend",
+        "angular": "Angular",
+        "rxjs": "RxJS",
+        "jasmine-and-jest": "Jasmine and Jest",
+        "backend": "Backend",
+        "google-cloud-datastore": "Google Cloud Datastore",
+        "git-rerere": "Git ReReRe",
+        "additional-tips": "Additional Tips"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/FergusMok/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/FergusMok/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/KevinEyo1/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/KevinEyo1/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "github-actions": "GitHub Actions"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/KevinEyo1/progress.md",
+      "headings": {
+        "markbind": "MarkBind"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/LamJiuFong/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/LamJiuFong/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/LamJiuFong/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MadLamprey/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MadLamprey/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MadLamprey/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MarcusTXK/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MarcusTXK/knowledge.md",
+      "headings": {
+        "devops": "DevOps",
+        "gradle": "Gradle",
+        "bash-and-batch-scripting": "Bash and Batch Scripting",
+        "codecov": "Codecov",
+        "frontend": "Frontend",
+        "vue": "Vue",
+        "pug": "Pug",
+        "cypress": "Cypress",
+        "backend": "Backend",
+        "bloch-s-builder-pattern": "Bloch’s Builder Pattern",
+        "polymorphism": "Polymorphism",
+        "discrete-event-simulator-des": "Discrete Event Simulator (DES)",
+        "misc": "Misc",
+        "git-commmands-functionalities": "Git Commmands/Functionalities",
+        "url-shortening": "URL Shortening"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MarcusTXK/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/MarcusTXK/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/NereusWB922/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/NereusWB922/knowledge.md",
+      "headings": {
+        "angular": "Angular",
+        "jasmine": "Jasmine"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/NereusWB922/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Nicolascwy/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Nicolascwy/knowledge.md",
+      "headings": {
+        "angular": "Angular",
+        "backend": "Backend",
+        "gradle": "Gradle",
+        "git": "Git"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Nicolascwy/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Nicolascwy/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Tim-Siu/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Tim-Siu/knowledge.md",
+      "headings": {
+        "markdown-it": "markdown-it",
+        "adding-custom-rules-to-markdown-it-through-adding-a-rule-to-markdown-it-s-attribute": "Adding custom rules to markdown-it through adding a rule to markdown-it's attribute",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/Tim-Siu/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/asdfghjkxd/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/asdfghjkxd/knowledge.md",
+      "headings": {
+        "java": "Java"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/asdfghjkxd/progress.md",
+      "headings": {
+        "progress": "Progress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cedricongjh/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cedricongjh/knowledge.md",
+      "headings": {
+        "angular": "Angular",
+        "context": "Context",
+        "pipes": "Pipes",
+        "angular-template": "Angular Template",
+        "hibernate": "Hibernate",
+        "context-2": "Context",
+        "entities": "Entities",
+        "entity-lifecycle": "Entity lifecycle",
+        "inheritance": "Inheritance",
+        "testing": "Testing",
+        "context-3": "Context",
+        "unit-vs-integration-testing": "Unit vs Integration testing",
+        "oop-patterns": "OOP patterns",
+        "builder-pattern": "Builder pattern",
+        "factory-pattern": "Factory pattern",
+        "misc": "Misc",
+        "migrations": "Migrations",
+        "github-web-editor": "Github web editor",
+        "git-interactive-rebase": "Git interactive rebase",
+        "github-cli": "Github CLI"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cedricongjh/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cedricongjh/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cheehongw/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cheehongw/knowledge.md",
+      "headings": {
+        "angular-essentials": "Angular Essentials",
+        "e2e-testing-with-playwright": "E2E Testing with Playwright",
+        "github-actions": "Github Actions",
+        "rxjs-and-the-observer-pattern": "RxJS and the Observer Pattern"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cheehongw/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/cheehongw/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ckcherry23/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ckcherry23/knowledge.md",
+      "headings": {
+        "1-tools-and-technologies": "1. Tools and Technologies",
+        "2-software-engineering": "2. Software Engineering",
+        "3-project-management": "3. Project Management"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ckcherry23/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ckcherry23/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/dishenggg/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/dishenggg/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/dishenggg/progress.md",
+      "headings": {
+        "teammates": "TEAMMATES"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domlimm/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domlimm/knowledge.md",
+      "headings": {
+        "angular": "Angular",
+        "context": "Context",
+        "passing-data-between-parent-and-child-components": "Passing data between Parent and Child components",
+        "services": "Services",
+        "testing": "Testing",
+        "spy-es-spies": "Spy-es/Spies",
+        "integration-tests": "Integration Tests",
+        "hibernate": "Hibernate",
+        "context-2": "Context",
+        "annotations": "Annotations",
+        "database-functionalities-of-hibernate-s-api": "Database Functionalities of Hibernate's API",
+        "data-persistence-through-jpa": "Data Persistence through JPA",
+        "cascade-types-delete": "Cascade Types (Delete)",
+        "specifying-cascade-cascadetype-remove-when-declaring-the-association-between-2-entities-parent-and-child": "Specifying cascade = CascadeType.REMOVE when declaring the association between 2 entities, parent and child",
+        "specifying-orphanremoval-true-when-declaring-the-association-between-2-entities-parent-and-child": "Specifying orphanRemoval = true when declaring the association between 2 entities, parent and child",
+        "using-ondelete-action-ondeleteaction-cascade": "Using @OnDelete(action = OnDeleteAction.CASCADE)",
+        "inheritance-strategies": "Inheritance Strategies",
+        "mappedsuperclass": "MappedSuperclass",
+        "single-table": "Single Table",
+        "joined-table-aka-table-per-subclass-mapping-strategy": "Joined Table aka Table-per-subclass mapping strategy",
+        "table-per-class": "Table per Class",
+        "conclusion": "Conclusion",
+        "resources": "Resources",
+        "miscellaneous": "Miscellaneous",
+        "large-modifications-to-a-live-system": "Large Modifications to a Live System",
+        "a-good-follow-up-after-submitting-a-pr": "A good follow-up after submitting a PR",
+        "a-different-view-when-looking-at-a-pr": "A different view when looking at a PR",
+        "github-cli": "GitHub CLI"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domlimm/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domlimm/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domoberzin/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domoberzin/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/domoberzin/progress.md",
+      "headings": {
+        "teammates": "TEAMMATES"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/gok99/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/gok99/knowledge.md",
+      "headings": {
+        "gradle": "Gradle",
+        "github-actions-and-api": "GitHub Actions and API",
+        "git-remotes": "Git Remotes",
+        "triangular-git-workflows": "Triangular Git workflows",
+        "cypress-tests": "Cypress Tests",
+        "bash-scripting": "Bash Scripting",
+        "vue": "Vue",
+        "pug": "Pug",
+        "javascript-quirks": "JavaScript Quirks",
+        "browser-engines": "Browser Engines",
+        "general-software-engineering-design-considerations": "General Software Engineering/Design Considerations",
+        "miscellaneous-helpful-tools": "Miscellaneous helpful tools"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/gok99/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/gok99/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/gycgabriel/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/gycgabriel/knowledge.md",
+      "headings": {
+        "error-messages-and-hint-labels-in-angular-forms": "Error messages and Hint labels in Angular forms",
+        "lifecycle-hooks-in-angular": "Lifecycle Hooks in Angular",
+        "viewchild-in-angular": "ViewChild in Angular",
+        "property-binding": "Property Binding",
+        "event-binding": "Event binding",
+        "git-rebase": "Git Rebase",
+        "github-file-upload-api-createfile-vs-createtree": "Github File Upload API: CreateFile vs CreateTree"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/gycgabriel/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/gycgabriel/progress.md",
+      "headings": {
+        "cs3282-progress": "CS3282 Progress",
+        "issues-watcher": "Issues - WATcher",
+        "pr-reviews-watcher": "PR Reviews - WATcher",
+        "pr-contributed-watcher": "PR Contributed - WATcher",
+        "pr-reviews-catcher": "PR Reviews - CATcher"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/itsyme/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/itsyme/knowledge.md",
+      "headings": {
+        "vue-js": "Vue.js",
+        "document-object-model-dom-manipulation": "Document Object Model (DOM) Manipulation",
+        "jest-vue-test-utils": "Jest/Vue Test Utils",
+        "typescript": "Typescript",
+        "ui": "UI",
+        "project-management": "Project Management"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/itsyme/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/itsyme/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jayasting98/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jayasting98/knowledge.md",
+      "headings": {
+        "angular": "Angular",
+        "rxjs": "RxJS",
+        "html-bootstrap-web-development-in-general": "HTML/Bootstrap/Web development in general",
+        "jest-jasmine": "Jest/Jasmine",
+        "d3-js": "D3.js",
+        "angular-material": "Angular Material",
+        "google-cloud-datastore-objectify": "Google Cloud Datastore/Objectify",
+        "google-cloud-app-engine": "Google Cloud App Engine"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jayasting98/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jayasting98/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jingting1412/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jingting1412/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jingting1412/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jonasongg/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jonasongg/knowledge.md",
+      "headings": {
+        "vue-pug": "Vue + Pug",
+        "cypress": "Cypress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/jonasongg/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kaixin-hc/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kaixin-hc/knowledge.md",
+      "headings": {
+        "frontend": "Frontend",
+        "rounded-vs-square-edges-for-signalling-functionality": "Rounded vs Square edges for signalling functionality",
+        "vue": "Vue",
+        "scrollbars": "Scrollbars",
+        "open-source-dependencies": "Open source dependencies",
+        "ghpages": "ghpages",
+        "commander": "Commander",
+        "jest": "jest",
+        "fs-extra": "fs-extra",
+        "git": "Git",
+        "logging-framework": "Logging Framework",
+        "ways-versioning-is-implemented": "Ways Versioning is Implemented",
+        "javascript": "Javascript",
+        "javascript-with-regard-to-object-oriented-programming": "Javascript with regard to object oriented programming",
+        "certain-functions-in-javascript": "Certain functions in javascript"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kaixin-hc/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kaixin-hc/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kevin9foong/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kevin9foong/knowledge.md",
+      "headings": {
+        "frontend": "Frontend",
+        "angular-frontend-framework": "Angular (Frontend framework)",
+        "backend": "Backend",
+        "presentation-logic-data-layering": "Presentation-Logic-Data Layering",
+        "exception-wrapping": "Exception wrapping",
+        "how-to-ensure-product-stays-live-even-during-migration": "How to ensure product stays live even during migration",
+        "hibernate-orm": "Hibernate ORM",
+        "general-swe-skills-and-tools": "General SWE skills and tools",
+        "docker": "Docker",
+        "gradlew": "Gradlew",
+        "testing": "Testing",
+        "oss-project-maintenance": "OSS project maintenance",
+        "swe-project-management-best-practices": "SWE/Project management best practices",
+        "improving-my-fluency-with-using-swe-tooling": "Improving my fluency with using SWE tooling",
+        "debugger": "Debugger",
+        "shortcuts": "Shortcuts"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kevin9foong/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/kevin9foong/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/knowledge.md",
+      "title": "CS3281 - Knowledge gained from Projects",
+      "headings": {
+        "knowledge-gained-from-projects": "Knowledge gained from Projects",
+        "catcher": "CATcher",
+        "arif-khalid": "ARIF KHALID",
+        "angular": "Angular",
+        "typescript": "TypeScript",
+        "testing": "Testing",
+        "misra-aditya": "MISRA ADITYA",
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2",
+        "nereus-ng-wei-bin": "NEREUS NG WEI BIN",
+        "angular-2": "Angular",
+        "jasmine": "Jasmine",
+        "nguyen-khoi-nguyen": "NGUYEN KHOI NGUYEN",
+        "angular-3": "Angular",
+        "rxjs": "RxJS",
+        "markbind": "MarkBind",
+        "eyo-kai-wen-kevin": "EYO KAI WEN, KEVIN",
+        "tool-technology-1-2": "Tool/Technology 1",
+        "github-actions": "GitHub Actions",
+        "lam-jiu-fong": "LAM JIU FONG",
+        "tool-technology-1-3": "Tool/Technology 1",
+        "tool-technology-2-2": "Tool/Technology 2",
+        "wang-jingting": "WANG JINGTING",
+        "tool-technology-1-4": "Tool/Technology 1",
+        "tool-technology-2-3": "Tool/Technology 2",
+        "wang-yiwen": "WANG YIWEN",
+        "tool-technology-1-5": "Tool/Technology 1",
+        "tool-technology-2-4": "Tool/Technology 2",
+        "xu-shuyao": "XU SHUYAO",
+        "markdown-it": "markdown-it",
+        "adding-custom-rules-to-markdown-it-through-adding-a-rule-to-markdown-it-s-attribute": "Adding custom rules to markdown-it through adding a rule to markdown-it's attribute",
+        "tool-technology-2-5": "Tool/Technology 2",
+        "reposense": "RepoSense",
+        "alvis-ng": "ALVIS NG",
+        "tool-technology-1-6": "Tool/Technology 1",
+        "tool-technology-2-6": "Tool/Technology 2",
+        "george-tay-quan-yao": "GEORGE TAY QUAN YAO",
+        "java": "Java",
+        "jonas-ong-si-wei": "JONAS ONG SI WEI",
+        "vue-pug": "Vue + Pug",
+        "cypress": "Cypress",
+        "poon-yip-hang-ryan": "POON YIP HANG, RYAN",
+        "tool-technology-1-7": "Tool/Technology 1",
+        "vue": "Vue",
+        "teammates": "TEAMMATES",
+        "ching-ming-yuan": "CHING MING YUAN",
+        "tool-technology-1-8": "Tool/Technology 1",
+        "tool-technology-2-7": "Tool/Technology 2",
+        "dominic-berzin-chua-way-gin": "DOMINIC BERZIN CHUA WAY GIN",
+        "tool-technology-1-9": "Tool/Technology 1",
+        "tool-technology-2-8": "Tool/Technology 2",
+        "tye-jia-jun-marques": "TYE JIA JUN, MARQUES",
+        "tool-technology-1-10": "Tool/Technology 1",
+        "tool-technology-2-9": "Tool/Technology 2",
+        "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
+        "tool-technology-1-11": "Tool/Technology 1",
+        "tool-technology-2-10": "Tool/Technology 2",
+        "yeo-di-sheng": "YEO DI SHENG",
+        "tool-technology-1-12": "Tool/Technology 1",
+        "tool-technology-2-11": "Tool/Technology 2",
+        "zhu-yuanxi": "ZHU YUANXI",
+        "tool-technology-1-13": "Tool/Technology 1",
+        "tool-technology-2-12": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/luminousleek/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/luminousleek/knowledge.md",
+      "headings": {
+        "css-flexbox": "CSS Flexbox",
+        "prettier-husky-and-pretty-quick": "Prettier, husky and pretty-quick",
+        "arcsecond": "Arcsecond",
+        "jasmine": "Jasmine"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/luminousleek/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/luminousleek/progress.md",
+      "headings": {
+        "cs3282-progress": "CS3282 Progress",
+        "pr-reviews-catcher": "PR Reviews - CATcher",
+        "pr-contributions-catcher": "PR Contributions - CATcher",
+        "pr-reviews-watcher": "PR Reviews - WATcher",
+        "pr-contributions-markbind": "PR Contributions - Markbind"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/marquestye/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/marquestye/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/marquestye/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/mingyuanc/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/mingyuanc/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/mingyuanc/progress.md",
+      "headings": {
+        "teammates": "TEAMMATES"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/nknguyenhc/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/nknguyenhc/knowledge.md",
+      "headings": {
+        "angular": "Angular",
+        "rxjs": "RxJS"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/nknguyenhc/progress.md",
+      "headings": {
+        "summary": "Summary",
+        "details": "Details"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/observations.md",
+      "headings": {
+        "observations-from-external-projects": "Observations from External Projects",
+        "catcher": "CATcher",
+        "goh-yee-chong-gabriel": "GOH YEE CHONG, GABRIEL",
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record",
+        "lee-xiong-jie-isaac": "LEE XIONG JIE, ISAAC",
+        "project-foo-2": "Project: Foo",
+        "my-contributions-2": "My Contributions",
+        "my-learning-record-2": "My Learning Record",
+        "vignesh-sankar-iyer": "VIGNESH SANKAR IYER",
+        "project-foo-3": "Project: Foo",
+        "my-contributions-3": "My Contributions",
+        "my-learning-record-3": "My Learning Record",
+        "wong-chee-hong": "WONG CHEE HONG",
+        "project-foo-4": "Project: Foo",
+        "my-contributions-4": "My Contributions",
+        "my-learning-record-4": "My Learning Record",
+        "markbind": "MarkBind",
+        "chan-yu-cheng": "CHAN YU CHENG",
+        "project-foo-5": "Project: Foo",
+        "my-contributions-5": "My Contributions",
+        "my-learning-record-5": "My Learning Record",
+        "elton-goh-jun-hao": "ELTON GOH JUN HAO",
+        "project-foo-6": "Project: Foo",
+        "my-contributions-6": "My Contributions",
+        "my-learning-record-6": "My Learning Record",
+        "hannah-chia-kai-xin": "HANNAH CHIA KAI XIN",
+        "project-foo-7": "Project: Foo",
+        "my-contributions-7": "My Contributions",
+        "my-learning-record-7": "My Learning Record",
+        "lee-wei-david": "LEE WEI, DAVID",
+        "project-foo-8": "Project: Foo",
+        "my-contributions-8": "My Contributions",
+        "my-learning-record-8": "My Learning Record",
+        "reposense": "RepoSense",
+        "charisma-kausar": "CHARISMA KAUSAR",
+        "project-foo-9": "Project: Foo",
+        "my-contributions-9": "My Contributions",
+        "my-learning-record-9": "My Learning Record",
+        "david-gareth-ong": "DAVID GARETH ONG",
+        "project-foo-10": "Project: Foo",
+        "my-contributions-10": "My Contributions",
+        "my-learning-record-10": "My Learning Record",
+        "gokul-rajiv": "GOKUL RAJIV",
+        "project-foo-11": "Project: Foo",
+        "my-contributions-11": "My Contributions",
+        "my-learning-record-11": "My Learning Record",
+        "marcus-tang-xin-kye": "MARCUS TANG XIN KYE",
+        "project-foo-12": "Project: Foo",
+        "my-contributions-12": "My Contributions",
+        "my-learning-record-12": "My Learning Record",
+        "teammates": "TEAMMATES",
+        "chang-weng-yew-nicolas": "CHANG WENG YEW, NICOLAS",
+        "project-foo-13": "Project: Foo",
+        "my-contributions-13": "My Contributions",
+        "my-learning-record-13": "My Learning Record",
+        "dominic-lim-kai-jun": "DOMINIC LIM KAI JUN",
+        "project-foo-14": "Project: Foo",
+        "my-contributions-14": "My Contributions",
+        "my-learning-record-14": "My Learning Record",
+        "jay-aljelo-saez-ting": "JAY ALJELO SAEZ TING",
+        "project-foo-15": "Project: Foo",
+        "my-contributions-15": "My Contributions",
+        "my-learning-record-15": "My Learning Record",
+        "kevin-foong-wei-tong": "KEVIN FOONG WEI TONG",
+        "project-foo-16": "Project: Foo",
+        "my-contributions-16": "My Contributions",
+        "my-learning-record-16": "My Learning Record",
+        "mok-kheng-sheng-fergus": "MOK KHENG SHENG FERGUS",
+        "project-foo-17": "Project: Foo",
+        "my-contributions-17": "My Contributions",
+        "my-learning-record-17": "My Learning Record",
+        "neo-wei-qing": "NEO WEI QING",
+        "project-foo-18": "Project: Foo",
+        "my-contributions-18": "My Contributions",
+        "my-learning-record-18": "My Learning Record",
+        "ong-jun-heng-cedric": "ONG JUN HENG, CEDRIC",
+        "project-foo-19": "Project: Foo",
+        "my-contributions-19": "My Contributions",
+        "my-learning-record-19": "My Learning Record",
+        "sim-sing-yee-eunice": "SIM SING YEE, EUNICE",
+        "project-foo-20": "Project: Foo",
+        "my-contributions-20": "My Contributions",
+        "my-learning-record-20": "My Learning Record",
+        "zhang-ziqing": "ZHANG ZIQING",
+        "project-refine": "Project: Refine",
+        "my-contributions-21": "My Contributions",
+        "my-learning-record-21": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sample/resume.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sopa301/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sopa301/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "vue": "Vue"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/sopa301/progress.md",
+      "headings": {
+        "progress": "Progress"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/supermii2/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/supermii2/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/supermii2/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/talksSchedule.md",
+      "title": "CS3282 - Lightning Talks",
+      "headings": {
+        "round-a-week-3-4-5": "Round A (week 3, 4, 5)",
+        "round-a1": "Round A1",
+        "round-a2": "Round A2",
+        "round-a3": "Round A3",
+        "round-b-week-7-8-9": "Round B (week 7, 8, 9)",
+        "round-b1": "Round B1",
+        "round-b2": "Round B2",
+        "round-b3": "Round B3",
+        "round-c-week-11-12-13": "Round C (week 11, 12, 13)",
+        "round-c1": "Round C1",
+        "round-c2": "Round C2",
+        "round-c3": "Round C3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vigneshsankariyer1234567890/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vigneshsankariyer1234567890/knowledge.md",
+      "headings": {
+        "angular": "Angular",
+        "rxjs": "RxJS"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vigneshsankariyer1234567890/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vigneshsankariyer1234567890/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vvidday/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vvidday/knowledge.md",
+      "headings": {
+        "vue-and-amp-options-api": "Vue &amp; Options API",
+        "cypress-testing": "Cypress testing",
+        "typescript": "TypeScript"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vvidday/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/vvidday/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/weiquu/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/weiquu/knowledge.md",
+      "headings": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "others": "Others"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/weiquu/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/weiquu/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/worksheet.md",
+      "headings": {
+        "feedback-for-round-a-slides": "Feedback for Round A Slides"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/xenosf/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/xenosf/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/xenosf/progress.md",
+      "headings": {
+        "teammates": "TEAMMATES"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yiwen101/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yiwen101/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yiwen101/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yuanxi1/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yuanxi1/knowledge.md",
+      "headings": {
+        "tool-technology-1": "Tool/Technology 1",
+        "tool-technology-2": "Tool/Technology 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yuanxi1/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yucheng11122017/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yucheng11122017/knowledge.md",
+      "headings": {
+        "vue": "Vue",
+        "jquery-cheerio-and-javascript-for-dom-manipulation": "Jquery, Cheerio and Javascript for DOM manipulation",
+        "css": "CSS",
+        "typescript-and-migration": "Typescript and migration",
+        "github-actions": "Github actions",
+        "nunjucks": "Nunjucks",
+        "node-js-versioning": "Node.js versioning",
+        "deployment": "Deployment",
+        "reuse-principle": "Reuse principle",
+        "documentation": "Documentation"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yucheng11122017/observations.md",
+      "headings": {
+        "project-foo": "Project: Foo",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/yucheng11122017/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ziqing26/info.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ziqing26/knowledge.md",
+      "headings": {
+        "data-migration": "Data Migration",
+        "terraform": "Terraform",
+        "docker": "Docker",
+        "in-cs3281": "In CS3281",
+        "angular": "Angular",
+        "d3-js": "d3.js",
+        "oauth2-0": "OAuth2.0",
+        "google-cloud-datastore-and-objectify": "Google Cloud Datastore and Objectify",
+        "backend": "Backend",
+        "testing": "Testing",
+        "non-technical-knowledge": "Non-technical knowledge"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ziqing26/observations.md",
+      "headings": {
+        "project-refine": "Project: Refine",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "students/ziqing26/progress.md",
+      "headings": {},
+      "headingKeywords": {}
+    }
+  ]
+}

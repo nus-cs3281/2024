@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 5.2.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="/2024/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/2024/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/2024/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/2024/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/2024/markbind/css/markbind.min.css"><script src="/2024/markbind/js/polyfill.min.js"></script>
+    <script src="/2024/markbind/js/vue.min.js"></script>
+    <script src="/2024/markbind/js/markbind.min.js"></script>
+    <script src="knowledge.page-vue-render.js"></script><link rel="stylesheet" href="/2024/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/2024/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+  <link rel="stylesheet" href="/2024/stylesheets/main.css">
+<link rel="icon" href="/2024/favicon.ico"></head>
+<script>
+  const baseUrl = '/2024'
+</script>
+<body >
+<div id="app" data-server-rendered="true"><header fixed=""><div placement="top" data-v-73b4aa16><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-primary" data-v-73b4aa16><div class="container-fluid" data-v-73b4aa16><div class="navbar-left" data-v-73b4aa16><a href="/2024/index.html" title="Home" class="navbar-brand" data-v-73b4aa16>CS3281&amp;2-2024/Students</a></div> <div class="navbar-default" data-v-73b4aa16><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-73b4aa16> <li class="nav-link dropdown" data-v-12679d7e><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-12679d7e>CS3281</a> <ul class="dropdown-menu" data-v-12679d7e> <li data-v-12679d7e><a href="/2024/index.html" class="dropdown-item" data-v-12679d7e>Students</a></li> <li data-v-12679d7e><a href="/2024/students/knowledge.html" class="dropdown-item" data-v-12679d7e>Knowledge</a></li> <li data-v-12679d7e><a href="https://nus-cs3281.github.io/2024-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByAuthors&amp;breakdown=false" class="dropdown-item" data-v-12679d7e>Code Dashboard</a></li></ul></li> <li class="nav-link dropdown" data-v-12679d7e><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-12679d7e>CS3282</a> <ul class="dropdown-menu" data-v-12679d7e> <li data-v-12679d7e><a href="/2024/cs3282-index.html" class="dropdown-item" data-v-12679d7e>Students</a></li> <li data-v-12679d7e><a href="/2024/students/talksSchedule.html" class="dropdown-item" data-v-12679d7e>Lightning Talks</a></li></ul></li> <li data-v-73b4aa16><a href="/2024/instructions.html" class="nav-link" data-v-73b4aa16>Instructions</a></li> <li data-v-73b4aa16><a href="https://nus-cs3281.github.io/website/" class="nav-link" data-v-73b4aa16>CS3281&amp;2 Website <span data-v-73b4aa16><span aria-hidden="true" class="glyphicon glyphicon-share-alt" data-v-73b4aa16></span></span></a></li></ul></div> <ul class="navbar-nav navbar-right" data-v-73b4aa16><li data-v-73b4aa16><a href="https://github.com/nus-cs3281/2024" class="nav-link" data-v-73b4aa16><span data-v-73b4aa16><span aria-hidden="true" class="fab fa-github" data-v-73b4aa16></span></span></a></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-73b4aa16><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><h2 id="angular">Angular<a href="#angular" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h2> <h3 id="context">Context<a href="#context" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Having worked on CATcher for IWM last summer, I've gained familiarity with Angular. Working on TEAMMATES, I've deepened my knowledge
+of the framework, and there were two new things that I've picked up about Angular.</p> <h3 id="pipes">Pipes<a href="#pipes" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Although I was previously aware of the use of pipes, I was not aware of the performance aspect. In particular, using pipes
+are much more efficient than methods to render strings:</p> <pre><code class="hljs javascript"><span>
+</span><span>&lt;h1&gt;{{ name.toLowerCase() }}&lt;/h1&gt;
+</span><span>
+</span><span><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>{{ name | lowercase }}<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span></span>
+</span><span>
+</span></code></pre><p>When using a method, it is always run whenever the component is detecting changes. However, for pipes, they are only run
+when the input of the pipe, in this case <code class="hljs inline no-lang">name</code>, is changed.</p> <p><a href="https://medium.com/angular-in-depth/tiny-angular-pipe-to-make-any-function-memoizable-f6c8fa917f2f">Here</a> is a medium article that
+dives more into the benefits of using pipes.</p> <h3 id="angular-template">Angular Template<a href="#angular-template" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>ES6 template literals and nested string interpolation aren't supported in Angular:</p> <pre><code class="hljs javascript"><span>
+</span><span>&lt;div&gt;{{ <span class="hljs-string">`(<span class="hljs-subst">${text}</span>)`</span>) }}&lt;/div&gt;
+</span><span>
+</span></code></pre><p>This was something that I learnt from an open source contributor in <a href="https://github.com/TEAMMATES/teammates/pull/12249">this</a> PR.</p> <h2 id="hibernate">Hibernate<a href="#hibernate" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h2> <h3 id="context-2">Context<a href="#context-2" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Prior to taking CS3281, I've only used Java in CS2030S, CS2040S and of course CS2103T, never on a live system used by actual users.
+This was hence my first experience in writing a Java backend, and I'm glad that I got the opportunity, and I am confident that
+I'm now able to work on backend systems with Hibernate, from defining database tables, specifying entity relations, and writing queries.
+The following are a few aspects of Hibernate I'd like to highlight.</p> <h3 id="entities">Entities<a href="#entities" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>In Hibernate, each class created by the developer creates a corresponding table in the database. (with some exceptions, I'll get to that later) A typical Hibernate entity looks like this:</p> <pre><code class="hljs java"><span><span class="hljs-meta">@Entity</span>
+</span><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Class</span> </span>{
+</span><span>    <span class="hljs-meta">@Id</span>
+</span><span>    <span class="hljs-meta">@GeneratedValue</span>
+</span><span>    <span class="hljs-keyword">private</span> Long id;
+</span><span>
+</span><span>    <span class="hljs-meta">@Column(nullable=false)</span>
+</span><span>    <span class="hljs-keyword">private</span> String field;
+</span><span>}
+</span></code></pre><p>There's quite alot going on here, so let's break it down:</p> <ul><li>On top of normal Java classes, Hibernate uses annotations (preceded with '@') to denote properties of classes and class fields.</li> <li>The <code class="hljs inline no-lang">@Entity</code> annotation identifies a class as an entity class, whose fields are to be persisted to the database.</li> <li><code class="hljs inline no-lang">@Id</code> specifies the primary key.</li> <li><code class="hljs inline no-lang">@GeneratedValue</code> is typically used for primary key columns, to denote that a field should be generated by the database upon object creation.</li> <li><code class="hljs inline no-lang">@Column</code> is an optional annotation that allows one to customise the mapping between the entity attribute and database column. In this case, <code class="hljs inline no-lang">nullable=false</code> ensures that the database column <code class="hljs inline no-lang">field</code> for the table <code class="hljs inline no-lang">Class</code> cannot have non-null values.</li></ul> <p>A database table corresponding to the class will be created, with columns <code class="hljs inline no-lang">id</code> and <code class="hljs inline no-lang">field</code>.</p> <p>There are numerous annotations, and Thorben Janssen's <a href="https://thorben-janssen.com/key-jpa-hibernate-annotations/">guide</a> gives a in depth overview of the most essential ones.</p> <h3 id="entity-lifecycle">Entity lifecycle<a href="#entity-lifecycle" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Once the entities are defined, we can perform create, update and delete operations, and these effects will be persisted to the database.</p> <p>For instance, when we have a <code class="hljs inline no-lang">Student</code> class with a <code class="hljs inline no-lang">name</code> field, and we would like to update it, we simply call the field's setter, <code class="hljs inline no-lang">student.setName(&quot;newName&quot;);</code> to update the student's name.</p> <p>Hibernate will persist the changes to the database automatically, without the developer having to explicitly do so.</p> <p>There's a great guide on the entity lifecycle <a href="https://thorben-janssen.com/entity-lifecycle-model/">here</a></p> <h3 id="inheritance">Inheritance<a href="#inheritance" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Inheritance is a key feature of OOP languages such as Java, and is also supported by Hibernate.</p> <p>There are a few different ways that inherited entities are mapped to database tables.</p> <p>One of which is the <code class="hljs inline no-lang">SingleTable</code> inheritance strategy.</p> <p>As per its namesake, in <code class="hljs inline no-lang">SingleTable</code> inheritance, all child classes are mapped to one table.</p> <p>For example, the classes below,</p> <pre><code class="hljs java"><span><span class="hljs-meta">@Entity</span>
+</span><span><span class="hljs-meta">@Inheritance(strategy = InheritanceType.SINGLE_TABLE)</span>
+</span><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Class</span> </span>{
+</span><span>    <span class="hljs-meta">@Id</span>
+</span><span>    <span class="hljs-meta">@GeneratedValue</span>
+</span><span>    <span class="hljs-keyword">private</span> Long id;
+</span><span>}
+</span><span>
+</span><span><span class="hljs-meta">@Entity</span>
+</span><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ClassA</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Class</span> </span>{
+</span><span>    <span class="hljs-meta">@Column</span>
+</span><span>    <span class="hljs-keyword">private</span> String description;
+</span><span>}
+</span><span>
+</span><span><span class="hljs-meta">@Entity</span>
+</span><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ClassB</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Class</span> </span>{
+</span><span>    <span class="hljs-meta">@Column</span>
+</span><span>    <span class="hljs-keyword">private</span> Integer quantity;
+</span><span>}
+</span></code></pre><p>Will be mapped onto a single table, <code class="hljs inline no-lang">Class</code>, with the fields <code class="hljs inline no-lang">id</code>, <code class="hljs inline no-lang">description</code> and <code class="hljs inline no-lang">quantity</code>.</p> <p>A drawback would be that we cannot enforce non-null constraints on any of the database columns, since for records of <code class="hljs inline no-lang">ClassA</code>, they
+would have the attribute <code class="hljs inline no-lang">description</code> but not <code class="hljs inline no-lang">quantity</code>, and for records of <code class="hljs inline no-lang">ClassB</code>, they would not have the attribute <code class="hljs inline no-lang">description</code>
+but have <code class="hljs inline no-lang">quantity</code>.</p> <p>An advantage of <code class="hljs inline no-lang">SingleTable</code> strategy compared to others is that there is no need for joins. For instance, in the <code class="hljs inline no-lang">Joined Table</code> strategy,
+each subclass will have its own table, and when querying, it is joined with the parent class' table. This was one of the reasons why
+<code class="hljs inline no-lang">SingleTable</code> inheritance was ultimately chosen for <code class="hljs inline no-lang">FeedbackQuestion</code> and <code class="hljs inline no-lang">FeedbackResponse</code> entities, as they had many subclasses.</p> <p>Baeldung's <a href="https://www.baeldung.com/hibernate-inheritance">guide</a> on inheritance strategies was extremely helpful to me in understanding the differences between them, and the tradeoffs one needs to consider when choosing among them.</p> <h2 id="testing">Testing<a href="#testing" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h2> <h3 id="context-3">Context<a href="#context-3" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Prior to working on TEAMMATES, the only exposure to software testing I had was in CS2103T. Working on the migration to postgresql involved writing tests, and
+through that I've gained a slightly better understanding of the different types of tests, and a much greater appreciation of the importance of tests. When
+migrating the system to postgres, having the old test cases provided us with some reassurance that the changes we made to the system would not impact the
+existing functionalities, which is absolutely essential for a live system.</p> <h3 id="unit-vs-integration-testing">Unit vs Integration testing<a href="#unit-vs-integration-testing" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Unit testing is testing individual components, in isolation. For components with dependancies, these dependancies are mocked to ensure that any errors
+would be due to bugs in the component itself, and not its underlying dependancies. An example of this in TEAMMATES would be that when doing unit testing
+for the logic layer, which depends on the database layer, we mock the database layer.</p> <p>Integration testing on the other hand, tests if the various components are working when combined together. Building upon the unit testing example, when doing
+integration testing for the logic layer, we would not mock the database layer, but rather have the database layer actually perform its operations.</p> <p>Having both of these types of tests are necessary in a big system like TEAMMATES: unit testing gives us the reassurance that the invididual components
+are working on its own, while integration testing ensures that they work together. With good unit testing, we can be certain that any issues in integration
+testing is most likely due to the interaction between the components, rather than the component itself, making debugging easier. The tests together ensures that no
+breaking changes are introduced to the system, and is thus essential in a live system like TEAMMATES.</p> <p><a href="https://www.softwaretestinghelp.com/the-difference-between-unit-integration-and-functional-testing/">Here</a> is an article that summarises the differences between
+unit testing, integration testing and</p> <h2 id="oop-patterns">OOP patterns<a href="#oop-patterns" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h2> <h3 id="builder-pattern">Builder pattern<a href="#builder-pattern" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>The builder pattern is useful when a class has many fields that are optional upon instantiation.
+Imagine a Java class that has 3 fields:</p> <pre><code class="hljs java"><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Foo</span> </span>{
+</span><span>    String a;
+</span><span>    Integer b;
+</span><span>    Long c;
+</span><span>}
+</span></code></pre><p>For this class, say that a, b and c are optional, and that they are not needed when creating a <code class="hljs inline no-lang">Foo</code> object.
+To cater for every combination, we would require many constructors:</p> <pre><code class="hljs java"><span>Foo(String a) {
+</span><span>    <span class="hljs-keyword">this</span>.a = a;
+</span><span>}
+</span><span>
+</span><span>Foo(String a, Integer b) {
+</span><span>    <span class="hljs-keyword">this</span>.a = a;
+</span><span>    <span class="hljs-keyword">this</span>.b = b;
+</span><span>}
+</span><span>
+</span><span>Foo(String a, Integer b, Long c) {
+</span><span>    <span class="hljs-keyword">this</span>.a = a;
+</span><span>    <span class="hljs-keyword">this</span>.b = b;
+</span><span>    <span class="hljs-keyword">this</span>.c = c;
+</span><span>}
+</span><span>
+</span></code></pre><p>And many more for the other combinations...</p> <p>To solve this issue, we can make use of the builder pattern, creating a static builder class inside <code class="hljs inline no-lang">Foo</code>:</p> <pre><code class="hljs java"><span>
+</span><span><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> class <span class="hljs-title">FooBuilder</span><span class="hljs-params">()</span> </span>{
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> Foo <span class="hljs-title">setA</span><span class="hljs-params">(String a)</span> </span>{
+</span><span>        <span class="hljs-keyword">this</span>.a = a;
+</span><span>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+</span><span>    }
+</span><span>
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> Foo <span class="hljs-title">setB</span><span class="hljs-params">(Integer b)</span> </span>{
+</span><span>        <span class="hljs-keyword">this</span>.b = b;
+</span><span>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+</span><span>    }
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> Foo <span class="hljs-title">setC</span><span class="hljs-params">(Long c)</span> </span>{
+</span><span>        <span class="hljs-keyword">this</span>.c = c;
+</span><span>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+</span><span>    }
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> Foo <span class="hljs-title">build</span><span class="hljs-params">()</span> </span>{
+</span><span>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Foo(<span class="hljs-keyword">this</span>);
+</span><span>    }
+</span><span>}
+</span><span>
+</span></code></pre><p>We can then create <code class="hljs inline no-lang">Foo</code>, with a b or c being optional without having to create numerous constructors:</p> <pre><code class="hljs java"><span>Foo foo = <span class="hljs-keyword">new</span> Foo.FooBuilder().setA(<span class="hljs-string">&quot;string&quot;</span>).setC(<span class="hljs-number">100</span>).build();
+</span></code></pre><h3 id="factory-pattern">Factory pattern<a href="#factory-pattern" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>The factory pattern should be used when an object needs to be created, but the object to be created is dependant on criteria.
+The creation logic should then be encapsulated in a factory method.</p> <p>A simple example would be creation of <code class="hljs inline no-lang">SomeClass</code> below:</p> <pre><code class="hljs java"><span><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SomeClass</span> </span>{
+</span><span>}
+</span><span>
+</span><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SomeClassA</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">SomeClass</span> </span>{
+</span><span>    Integer a;
+</span><span>}
+</span><span>
+</span><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SomeClassB</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">SomeClass</span> </span>{
+</span><span>    <span class="hljs-keyword">boolean</span> b;
+</span><span>}
+</span></code></pre><p>Say that <code class="hljs inline no-lang">SomeClass</code> is required to be created, and whether we create <code class="hljs inline no-lang">SomeClassA</code> or <code class="hljs inline no-lang">SomeClassB</code> depends on an enum:</p> <pre><code class="hljs java"><span><span class="hljs-class"><span class="hljs-keyword">enum</span> <span class="hljs-title">Type</span> </span>{
+</span><span>    A,
+</span><span>    B
+</span><span>}
+</span><span>
+</span><span>Type type = Type.A;
+</span><span>SomeClass someClass;
+</span><span>
+</span><span><span class="hljs-keyword">switch</span>(type) {
+</span><span><span class="hljs-keyword">case</span> Type.A:
+</span><span>    someClass = <span class="hljs-keyword">new</span> SomeClassA(<span class="hljs-number">1</span>);
+</span><span>    <span class="hljs-keyword">break</span>;
+</span><span><span class="hljs-keyword">case</span> Type.B:
+</span><span>    someClass = <span class="hljs-keyword">new</span> SomeClassB(<span class="hljs-keyword">true</span>);
+</span><span>    <span class="hljs-keyword">break</span>;
+</span><span><span class="hljs-keyword">default</span>:
+</span><span>    <span class="hljs-keyword">break</span>;
+</span><span>}
+</span></code></pre><p>It would be much better to encapsulate this logic in <code class="hljs inline no-lang">SomeClass</code>:</p> <pre><code class="hljs java"><span>
+</span><span><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SomeClass</span> </span>{
+</span><span>    
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-title">createSomeClass</span><span class="hljs-params">(Type type)</span> </span>{
+</span><span>        <span class="hljs-keyword">switch</span>(type) {
+</span><span>        <span class="hljs-keyword">case</span> Type.A:
+</span><span>            <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> SomeClassA(<span class="hljs-number">1</span>);
+</span><span>        <span class="hljs-keyword">case</span> Type.B:
+</span><span>            <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> SomeClassB(<span class="hljs-keyword">true</span>);
+</span><span>        <span class="hljs-keyword">default</span>:
+</span><span>            <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+</span><span>        }
+</span><span>    }
+</span><span>}
+</span><span>
+</span><span>SomeClass someClass = SomeClass.createSomeClass(type);
+</span><span>
+</span></code></pre><p>This way, the creation logic is able to be reused throughout the application, and also any changes, such as adding a new subclass, can be more easily done,
+allowing for more extensible code.
+<a href="https://sergeyzhuk.me/2017/05/22/when-to-factory/">Here</a> is a great article on why the factory method is useful.</p> <h2 id="misc">Misc<a href="#misc" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h2> <h3 id="migrations">Migrations<a href="#migrations" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Observing how the migration from datastore to postgresql is carried out for a live system used by users worldwide, with no impact to them is pretty amazing to me.
+Our dualDB approach, where we still query the datastore for courses that are not migrated yet, ensures that functionalities are still avaliabile for the users,
+even when we make huge changes to the system. This is also known as a trickle migration.</p> <p><a href="https://www.talend.com/resources/understanding-data-migration-strategies-best-practices/">Here</a> is an article I came across when searching up on
+the types of migration strategies used.</p> <h3 id="github-web-editor">Github web editor<a href="#github-web-editor" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Credits to Samuel for this, but I was previously unaware that github had a web editor. By pressing <code class="hljs inline no-lang">.</code> on PRs, it opens the web editor which is
+extremely useful for reviewing PRs, especially those that make changes to large files, so that we can easily view the changes made with the context
+of the entire file, and also its various dependencies.</p> <h3 id="git-interactive-rebase">Git interactive rebase<a href="#git-interactive-rebase" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>I've learnt the use of interactive rebase, and how I can use it to rewrite my commit history. This is particularly useful when I would like to remove
+commits that are unncesary (for instance commits like <code class="hljs inline no-lang">fix checkstyle</code>), and create a more meaningful commit chain for my PRs. Although the commits are
+squashed in the end when merged, I find that it is important especially for larger PRs to keep a meaningful commit history, to make it easier on reviewers.</p> <p><a href="https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase">Here</a> is an article by atlassian that provides more details about the rebase command.</p> <h3 id="github-cli">Github CLI<a href="#github-cli" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>Prior to this module, I've never used the github CLI, sticking with just <code class="hljs inline no-lang">git</code> commands. However, I found it very useful to use the CLI, especially when reviewing
+PRs, as it allowed me to checkout someone's branch with just one command, which github provides on the review page, rather than having to add their remote repo,
+fetching their branches and then checking out the branch.</p></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav></div> <footer><div class="text-center"><p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 5.2.0</a></strong> on Fri, Feb 23, 2024, 8:05:11 AM UTC]<br> <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span></p></div></footer></div>
+</body><script src="/2024/markbind/js/bootstrap-utility.min.js"></script>
+<script>
+  MarkBind.setupWithSearch()
+</script>
+</html>
