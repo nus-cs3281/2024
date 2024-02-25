@@ -1,4 +1,4 @@
-### Project: Foo
+### Project: Godot
 
 Give an intro to the project here ...
 
