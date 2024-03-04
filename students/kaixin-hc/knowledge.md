@@ -107,6 +107,13 @@ Just needed to note this, and consider other options. Refactoring my code allowe
 can-map-mutate-the-original-array-yes-dmb)
 </panel>
 
+### Softwrapping vs hard wrapping code
+
+After extensive reading, I am more familiar with the arguments for softwrapping code vs longwrapping code, as well as keyboard shortcuts for skilling to the next line in editors like vim which also affect developer preference. I liked [this article](https://jesseduffield.com/Hard-Wrap-vs-Soft-Wrap/).
+
+In particular, I found the idea of semantic line breaks (single linebreaks being for your eyes only) in languages like HTML interesting. The argument for it(trivially rearranging items in a comma separated list, for example) was one I had not seen explicated before. While I am unlikely to adopt it, it also sheds light on why line-break problems are so common in MarkBind.
+
+
 ### CSS Vendor Locking:
 
 In the past, different browsers used different prefixes for CSS properties, so developers would often extensively cover the available cases with prefixes. 
