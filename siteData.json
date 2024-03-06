@@ -890,6 +890,7 @@
         "pug": "Pug",
         "vue": "Vue",
         "cypress-2": "Cypress",
+        "markdown-it-2": "markdown-it",
         "teammates": "TEAMMATES",
         "ching-ming-yuan": "CHING MING YUAN",
         "tool-technology-1-5": "Tool/Technology 1",
@@ -1146,7 +1147,8 @@
       "headings": {
         "pug": "Pug",
         "vue": "Vue",
-        "cypress": "Cypress"
+        "cypress": "Cypress",
+        "markdown-it": "markdown-it"
       },
       "headingKeywords": {}
     },
