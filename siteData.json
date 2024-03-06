@@ -887,26 +887,27 @@
         "vue-pug": "Vue + Pug",
         "cypress": "Cypress",
         "poon-yip-hang-ryan": "POON YIP HANG, RYAN",
-        "tool-technology-1-5": "Tool/Technology 1",
+        "pug": "Pug",
         "vue": "Vue",
+        "cypress-2": "Cypress",
         "teammates": "TEAMMATES",
         "ching-ming-yuan": "CHING MING YUAN",
-        "tool-technology-1-6": "Tool/Technology 1",
+        "tool-technology-1-5": "Tool/Technology 1",
         "tool-technology-2-5": "Tool/Technology 2",
         "dominic-berzin-chua-way-gin": "DOMINIC BERZIN CHUA WAY GIN",
-        "tool-technology-1-7": "Tool/Technology 1",
+        "tool-technology-1-6": "Tool/Technology 1",
         "tool-technology-2-6": "Tool/Technology 2",
         "tye-jia-jun-marques": "TYE JIA JUN, MARQUES",
-        "tool-technology-1-8": "Tool/Technology 1",
+        "tool-technology-1-7": "Tool/Technology 1",
         "tool-technology-2-7": "Tool/Technology 2",
         "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
-        "tool-technology-1-9": "Tool/Technology 1",
+        "tool-technology-1-8": "Tool/Technology 1",
         "tool-technology-2-8": "Tool/Technology 2",
         "yeo-di-sheng": "YEO DI SHENG",
-        "tool-technology-1-10": "Tool/Technology 1",
+        "tool-technology-1-9": "Tool/Technology 1",
         "tool-technology-2-9": "Tool/Technology 2",
         "zhu-yuanxi": "ZHU YUANXI",
-        "tool-technology-1-11": "Tool/Technology 1",
+        "tool-technology-1-10": "Tool/Technology 1",
         "tool-technology-2-10": "Tool/Technology 2"
       },
       "headingKeywords": {}
@@ -1143,8 +1144,9 @@
     {
       "src": "students/sopa301/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "vue": "Vue"
+        "pug": "Pug",
+        "vue": "Vue",
+        "cypress": "Cypress"
       },
       "headingKeywords": {}
     },
