@@ -148,6 +148,7 @@
     {
       "src": "students/EuniceSim142/knowledge.md",
       "headings": {
+        "cs3282": "CS3282",
         "frontend": "Frontend",
         "backend": "Backend:",
         "testing": "Testing",
@@ -159,7 +160,7 @@
     {
       "src": "students/EuniceSim142/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
+        "project-stdlib-js": "Project: stdlib-js",
         "my-contributions": "My Contributions",
         "my-learning-record": "My Learning Record"
       },
@@ -1095,7 +1096,7 @@
         "my-contributions-19": "My Contributions",
         "my-learning-record-19": "My Learning Record",
         "sim-sing-yee-eunice": "SIM SING YEE, EUNICE",
-        "project-foo-17": "Project: Foo",
+        "project-stdlib-js": "Project: stdlib-js",
         "my-contributions-20": "My Contributions",
         "my-learning-record-20": "My Learning Record",
         "zhang-ziqing": "ZHANG ZIQING",
