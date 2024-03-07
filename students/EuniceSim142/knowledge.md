@@ -1,3 +1,14 @@
+### CS3282
+(outline:)
+- SQL Injection
+    - Hibernate (HQL) --> vulnerabilities that may result in SQLi
+    - Stored procedures / Parameterized queries
+- Testing: E2E, integration tests (for new sql actions)
+
+- ARF
+
+---
+
 ### Frontend
 #### Angular
     I have had previous experience working with Angular, so I knew of some basic concepts.
