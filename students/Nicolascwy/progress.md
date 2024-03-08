@@ -15,10 +15,13 @@
 | Pre-3282 | Reviewed PR: [Feedback Rubric Question: Suggestion for Statistics Per Recipient #11984](https://github.com/TEAMMATES/teammates/pull/11984) |
 | Pre-3282 | Reviewed PR: [Add test in student course details page. #11990](https://github.com/TEAMMATES/teammates/pull/11990) |
 | Pre-3282 | Reviewed PR: [Student home page: Make it easier to navigate courses #12493](https://github.com/TEAMMATES/teammates/pull/12493) |
-
+| Pre-3282 | Merged PR: [Add verification step for Docker instance of Datastore in docs #12465](https://github.com/TEAMMATES/teammates/pull/12465) |
 | 3 | Reviewed PR: [Migrate CreateInstructorAction #12706](https://github.com/TEAMMATES/teammates/pull/12706) |
 | 4 | Reviewed PR: [Migrate instructor search indexing worker action #12731](https://github.com/TEAMMATES/teammates/pull/12731) |
 | 4 | Reviewed PR: [Migrate SubmitFeedbackResponseAction's Logic and Db methods](https://github.com/TEAMMATES/teammates/pull/12732) |
+| 4 | Merged PR: [Add SQL email generator unit test #12721](https://github.com/TEAMMATES/teammates/pull/12721) |
+| 4 | Merged PR: [Refactor email generator #12723](https://github.com/TEAMMATES/teammates/pull/12723) |
+| 5 | Merged PR: [Migrate Session Links Recovery Action #12712](https://github.com/TEAMMATES/teammates/pull/12712) |
 | 6 | Reviewed PR: [Migrate UpdateStudentAction #12727](https://github.com/TEAMMATES/teammates/pull/12727) |
 | 6 | Reviewed PR: [ Add testcases for FeedbackResponseCommentsLogicTest #12769 ](https://github.com/TEAMMATES/teammates/pull/12769) |
 | 6 | Reviewed PR: [Bump up postgresql version #12784](https://github.com/TEAMMATES/teammates/pull/12784) |
@@ -26,10 +29,6 @@
 | 6 | Reviewed PR: [Add migration script for Account Request #12799](https://github.com/TEAMMATES/teammates/pull/12799) |
 | 6 | Reviewed PR: [ Add testcases for FeedbackResponseCommentsDbTest #12755 ](https://github.com/TEAMMATES/teammates/pull/12755) |
 | 6 | Reviewed PR: [ Add Account and Read Notification #12796](https://github.com/TEAMMATES/teammates/pull/12796) |
-| Pre-3282 | Merged PR: [Add verification step for Docker instance of Datastore in docs #12465](https://github.com/TEAMMATES/teammates/pull/12465) |
-| 5 | Merged PR: [Migrate Session Links Recovery Action #12712](https://github.com/TEAMMATES/teammates/pull/12712) |
-| 4 | Merged PR: [Add SQL email generator unit test #12721](https://github.com/TEAMMATES/teammates/pull/12721) |
-| 4 | Merged PR: [Refactor email generator #12723](https://github.com/TEAMMATES/teammates/pull/12723) |
 | 6 | Merged PR: [Clean up seed script #12768 ](https://github.com/TEAMMATES/teammates/pull/12768) |
 | Reading | Merged PR: [Create script to verify row count for non-course entities #12824](https://github.com/TEAMMATES/teammates/pull/12824) |
 | Reading | Merged PR: [Add base script for verifying migrated attributes #12841 ](https://github.com/TEAMMATES/teammates/pull/12841) |
