@@ -31,6 +31,7 @@
 | 3 | [#235](https://github.com/CATcher-org/WATcher/pull/235) Show list of hidden users |
 | 4 | [#254](https://github.com/CATcher-org/WATcher/pull/254) Refactor Label model |
 | 5 | [#255](https://github.com/CATcher-org/WATcher/pull/255) Add shareable repo-specific URL |
+| 7 | [#282](https://github.com/CATcher-org/WATcher/pull/282) Three-state labels |
 
 **Issues created**
 
@@ -46,3 +47,4 @@
 | Week | PR |
 |---|---|
 | 6 | [#261](https://github.com/CATcher-org/WATcher/pull/261) Refactor sorting |
+| 7 | [#281](https://github.com/CATcher-org/WATcher/pull/281) Keep filters when switching repos |
