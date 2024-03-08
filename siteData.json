@@ -95,7 +95,8 @@
       "headings": {
         "angular": "Angular",
         "typescript": "TypeScript",
-        "testing": "Testing"
+        "continuous-integration-continuous-deployment-ci-cd": "Continuous Integration/Continuous Deployment (CI/CD)",
+        "code-quality": "Code Quality"
       },
       "headingKeywords": {}
     },
@@ -849,7 +850,8 @@
         "arif-khalid": "ARIF KHALID",
         "angular": "Angular",
         "typescript": "TypeScript",
-        "testing": "Testing",
+        "continuous-integration-continuous-deployment-ci-cd": "Continuous Integration/Continuous Deployment (CI/CD)",
+        "code-quality": "Code Quality",
         "misra-aditya": "MISRA ADITYA",
         "angular-2": "Angular",
         "docker": "Docker",
