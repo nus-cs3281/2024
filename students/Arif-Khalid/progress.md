@@ -19,3 +19,4 @@
 | 7 | Submitted Issue: [Release changelog automation #273](https://github.com/CATcher-org/WATcher/issues/273) |
 | 7 | Submitted Issue: [Save milestones by name #283](https://github.com/CATcher-org/WATcher/issues/283) |
 | 7 | Pending PR: [Keep filters when switching repo #281](https://github.com/CATcher-org/WATcher/pull/281) |
+| 7 | Pending PR: [Release changelog automation #285](https://github.com/CATcher-org/WATcher/pull/285) |
