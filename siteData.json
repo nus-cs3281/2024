@@ -491,7 +491,7 @@
     {
       "src": "students/ckcherry23/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
+        "project-date-fns": "Project: date-fns",
         "my-contributions": "My Contributions",
         "my-learning-record": "My Learning Record"
       },
@@ -499,7 +499,10 @@
     },
     {
       "src": "students/ckcherry23/progress.md",
-      "headings": {},
+      "headings": {
+        "pre-semester-progress": "Pre-Semester Progress",
+        "cs3282-semester-progress": "CS3282 Semester Progress"
+      },
       "headingKeywords": {}
     },
     {
@@ -1080,11 +1083,11 @@
         "my-learning-record-8": "My Learning Record",
         "reposense": "RepoSense",
         "charisma-kausar": "CHARISMA KAUSAR",
-        "project-foo-7": "Project: Foo",
+        "project-date-fns": "Project: date-fns",
         "my-contributions-9": "My Contributions",
         "my-learning-record-9": "My Learning Record",
         "david-gareth-ong": "DAVID GARETH ONG",
-        "project-foo-8": "Project: Foo",
+        "project-foo-7": "Project: Foo",
         "my-contributions-10": "My Contributions",
         "my-learning-record-10": "My Learning Record",
         "gokul-rajiv": "GOKUL RAJIV",
@@ -1092,7 +1095,7 @@
         "my-contributions-11": "My Contributions",
         "my-learning-record-11": "My Learning Record",
         "marcus-tang-xin-kye": "MARCUS TANG XIN KYE",
-        "project-foo-9": "Project: Foo",
+        "project-foo-8": "Project: Foo",
         "my-contributions-12": "My Contributions",
         "my-learning-record-12": "My Learning Record",
         "teammates": "TEAMMATES",
@@ -1101,7 +1104,7 @@
         "my-contributions-13": "My Contributions",
         "my-learning-record-13": "My Learning Record",
         "dominic-lim-kai-jun": "DOMINIC LIM KAI JUN",
-        "project-foo-10": "Project: Foo",
+        "project-foo-9": "Project: Foo",
         "my-contributions-14": "My Contributions",
         "my-learning-record-14": "My Learning Record",
         "jay-aljelo-saez-ting": "JAY ALJELO SAEZ TING",
@@ -1109,11 +1112,11 @@
         "my-contributions-15": "My Contributions",
         "my-learning-record-15": "My Learning Record",
         "kevin-foong-wei-tong": "KEVIN FOONG WEI TONG",
-        "project-foo-11": "Project: Foo",
+        "project-foo-10": "Project: Foo",
         "my-contributions-16": "My Contributions",
         "my-learning-record-16": "My Learning Record",
         "mok-kheng-sheng-fergus": "MOK KHENG SHENG FERGUS",
-        "project-foo-12": "Project: Foo",
+        "project-foo-11": "Project: Foo",
         "my-contributions-17": "My Contributions",
         "my-learning-record-17": "My Learning Record",
         "neo-wei-qing": "NEO WEI QING",
@@ -1121,7 +1124,7 @@
         "my-contributions-18": "My Contributions",
         "my-learning-record-18": "My Learning Record",
         "ong-jun-heng-cedric": "ONG JUN HENG, CEDRIC",
-        "project-foo-13": "Project: Foo",
+        "project-foo-12": "Project: Foo",
         "my-contributions-19": "My Contributions",
         "my-learning-record-19": "My Learning Record",
         "sim-sing-yee-eunice": "SIM SING YEE, EUNICE",
