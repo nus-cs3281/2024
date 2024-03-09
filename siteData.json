@@ -214,7 +214,12 @@
       "src": "students/KevinEyo1/knowledge.md",
       "headings": {
         "tool-technology-1": "Tool/Technology 1",
-        "github-actions": "GitHub Actions"
+        "github-actions": "GitHub Actions",
+        "node-package-structure": "Node package structure",
+        "plugins": "Plugins",
+        "typescript": "Typescript",
+        "markbind-lists-implementation": "MarkBind Lists Implementation",
+        "general-markbind-implementation-details": "General MarkBind Implementation Details"
       },
       "headingKeywords": {}
     },
@@ -872,6 +877,11 @@
         "eyo-kai-wen-kevin": "EYO KAI WEN, KEVIN",
         "tool-technology-1": "Tool/Technology 1",
         "github-actions": "GitHub Actions",
+        "node-package-structure": "Node package structure",
+        "plugins": "Plugins",
+        "typescript-2": "Typescript",
+        "markbind-lists-implementation": "MarkBind Lists Implementation",
+        "general-markbind-implementation-details": "General MarkBind Implementation Details",
         "lam-jiu-fong": "LAM JIU FONG",
         "node-package-manager-npm": "Node Package Manager (npm)",
         "stylelint": "Stylelint",
