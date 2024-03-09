@@ -1,10 +1,10 @@
-# Pre-Semester Progress
+### Pre-Semester Progress
 
 Before the semester started, I made a release of RepoSense v2.5. I was mainly involved in guiding the NUS-ISC 
 contributors and reviewing PRs for the FYP project. I also created issues and helped to manage the labels and milestones
 in the issue tracker.
 
-| Date        | Type          | Achievements                                                                                                                                     |
+| Date        | Contribution  | Links                                                                                                                                            |
 |-------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | 05 May 2023 | Authored PR   | [[#1996] Update frontend documentation #1999](https://github.com/reposense/RepoSense/pull/1999)                                                  |
 | 08 May 2023 | Made release  | [RepoSense v2.5](https://github.com/reposense/RepoSense/releases/tag/v2.5)                                                                       |
@@ -43,11 +43,11 @@ in the issue tracker.
 | 13 Jan 2024 | Reviewed PR   | [Bump follow-redirects from 1.15.2 to 1.15.4 in /frontend #2079](https://github.com/reposense/RepoSense/pull/2079)                               |
 | 13 Jan 2024 | Reviewed PR   | [[#2073] Refactor RepoConfigCsvParser::processLine method to avoid arrowhead style code #2080](https://github.com/reposense/RepoSense/pull/2080) |
 
-# CS3282 Semester Progress
+### CS3282 Semester Progress
 
 During the semester, I am actively involved in mentoring the CS3281 students and guiding them in their PRs.
 
-| Week       | Type          | Achievements                                                                                                                   |
+| Week       | Contribution  | Links                                                                                                                          |
 |------------|---------------|--------------------------------------------------------------------------------------------------------------------------------|
 | 2          | Reviewed PR   | [[#2082] Fix typo in command in Setting Up page #2083](https://github.com/reposense/RepoSense/pull/2083)                       |
 | 2          | Reviewed PR   | [[#1980] Standardise Array Style for Frontend Files #2084](https://github.com/reposense/RepoSense/pull/2084)                   |

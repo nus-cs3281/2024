@@ -11,7 +11,7 @@ The project has a main library, [date-fns](https://github.com/date-fns/date-fns)
 
 ### My Contributions
 
-| Date        | Type                      | Achievements                                                                                                                                           |
+| Date        | Contribution              | Links                                                                                                                                                  |
 |-------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 08 Jan 2024 | Authored PR               | [Add alias formatDate for format function #3653](https://github.com/date-fns/date-fns/pull/3653)                                                       |
 | 11 Jan 2024 | Authored PR               | [Add aliases to functions in typedoc #216](https://github.com/date-fns/date-fns.org/pull/216)                                                          |
