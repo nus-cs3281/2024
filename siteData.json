@@ -1090,11 +1090,11 @@
         "my-contributions-17": "My Contributions",
         "my-learning-record-17": "My Learning Record",
         "neo-wei-qing": "NEO WEI QING",
-        "project-foo-14": "Project: Foo",
+        "project-ancientbeast": "Project: AncientBeast",
         "my-contributions-18": "My Contributions",
         "my-learning-record-18": "My Learning Record",
         "ong-jun-heng-cedric": "ONG JUN HENG, CEDRIC",
-        "project-foo-15": "Project: Foo",
+        "project-foo-14": "Project: Foo",
         "my-contributions-19": "My Contributions",
         "my-learning-record-19": "My Learning Record",
         "sim-sing-yee-eunice": "SIM SING YEE, EUNICE",
@@ -1262,6 +1262,7 @@
     {
       "src": "students/weiquu/knowledge.md",
       "headings": {
+        "cs3282": "CS3282",
         "frontend": "Frontend",
         "backend": "Backend",
         "others": "Others"
@@ -1271,7 +1272,7 @@
     {
       "src": "students/weiquu/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
+        "project-ancientbeast": "Project: AncientBeast",
         "my-contributions": "My Contributions",
         "my-learning-record": "My Learning Record"
       },
