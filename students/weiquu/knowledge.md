@@ -1,3 +1,14 @@
+### CS3282
+
+Point form for now, will expand later:
+
+- More data migration: migrating actions and search functionality
+- Tradeoffs made in database design and their consequences
+- Testing capabilities: E2E tests, integration tests, unit tests
+- Security vulnerabilities: how Hibernate protects against them, testing for SQL injection
+- Tech design: process of coming up with user requirements and thinking from user perspective, how to design backend with minimal changes and yet still have it be extensible
+- OSS skills: managing a team of people, individually and as a small group
+
 ### Frontend
 
 #### Angular
@@ -91,7 +102,7 @@ the backend layers (e.g. database, actions, etc).
 
 **Snapshot testing:** These were the tests that I worked with the most, and are mostly frontend focused. I found
 that they were most useful in helping me determine whether a change in code resulted in a similar change in the
-webpage. This meant that looking through the potential changes in snapshot tests were crucial in ensuring that 
+webpage. This meant that looking through the potential changes in snapshot tests were crucial in ensuring that
 these changes were to be expected.
 
 **E2E testing:** E2E tests help to test the application from end to end, as the name suggests. This involves opening
