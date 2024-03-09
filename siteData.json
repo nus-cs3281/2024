@@ -259,7 +259,8 @@
       "src": "students/MadLamprey/knowledge.md",
       "headings": {
         "angular": "Angular",
-        "docker": "Docker"
+        "docker": "Docker",
+        "linters": "Linters"
       },
       "headingKeywords": {}
     },
@@ -867,6 +868,7 @@
         "misra-aditya": "MISRA ADITYA",
         "angular-2": "Angular",
         "docker": "Docker",
+        "linters": "Linters",
         "nereus-ng-wei-bin": "NEREUS NG WEI BIN",
         "angular-3": "Angular",
         "jasmine": "Jasmine",
