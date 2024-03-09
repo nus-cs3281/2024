@@ -41,5 +41,53 @@ Below are a few of my learning points:
 I learned TypeScript through Youtube tutorials
 * Youtube taught me the fundamentals as well as understanding the why and underlying implementation of typescript
 
-### Testing
-Still in the process of learning. To be updated.
+### Continuous Integration/Continuous Deployment (CI/CD)
+As an area I have litte experience in, I wanted to dive into the CI/CD pipeline of CATcher and WATcher, gain an understanding of how it works and contribute to make it better.
+Below are a few of my learning points:
+* Automated testing
+  * With large projects like CATcher and WATcher, there are many areas that can and unavoidably will go wrong with many contributors editing different parts of the code base
+  * Manual testing is very time consuming when there are so many features to test, any one of which could have been broken by any changes to the code
+  * Human error might also cause us to miss certain bugs as we simply did not test for them
+  * Automated testing allows for pre-written tests that perform these checks quickly on a headless browser when making any changes, greatly reducing the occurence of uncaught bugs introduced
+  * Test case design must be comprehensive in positive and negative cases without testing every specific possible input, instead grouping inputs such as all invalid types given into one test case
+* Continuous deployment
+  * With mission-critical projects like CATcher, it is imperative to have automated deployment
+  * One reason is to maintain stability of the deployment, completely negating human errors such as forgetting any one step in deployment. The deployment made is done the same everytime through an automated process
+  * Another reason is to speed up development as developers will not need to go through the manual deployment on every release
+* Github Actions
+  * Github actions is a very useful CI/CD tool when the code is already hosted on github
+  * Compared to alternatives, it is much simpler to set up as it is one click away for every github repo, create a workflow yml file and thats it
+  * There are many pre-defined actions such as actions/checkout that you can use to simplify your dev-ops. In this case you don't need to write your own code to checkout your repository
+* Angular deployment
+  * Angular has a package that allows you to build directly into your github pages
+  * This simplifies the process further since you simply call this command through the github actions for an immediate deployment
+
+I learned CI/CD through inspecting the code base, trying out different workflows in my own repos and youtube tutorials
+* The code base gave me a guideline as to the proper way and usage of workflows, along with the proper syntax of creating a workflow
+* Youtube gave me broader knowledge into creating my own workflows not specific to the CATcher project
+* Trying out creating my own workflows and contributing to WATcher workflows solidified my understanding and gave me confidence in what I learned
+
+### Code Quality
+Code quality is always important but is especially so when there are so many people working on the same project. Since large portions of WATcher was copied from CATcher, WATcher was made overtly large with a great number of redundant code. It was very poor code quality and the importance of code quality was made clear.
+* Code Cleanliness
+  * Redundant code clutters the code base, making it especially hard to understand certain functionality since you have to sift through so much to find what you are looking for
+  * As a new developer, it created an unecessarily difficult experience getting a grasp of the code base
+  * Over reliance on comments also clutters the code base when code should be self-explanatory
+  * Over three levels of indentation should be avoided, at which point the code is made very hard to understand and inner indents should be refactored into separate functions
+* Code simplicity (KISS)
+  * There are many ways to do the same thing and it is always best to Keep It Simple
+  * Always use the simplest way to come to the same outcome, even if they use unecessary variables
+  * Variables and functions should be aptly named so they are understood readily such as a ``filteredData`` variable for storing data after it has been filtered
+  * Since code is read more than it is written, keeping it simple allows future developers, even yourself to understand the purpose and reason behind any piece of code
+* Documentation
+  * Documentation is important to help others understand parts of the code that are not immediately apparent
+  * However, it is important to not rely too heavily on documentation and wherever possible, code you write should be self-explanatory
+  * Instead of writing a one-liner that does everything, split logically linked portions into separate parts, using different functions or storing outputs in appropriately named variables
+* Following coding style
+  * Assuming you are not the originator of the project, you need to follow the coding style of the project as well
+  * Since there are always multiple ways of doing the same thing, it is often arguable which way is the best. When joining an already established project, it is critical to follow the coding style of your predecessors
+  * An example would be returning a complete object instead of a part of an object and appending to a newly created object in the parent function. Both accomplish the same thing and arguably are equally understandable
+
+I learned about code quality through analysing the responses of seniors to my own pull requests as well as other's pull requests, supplementing my knowledge by reading articles on code quality both generally and specific to web development
+* Inspection of pull requests gave me understanding of what is good quality code and what is considered bad along with the reasoning behind those decisions
+* Articles online provided me with more general guidelines pertaining to code quality in large projects, helping fill in the gaps that I didnt encounter in PR reviews

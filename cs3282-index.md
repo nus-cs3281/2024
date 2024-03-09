@@ -22,7 +22,7 @@ pageNav: 2
         ['CHARISMA KAUSAR', 'ckcherry23', 'A3', 'B3', 'C3'],
         ['DAVID GARETH ONG', 'vvidday', 'A3', 'B3', 'C3'],
         ['GOKUL RAJIV', 'gok99', 'A2', 'B2', 'C2'],
-        ['MARCUS TANG XIN KYE', 'MarcusTXK', 'A2', 'B2', 'C2']
+        ['MARCUS TANG XIN KYE', 'MarcusTXK', 'A2', 'B1', 'C2']
     ]},
     {name: 'TEAMMATES', students: [
         ['CHANG WENG YEW, NICOLAS', 'Nicolascwy', 'A2', 'B2', 'C2'],
@@ -32,7 +32,7 @@ pageNav: 2
         ['MOK KHENG SHENG FERGUS', 'FergusMok', 'A1', 'B1', 'C1'],
         ['NEO WEI QING', 'weiquu', 'A2', 'B2', 'C2'],
         ['ONG JUN HENG, CEDRIC', 'cedricongjh', 'A3', 'B3', 'C3'],
-        ['SIM SING YEE, EUNICE', 'EuniceSim142', 'A1', 'B1', 'C1'],
+        ['SIM SING YEE, EUNICE', 'EuniceSim142', 'A1', 'B2', 'C1'],
         ['ZHANG ZIQING', 'ziqing26', 'A2', 'B2', 'C2']
     ]}
 ] %}
