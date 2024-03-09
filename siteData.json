@@ -577,8 +577,9 @@
     {
       "src": "students/domoberzin/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "tool-technology-2": "Tool/Technology 2"
+        "hibernate": "Hibernate",
+        "solr": "Solr",
+        "postgresql": "PostgreSQL"
       },
       "headingKeywords": {}
     },
@@ -909,20 +910,21 @@
         "tool-technology-1-5": "Tool/Technology 1",
         "tool-technology-2-4": "Tool/Technology 2",
         "dominic-berzin-chua-way-gin": "DOMINIC BERZIN CHUA WAY GIN",
+        "hibernate": "Hibernate",
+        "solr": "Solr",
+        "postgresql": "PostgreSQL",
+        "tye-jia-jun-marques": "TYE JIA JUN, MARQUES",
         "tool-technology-1-6": "Tool/Technology 1",
         "tool-technology-2-5": "Tool/Technology 2",
-        "tye-jia-jun-marques": "TYE JIA JUN, MARQUES",
+        "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
         "tool-technology-1-7": "Tool/Technology 1",
         "tool-technology-2-6": "Tool/Technology 2",
-        "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
+        "yeo-di-sheng": "YEO DI SHENG",
         "tool-technology-1-8": "Tool/Technology 1",
         "tool-technology-2-7": "Tool/Technology 2",
-        "yeo-di-sheng": "YEO DI SHENG",
-        "tool-technology-1-9": "Tool/Technology 1",
-        "tool-technology-2-8": "Tool/Technology 2",
         "zhu-yuanxi": "ZHU YUANXI",
-        "tool-technology-1-10": "Tool/Technology 1",
-        "tool-technology-2-9": "Tool/Technology 2"
+        "tool-technology-1-9": "Tool/Technology 1",
+        "tool-technology-2-8": "Tool/Technology 2"
       },
       "headingKeywords": {}
     },
