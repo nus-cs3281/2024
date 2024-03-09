@@ -14,3 +14,6 @@
 | 6    | Created Issue: [TypeError when visiting a certain URL #2123](https://github.com/reposense/RepoSense/issues/2123)                                                      |
 | 6    | Authored PR: [Fix zoom bug if zUser is undefined #2126](https://github.com/reposense/RepoSense/pull/2126)                                                             |
 | 6    | Created Issue: [Add a way to highlight and scroll a particular repo/author #2130](https://github.com/reposense/RepoSense/issues/2130)                                 |
+| 6    | Reviewed PR: [Add explicit return type annotations to TypeScript functions #2125](https://github.com/reposense/RepoSense/pull/2125)                                   |
+| 6    | Authored PR: [Add highlight and scroll to group #2131](https://github.com/reposense/RepoSense/pull/2131)                                                              |
+| 7    | Reviewed PR: [Update RepoSense contributors in documentation #2138](https://github.com/reposense/RepoSense/pull/2138)                                                 |
