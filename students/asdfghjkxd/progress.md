@@ -14,3 +14,7 @@
 | 5 | Submitted Issue: Refactor `CliArguments` to conform to `RepoConfiguration`'s Builder Pattern #2117 |
 | 5 | Submitted Issue: Implement Proper Deep Cloning for `RepoConfiguration` and `CliArguments` #2119 |
 | 5 | Submitted Issue: Parameter Verification for `RepoConfiguration` and `CliArguments` #2121 |
+| 6 | Reviewed PR: Fix Blurry Favicon #2129 |
+| 6 | Drafted PR: [#2119] Implement Proper Deep Cloning for `RepoConfiguration` and `CliArguments` #2124 |
+| 7 | Submitted Issue: Dockerisation of RepoSense #2145 |
+| 7 | Merged PR: [#2117] Refactor CliArguments to conform to RepoConfiguration's Builder Pattern #2118 |
