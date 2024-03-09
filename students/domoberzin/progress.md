@@ -21,7 +21,7 @@
 | 5 | Merged PR: [[#12048] Migrate AccountRequestSearchIndexingWorkerAction #12757](https://github.com/TEAMMATES/teammates/pull/12757) |
 | 6 | Merged PR: [[#12048] Fix GetSessionResponseStatsActionIT #12777](https://github.com/TEAMMATES/teammates/pull/12777) |
 | 6 | Merged PR: [[#12048] Create IT for GetFeedbackSessionSubmittedGiverSetAction #12778](https://github.com/TEAMMATES/teammates/pull/12778) |
-| 6 | Authored PR: [[#12048] Add tests for CoursesDbIT #12786](https://github.com/TEAMMATES/teammates/pull/12786) |
+| 6 | Merged PR: [[#12048] Add tests for CoursesDbIT #12786](https://github.com/TEAMMATES/teammates/pull/12786) |
 | R | Merged PR: [[#12048] Migrate Admin Notifications E2E Test #12793](https://github.com/TEAMMATES/teammates/pull/12793) |
 | R | Authored PR: [[#12048] Migrate AdminSearchPageE2ETest SQL #12811](https://github.com/TEAMMATES/teammates/pull/12811) |
 | R | Merged PR: [[#12048] Migrate AdminSearchPageE2ETest #12838](https://github.com/TEAMMATES/teammates/pull/12838) |
