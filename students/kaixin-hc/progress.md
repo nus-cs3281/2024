@@ -20,4 +20,8 @@
 | Recess | Reviewed and Merged PR: | [ Upgrade simple-git version #1843 ](https://github.com/MarkBind/markbind/issues/1843)
 | Recess | Investigate issues / maintanence: investigate [Screenshots of the sample configurations for WebStorm are blurry #1916 ](https://github.com/MarkBind/markbind/issues/1916), mantain [Create table from csv file. #2424](https://github.com/MarkBind/markbind/issues/2424)
 | 7 | Reviewed PR: [Debug cannot import footnote from hash #2441](https://github.com/MarkBind/markbind/pull/2441/files)
-| 7 | Reviewed PR: [ MarkBind Template for Software Project Documentation #2400 ](https://github.com/MarkBind/markbind/pull/2400)
+| 7 | Reviewed PR x2 times: [ MarkBind Template for Software Project Documentation #2400 ](https://github.com/MarkBind/markbind/pull/2400)
+| 7 | Reviewed PR : [MarkBind Template for Student Portfolio #2398](https://github.com/MarkBind/markbind/pull/2398)
+| 7 | Project management: met juniors with a curated list of issues based on project interest with 3282 team, updated the project management guide, reviewed issues in the repo
+| 7 | Discussed [Re-introduce lazy loading for pictures #2367](https://github.com/MarkBind/markbind/issues/2367)
+| 7 | Reviewed / left comments: [ Add text for icon #2444 ](https://github.com/MarkBind/markbind/pull/2444)
