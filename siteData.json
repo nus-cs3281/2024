@@ -1208,7 +1208,9 @@
     },
     {
       "src": "students/supermii2/progress.md",
-      "headings": {},
+      "headings": {
+        "progress": "Progress"
+      },
       "headingKeywords": {}
     },
     {
