@@ -21,3 +21,5 @@
 | 7 | Submitted Issue: [Save milestones by name #283](https://github.com/CATcher-org/WATcher/issues/283) |
 | 7 | Pending PR: [Keep filters when switching repo #281](https://github.com/CATcher-org/WATcher/pull/281) |
 | 7 | Pending PR: [Release changelog automation #285](https://github.com/CATcher-org/WATcher/pull/285) |
+| 8 | Submitted Issue: [Incorrect numbering in user-workflow #35](https://github.com/CATcher-org/catcher-org.github.io/issues/35) |
+| 8 | Reviewed PR: [Update Design page #14](https://github.com/CATcher-org/WATcher-docs/pull/14) |
