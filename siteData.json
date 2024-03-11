@@ -912,8 +912,8 @@
         "rendering-back-to-html": "Rendering Back to HTML",
         "reposense": "RepoSense",
         "alvis-ng": "ALVIS NG",
-        "tool-technology-1-3": "Tool/Technology 1",
-        "tool-technology-2-2": "Tool/Technology 2",
+        "vue-js-and-typescript": "Vue.js and Typescript",
+        "devops": "DevOps",
         "george-tay-quan-yao": "GEORGE TAY QUAN YAO",
         "java": "Java",
         "jonas-ong-si-wei": "JONAS ONG SI WEI",
@@ -926,24 +926,24 @@
         "markdown-it-2": "markdown-it",
         "teammates": "TEAMMATES",
         "ching-ming-yuan": "CHING MING YUAN",
-        "tool-technology-1-4": "Tool/Technology 1",
-        "tool-technology-2-3": "Tool/Technology 2",
+        "tool-technology-1-3": "Tool/Technology 1",
+        "tool-technology-2-2": "Tool/Technology 2",
         "dominic-berzin-chua-way-gin": "DOMINIC BERZIN CHUA WAY GIN",
         "hibernate": "Hibernate",
         "solr": "Solr",
         "postgresql": "PostgreSQL",
         "tye-jia-jun-marques": "TYE JIA JUN, MARQUES",
+        "tool-technology-1-4": "Tool/Technology 1",
+        "tool-technology-2-3": "Tool/Technology 2",
+        "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
         "tool-technology-1-5": "Tool/Technology 1",
         "tool-technology-2-4": "Tool/Technology 2",
-        "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
+        "yeo-di-sheng": "YEO DI SHENG",
         "tool-technology-1-6": "Tool/Technology 1",
         "tool-technology-2-5": "Tool/Technology 2",
-        "yeo-di-sheng": "YEO DI SHENG",
-        "tool-technology-1-7": "Tool/Technology 1",
-        "tool-technology-2-6": "Tool/Technology 2",
         "zhu-yuanxi": "ZHU YUANXI",
-        "tool-technology-1-8": "Tool/Technology 1",
-        "tool-technology-2-7": "Tool/Technology 2"
+        "tool-technology-1-7": "Tool/Technology 1",
+        "tool-technology-2-6": "Tool/Technology 2"
       },
       "headingKeywords": {}
     },
@@ -1201,8 +1201,8 @@
     {
       "src": "students/supermii2/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "tool-technology-2": "Tool/Technology 2"
+        "vue-js-and-typescript": "Vue.js and Typescript",
+        "devops": "DevOps"
       },
       "headingKeywords": {}
     },
