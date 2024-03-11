@@ -23,3 +23,5 @@
 | 7 | Pending PR: [Release changelog automation #285](https://github.com/CATcher-org/WATcher/pull/285) |
 | 8 | Submitted Issue: [Incorrect numbering in user-workflow #35](https://github.com/CATcher-org/catcher-org.github.io/issues/35) |
 | 8 | Reviewed PR: [Update Design page #14](https://github.com/CATcher-org/WATcher-docs/pull/14) |
+| 8 | Pending PR: [Refactor milestones to save by name #289](https://github.com/CATcher-org/WATcher/pull/289) |
+| 8 | Reviewed PR: [Enable pre push hook for npm run test #288](https://github.com/CATcher-org/WATcher/pull/288) |
