@@ -38,3 +38,13 @@
 | 7 | Reviewed PR: [[#12588] Add unit tests for sessions table #12863](https://github.com/TEAMMATES/teammates/pull/12863) |
 | 7 | Reviewed PR: [[#12048] Migrate GetFeedbackSessionLogsAction #12862](https://github.com/TEAMMATES/teammates/pull/12862) |
 | 7 | Contributed PR: [[#12048] Remove Non Course Data From Datastore (for testing) #12865](https://github.com/TEAMMATES/teammates/pull/12865) |
+| 7 | Reviewed PR: [[#12048] add check for sql tests in TestNgXml #12870](https://github.com/TEAMMATES/teammates/pull/12870) |
+| 7 | Reviewed PR: [[#12048] Fix account creation #12871](https://github.com/TEAMMATES/teammates/pull/12871) |
+| 7 | Reviewed PR: [[#12782] Fix Axe tests, remove e2e-cross #12878](https://github.com/TEAMMATES/teammates/pull/12878) |
+| 7 | Reviewed PR: [[#12048] Fix get feedback sessions action #12886](https://github.com/TEAMMATES/teammates/pull/12886) |
+| 7 | Reviewed PR: [[#12048] Add verification migration script #12890](https://github.com/TEAMMATES/teammates/pull/12890) |
+| 7 | Reviewed PR: [[#12588] Add unit tests for sessions table #12863](https://github.com/TEAMMATES/teammates/pull/12863) |
+| 7 | Release TEAMMATES [V9.0.0-beta.0](https://github.com/TEAMMATES/teammates/releases/tag/V9.0.0-beta.0) |
+| 7-8 | Optimize and fix non-course data migration scripts: Reviewed: [V9 Migration: Fix verification pagination, improve logging #12874](https://github.com/TEAMMATES/teammates/pull/12874), [Fix seeding for notification #12866](https://github.com/TEAMMATES/teammates/pull/12866), [[#12048] V9 migration and verification script optimization #12896 ](https://github.com/TEAMMATES/teammates/pull/12896) |
+| 7-8 | Optimize and fix non-course data migration scripts: Contributed: [[#12048] Revert column type for notification title #12881](https://github.com/TEAMMATES/teammates/pull/12881), [[#12048] Prepare Patch Data Migration Script for Account #12883](https://github.com/TEAMMATES/teammates/pull/12883), [[#12048] Patch account and read notification migration #12884](https://github.com/TEAMMATES/teammates/pull/12884), [[#12048] Revert getFilterQuery for Account Data Migration Script #12887](https://github.com/TEAMMATES/teammates/pull/12887)|
+| 8 | ARF: Started feature branch: [[#11878] Enable CI on account request form branch #12888](https://github.com/TEAMMATES/teammates/pull/12888) |
