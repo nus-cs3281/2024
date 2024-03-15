@@ -18,3 +18,4 @@
 | 6 | Drafted PR: [#2119] Implement Proper Deep Cloning for `RepoConfiguration` and `CliArguments` #2124 |
 | 7 | Submitted Issue: Dockerisation of RepoSense #2145 |
 | 7 | Merged PR: [#2117] Refactor CliArguments to conform to RepoConfiguration's Builder Pattern #2118 |
+| 8 | Reviewed PR: [#944] Implement authorship analysis #2140 |
