@@ -21,3 +21,5 @@
 | 7 | Merged PR: [Refactor test cases for user service #271](https://github.com/CATcher-org/CATcher/pull/271) |
 | 7 | Merged PR: [Refactor test cases for label filter bar component #274](https://github.com/CATcher-org/CATcher/pull/274) |
 | 7 | Merged PR: [Update test cases for phase service #275](https://github.com/CATcher-org/CATcher/pull/275) |
+| 8 | Reviewed PR: [Create tests for ErrorMessage, ErrorHandling and Milestone services #290](https://github.com/CATcher-org/WATcher/pull/290) |
+| 8 | Reviewed PR: [Create tests for Milestone service #303](https://github.com/CATcher-org/WATcher/pull/303) |
