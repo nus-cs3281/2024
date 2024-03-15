@@ -389,7 +389,8 @@
     {
       "src": "students/asdfghjkxd/knowledge.md",
       "headings": {
-        "java": "Java"
+        "java": "Java",
+        "docker": "Docker"
       },
       "headingKeywords": {}
     },
@@ -916,6 +917,7 @@
         "devops": "DevOps",
         "george-tay-quan-yao": "GEORGE TAY QUAN YAO",
         "java": "Java",
+        "docker-2": "Docker",
         "jonas-ong-si-wei": "JONAS ONG SI WEI",
         "vue-pug": "Vue + Pug",
         "cypress": "Cypress",
