@@ -514,8 +514,8 @@
     {
       "src": "students/dishenggg/knowledge.md",
       "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "tool-technology-2": "Tool/Technology 2"
+        "hibernate": "Hibernate",
+        "testing": "Testing"
       },
       "headingKeywords": {}
     },
@@ -953,8 +953,8 @@
         "mockito": "Mockito",
         "angular-5": "Angular",
         "yeo-di-sheng": "YEO DI SHENG",
-        "tool-technology-1-4": "Tool/Technology 1",
-        "tool-technology-2-3": "Tool/Technology 2",
+        "hibernate-3": "Hibernate",
+        "testing": "Testing",
         "zhu-yuanxi": "ZHU YUANXI",
         "end-to-end-testing-with-selenium": "End to end testing with Selenium",
         "purpose-of-e2e-tests": "Purpose of e2e tests",
