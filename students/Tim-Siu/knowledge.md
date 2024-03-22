@@ -113,4 +113,104 @@ This is useful when you need to save the manipulated HTML back to a file or send
 
 Cheerio provides a simple and efficient way to parse and manipulate HTML structures in MarkBind plugins, enabling powerful transformations of the rendered Markdown content.
 
+---
+## Vue.js
+
+Vue.js is a progressive JavaScript framework for building user interfaces. It provides a declarative and component-based approach to UI development, making it easier to create and maintain complex applications.
+
+### Custom Directives in Vue
+
+Vue allows you to extend the behavior of HTML elements or Vue components through custom directives. Custom directives provide a way to encapsulate and reuse DOM manipulation logic across your application.
+
+```javascript
+Vue.directive('my-directive', {
+  bind(el, binding, vnode) {
+    // Directive initialization logic
+  },
+  inserted(el, binding, vnode) {
+    // Logic to be executed when the directive is inserted into the DOM
+  },
+  update(el, binding, vnode, oldVnode) {
+    // Logic to be executed when the directive's bound value changes
+  },
+  componentUpdated(el, binding, vnode, oldVnode) {
+    // Logic to be executed after the containing component's VNode has updated
+  },
+  unbind(el, binding, vnode) {
+    // Cleanup logic when the directive is unbound from the element
+  }
+})
+```
+
+**Parameters**
+
+* **el (HTMLElement):** The DOM element the directive is bound to. This allows you to perform direct DOM manipulations or access the element's properties.
+* **binding (DirectiveBinding):** An object containing the directive's binding information, including:
+  - `binding.value`: The value passed to the directive. It can be a primitive value, an object, or a function.
+  - `binding.oldValue`: The previous value of the directive, only available in the `update` and `componentUpdated` hooks.
+  - `binding.arg`: The argument passed to the directive, if any, denoted by a colon (e.g., `v-my-directive:arg`).
+  - `binding.modifiers`: An object containing any modifiers applied to the directive (e.g., `v-my-directive.modifier`).
+* **vnode (VNode):** The virtual node representing the bound element. It provides access to the Vue instance properties and methods.
+* **oldVnode (VNode):** The previous virtual node, only available in the `update` and `componentUpdated` hooks.
+
+**Directive Lifecycle Hooks**
+
+Custom directives have access to several lifecycle hooks that allow you to execute logic at different stages:
+
+* **bind:** Called once when the directive is first bound to the element. This is where you can perform any one-time setup or initialization.
+* **inserted:** Called when the bound element is inserted into the parent node. This is a good place to execute logic that relies on the element being in the DOM.
+* **update:** Called whenever the bound value of the directive changes. You can compare the current and old values and perform updates accordingly.
+* **componentUpdated:** Called after the containing component's VNode and the VNodes of its children have updated.
+* **unbind:** Called when the directive is unbound from the element. This is where you can perform any necessary cleanup or teardown logic.
+
+**Usage**
+
+To use a custom directive, you can attach it to an element or component using the `v-` prefix followed by the directive name. For example:
+
+```html
+<div v-my-directive="value"></div>
+```
+
+In this case, `my-directive` is the name of the custom directive, and `value` is the value being passed to the directive.
+
+Custom directives provide a powerful way to encapsulate and reuse DOM manipulation logic in Vue applications. They allow you to extend the behavior of elements and solve specific problems related to integrating external libraries or custom functionality.
+
+### Solving Issues with Third-Party Library Integration
+
+When integrating third-party libraries into Vue components, you may encounter scenarios where the library's initialization script doesn't work as expected within the component's lifecycle. This can happen due to timing differences between the library's initialization and the component's rendering process.
+
+One common issue is when a library relies on the presence of certain DOM elements during its initialization, but those elements are dynamically rendered by the Vue component and may not be available when the library's initialization script runs.
+
+To solve this problem, you can leverage Vue's custom directives. By creating a custom directive that handles the library's initialization logic, you can ensure that the initialization happens at the appropriate time within the component's lifecycle.
+
+Here's an example of how you can create a custom directive to initialize a third-party library on a specific element:
+
+```javascript
+Vue.directive('my-library', {
+  inserted(el) {
+    // Initialize the library on the element
+    myLibrary.init(el);
+  },
+  unbind(el) {
+    // Cleanup the library when the directive is unbound
+    myLibrary.destroy(el);
+  }
+})
+```
+
+In this example, the `my-library` directive is responsible for initializing the `myLibrary` on the bound element when it is inserted into the DOM. It also handles the cleanup process when the directive is unbound from the element.
+
+To use this directive in a Vue component, you can simply attach it to the desired element:
+
+```html
+<template>
+  <div v-my-library>
+    <!-- Element content -->
+  </div>
+</template>
+```
+
+By using the custom directive, you ensure that the library initialization happens at the appropriate time within the component's lifecycle, solving the issue of initialization timing.
+
+---
 *Content partly generated by GenAI.*
