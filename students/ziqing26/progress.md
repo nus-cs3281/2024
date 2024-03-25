@@ -33,8 +33,8 @@
 | 6 | Reviewed PR: [Create script to verify row count for non-course entities #12824](https://github.com/TEAMMATES/teammates/pull/12824) |
 | 6 | Reviewed PR: [[#12048] Revert createaccountaction #12835](https://github.com/TEAMMATES/teammates/pull/12835) |
 | 6 | Reviewed PR: [[#12783] Fix GitHub actions #12850](https://github.com/TEAMMATES/teammates/pull/12850) |
-| 6 | Hosted two-day hackathon for TEAMMATEs team
-| 7 | Started design for Account Request Form (ARF) project |
+| 6 | V9: Hosted two-day hackathon for TEAMMATEs team
+| 7 | Project management: Started design for Account Request Form (ARF) project |
 | 7 | Reviewed PR: [[#12588] Add unit tests for sessions table #12863](https://github.com/TEAMMATES/teammates/pull/12863) |
 | 7 | Reviewed PR: [[#12048] Migrate GetFeedbackSessionLogsAction #12862](https://github.com/TEAMMATES/teammates/pull/12862) |
 | 7 | Contributed PR: [[#12048] Remove Non Course Data From Datastore (for testing) #12865](https://github.com/TEAMMATES/teammates/pull/12865) |
@@ -47,4 +47,12 @@
 | 7 | Release TEAMMATES [V9.0.0-beta.0](https://github.com/TEAMMATES/teammates/releases/tag/V9.0.0-beta.0) |
 | 7-8 | Optimize and fix non-course data migration scripts: Reviewed: [V9 Migration: Fix verification pagination, improve logging #12874](https://github.com/TEAMMATES/teammates/pull/12874), [Fix seeding for notification #12866](https://github.com/TEAMMATES/teammates/pull/12866), [[#12048] V9 migration and verification script optimization #12896 ](https://github.com/TEAMMATES/teammates/pull/12896) |
 | 7-8 | Optimize and fix non-course data migration scripts: Contributed: [[#12048] Revert column type for notification title #12881](https://github.com/TEAMMATES/teammates/pull/12881), [[#12048] Prepare Patch Data Migration Script for Account #12883](https://github.com/TEAMMATES/teammates/pull/12883), [[#12048] Patch account and read notification migration #12884](https://github.com/TEAMMATES/teammates/pull/12884), [[#12048] Revert getFilterQuery for Account Data Migration Script #12887](https://github.com/TEAMMATES/teammates/pull/12887)|
-| 8 | ARF: Started feature branch: [[#11878] Enable CI on account request form branch #12888](https://github.com/TEAMMATES/teammates/pull/12888) |
+| 8 | Project Management: Started ARF feature branch: [[#11878] Enable CI on account request form branch #12888](https://github.com/TEAMMATES/teammates/pull/12888) |
+| 9 | Project Management: ARF team finished Milestone 1, started on milestone 2. Get CS3281 students in ARF to start to review PRs.
+| 9 | V9-beta: Facilitated pre-release deployment on Sunday. Helped with coming up the pre-release manual testing guideline. Discussed about bugs found in the beta release.
+| 9 | Reviewed PR: [[#12588] Add unit test to rubric-question-edit-details-form #12907](https://github.com/TEAMMATES/teammates/pull/12907)|
+| 9 | Reviewed PR: [[#12921] Reintroduce AccountRequest search indexing #12923 ](https://github.com/TEAMMATES/teammates/pull/12923)|
+| 9 | Reviewed PR: [[#11878] Add new account request alert email for admins #12926](https://github.com/TEAMMATES/teammates/pull/12926)|
+| 9 | Reviewed PR: [[#12048] Add SQL configuration into build.properties and build-dev.properties #12917 ](https://github.com/TEAMMATES/teammates/pull/12917)|
+| 9 | Reviewed PR: [[#12048] Add SQL description for postgres config #12931](https://github.com/TEAMMATES/teammates/pull/12931)|
+| 10 | Authored PR: [[#12048] Rerunnable Account Request Migration Script #12932](https://github.com/TEAMMATES/teammates/pull/12932) |
