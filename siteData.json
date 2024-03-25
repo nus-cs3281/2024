@@ -1455,6 +1455,7 @@
     {
       "src": "students/ziqing26/knowledge.md",
       "headings": {
+        "liquibase": "Liquibase",
         "data-migration": "Data Migration",
         "terraform": "Terraform",
         "docker": "Docker",
