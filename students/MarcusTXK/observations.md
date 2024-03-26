@@ -1,14 +1,12 @@
-### Project: Supabase Contributions
+### Project: Supabase
 
 #### Overview
 
 [Supabase](https://supabase.io/) is a prominent open-source alternative to Firebase, aiming to replicate Firebase's features using enterprise-grade open-source tools. It offers a robust platform for developers to build scalable and reliable applications with ease.
 
-#### Contributions to Supabase Auth (supabase/gotrue)
-
 Supabase Auth, part of the Supabase ecosystem, is a user management and authentication server written in Go. It facilitates key functionalities such as JWT issuance, Row Level Security with PostgREST, comprehensive user management, and a variety of authentication methods including email/password, magic links, phone numbers, and external providers like Google, Apple, Facebook, and Discord. Originating from Netlify's Auth codebase, it has since evolved significantly in terms of features and capabilities.
 
-#### My Contributions
+### My Contributions
 
 Below is a summary of my contributions to Supabase, on both Supabase/supabase and Supabase/gotrue (to be renamed to supabase/auth):
 
@@ -21,7 +19,7 @@ Below is a summary of my contributions to Supabase, on both Supabase/supabase an
 | 12/23 | Merged PR: [fix: add check for max password length (#1368)](https://github.com/supabase/gotrue/pull/1368)                                                                                 |
 | 12/23 | Discussion on potential solutions for: [Email rate limit is triggered even in scenarios where an email doesn't end up being sent (#1236)](https://github.com/supabase/gotrue/issues/1236) |
 
-#### My Learning Record
+### My Learning Record
 
 Through my contributions to Supabase, I've gained significant insights and knowledge:
 
