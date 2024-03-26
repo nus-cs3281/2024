@@ -12,14 +12,14 @@ Supabase Auth, part of the Supabase ecosystem, is a user management and authenti
 
 Below is a summary of my contributions to Supabase, on both Supabase/supabase and Supabase/gotrue (to be renamed to supabase/auth):
 
-| Date  | Achievement                                                                                                                                                    |
-| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 12/23 | Merged PR: [[#19825] Update `SIGNED_IN` event documentation (#19974)](https://github.com/supabase/supabase/pull/19974)                                         |
-| 12/23 | Created issue: [`signUp` leaking existing user role #1365](https://github.com/supabase/gotrue/issues/1365)                                                     |
-| 12/23 | Merged PR: [fix: sanitizeUser leaks user role (#1366)](https://github.com/supabase/gotrue/pull/1366)                                                           |
-| 12/23 | Created PR: [[#880] Add function to get user by email identities (#1367)](https://github.com/supabase/gotrue/pull/1367)                                        |
-| 12/23 | Merged PR: [fix: add check for max password length (#1368)](https://github.com/supabase/gotrue/pull/1368)                                                      |
-| 12/23 | Discussion: [Email rate limit is triggered even in scenarios where an email doesn't end up being sent (#1236)](https://github.com/supabase/gotrue/issues/1236) |
+| Date  | Achievement                                                                                                                                                                               |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 12/23 | Merged PR: [[#19825] Update `SIGNED_IN` event documentation (#19974)](https://github.com/supabase/supabase/pull/19974)                                                                    |
+| 12/23 | Created issue for discovered security vulnerability: [`signUp` leaking existing user role #1365](https://github.com/supabase/gotrue/issues/1365)                                          |
+| 12/23 | Merged PR: [fix: sanitizeUser leaks user role (#1366)](https://github.com/supabase/gotrue/pull/1366) s                                                                                    |
+| 12/23 | Created PR: [[#880] Add function to get user by email identities (#1367)](https://github.com/supabase/gotrue/pull/1367)                                                                   |
+| 12/23 | Merged PR: [fix: add check for max password length (#1368)](https://github.com/supabase/gotrue/pull/1368)                                                                                 |
+| 12/23 | Discussion on potential solutions for: [Email rate limit is triggered even in scenarios where an email doesn't end up being sent (#1236)](https://github.com/supabase/gotrue/issues/1236) |
 
 #### My Learning Record
 
