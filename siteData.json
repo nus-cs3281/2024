@@ -299,7 +299,9 @@
     {
       "src": "students/MarcusTXK/observations.md",
       "headings": {
-        "project-supabase-contributions": "Project: Supabase Contributions"
+        "project-supabase": "Project: Supabase",
+        "my-contributions": "My Contributions",
+        "my-learning-record": "My Learning Record"
       },
       "headingKeywords": {}
     },
@@ -1119,7 +1121,9 @@
         "my-contributions-11": "My Contributions",
         "my-learning-record-11": "My Learning Record",
         "marcus-tang-xin-kye": "MARCUS TANG XIN KYE",
-        "project-supabase-contributions": "Project: Supabase Contributions",
+        "project-supabase": "Project: Supabase",
+        "my-contributions-12": "My Contributions",
+        "my-learning-record-12": "My Learning Record",
         "teammates": "TEAMMATES",
         "chang-weng-yew-nicolas": "CHANG WENG YEW, NICOLAS",
         "project-mermaidjs": "Project: MermaidJS",
