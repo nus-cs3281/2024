@@ -67,10 +67,10 @@ footer:
 
 {{ page_break }}
 
-## Round C (week 11, 12, 13)
+## Round C (week 12, 13)
 
-
+{% set tm = projects[3] %}
 {% set sorted_projects = [projects[3], projects[0], projects[1], projects[2]] %}
 {{ print_feedback_table('C1') }}
 {{ print_feedback_table('C2') }}
-{{ print_feedback_table('C3') }}
+
