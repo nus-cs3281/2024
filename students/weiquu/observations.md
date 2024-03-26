@@ -1,11 +1,15 @@
-### Project: Foo
+### Project: AncientBeast
 
-Give an intro to the project here ...
+Turn-based strategy game that has been around for 13 years, with a small but active developer base and player community.
 
 ### My Contributions
 
-Give a description of your contributions, including links to relevant PRs
+Currently working on [this issue](https://github.com/FreezingMoon/AncientBeast/issues/2536), have started work on [this issue](https://github.com/FreezingMoon/AncientBeast/issues/2533), and plan to take on [this issue](https://github.com/FreezingMoon/AncientBeast/issues/2537).
 
 ### My Learning Record
 
-Give tools/technologies you learned here. Include resources you used, and a brief summary of the resource.
+Point form for now, will expand later:
+
+- Phaser
+- Testing for game UI using Jest
+- Game development in general

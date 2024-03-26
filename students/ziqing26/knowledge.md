@@ -1,3 +1,20 @@
+## Liquibase
+
+Liquibase is used to track database schema change in TEAMMATEs. Due to lack of proper documentation, the data migration team spend time figuring out how exactly TEAMMATEs uses it.
+
+## Data Migration
+
+* Before data migration we need to make sure we are clear on the ERD and relationship mapping.
+* To test scripts on data migration, we set up a staging Cloud SQL and a stating Datastore.
+* We also figured out what is VPC and how to connect production server to production Cloud SQL.
+* Data validation after migration such as ensuring Foreign Keys are mapped correctly is important. 
+* Optimization for speed: we make the scripts faster by allowing batch updates to SQL db. That improves the speed by 10 times. The bottleneck was the SQL insert / updates takes too long.
+* Optimization for usability: we make the scripts either patchable or rerunnable so that data migration has minimal impact on the online time of TEAMMATEs. It was made patchable by checking a flag in the entity or timestamp.
+
+## Terraform
+
+* Saves a lot of time for deploying staging server. It will definitely save a lot of time if we have a shared staging server for testing. However TEAMMATEs might not be operating at a large enough scale to see the benefits.
+
 ## Docker
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. It is an isolated environment for code. This means that a container has no knowledge of the local operating system, or the local files.
 

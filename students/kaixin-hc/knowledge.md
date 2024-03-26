@@ -106,3 +106,20 @@ Just needed to note this, and consider other options. Refactoring my code allowe
 [source](https://dev.to/lofiandcode/
 can-map-mutate-the-original-array-yes-dmb)
 </panel>
+
+### Softwrapping vs hard wrapping code
+
+After extensive reading, I am more familiar with the arguments for softwrapping code vs longwrapping code, as well as keyboard shortcuts for skilling to the next line in editors like vim which also affect developer preference. I liked [this article](https://jesseduffield.com/Hard-Wrap-vs-Soft-Wrap/).
+
+In particular, I found the idea of semantic line breaks (single linebreaks being for your eyes only) in languages like HTML interesting. The argument for it(trivially rearranging items in a comma separated list, for example) was one I had not seen explicated before. While I am unlikely to adopt it, it also sheds light on why line-break problems are so common in MarkBind.
+
+
+### CSS Vendor Locking:
+
+In the past, different browsers used different prefixes for CSS properties, so developers would often extensively cover the available cases with prefixes. 
+
+[Stylelint removes vendor prefixes](https://stackoverflow.com/questions/76144712/visual-studio-code-warning-also-define-the-standard-property-background-clip)
+
+There is a danger for specific properties... eg [background-clip: text](https://stackoverflow.com/questions/75688924/background-clip-text-isnt-working-at-all-in-css) ... but for other cases in the markbind code, like `background-clip: padding-box`, it is no longer to prefix in order to obtain the desired behaviour.
+
+Background reading on vendor prefixing: [Is vendor prefixing dead?](https://css-tricks.com/is-vendor-prefixing-dead/)

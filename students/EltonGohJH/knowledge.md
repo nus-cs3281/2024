@@ -63,3 +63,19 @@ The reason for this is that the developer of js-beautify has changed the way it 
 This caused a lot of tests to fail and I had to spend a lot of time debugging it. 
 
 Through this experience, I learned the importance of ensuring that changes are documented properly and correctly.
+
+### gomock
+I have learned to use GoMock, a mocking framework for Golang, which streamlines the creation of mock objects for unit testing. It helps with decoupling components, enabling the simulation of complex behaviors and interactions. I am surprised how easy it to use to mock complex behaviours.
+Will definitely use it for Golang testing next time!
+
+#### Resource used:
+- [gomock docs](https://github.com/uber-go/mock)
+
+### Yarn workspaces
+Yarn Workspaces is a feature of Yarn that simplifies handling multiple packages within a single repository by enabling shared dependencies and centralized script management. I learnt Yarn Workspaces while setting up the repository for the Twenty project.
+Overall, it is a good experience as I learnt more alternatives to Lerna and NPM workspaces.
+
+#### Resource used:
+- [Yarn workspaces docs](https://yarnpkg.com/features/workspaces)
+
+

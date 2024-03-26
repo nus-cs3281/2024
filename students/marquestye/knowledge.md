@@ -1,7 +1,28 @@
-### Tool/Technology 1
+### Hibernate
 
-List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
+TEAMMATES uses Hibernate, an Object-Relational Mapping framework which allows us to interact with the database without writing SQL commands. It abstracts these low-level database interactions, enabling developers to work with high-level objects and queries instead. I read up on some Hibernate basics:
 
-### Tool/Technology 2
+- JPA persistence context / Hibernate session
+- entity states: transient, persistent, detached
+- entity operations: persist, merge, evict
 
-...
+References:
+- [Hibernate docs](https://docs.jboss.org/hibernate/orm/4.0/devguide/en-US/html_single/)
+- [Article on Hibernate entity operations](https://www.baeldung.com/hibernate-save-persist-update-merge-saveorupdate)
+
+### Mockito
+
+Mockito facilitates unit testing by reducing the setup needed to create and define behaviour of mocked objects. The provided `mock`, `when/then` and `verify` methods not only simplify the test writing process, but also enhance their readability and clarity for future developers.
+
+References:
+- [Mockito mock methods](https://www.baeldung.com/mockito-mock-methods)
+- [Mock vs Spy](https://stackoverflow.com/questions/15052984/what-is-the-difference-between-mocking-and-spying-when-using-mockito)
+
+### Docker
+
+I was introduced to Docker during the onboarding process. I learnt about containers and the benefits of containerization, such as portability and isolation, and how they enable developers on different infrastructure to work in a consistent environment.
+
+References:
+- [Docker overview](https://docs.docker.com/get-started/overview/)
+- [Docker containers](https://devops.stackexchange.com/questions/390/what-is-a-container)
+

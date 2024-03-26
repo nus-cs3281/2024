@@ -27,3 +27,51 @@ I primarily learned how to use Jasmine from its [documentation](https://jasmine.
 - **`it`**: Define a single spec.
 - **`expect`**: Create an expectation for a spec.
 - **Class `Spy`**: Mock functions (spies) that can be used to track function calls.
+
+#### Asynchronous Testing with Observables
+When dealing with asynchronous operations like observables, Jasmine provides support through the use of the `done` function. This allows for effective testing of asynchronous behavior by signaling when a test has completed its execution.
+
+Here's an example from my [pull request](https://github.com/CATcher-org/WATcher/pull/275):
+
+```javascript
+it('should throw error for URL without repo parameter', (done) => {
+  const urlWithoutRepo = '/issuesViewer';
+
+  phaseService.setupFromUrl(urlWithoutRepo).subscribe({
+    error: (err) => {
+      expect(err).toEqual(new Error(ErrorMessageService.invalidUrlMessage()));
+      done(); // Signal that the test has completed
+    }
+  });
+});
+```
+Resources: [Angular — Unit Testing recipes (v2+)](https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#59a4)
+
+#### Testing for Behavior
+It's essential to test for behavior rather than implementation details. This principle was emphasized by a senior in my pull reqeust. By focusing on behavior, tests become more resilient to changes in the codebase and provide better documentation for how components and functions should be used.
+
+Here's an example that illustrates the difference between testing behavior and implementation:
+
+Context: `changeRepositoryIfValid` will call `changeCurrentRepository` if repository is valid.
+
+```javascript
+// Test for behavior
+it('should set current repository if repository is valid', async () => {
+  githubServiceSpy.isRepositoryPresent.and.returnValue(of(true));
+
+  await phaseService.changeRepositoryIfValid(WATCHER_REPO);
+
+  expect(phaseService.currentRepo).toEqual(WATCHER_REPO);
+});
+
+// Test for implementation
+it('should call changeRepository method if repository is valid', async () => {
+  githubServiceSpy.isRepositoryPresent.and.returnValue(of(true));
+
+  const changeCurrentRepositorySpy = spyOn(phaseService, 'changeCurrentRepository');
+
+  await phaseService.changeRepositoryIfValid(WATCHER_REPO);
+
+  expect(changeCurrentRepositorySpy).toHaveBeenCalledWith(WATCHER_REPO);
+});
+```

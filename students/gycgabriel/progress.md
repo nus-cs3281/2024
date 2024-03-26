@@ -25,6 +25,14 @@
 | 4 | Commented on PR: [Refactor test cases (In progress) #234](https://github.com/CATcher-org/WATcher/pull/234) |
 | 4 | Reviewed PR: [Show list of hidden users #235](https://github.com/CATcher-org/WATcher/pull/235) |
 | 4 | Reviewed PR: [Remove unused services #238](https://github.com/CATcher-org/WATcher/pull/238) |
+| 5 | Commented on PR: [Refactor Label model #254](https://github.com/CATcher-org/WATcher/pull/254) |
+| 6 | Reviewed PR: [Add shareable repo-specific URL #255](https://github.com/CATcher-org/WATcher/pull/255) |
+| 6 | Reviewed PR: [Refactor certain filters into its own service #259](https://github.com/CATcher-org/WATcher/pull/259) |
+| 7 | Reviewed PR: [Remove test cases for permissions service #260](https://github.com/CATcher-org/WATcher/pull/260) |
+| 7 | Reviewed PR: [Automatic deployment #272](https://github.com/CATcher-org/WATcher/pull/272) |
+| 7 | Reviewed PR: [Enable pre push hook for npm run test #288](https://github.com/CATcher-org/WATcher/pull/288) |
+| 8 | Reviewed PR: [Refactor milestones to save by name #289](https://github.com/CATcher-org/WATcher/pull/289) |
+
 
 ### PR Contributed - WATcher
 | Week | Achievements |
