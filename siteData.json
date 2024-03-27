@@ -436,9 +436,10 @@
     {
       "src": "students/cedricongjh/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
+        "project-mattermost": "Project: Mattermost",
         "my-contributions": "My Contributions",
-        "my-learning-record": "My Learning Record"
+        "my-learning-record": "My Learning Record",
+        "observations-from-mattermost": "Observations from Mattermost"
       },
       "headingKeywords": {}
     },
@@ -1153,9 +1154,10 @@
         "my-contributions-19": "My Contributions",
         "my-learning-record-19": "My Learning Record",
         "ong-jun-heng-cedric": "ONG JUN HENG, CEDRIC",
-        "project-foo-9": "Project: Foo",
+        "project-mattermost": "Project: Mattermost",
         "my-contributions-20": "My Contributions",
         "my-learning-record-20": "My Learning Record",
+        "observations-from-mattermost": "Observations from Mattermost",
         "sim-sing-yee-eunice": "SIM SING YEE, EUNICE",
         "project-stdlib-js": "Project: stdlib-js",
         "my-contributions-21": "My Contributions",
