@@ -25,3 +25,8 @@
 | R | Merged PR: [[#12048] Migrate Admin Notifications E2E Test #12793](https://github.com/TEAMMATES/teammates/pull/12793) |
 | R | Authored PR: [[#12048] Migrate AdminSearchPageE2ETest SQL #12811](https://github.com/TEAMMATES/teammates/pull/12811) |
 | R | Merged PR: [[#12048] Migrate AdminSearchPageE2ETest #12838](https://github.com/TEAMMATES/teammates/pull/12838) |
+| 7 | Worked on design document for Account Request Form Upgrade |
+| 7 | Created wireframes for new Admin UI for Account Request Form Upgrade |
+| 8 | Merged PR: [[#12048] Migrate InstructorSearchPageE2ETest #12891](https://github.com/TEAMMATES/teammates/pull/12891) |
+| 9 | Authored PR: [[#11878] Update Admin Home Page UI for ARF #12933](https://github.com/TEAMMATES/teammates/pull/12933) |
+| 10 | Authored PR: [[#11878] Update Admin Search UI for ARF #12941](https://github.com/TEAMMATES/teammates/pull/12941) |
