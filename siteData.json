@@ -1114,7 +1114,7 @@
         "my-contributions-9": "My Contributions",
         "my-learning-record-9": "My Learning Record",
         "david-gareth-ong": "DAVID GARETH ONG",
-        "project-foo-6": "Project: Foo",
+        "project-recharts": "Project: Recharts",
         "my-contributions-10": "My Contributions",
         "my-learning-record-10": "My Learning Record",
         "gokul-rajiv": "GOKUL RAJIV",
@@ -1142,11 +1142,11 @@
         "my-contributions-16": "My Contributions",
         "my-learning-record-16": "My Learning Record",
         "kevin-foong-wei-tong": "KEVIN FOONG WEI TONG",
-        "project-foo-7": "Project: Foo",
+        "project-foo-6": "Project: Foo",
         "my-contributions-17": "My Contributions",
         "my-learning-record-17": "My Learning Record",
         "mok-kheng-sheng-fergus": "MOK KHENG SHENG FERGUS",
-        "project-foo-8": "Project: Foo",
+        "project-foo-7": "Project: Foo",
         "my-contributions-18": "My Contributions",
         "my-learning-record-18": "My Learning Record",
         "neo-wei-qing": "NEO WEI QING",
@@ -1305,7 +1305,7 @@
     {
       "src": "students/vvidday/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
+        "project-recharts": "Project: Recharts",
         "my-contributions": "My Contributions",
         "my-learning-record": "My Learning Record"
       },
