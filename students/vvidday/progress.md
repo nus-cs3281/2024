@@ -23,3 +23,10 @@
 | 5      | Reviewed PR: [[#2112] Move Segment CSS into segment.vue](https://github.com/reposense/RepoSense/pull/2113)                           |
 | 6      | Reviewed PR: [[#2134] Fix broken code highlighting in Code Panel](https://github.com/reposense/RepoSense/pull/2135)                  |
 | 7      | Reviewed PR: [Add explicit return type annotations to TypeScript functions](https://github.com/reposense/RepoSense/pull/2125)        |
+| 8      | Reviewed PR: [[#2123] Fix zoom bug if zUser is undefined](https://github.com/reposense/RepoSense/pull/2126)                          |
+| 8      | Reviewed PR: [[#2109] Add search by tag functionality](https://github.com/reposense/RepoSense/pull/2116)                             |
+| 8      | Filed Issue: [Update lint rules to enforce explicit return type annotations](https://github.com/reposense/RepoSense/issues/2156)     |
+| 8      | Reviewed PR: [[#1872] Update Node version to 18](https://github.com/reposense/RepoSense/pull/2081)                                   |
+| 10     | Reviewed PR: [[#2109] Add search by tag functionality](https://github.com/reposense/RepoSense/pull/2167)                             |
+| 10     | Reviewed PR: [[#2151] Update Stylelint](https://github.com/reposense/RepoSense/pull/2153)                                            |
+| 10     | Reviewed PR: [[#2136] Add Tests for Segment CSS](https://github.com/reposense/RepoSense/pull/2137)                                   |
