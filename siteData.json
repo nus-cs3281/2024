@@ -1153,6 +1153,7 @@
         "project-ancientbeast": "Project: AncientBeast",
         "my-contributions-19": "My Contributions",
         "my-learning-record-19": "My Learning Record",
+        "observations-from-ancientbeast": "Observations from AncientBeast",
         "ong-jun-heng-cedric": "ONG JUN HENG, CEDRIC",
         "project-mattermost": "Project: Mattermost",
         "my-contributions-20": "My Contributions",
@@ -1336,7 +1337,8 @@
       "headings": {
         "project-ancientbeast": "Project: AncientBeast",
         "my-contributions": "My Contributions",
-        "my-learning-record": "My Learning Record"
+        "my-learning-record": "My Learning Record",
+        "observations-from-ancientbeast": "Observations from AncientBeast"
       },
       "headingKeywords": {}
     },
