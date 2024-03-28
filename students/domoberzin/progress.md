@@ -28,5 +28,8 @@
 | 7 | Worked on design document for Account Request Form Upgrade |
 | 7 | Created wireframes for new Admin UI for Account Request Form Upgrade |
 | 8 | Merged PR: [[#12048] Migrate InstructorSearchPageE2ETest #12891](https://github.com/TEAMMATES/teammates/pull/12891) |
-| 9 | Authored PR: [[#11878] Update Admin Home Page UI for ARF #12933](https://github.com/TEAMMATES/teammates/pull/12933) |
-| 10 | Authored PR: [[#11878] Update Admin Search UI for ARF #12941](https://github.com/TEAMMATES/teammates/pull/12941) |
+| 9 | Merged PR: [[#11878] Update Admin Home Page UI for ARF #12933](https://github.com/TEAMMATES/teammates/pull/12933) |
+| 9 | Reviewed PR: [[#11878] Remove AccountRequest unique constraint #12899](https://github.com/TEAMMATES/teammates/pull/12899) |
+| 10 | Merged PR: [[#11878] Update Admin Search UI for ARF #12941](https://github.com/TEAMMATES/teammates/pull/12941) |
+| 10 | Reviewed PR: [[#11878] Add GetAllPendingAccountRequests API #12927](https://github.com/TEAMMATES/teammates/pull/12927) |
+| 10 | Reviewed PR: [[#11878] Add snapshot tests for instructor request form UI #12942](https://github.com/TEAMMATES/teammates/pull/12942) |
