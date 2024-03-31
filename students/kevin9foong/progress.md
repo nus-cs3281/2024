@@ -1,5 +1,5 @@
-| Date | Role | Description  | Achievement |
-| --- | --- | ------------ | ------- |
+| Date | Role | Description  | Key Achievement |
+| --- | --- | ------------ | ------------ |
 | 24/01/2024 | Issue Reporter | [Found and reported issue #12699 with developer documentation `ng` command](https://github.com/TEAMMATES/teammates/issues/12699) | |
 | 24/01/2024 | PR Author | [Fixed documentation bug #12699 in TEAMMATES developer documentation with ng command](https://github.com/TEAMMATES/teammates/pull/12701) | Fixed documentation bug on key page (TEAMMATES new developer guide)
 | 07/02/2024 | PR Reviewer | [Review of PR #12706 Migrate CreateInstructorAction](https://github.com/TEAMMATES/teammates/pull/12706) | |
