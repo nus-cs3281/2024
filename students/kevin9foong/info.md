@@ -4,3 +4,4 @@
 
 <!-- Give your internal and external projects related to the module -->
 <span id="projects">[TEAMMATES](https://github.com/TEAMMATES/teammates)</span>
+<span id="projects">[Scribe-iOS](https://github.com/scribe-org/Scribe-iOS)</span>
