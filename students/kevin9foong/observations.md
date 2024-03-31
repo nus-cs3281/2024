@@ -1,10 +1,10 @@
 ### Project: Scribe iOS
 
-[Scribe](https://github.com/scribe-org/Scribe-iOS) is a pack of iOS keyboards for language learners. It supports languages such as German, French, Italian etc.
+[Scribe-iOS](https://github.com/scribe-org/Scribe-iOS) is a pack of iOS keyboards for language learners. It supports languages such as German, French, Italian etc.
 It supports features such as language translation to language of choice, singular to plural conversion and word suggestions.
-Data is sourced from the [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) knowledge base.
+Language verbs and noun data is sourced from the [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) knowledge base.
 
-Similar to TEAMMATES, Scribe has also been part of GSoc in 2023 and part of the Wikimedia community (which Wikipedia is a part of).
+Similar to TEAMMATES, Scribe is part of GSoc and part of the Wikimedia community (of which Wikipedia is the most well-known product).
 
 ### My Contributions
 
@@ -13,6 +13,7 @@ I contributed by first going through open issues and managed to find some code i
 
 ### My Learning Record
 
+#### Using simulators
 For tools learnt, as I am new to Swift/iOS/mobile programming, I learnt to set up the development environment needed which was new to me. This involves installing Xcode and setting up the emulator for verification of correctness.
 
 Resources used:
@@ -22,6 +23,7 @@ Resources used:
 This idea of simulators is new to me but reminiscent of the DevTools in web browsers such as Chrome.
 Interestingly, the simulators also provide a similar interface as browser devtools which allow developers to debug code.
 
+#### Learning Swift programming
 I also spent time learning a new programming language for my contribution, Swift, which introduces some new syntax not present in other programming languages like Java.
 
 For example, instead of:
@@ -36,6 +38,10 @@ a..<b (includes value a, but excludes the value b) and a...b
 a...b (includes both a and b)
 ```
 This syntax is especially convenient as it allows us to do:
+```
+for 0..<3 instead
+```
+or with case statements:
 ```
 case 0..<3:
     print("Value within 0 and 2 inclusive)
@@ -58,16 +64,22 @@ Apple has also made learning Swift a more intuitive experience by introducing a 
 
 As part of implementing code improvements, I also researched Swift conventions. I learnt that camelCase is the default convention used in Swift, read about preferences regarding Swift type inferencing etc.
 
-### OSS practices from Scribe-iOS:
+### Learnings for OSS practices from Scribe-iOS:
 1. Usage of public chat room
 
 Since OSS projects usually accept contributions from developers from all over the world, Scribe uses an [Matrix community chatroom](https://app.element.io/#/room/#ScribeiOS:matrix.org) to build a community and for all developers to join. This chatroom allows developers to introduce themselves, discuss issues related to development, raise suggestions and ask for help. This is a practice TEAMMATES might be able to adopt.
 
 2. Github actions automation for maintainer checklist
 
-![alt text](actions.png)
+![Github actions message](actions.png)
 
 After each PR is made, an automated message encouraging contributors to join the abovementioned chat room and a bunch of checklist items are posted. This serves as a communication tool to new developers and serves as a friendly introduction to new committers which builds a more welcoming community.
+
+Some useful info to include in such a message are:
+- thank you message and crediting contributors for their efforts
+- how to be involved in the community
+- what to expect next after making a PR
+- checklist for maintainers on protocol to handle PRs
 
 3. Changelog
 
