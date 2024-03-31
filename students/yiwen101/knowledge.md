@@ -35,6 +35,8 @@ Vscode's "goto references" does not work well with javascript (mixed inside the 
 
 Possible to auto re-compiling the typescript file into javascript files when it is changed, and only  recompile the changed files.
 
+If given not enough parameters, javascript treat missing ones as undefined; if given extra paremeters, javascript will ignore;
+
 ### Tool/Technology Miscellaneous
 Workflow vice, a good practice is to not immediately merge a pull request after it is reviewed. Instead, wait for a day or two to see if there are any other comments or suggestions.
 
@@ -43,6 +45,8 @@ For command line tool (like markbind), a good project structure is to have a cli
 More comfortable with using loggers to debug.
 
 Jest as the testing framework (and debugger).
+
+Jest can mock other tools (fs for example).
 
 Snapshot (Recursively comparing every folder and file in the expcted folder with the actual generated files) as a way to do the functional testing.
 
@@ -59,3 +63,15 @@ Fix issues and simple bugs is the best way to gain familiarity with the codebase
 Understand the difference between inline markdown and non-inline markdown.
 
 Can use comment like `eslint-disable-next-line no-await-in-loop` to disable eslint for the next line for a specific rule.
+
+Better understand the workflow for frontend: markbind serve -d or npm run build:web to test frontend changes, the frontend markbind.min.js and markbind.min.css bundles are only updated during release.
+
+Gain knowledge on debugging frontend with browser, and understand css inheritance.
+
+Gain knowledge on vue component basics, 
+
+Gain knowledge on and how new line in vue could be treated as brace.
+
+Gain knowledge on vue component life cycle knowledge and how "onMounted" can fix the mermaid plugin issue.
+
+Introduced to the concept of hydration in vue (not did not attempt that issue yet).
