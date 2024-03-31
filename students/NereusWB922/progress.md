@@ -29,3 +29,17 @@
 | 9 | Reviewed PR: [Add tool tip for hidden users #307](https://github.com/CATcher-org/WATcher/pull/307) |
 | 9 | Merged PR: [Refactor Phase Service and remove Phase #291](https://github.com/CATcher-org/WATcher/pull/291) |
 | 9 | Merged PR: [Setup grouping strategy and service #308](https://github.com/CATcher-org/WATcher/pull/308) |
+| 10 | Reviewed PR: [Keep milestones when switching repo #311](https://github.com/CATcher-org/WATcher/pull/311) |
+| 10 | Merged PR: [Integrate Grouping Service #313](https://github.com/CATcher-org/WATcher/pull/313) |
+| 10 | Submitted issue: [Encode grouping to url #317](https://github.com/CATcher-org/WATcher/issues/317) |
+| 10 | Reviewed PR: [Add preset views #320](https://github.com/CATcher-org/WATcher/pull/320) |
+| 10 | Merged PR: [Implement group by milestone #316](https://github.com/CATcher-org/WATcher/pull/316) |
+| 10 | Submitted issue: [Update IssueViewer's Repo on Back/Forward Navigation #321](https://github.com/CATcher-org/WATcher/issues/321) |
+| 10 | Merged PR: [Include groupby params in url #319](https://github.com/CATcher-org/WATcher/pull/319) |
+| 10 | Merged PR: [Update repo on back and forward navigation #322](https://github.com/CATcher-org/WATcher/pull/322) |
+| 10 | Merged PR: [Refactor MilestoneGroupingStrategy to match the changes in #315 #323](https://github.com/CATcher-org/WATcher/pull/323) |
+| 10 | Merged PR: [Reset GroupingContextService only if "keep filter" is selected #324](https://github.com/CATcher-org/WATcher/pull/324) |
+| 10 | Reviewed PR: [Fix for no milestone case #326](https://github.com/CATcher-org/WATcher/pull/326) |
+| 10 | Reviewed PR: [Add filters to url #314](https://github.com/CATcher-org/WATcher/pull/314) |
+| 10 | Merged PR: [Enable npm run test in GitHub Action #325](https://github.com/CATcher-org/WATcher/pull/325) |
+| 10 | Merged PR: [Deploy V1.2.0 #331](https://github.com/CATcher-org/WATcher/pull/331) |
