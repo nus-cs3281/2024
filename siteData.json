@@ -865,7 +865,8 @@
       "headings": {
         "project-scribe-ios": "Project: Scribe iOS",
         "my-contributions": "My Contributions",
-        "my-learning-record": "My Learning Record"
+        "my-learning-record": "My Learning Record",
+        "oss-practices-from-scribe-ios": "OSS practices from Scribe-iOS:"
       },
       "headingKeywords": {}
     },
@@ -1153,6 +1154,7 @@
         "project-scribe-ios": "Project: Scribe iOS",
         "my-contributions-18": "My Contributions",
         "my-learning-record-18": "My Learning Record",
+        "oss-practices-from-scribe-ios": "OSS practices from Scribe-iOS:",
         "mok-kheng-sheng-fergus": "MOK KHENG SHENG FERGUS",
         "project-foo-6": "Project: Foo",
         "my-contributions-19": "My Contributions",
