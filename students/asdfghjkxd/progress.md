@@ -21,3 +21,6 @@
 | 8 | Reviewed PR: [#944] Implement authorship analysis #2140 |
 | 10 | Merged PR: [#2120] Update RepoSense contributors in documentation #2138 |
 | 10 | Submitted Issue: Migrate to Java 11 Syntax and Features #2177 |
+| 10 | Reviewed PR: [#2158] Add More Documentation for Title Component #2159 |
+| 10 | Reviewed PR: [#2151] Update Stylelint #2153 |
+| 10 | Reviewed PR: [#2151] Update LoadingOverlay and Minor Versions of Node Dependencies #2152 |
