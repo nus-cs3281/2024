@@ -1,10 +1,24 @@
 ### Hibernate
 
+#### [session.flush()](https://www.baeldung.com/spring-jpa-flush)
+
+EntityManagers do not always immediate execute the underly SQL statement. One such example is when we create and persist a new entity, the createdAt timestamp is not updated in the entity object in our application until we call flush().
+
+This is because by calling flush() we can ensure that all outstanding SQL statements are executed and that the persistence context and the db is synchronized.
+
 #### Persistent entities
 
 [Persistent entities](https://www.baeldung.com/hibernate-session-object-states) are entities that are known by the persistence provider, Hibernate in this case. An entity(object) can be made persistent by either saving or reading an object from a session. Any [changes (e.g., calling a setter) made to persistent entities are automatically persisted into the database](https://docs.jboss.org/hibernate/orm/4.0/devguide/en-US/html_single/#d0e1739).
 
 We can stop hibernate from tracking and automatically updating the entities by calling `detach(Entity)` or `evict(Entity)`. This will result in the entity becoming detached. While detached, Hibernate will have no longer track the changes made to the entity. To save the changes to the database or make the entity persistent again, we can use  `merge(Entity)`.
+
+#### References
+
+While using the new SQL db, we often find ourselves needing to refer to another related entity for example `FeedbackSessionLogs.setStudent(studentEntity)`. This would often require us to query the db for the object and then call the setter. This is inefficient especially if we already have information like the `studentEntity`'s primary key.
+
+Hibernate provides a `getReference()` method which returns a proxy to an entity, that only contains a primary key, and other information are lazily fetched. While creating the proxy, Hibernate does not query the db. [Here](https://www.baeldung.com/jpa-entity-manager-get-reference) is an article that goes through different scenarios using reference to see which operations would result in Hibernate performing a SELECT query and which does not. It also includes some information on cached entities in Hibernate.
+
+It is important to note that, since Hibernate does not check that the entity actually exists in the db on creation of the proxy, the proxy might contain a primary key that does not exist in the db. The application should be designed to handle such scenarios when using references. [Here](https://thorben-janssen.com/jpa-getreference/#the-getreference-method) is more information on the difference between `getReference()` and `find()`.
 
 ### Testing
 

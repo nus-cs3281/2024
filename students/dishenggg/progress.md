@@ -17,6 +17,10 @@
 | 5 | Merged PR: [[#12048] Add test cases for FeedbackSessionsDb #12752](https://github.com/TEAMMATES/teammates/pull/12752) |
 | R | Merged PR: [[#12048] Add tests for FeedbackQuestionsDbIT  #12781](https://github.com/TEAMMATES/teammates/pull/12781) |
 | R | Merged PR: [[#12048] Migrate instructor notification page e2e test  #12792](https://github.com/TEAMMATES/teammates/pull/12792) |
-| R | Authored PR: [[#12048] Migrate FeedbackMcqQuestionE2ETest #12820](https://github.com/TEAMMATES/teammates/pull/12820) |
-| 8 | Authored PR: [[#12048] Create FeedbackSessionLog entity and cron job action #12895](https://github.com/TEAMMATES/teammates/pull/12895) |
-| 8 | Authored PR: [[#12048] Migrate FeedbackMsqQuestionE2ETest #12904](https://github.com/TEAMMATES/teammates/pull/12904) |
+| R | Merged PR: [[#12048] Migrate FeedbackMcqQuestionE2ETest #12820](https://github.com/TEAMMATES/teammates/pull/12820) |
+| 8 | Merged PR: [[#11843] Create FeedbackSessionLog entity and cron job action #12895](https://github.com/TEAMMATES/teammates/pull/12895) |
+| 8 | Merged PR: [[#12048] Migrate FeedbackMsqQuestionE2ETest #12904](https://github.com/TEAMMATES/teammates/pull/12904) |
+| 9 | Merged PR: [[#12048] Remove unnecessary loading of datastore entities in InstructorNotificationsPageE2ETest #12911](https://github.com/TEAMMATES/teammates/pull/12911) |
+| 9 | Merged PR: [[#11843] Create Logic and Db layer for FeedbackSessionLogs #12914](https://github.com/TEAMMATES/teammates/pull/12914) |
+| 10 | Authored PR: [[#11843] Update GetFeedbackSessionLogsAction to use SQL db #12938](https://github.com/TEAMMATES/teammates/pull/12938) |
+| 11 | Authored PR: [[#11843] Update front end for session activity logs #12973](https://github.com/TEAMMATES/teammates/pull/12973) |
