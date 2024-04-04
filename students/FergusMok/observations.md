@@ -3,7 +3,9 @@ Litestar is a powerful, flexible yet opinionated ASGI framework, focused on buil
 
 ### My Contributions
 
-Give a description of your contributions, including links to relevant PRs
+1. [Add reload-include and reload-exclude from uvicorn to CLI](https://github.com/litestar-org/litestar/pull/2973)
+2. [Fixing documentation bug](https://github.com/litestar-org/litestar/pull/2945)
+3. [Helped investigate a logging issue](https://github.com/litestar-org/litestar/issues/2954#issuecomment-1886463991)
 
 ### My Learning Record
 
