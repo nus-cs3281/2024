@@ -3,54 +3,60 @@
 ## From internal project (TEAMMATES):
 
 As part of both the database migration and SQL injection testing team, I have learnt:
+
 ### Database migration
+
 #### Tradeoffs between noSQL and SQL database offerings:
+
 I had previously read about the reasons behind why we are undertaking the task of migrating from Datastore to CloudSQL, however, I am able to better appreciate the value of this after joining the database migration team.
 
 1. Better developer support/tooling with Cloud SQL
-During migration, we faced issues with Datastore emulator as we could not query the Datastore emulator easily to verify that data was seeded correctly as shown in this [StackOverflow post](https://stackoverflow.com/questions/45861519/how-should-i-query-google-cloud-datastore-emulator-via-command-line).
 
-This was in contrast with Cloud SQL which uses standard PostgreSQL can we can simply use a database client and write SQL queries eg, `"SELECT ... from ..."`.
-Even deleting records from Datastore on the Google Cloud Console was limited to using to UI and only 50 records could be deleted at a time by clicking the delete button and navigating to the next page.
+    During migration, we faced issues with Datastore emulator as we could not query the Datastore emulator easily to verify that data was seeded correctly as shown in this [StackOverflow post](https://stackoverflow.com/questions/45861519/how-should-i-query-google-cloud-datastore-emulator-via-command-line).
 
-Hence, Cloud SQL provides significantly more standard and convenient developer experience for future batches.
+    This was in contrast with Cloud SQL which uses standard PostgreSQL   can we can simply use a database client and write SQL queries eg, `"SELECT ... from ..."`.
+    Even deleting records from Datastore on the Google Cloud Console was limited to using to UI and only 50 records could be deleted at a time by clicking the delete button and navigating to the next page.
 
-1. Avoid orphan issues
-One of the issues in our codebase I noticed was with noSQL, we had to ensure orphan record bugs were not present.
+    Hence, Cloud SQL provides significantly more standard and convenient developer experience for future batches.
 
-Previously,
-```
-/**
- * Deletes a feedback session cascade to its associated questions, responses, deadline extensions, etc.
- */
-public void deleteFeedbackSessionCascade(String feedbackSessionName, String courseId) {
-    AttributesDeletionQuery query = AttributesDeletionQuery.builder()
-                                           .withCourseId(courseId)
-                                           .withFeedbackSessionName(feedbackSessionName)
-                                           .build();
-    frLogic.deleteFeedbackResponseComments(query);
-    frLogic.deleteFeedbackResponses(query);
-    fqLogic.deleteFeedbackQuestions(query);
-    deLogic.deleteDeadlineExtensions(query);
+2. Avoid orphan issues
 
-    fsDb.deleteFeedbackSession(feedbackSessionName, courseId
-}
-```
-With SQL, we can use Hibernate to define constraints and cascade delete to prevent orphan entities:
-```
-/**
- * Deletes a feedback session cascade to its associated questions, responses, deadline extensions and so on.
- */
-public void deleteFeedbackSessionCascade(String feedbackSessionName, String courseId) {
-    FeedbackSession feedbackSession = fsDb.getFeedbackSession(feedbackSessionName, courseId);
-    fsDb.deleteFeedbackSession(feedbackSession);
-}
+    One of the issues in our codebase I noticed was with noSQL, we had to ensure orphan record bugs were not present.
 
-```
-When feedbackSession is deleted, the delete is cascaded to all the related entities. This leads to less potential for bugs and simpler code.
+    Previously,
+    ```
+    /**
+    * Deletes a feedback session cascade to its associated questions, responses, deadline extensions, etc.
+    */
+    public void deleteFeedbackSessionCascade(String feedbackSessionName, String courseId) {
+        AttributesDeletionQuery query = AttributesDeletionQuery.builder()
+                                            .withCourseId(courseId)
+                                            .withFeedbackSessionName(feedbackSessionName)
+                                            .build();
+        frLogic.deleteFeedbackResponseComments(query);
+        frLogic.deleteFeedbackResponses(query);
+        fqLogic.deleteFeedbackQuestions(query);
+        deLogic.deleteDeadlineExtensions(query);
+
+        fsDb.deleteFeedbackSession(feedbackSessionName, courseId
+    }
+    ```
+    With SQL, we can use Hibernate to define constraints and cascade delete to prevent orphan entities:
+    ```
+    /**
+    * Deletes a feedback session cascade to its associated questions, responses, deadline extensions and so on.
+    */
+    public void deleteFeedbackSessionCascade(String feedbackSessionName, String courseId) {
+        FeedbackSession feedbackSession = fsDb.getFeedbackSession(feedbackSessionName, courseId);
+        fsDb.deleteFeedbackSession(feedbackSession);
+    }
+
+    ```
+    When feedbackSession is deleted, the delete is cascaded to all the related entities. This leads to less potential for bugs and simpler code.
 
 #### Appreciation of 3-tier architecture:
-TEAMMATES follows [Martin Fowler's Presentation-Domain-Data Layering](https://martinfowler.com/bliki/PresentationDomainDataLayering.html)closely. This has prevented coupling and enabled us to swap the data layer easily from Datastore to CloudSQL without changing the other layers.
+
+TEAMMATES follows [Martin Fowler's Presentation-Domain-Data Layering](https://martinfowler.com/bliki/PresentationDomainDataLayering.html) closely. This has prevented coupling and enabled us to swap the data layer easily from Datastore to CloudSQL without changing the other layers.
 
 I have learnt the steps needed to ensure migration.
 1. Changing the code to support new
@@ -59,9 +65,10 @@ I have learnt the steps needed to ensure migration.
    2. Write correctness verification scripts
 3. Perform the migration
 
-During the general steps above, there are some specific challenges which have provided learning opportunities for me.
+During the general steps above, there are some specific challenges which have provided learning opportunities for me:
 
 #### Database paginated queries + PostgreSQL indexing on Primary key (and how PGSQL enforces PK uniqueness):
+
 Since TEAMMATES has large amounts of records which may not fit in memory, I worked on paginating the queries to prevent OutOfMemory errors.
 
 One challenge was that I had to do implement an sort ordering to maintain the pages.
@@ -75,7 +82,8 @@ This improved the performance of the database migration script.
 Another optimization to improve query speeds are to send batched queries instead of multiple separate queries. This reduced the network Round time speed and improves the migration script performance.
 
 #### Terraform:
-One of the issues I initially faced was setting up the cloud environment on GCP. I learnt and proposed using `Hashicorp Terraform` which is an infra-as-code platform to manage cloud resources.
+
+One of the issues I initially faced was setting up the cloud environment on GCP. I learnt and proposed using Hashicorp Terraform which is an infra-as-code platform to manage cloud resources.
 
 As part of my learning journey, I configured the CloudSQL GCP service using Terraform and raised a [discussion](https://github.com/TEAMMATES/teammates/discussions/12756). However, after discussion, introducing Terraform might not be the best idea for now given the overhead for new developers to learn and the scale of our system.
 
@@ -87,7 +95,7 @@ Such as:
 - use of prepared statements with parameterized queries
 This treats the user input as a string literal and hence does not affect the SQL query. This is done by Hibernate which we are using in TEAMMATES.
 
-This cheatsheet on [SQL injection prevention by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) was useful.
+This cheatsheet on [SQL injection prevention by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) was useful in my learning.
 
 ### Multiple Course Structures (MCS)
 
