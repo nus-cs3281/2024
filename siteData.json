@@ -841,6 +841,13 @@
     {
       "src": "students/kevin9foong/knowledge.md",
       "headings": {
+        "cs3282": "CS3282",
+        "from-internal-project-teammates": "From internal project (TEAMMATES):",
+        "database-migration": "Database migration",
+        "sqli-testing": "SQLi Testing",
+        "multiple-course-structures-mcs": "Multiple Course Structures (MCS)",
+        "from-lightning-talks": "From lightning talks:",
+        "from-external-projects": "From external projects:",
         "frontend": "Frontend",
         "angular-frontend-framework": "Angular (Frontend framework)",
         "backend": "Backend",
