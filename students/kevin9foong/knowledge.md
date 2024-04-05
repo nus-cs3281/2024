@@ -4,8 +4,6 @@
 
 As part of both the database migration and SQL injection testing team, I have learnt:
 ### Database migration
-This was my first time performing database migration.
-
 #### Tradeoffs between noSQL and SQL database offerings:
 I had previously read about the reasons behind why we are undertaking the task of migrating from Datastore to CloudSQL, however, I am able to better appreciate the value of this after joining the database migration team.
 
