@@ -8,6 +8,9 @@
 * Fix issue with `GetSessionResponseStatsActionIT`
 * Migrated `AdminNotificationsE2ETest` and `AdminSearchPageE2ETest`
 * Fix issues with dual search
+* Created wireframes for ARF upgrade
+* Updated Admin Search Page and Home Page UI for Account Requests Display
+* Created Action for Updating Account Requests (i.e. Editing and Approving)
 
 #### Achievements by Week
 
@@ -33,3 +36,11 @@
 | 10 | Merged PR: [[#11878] Update Admin Search UI for ARF #12941](https://github.com/TEAMMATES/teammates/pull/12941) |
 | 10 | Reviewed PR: [[#11878] Add GetAllPendingAccountRequests API #12927](https://github.com/TEAMMATES/teammates/pull/12927) |
 | 10 | Reviewed PR: [[#11878] Add snapshot tests for instructor request form UI #12942](https://github.com/TEAMMATES/teammates/pull/12942) |
+| 11 | Reviewed PR: [[#11878] Update SearchAccountRequests endpoint #12950](https://github.com/TEAMMATES/teammates/pull/12950) |
+| 11 | Reviewed PR: [[#11878] Merge master into account-request-form #12972](https://github.com/TEAMMATES/teammates/pull/12972) |
+| 11 | Merged PR: [[#11878] Create Update Account Request Action #12982](https://github.com/TEAMMATES/teammates/pull/12982) |
+| 11 | Reviewed PR: [[#11878] Change institute length limit #12974](https://github.com/TEAMMATES/teammates/pull/12974) |
+| 11 | Reviewed PR: [[#11878] Foundation for getting by ID in account request endpoints #12957](https://github.com/TEAMMATES/teammates/pull/12957) |
+| 11 | Reviewed PR: [[#11878] Add AccountRequest Rejection email generator. #12987](https://github.com/TEAMMATES/teammates/pull/12987) |
+| 11 | Authored PR: [[#11878] Add Edit and Approve Account Requests functionality #12975](https://github.com/TEAMMATES/teammates/pull/12975) |
+| 11 | Authored PR: [[#11878] Fix Account Request Update Search Indexing #12984](https://github.com/TEAMMATES/teammates/pull/12984) |
