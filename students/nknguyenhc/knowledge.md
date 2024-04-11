@@ -20,3 +20,25 @@ I initially had a lot of trouble trying to understand the operators in RxJS. Ult
 * `Observable::subscribe` listens for changes within the `Observable`.
 
 The knowledge of RxJS operators allow me to modify the underlying processes of the Angular services, and created [CATcher-PR#1234](https://github.com/CATcher-org/CATcher/pull/1234), where I set branch for image uploads to `main`.
+
+One thing to note about RxJS operator is that, `Observable` pipes are treated as functions, in a sense that they are only called when there is a subscriber. If there are multiple pipes merged into one, each individual pipes are called when there is a subscriber. Consider this example:
+
+```ts
+Observable a = from(); // some declaration
+Observable b = a.pipe(f);
+Observable x = b.pipe(g);
+Observable y = b.pipe(h);
+Observable c = merge(x, y);
+c.subscribe();
+```
+
+Notice that `c` is a merged `Observable` from pipes of `f, g` and `f, h`. So, `g` and `h` each are called once, but `f` is called twice! Imagine if `f` is a function making multiple API calls to Github.
+
+This knowledge allows me to [reduce Github API calls for issues](https://github.com/CATcher-org/WATcher/pull/360/files#diff-7006ea7c06fd1129a5fc2c0aefbf660f5b2ddf1821ede1c269a2f8f1a9c971bc). To get issues from a repository, one must make multiple API calls, each obtaining 100 issues. These API calls are contained within the function `f`. So instead of splitting the pipe, I refactored to merge `g` and `h` and continue the pipe from `b`:
+
+```ts
+Observable a = from(); // some declaration
+Observable b = a.pipe(f);
+Observable c = b.pipe(merge(g, h));
+c.subscribe();
+```

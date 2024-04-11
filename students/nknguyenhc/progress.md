@@ -39,6 +39,7 @@
 | 10 | [#327](https://github.com/CATcher-org/WATcher/pull/327) Create release 1.2.0 |
 | 11 | [#338](https://github.com/CATcher-org/WATcher/pull/338) Fix preset view selection appearance |
 | 11 | [#346](https://github.com/CATcher-org/WATcher/pull/346) Hide column issue count |
+| 12 | [#360](https://github.com/CATcher-org/WATcher/pull/360) Optimise Github API calls |
 
 **Issues created**
 
@@ -75,3 +76,4 @@
 | 10 | [#331](https://github.com/CATcher-org/WATcher/pull/331) Deploy V1.2.0 |
 | 11 | [#337](https://github.com/CATcher-org/WATcher/pull/337) Add icon for PRs without milestones |
 | 11 | [#337](https://github.com/CATcher-org/WATcher/pull/347) Implement dropdown menu for repo change |
+| 12 | [#359](https://github.com/CATcher-org/WATcher/pull/359) Consider open milestone without deadline as currently active |
