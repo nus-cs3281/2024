@@ -43,3 +43,18 @@
 | 10 | Reviewed PR: [Add filters to url #314](https://github.com/CATcher-org/WATcher/pull/314) |
 | 10 | Merged PR: [Enable npm run test in GitHub Action #325](https://github.com/CATcher-org/WATcher/pull/325) |
 | 10 | Merged PR: [Deploy V1.2.0 #331](https://github.com/CATcher-org/WATcher/pull/331) |
+| 11 | Reviewed PR: [Fix default preset view #334](https://github.com/CATcher-org/WATcher/pull/334) |
+| 11 | Reviewed PR: [Fix preset view selection appearance #338](https://github.com/CATcher-org/WATcher/pull/338) |
+| 11 | Submitted issue: [Provide preset value for groupby #341](https://github.com/CATcher-org/WATcher/issues/341) |
+| 11 | Submitted issue: [Add filter for assignee #342](https://github.com/CATcher-org/WATcher/issues/342) |
+| 11 | Merged PR: [Show prs without milestone #339](https://github.com/CATcher-org/WATcher/pull/339) |
+| 11 | Merged PR: [Implement dropdown menu for repo change #347](https://github.com/CATcher-org/WATcher/pull/347) |
+| 11 | Reviewed PR: [Remove quotation marks from url #345](https://github.com/CATcher-org/WATcher/pull/345) |
+| 11 | Reviewed PR: [Hide column issue count #346](https://github.com/CATcher-org/WATcher/pull/346) |
+| 11 | Reviewed PR: [Show preset view only when repo is set #355](https://github.com/CATcher-org/WATcher/pull/355) |
+| 11 | Reviewed PR: [Fix top shadow hiding of columns #356](https://github.com/CATcher-org/WATcher/pull/356) |
+| 11 | Reviewed PR: [Fix bottom shadow of columns #357](https://github.com/CATcher-org/WATcher/pull/357) |
+| 12 | Submitted issue: [Milestone without deadline is not considered as currently active #358](https://github.com/CATcher-org/WATcher/issues/358) |
+| 12 | Reviewed PR: [Fix top and bottom shadow of columns #357](https://github.com/CATcher-org/WATcher/pull/357) |
+| 12 | Reviewed PR: [Optimise Github API calls #360](https://github.com/CATcher-org/WATcher/pull/360) |
+| 12 | Merged PR: [Consider open milestone without deadline as currently active #359](https://github.com/CATcher-org/WATcher/pull/359) |
