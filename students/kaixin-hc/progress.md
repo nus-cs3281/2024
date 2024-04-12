@@ -25,3 +25,16 @@
 | 7 | Project management: met juniors with a curated list of issues based on project interest with 3282 team, updated the project management guide, reviewed issues in the repo
 | 7 | Discussed [Re-introduce lazy loading for pictures #2367](https://github.com/MarkBind/markbind/issues/2367)
 | 7 | Reviewed / left comments: [ Add text for icon #2444 ](https://github.com/MarkBind/markbind/pull/2444)
+| 8 | Issue mantainence: [#1916](https://github.com/MarkBind/markbind/issues/1916), [all-contributors automation discussion]()
+| 8 | Merged + commented on: [Add keeping fork up to date section in DG
+#2453](https://github.com/MarkBind/markbind/pull/2453)
+| 8 | Merged + Reviewed: [Layout.ts to typescript #2452](https://github.com/MarkBind/markbind/pull/2452)
+
+| 11 | Flagged issues with dependencies and NPM install: 
+| 11 | Mantain repository: 
+| 11 | Merged + Reviewed: [Fix stray space before popover and tooltip #2486](https://github.com/MarkBind/markbind/pull/2486), 
+| 11 | Review: [Change seamless panels to inherit any parent's colours](https://github.com/MarkBind/markbind/pull/2501)
+| 11 | Review: [Rule based html validation against hydration #2493](https://github.com/MarkBind/markbind/pull/2493)
+| 12 | Reviewed + Merged: [ Remove Overridden Question Attributes in Documentation #2513](https://github.com/MarkBind/markbind/pull/2513)
+| 12 | On similar issue, consolidated comments [on untested slot overriding in MarkBind #2476](https://github.com/MarkBind/markbind/issues/2476) and [approved PR #2511](https://github.com/MarkBind/markbind/pull/2511)
+| 12 | Reviewed: [ Improve security of GitHub Actions workflows #2510 ](https://github.com/MarkBind/markbind/pull/2510#pullrequestreview-1996333509) and [ Add note on absolute links #2507 ](https://github.com/MarkBind/markbind/pull/2507)
