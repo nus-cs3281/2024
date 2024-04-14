@@ -42,5 +42,15 @@
 | 11 | Reviewed PR: [[#11878] Change institute length limit #12974](https://github.com/TEAMMATES/teammates/pull/12974) |
 | 11 | Reviewed PR: [[#11878] Foundation for getting by ID in account request endpoints #12957](https://github.com/TEAMMATES/teammates/pull/12957) |
 | 11 | Reviewed PR: [[#11878] Add AccountRequest Rejection email generator. #12987](https://github.com/TEAMMATES/teammates/pull/12987) |
-| 11 | Authored PR: [[#11878] Add Edit and Approve Account Requests functionality #12975](https://github.com/TEAMMATES/teammates/pull/12975) |
-| 11 | Authored PR: [[#11878] Fix Account Request Update Search Indexing #12984](https://github.com/TEAMMATES/teammates/pull/12984) |
+| 11 | Merged PR: [[#11878] Add Edit and Approve Account Requests functionality #12975](https://github.com/TEAMMATES/teammates/pull/12975) |
+| 11 | Merged PR: [[#11878] Fix Account Request Update Search Indexing #12984](https://github.com/TEAMMATES/teammates/pull/12984) |
+| 12 | Merged PR: [[#11878] Create Rejection Modal for Account Requests #12989](https://github.com/TEAMMATES/teammates/pull/12989) |
+| 12 | Merged PR: [[#11878] Convert RejectAccountRequestAction to use transactions #13001](https://github.com/TEAMMATES/teammates/pull/13001) |
+| 12 | Reviewed PR: [[#11878] Update ResetAccountRequest to reference by ID #13002](https://github.com/TEAMMATES/teammates/pull/13002) |
+| 12 | Merged PR: [[#11878] Add Error Message for Approving Existing Account #13004](https://github.com/TEAMMATES/teammates/pull/13004) |
+| 12 | Merged PR: [[#11878] Handle Duplicate Approved Account Requests #13009](https://github.com/TEAMMATES/teammates/pull/13009) |
+| 12 | Reviewed PR: [[#11878] Merge master into feature #13011](https://github.com/TEAMMATES/teammates/pull/13011) |
+| 12 | Reviewed PR: [[#11878] Remove unused modal in AdminHomePage #12998](https://github.com/TEAMMATES/teammates/pull/12998) |
+| 12 | Authored PR: [[#11878] Add tests for Account Request Table #12977](https://github.com/TEAMMATES/teammates/pull/12977) |
+| 12 | Authored PR: [[#11878] Add Admin E2E Tests #13020](https://github.com/TEAMMATES/teammates/pull/13020) |
+| 12 | Set-up the staging environment for testing the new Account Request Form features |
