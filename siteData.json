@@ -608,7 +608,11 @@
       "headings": {
         "hibernate": "Hibernate",
         "solr": "Solr",
-        "postgresql": "PostgreSQL"
+        "postgresql": "PostgreSQL",
+        "angular": "Angular",
+        "google-cloud": "Google Cloud",
+        "snapshot-testing": "Snapshot Testing",
+        "e2e-testing": "E2E Testing"
       },
       "headingKeywords": {}
     },
@@ -973,6 +977,10 @@
         "hibernate": "Hibernate",
         "solr": "Solr",
         "postgresql": "PostgreSQL",
+        "angular-5": "Angular",
+        "google-cloud": "Google Cloud",
+        "snapshot-testing": "Snapshot Testing",
+        "e2e-testing": "E2E Testing",
         "tye-jia-jun-marques": "TYE JIA JUN, MARQUES",
         "hibernate-2": "Hibernate",
         "mockito": "Mockito",
@@ -980,7 +988,7 @@
         "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
         "hibernate-3": "Hibernate",
         "mockito-2": "Mockito",
-        "angular-5": "Angular",
+        "angular-6": "Angular",
         "yeo-di-sheng": "YEO DI SHENG",
         "hibernate-4": "Hibernate",
         "testing": "Testing",
