@@ -1,9 +1,19 @@
+## Summary
+- Refactored frontend code
+- Added and fixed frontend Cypress tests
+- Fixed various frontend bugs
+- Added show more button for error messages
+- Added search by tag functionality
+- Added scroll to highlighted group
+- Added show tags on ramp chart
+- Added optimise timeline feature
+
 | Week | Achievements                                                                                                                                                          |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1    | Reviewed PR: [Standardise Array Style for TS Files #2084](https://github.com/reposense/RepoSense/pull/2084)                                                           |
 | 1    | Authored PR: [Remove hash symbol from URL when decoding hash #2086](https://github.com/reposense/RepoSense/pull/2086)                                                 |
 | 1    | Authored PR: [Remove redundant Segment class #2085](https://github.com/reposense/RepoSense/pull/2085)                                                                 |
-|2|Authored PR: [Add show more button for error messages #2105](https://github.com/reposense/RepoSense/pull/2105)
+| 2    | Authored PR: [Add show more button for error messages #2105](https://github.com/reposense/RepoSense/pull/2105)                                                        |
 | 2    | Reviewed PR: [Updating `SystemTestUtil::assertJson` to compare Json objects instead of line-by-line analysis #2087](https://github.com/reposense/RepoSense/pull/2087) |
 | 2    | Authored PR: [Remove redundant User class #2093](https://github.com/reposense/RepoSense/pull/2093)                                                                    |
 | 2    | Reviewed PR: [Update .stylelintrc.json to check for spacing #2094](https://github.com/reposense/RepoSense/pull/2094)                                                  |
