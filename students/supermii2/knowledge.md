@@ -1,7 +1,7 @@
-### Tool/Technology 1
+### Vue.js and Typescript
 
-List the aspects you learned, and the resources you used to learn them, and a brief summary of each resource.
+Helped out with migration from JavaScript to TypeScript and currently pending a feature to compare all repos at once.
 
-### Tool/Technology 2
+### DevOps
 
-...
+Planning to focus on DevOps for the remainder of the semester.

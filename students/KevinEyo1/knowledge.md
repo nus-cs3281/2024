@@ -11,3 +11,19 @@ Learned how GitHub Actions fits into the development workflow, and how to use it
 
 - **Resource**: [GitHub Actions Workflow Syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
 - **Summary**: GitHub Actions uses YAML syntax to define the events, jobs, and steps that make up your workflow. You can create a custom workflow or use a starter workflow template to get started.
+
+### Node package structure
+
+
+### Plugins
+
+
+### Typescript
+
+
+### MarkBind Lists Implementation
+
+
+### General MarkBind Implementation Details
+
+

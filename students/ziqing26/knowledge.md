@@ -1,9 +1,15 @@
+## Liquibase
+
+Liquibase is used to track database schema change in TEAMMATEs. Due to lack of proper documentation, the data migration team spend time figuring out how exactly TEAMMATEs uses it.
+
 ## Data Migration
 
 * Before data migration we need to make sure we are clear on the ERD and relationship mapping.
-* To test scripts on data migration, we set up a staging Cloud SQL.
-* Currently there is no way to persist data bundle in datastore. We are still figuring out a proper way to test it.
-* Data validation after migration such as ensuring Foreign Keys are mapped correctly is important. We will explore more on that
+* To test scripts on data migration, we set up a staging Cloud SQL and a stating Datastore.
+* We also figured out what is VPC and how to connect production server to production Cloud SQL.
+* Data validation after migration such as ensuring Foreign Keys are mapped correctly is important. 
+* Optimization for speed: we make the scripts faster by allowing batch updates to SQL db. That improves the speed by 10 times. The bottleneck was the SQL insert / updates takes too long.
+* Optimization for usability: we make the scripts either patchable or rerunnable so that data migration has minimal impact on the online time of TEAMMATEs. It was made patchable by checking a flag in the entity or timestamp.
 
 ## Terraform
 

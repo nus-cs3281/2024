@@ -9,3 +9,6 @@
 | Recess | Merged PR: [Combining syntax cheat sheet and full syntax reference pages #2426](https://github.com/jingting1412/markbind/commit/a44bdaa163ab457753e8e737711b2843dbcc9512) |
 | 7 | Opened issue: [Add pageNav for Reader-Facing Features #2442](https://github.com/MarkBind/markbind/issues/2442) |
 | 7 | Authored PR: [Add pageNav to Reader-Facing Features #2443](https://github.com/MarkBind/markbind/pull/2443) |
+| 7 | Merged PR: [Add pageNav to Reader-Facing Features #2443](https://github.com/MarkBind/markbind/pull/2443) |
+| 8 | Authored PR: [Docs: Upgrade to latest MarkBind version #12893](https://github.com/TEAMMATES/teammates/pull/12893) |
+| 8 | Researched issue: [Auto-search content of pages #205](https://github.com/MarkBind/markbind/issues/205) | 
