@@ -29,4 +29,13 @@
 |  10 | Reviewed PR (merged): [[#11843] Create Logic and Db layer for FeedbackSessionLogs](https://github.com/TEAMMATES/teammates/pull/12914) |
 |  10 | Reviewed PR (merged): [[#12048] Rerunnable Account Request Migration Script](https://github.com/TEAMMATES/teammates/pull/12932) |
 |  10 | Reviewed PR (merged): [[#12048] Add reverse data migration script for account](https://github.com/TEAMMATES/teammates/pull/12962) |
-
+|  11 | Authored PR (merged): [[#12048] V9 non course migration for accounts not migrating](https://github.com/TEAMMATES/teammates/pull/12965) |
+|  11 | Authored PR (merged): [[#12048] V9 non course migration fix to check extra SQL accounts](https://github.com/TEAMMATES/teammates/pull/12966) |
+|  11 | Authored PR (merged): [[#12048] Configure connection pool using hikari](https://github.com/TEAMMATES/teammates/pull/12978) |
+|  11 | Reviewed PR (merged): [[#12048] configure agroal connection pool](https://github.com/TEAMMATES/teammates/pull/12971) |
+|  11 | Reviewed PR (merged): [[#12048] Fix account request indexing](https://github.com/TEAMMATES/teammates/pull/12967) |
+|  11 | Reviewed PR (merged): [Add patch data migration script for usage stats](https://github.com/TEAMMATES/teammates/pull/12970) |
+|  12 | Reviewed PR (merged): [[#12048] Data migration for feedback session entities](https://github.com/TEAMMATES/teammates/pull/12986) |
+|  12 | Reviewed PR (merged): [[#12048] Data migration for section entities](https://github.com/TEAMMATES/teammates/pull/12991) |
+|  12 | Reviewed PR (merged): [[#12048] Remove feedbackSession attributes @fetch annotation](https://github.com/TEAMMATES/teammates/pull/12992) |
+|  13 | Reviewed PR (merged): [ [#11843] Update front end for session activity logs](https://github.com/TEAMMATES/teammates/pull/12973) |
