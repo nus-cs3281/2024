@@ -24,3 +24,5 @@
 | 10 | Reviewed PR: [#2158] Add More Documentation for Title Component #2159 |
 | 10 | Reviewed PR: [#2151] Update Stylelint #2153 |
 | 10 | Reviewed PR: [#2151] Update LoadingOverlay and Minor Versions of Node Dependencies #2152 |
+| 12 | Reviewed PR: [#2176] Move from Vue CLI to Vite #2178 |
+| 13 | Reviewed PR: [#2001] Extract c-file-type-checkbox from Summary, Authorship and Zoom #2173 |
