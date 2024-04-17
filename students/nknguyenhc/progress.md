@@ -1,6 +1,6 @@
 ### Summary
 
-(To be added later)
+In CATcher, I mainly fixed bugs and made small enhancements in functionalities. In WATcher, I contributed to the enhancement of the issue viewer - the main functionality of WATcher.
 
 ### Details
 
@@ -14,6 +14,7 @@
 | &lt;1 | [#1234](https://github.com/CATcher-org/CATcher/pull/1234) Default branch to `main` |
 | 4 | [#1241](https://github.com/CATcher-org/CATcher/pull/1241) Preserve line breaks in markdown |
 | 6 | [#1245](https://github.com/CATcher-org/CATcher/pull/1245) Fix markddown blockquote preview difference |
+| 8 | [#1256](https://github.com/CATcher-org/CATcher/pull/1256) Add login redirect |
 
 **PRs reviewed**
 
@@ -55,6 +56,7 @@
 | 8 | [#287](https://github.com/CATcher-org/WATcher/issues/287) Reading property of `undefined` when switching repo in activity dashboard |
 | 11 | [#343](https://github.com/CATcher-org/WATcher/issues/343) Hide column issue count if only one page |
 | 11 | [#344](https://github.com/CATcher-org/WATcher/issues/344) Change the repo change form from popup to dropdown |
+| 13 | [#371](https://github.com/CATcher-org/WATcher/issues/371) Horizontal scrollbar on an issue card |
 
 **PRs reviewed**
 
@@ -77,3 +79,5 @@
 | 11 | [#337](https://github.com/CATcher-org/WATcher/pull/337) Add icon for PRs without milestones |
 | 11 | [#337](https://github.com/CATcher-org/WATcher/pull/347) Implement dropdown menu for repo change |
 | 12 | [#359](https://github.com/CATcher-org/WATcher/pull/359) Consider open milestone without deadline as currently active |
+| 13 | [#374](https://github.com/CATcher-org/WATcher/pull/374) Fix reset of filters on label fetch |
+| 13 | [#375](https://github.com/CATcher-org/WATcher/pull/375) fix: word-break issue in issue-pr-card-header.component.css #371 |
