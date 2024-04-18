@@ -764,18 +764,19 @@
     {
       "src": "students/jingting1412/knowledge.md",
       "headings": {
+        "vue-and-jest-vue-test-utils": "Vue and Jest/Vue Test Utils",
+        "esm-cjs-interoperality": "ESM/CJS interoperality",
+        "resources-2": "Resources",
         "nunjucks": "Nunjucks",
-        "aspects": "Aspects",
-        "resources": "Resources",
-        "bootstrap": "Bootstrap",
-        "aspects-2": "Aspects",
-        "resources-2": "Resources"
+        "bootstrap": "Bootstrap"
       },
       "headingKeywords": {}
     },
     {
       "src": "students/jingting1412/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
@@ -929,12 +930,11 @@
         "commander-js": "Commander.js",
         "github-actions-2": "Github Actions",
         "wang-jingting": "WANG JINGTING",
-        "nunjucks": "Nunjucks",
-        "aspects": "Aspects",
-        "resources-4": "Resources",
-        "bootstrap": "Bootstrap",
-        "aspects-2": "Aspects",
+        "vue-and-jest-vue-test-utils": "Vue and Jest/Vue Test Utils",
+        "esm-cjs-interoperality": "ESM/CJS interoperality",
         "resources-5": "Resources",
+        "nunjucks": "Nunjucks",
+        "bootstrap": "Bootstrap",
         "wang-yiwen": "WANG YIWEN",
         "tool-technology-git": "Tool/Technology git",
         "tool-technology-javascript-typescript": "Tool/Technology JavaScript/TypeScript",
