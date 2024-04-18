@@ -36,9 +36,12 @@
 | 12 | Merged PR: [[#12048] Data Migration Script for Section #12991](https://github.com/TEAMMATES/teammates/pull/12991) |
 | 13 | Reviewed PR: [[#12048] Data migration for team entities #13010](https://github.com/TEAMMATES/teammates/pull/13010) |
 | 13 | Reviewed PR: [[#12901] Added the check for search service and moved the method to the correct file #13021](https://github.com/TEAMMATES/teammates/pull/13021) |
-| 13 | Merged PR: [[#12048] Data Migration Script for Student Chain, Course #13018](https://github.com/TEAMMATES/teammates/pull/13018) |
+| 13 | Authored PR: [[#12048] Data Migration Script for Student Chain, Course #13018](https://github.com/TEAMMATES/teammates/pull/13018) |
 | 13 | Merged PR: [[#12048] Fix getSessionResultAction bugs #13023](https://github.com/TEAMMATES/teammates/pull/13023) |
 | 13 | Merged PR: [[#12048] Fix feedbackResponsesLogic bugs #13024](https://github.com/TEAMMATES/teammates/pull/13024) |
-| 13 | Merged PR: [[#12048] Data Migration Script for Student Chain, Section #13034](https://github.com/TEAMMATES/teammates/pull/13034) |
-| 13 | Merged PR: [[#12048] Data  Migration Script for Student Chain, Teams #13035](https://github.com/TEAMMATES/teammates/pull/13035) |
+| 13 | Authored PR: [[#12048] Data Migration Script for Student Chain, Section #13034](https://github.com/TEAMMATES/teammates/pull/13034) |
+| 13 | Authored PR: [[#12048] Data  Migration Script for Student Chain, Teams #13035](https://github.com/TEAMMATES/teammates/pull/13035) |
 | 13 | Merged PR: [[#12048] Data  Migration Script for Student Chain, Students #13036](https://github.com/TEAMMATES/teammates/pull/13036) |
+| 13 | Reviewed PR: [[#12048] Data migration: ensure consistency when script is stopped and resumed #13046](https://github.com/TEAMMATES/teammates/pull/13046) |
+| 13 | Reviewed PR: [[#12048] Data migration for feedback entities chain #13045](https://github.com/TEAMMATES/teammates/pull/13045) |
+| 13 | Merged PR: [[#12048] Data migration section chain fixs #13042](https://github.com/TEAMMATES/teammates/pull/13042) |
