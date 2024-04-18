@@ -14,7 +14,7 @@ An interesting issue I've encountered this semester while researching on integra
 
 Another crucial difference is that **CJS imports are synchronous** while **ESM imports are asynchronous**. As such, when importing ES modules into CJS, the normal `require('pagefind')` syntax would result in an error. Instead, you'll need to use `await import('pagefind')` to asynchronously import the module. This difference in imports is something that should be taken note of since we use both the ESM `import` syntax and CJS `require` syntax in various files in MarkBind.
 
-### Resources
+#### Resources
 - [This blog post by Adam Coster](https://adamcoster.com/blog/commonjs-and-esm-importexport-compatibility-examples)
 - [Typescript ESM/CJS Interoperability](https://www.typescriptlang.org/docs/handbook/modules/appendices/esm-cjs-interop.html)
 
