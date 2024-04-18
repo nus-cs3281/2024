@@ -938,6 +938,7 @@
         "wang-yiwen": "WANG YIWEN",
         "tool-technology-git": "Tool/Technology git",
         "tool-technology-javascript-typescript": "Tool/Technology JavaScript/TypeScript",
+        "vue-related": "Vue related",
         "tool-technology-miscellaneous": "Tool/Technology Miscellaneous",
         "xu-shuyao": "XU SHUYAO",
         "markdown-it": "markdown-it",
@@ -1426,6 +1427,7 @@
       "headings": {
         "tool-technology-git": "Tool/Technology git",
         "tool-technology-javascript-typescript": "Tool/Technology JavaScript/TypeScript",
+        "vue-related": "Vue related",
         "tool-technology-miscellaneous": "Tool/Technology Miscellaneous"
       },
       "headingKeywords": {}
