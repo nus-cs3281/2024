@@ -20,3 +20,18 @@
 | 10 | Author PR: [Migrate core/index.js to Typescript #2482](https://github.com/MarkBind/markbind/pull/2482) |
 | 10 | Author PR: [Migrate Site.test to Typescript #2481](https://github.com/MarkBind/markbind/pull/2481) |
 | 10 | Author PR: [Migrate Markdown_it_icons.test to TypeScript #2480](https://github.com/MarkBind/markbind/pull/2480) |
+| 11 | Merged PR: [Migrate Site.test to Typescript #2481](https://github.com/MarkBind/markbind/pull/2481) |
+| 11 | Discussed Issue: [Vue hydration issues caused by invalid HTML make page unscrollable after clicking on modal #2025](https://github.com/MarkBind/markbind/issues/2025) |
+| 11 | Raised issue: [Refactor to improve the efficiency of markbind with parallelism #2503](https://github.com/MarkBind/markbind/issues/2503) |
+| 11 | Raised issue: [Inbuilt support for form #2504](https://github.com/MarkBind/markbind/issues/2504) |
+| 11 | Author PR: [Rule based html validation against hydration #2493](https://github.com/MarkBind/markbind/pull/2493) |
+| 11 | Author PR: [Support Bootstrap icons #2494](https://github.com/MarkBind/markbind/pull/2494) |
+| 11 | Merged PR: [Migrate Markdown_it_icons.test to TypeScript #2480](https://github.com/MarkBind/markbind/pull/2480) |
+| 11 | Merged PR: [Migrate core/index.js to Typescript #2482](https://github.com/MarkBind/markbind/pull/2482) |
+| 11 | Merged PR: [Fix stray space before popover and tooltip #2486](https://github.com/MarkBind/markbind/pull/2486) |
+| 11 | Merged PR: [Fix imported modal button position off #2487](https://github.com/MarkBind/markbind/pull/2487) |
+| 12 | Raised issue: [PR2492 causes regression to Modal #2508](https://github.com/MarkBind/markbind/issues/2508) |
+| 12 | Merged PR: [Support Bootstrap icons #2494](https://github.com/MarkBind/markbind/pull/2494) |
+| 13 | Author PR: [Support text-icons of lists #2520](https://github.com/MarkBind/markbind/pull/2520) |
+| 13 | Merged PR: [Support text-icons of lists #2520](https://github.com/MarkBind/markbind/pull/2520) |
+| 13 | Merged PR: [Rule based html validation against hydration #2493](https://github.com/MarkBind/markbind/pull/2493) |
