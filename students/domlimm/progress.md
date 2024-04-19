@@ -66,5 +66,15 @@
 | R       | Reviewed       | [[#12048] Move accounts JSON for InstructorStudentListPageE2ETest #12830](https://github.com/TEAMMATES/teammates/pull/12830)                |
 | R       | Reviewed       | [[#12048] Move accounts JSON for InstructorSessionIndividualExtensionPageE2ETest #12832](https://github.com/TEAMMATES/teammates/pull/12832) |
 | R       | Reviewed       | [[#12048] Move accounts JSON for InstructorFeedbackSessionsPageE2ETest #12834](https://github.com/TEAMMATES/teammates/pull/12834)           |
+| R       | Authored (WIP) | [[#12048] Refactor FeedbackResponses and FeedbackResponseComments attributes](https://github.com/TEAMMATES/teammates/pull/12791)            |
 | 7       | Reviewed       | [[#12048] Add integration tests for FeedbackResponsesDb #12856](https://github.com/TEAMMATES/teammates/pull/12856)                          |
 | 7       | Contributed    | [[#12048] Fix account creation #12871](https://github.com/TEAMMATES/teammates/pull/12871)                                                   |
+| 8       | Merged         | [[#12048] Add deep comparison for entities in verifyEquals for E2E](https://github.com/TEAMMATES/teammates/pull/12892)                      |
+| 9       | Reviewed       | [[#12588] Improve test code coverage of core components - ToastComponent](https://github.com/TEAMMATES/teammates/pull/12916)                |
+| 9       | Reviewed       | [[#12588] Improve test code coverage of core components - ViewResultsPanelComponent](https://github.com/TEAMMATES/teammates/pull/12918)     |
+| 10      | Reviewed       | [[#12946] Enable CI on Multiple Course Structures branch](https://github.com/TEAMMATES/teammates/pull/12947)                                |
+| 10      | Merged         | [[#12946] Initialise Entities for Course Structure](https://github.com/TEAMMATES/teammates/pull/12948)                                      |
+| 11      | Merged         | [[#12946] Revert attributes removed in initialisation of MCS entitie](https://github.com/TEAMMATES/teammates/pull/12983)                    |
+| 12      | Reviewed       | [[#12048] Fix flaky component test](https://github.com/TEAMMATES/teammates/pull/13003)                                                      |
+| 12      | Authored       | [[#12048] Migrate InstructorCourseEnrollPageE2ETest](https://github.com/TEAMMATES/teammates/pull/13022)                                     |
+| 13      | Reviewed       | [[#12954] CreateAccountAction seems to have redundant code](https://github.com/TEAMMATES/teammates/pull/13039)                              |

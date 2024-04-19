@@ -8,7 +8,9 @@ freeCodeCamp is an open-source codebase and curriculum to learn and code for fre
 
 <!-- Give a description of your contributions, including links to relevant PRs -->
 
-My first [PR](https://github.com/freeCodeCamp/freeCodeCamp/pull/53233) in this project was improving the description and hint of a feature (i.e., Writing a function for the equivalent of `=FORMULA` in Excel) in a Spreadsheet Project.
+PR Link: [https://github.com/freeCodeCamp/freeCodeCamp/pull/53233](https://github.com/freeCodeCamp/freeCodeCamp/pull/53233)
+
+My first PR in this project was improving the description and hint of a feature (i.e., Writing a function for the equivalent of `=FORMULA` in Excel) in a Spreadsheet Project.
 
 ### My Learning Record
 
@@ -39,7 +41,9 @@ date-fns is a modern JavaScript date utility library. It provides the most compr
 
 <!-- Give a description of your contributions, including links to relevant PRs -->
 
-My first [PR](https://github.com/date-fns/date-fns/pull/3687) in this project was enhancing an existing function in the date-fns library. The action item was to create an alias for the more generic name that was initially given to the function.
+PR Link: [https://github.com/date-fns/date-fns/pull/3687](https://github.com/date-fns/date-fns/pull/3687)
+
+My first PR in this project was enhancing an existing function in the date-fns library. The action item was to create an alias for the more generic name that was initially given to the function.
 
 ### My Learning Record
 
@@ -65,7 +69,9 @@ stdlib is a standard library for JavaScript and Node.js. It has an emphasis on n
 
 <!-- Give a description of your contributions, including links to relevant PRs -->
 
-My [PR](https://github.com/stdlib-js/stdlib/pull/2008) in this project was to add more examples into the `math/iter/ops` (iter == iterator, ops == operations) namespace and to provide examples on the usage in this library.
+PR Link: [https://github.com/stdlib-js/stdlib/pull/2008](https://github.com/stdlib-js/stdlib/pull/2008)
+
+My PR in this project was to add more examples into the `math/iter/ops` (iter == iterator, ops == operations) namespace and to provide examples on the usage in this library.
 
 ### My Learning Record
 
