@@ -705,7 +705,11 @@
         "jest-vue-test-utils": "Jest/Vue Test Utils",
         "typescript": "Typescript",
         "ui": "UI",
-        "project-management": "Project Management"
+        "project-management": "Project Management",
+        "upgrading-dependencies": "Upgrading dependencies",
+        "husky": "Husky",
+        "aws-sagemaker": "AWS SageMaker",
+        "micro-frontends": "Micro-frontends"
       },
       "headingKeywords": {}
     },
