@@ -989,7 +989,8 @@
         "xenos-fiorenzo-anong": "XENOS FIORENZO ANONG",
         "hibernate-4": "Hibernate",
         "mockito-3": "Mockito",
-        "angular-6": "Angular",
+        "angular-forms": "Angular forms",
+        "git": "Git",
         "yeo-di-sheng": "YEO DI SHENG",
         "hibernate-5": "Hibernate",
         "testing": "Testing",
@@ -1412,7 +1413,8 @@
       "headings": {
         "hibernate": "Hibernate",
         "mockito": "Mockito",
-        "angular": "Angular"
+        "angular-forms": "Angular forms",
+        "git": "Git"
       },
       "headingKeywords": {}
     },
