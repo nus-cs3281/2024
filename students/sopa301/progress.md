@@ -12,6 +12,10 @@
 | 10 | [#2001] Extract c-zoom-commit-message component from views/c-zoom |
 | 10 | [#2142] Fix Vulnerabilities |
 | 11 | [#2151] Update LoadingOverlay and Minor Versions of Node Dependencies|
+| 13 | [#2136] Add Tests for Segment CSS|
+| 13 | [#2151] Update Stylelint |
+| 13 | [#2151] Update CSS-related Major Dependencies |
+| 13 | [#2158] Add More Documentation for Title Component |
 
 | Week | PRs Reviewed |
 | --- | --- |
@@ -34,6 +38,10 @@
 | 10 | [#2148] Show tags on the ramp chart |
 | 10 | [#2179] Add bin/ to .gitignore |
 | 11 | [#2109] Add search by tag functionality |
+| 13 | Add optimise timeline feature |
+| 13 | Allow CI to pass if Codecov fails|
+| 13 | Fix lint warnings|
+| 13 | Add bin/ to .gitignore |
 
 | Week | Issues Submitted |
 | --- | --- |
