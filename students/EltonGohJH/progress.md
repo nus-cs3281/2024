@@ -1,6 +1,6 @@
 | Week | Achievements |
 | ---- | ------------ |
-| 1    | Help prepared idea & facilitated Saturday code sprint - MarkBind website making |
+| 1    | Helped prepare idea & facilitated Saturday code sprint - MarkBind website making |
 | 3    | Repo cleaning - Added tags to issues, added items to project road map, added summaries to issues, and cleaned up some issues. Examples: [Allow markbind serve to specify custom host #2382](https://github.com/MarkBind/markbind/issues/2382), [Optimize MarkBind for saving as PDF #2397](https://github.com/MarkBind/markbind/issues/2397), [UG: images appear in two places #2401](https://github.com/MarkBind/markbind/issues/2401) |
 | 4    | Investigated: [UG: images appear in two places #2401](https://github.com/MarkBind/markbind/issues/2401) |
 | 4    | Investigated and closed: [The collapsed page nav appears in the print view #2157](https://github.com/MarkBind/markbind/issues/2157) |
@@ -13,6 +13,7 @@
 | 6    | Reviewed and approved: [Disable pop over in a-point if there is no header and content passed by user #2436](https://github.com/MarkBind/markbind/pull/2436) |
 | 6    | Investigated and helped fix bug: [Utilize GitHub Actions to aid checking of commit message #2429](https://github.com/MarkBind/markbind/pull/2429) |
 | 6    | Helped fix bug and merged: [Annotation content slot #2427](https://github.com/MarkBind/markbind/pull/2427) |
+| 7    | Reviewed and approved: [Add horizontal spacing between the icon and text in the custom icon list #2375](https://github.com/MarkBind/markbind/pull/2375) |
 | 8    | Reviewed and approved: [Add keeping your fork up to date section in DG #2453](https://github.com/MarkBind/markbind/pull/2453) |
 | 8    | Reviewed and approved: [Add text support for icon #2444](https://github.com/MarkBind/markbind/pull/2444) |
 | 10   | Reviewed and approved: [Efficient validation for intra-link with hash #2465](https://github.com/MarkBind/markbind/pull/2465) |
