@@ -6,15 +6,15 @@
     * Actions: `StudentSearchIndexingWorkersAction`, `GetSessionResultsAction`
     * Unit tests: `AccountsRequestLogicTest`
     * Integration tests: `FeedbackResponsesDbIT`, `FeedbackResponseCommentsDbIT`, `AccountRequestsDbIT`
-    <!-- * End-to-end tests: `FeedbackRankRecipientQuestionE2ETest` -->
 * Instructor Account Request Form (ARF) project:
   * Designed and created front-end UI for instructor account request form, including front-end form validation and integration with back-end.
   * Added snapshot tests for form page.
   * Created instructor request acknowledgement email.
   * Created account request rejection endpoint.
-  * Migrated `AccountRequestsLogicTest` to work with new changes.
+  * Migrated `AccountRequestsLogicTest` again to work with new changes.
   * Fixed bug where admin creating account still sent emails.
   * Add SQL injection tests for `AccountRequestsDb`.
+* Created 2 issues: 1 implementation bug and 1 documentation bug.
 
 #### Achievements by Week
 
@@ -41,4 +41,3 @@
 | 13 | Authored PR: [Check if account request is not created by admin before sending email #13032](https://github.com/TEAMMATES/teammates/pull/13032) |
 | 13 | Authored PR: [Migrate AccountRequestsLogic unit tests #13043](https://github.com/TEAMMATES/teammates/pull/13043) |
 | 13 | Authored PR: [Add SQL injection tests for AccountRequestsDb #13047](https://github.com/TEAMMATES/teammates/pull/13047) |
-<!-- | _ | Authored PR: [Migrate FeedbackRankRecipientQuestionE2ETest #12910](https://github.com/TEAMMATES/teammates/pull/12910) | -->

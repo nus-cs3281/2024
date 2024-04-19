@@ -56,6 +56,8 @@ If a method needs to return a value when called, the return value can be stubbed
 
 ### Angular forms
 
+As part of the instructor account request form (ARF) project, I had to create an Angular form.
+
 #### Overview
 
 Angular has 2 form types: template-driven, and reactive.
@@ -84,7 +86,9 @@ By default, all validators run when the input values change. When there are many
 
 ### Git
 
-`git rebase` can be used to clean up commit history. In particular, the `--onto` option allows the root to be changed, which is useful when rebasing onto another branch that has been rebased. This helps keep the commit history readable and remove clutter from regular merge commits.
+`git rebase` can be used to keep branch commit history readable and remove clutter from frequent merge commits.
+
+In particular, the `--onto` option allows the root to be changed, which is useful when rebasing onto a branch that has itself been modified or rebased.
 
 Each Git commit has a committer date and an author date. When rebasing, the committer date is altered. To prevent this, use `--committer-date-is-author-date`.
 
