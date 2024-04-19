@@ -40,5 +40,22 @@ I learnt how to integrate markdown-it into a Vue component to allow for dynamic 
 #### Resources Used
 StackOverflow, ChatGPT, [markdown-it Documentation](https://github.com/markdown-it/markdown-it), [this guide](https://dev.to/matijanovosel/rendering-markdown-in-vue-3-3maj)
 
+## Vite
+#### Summary
+Vite is a build tool that offers fast development and optimized production builds for web projects, particularly for Vue.js applications.
 
+#### Aspects Learnt
+I learnt how to configure a Vite project.
 
+#### Resources Used
+StackOverflow, ChatGPT, [Vite Documentation](https://vitejs.dev/), [Vue CLI to Vite migration guide](https://vueschool.io/articles/vuejs-tutorials/how-to-migrate-from-vue-cli-to-vite/)
+
+## Eslint and Stylelint
+#### Summary
+ESLint is a pluggable linting utility for JavaScript and TypeScript that helps identify and fix common coding errors and enforce consistent code style. Stylelint is a linter for CSS and Sass that helps enforce consistent coding conventions and identifies potential errors in stylesheets.
+
+#### Aspects Learnt
+I learnt how to implement ESlint and Stylelint rules and modify the config files.
+
+#### Resources Used
+StackOverflow, ChatGPT, Documentation
