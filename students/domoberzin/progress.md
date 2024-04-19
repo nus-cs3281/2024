@@ -18,7 +18,6 @@
 | ---- | ------------ |
 | 2 | Submitted Issue: [Excess padding on edit course details component #12693](https://github.com/TEAMMATES/teammates/issues/12693) |
 | 3 | Merged PR: [[#12048] Migrate enroll students action #12715](https://github.com/TEAMMATES/teammates/pull/12715) |
-| 3 | Authored PR: [[#12329] Refactoring of sortable tables - notifications table #12717](https://github.com/TEAMMATES/teammates/pull/12717) |
 | 4 | Merged PR: [[#12048] Migrate search account requests action #12726](https://github.com/TEAMMATES/teammates/pull/12726) |
 | 5 | Merged PR: [[#12048] Add tests for CoursesLogic #12746](https://github.com/TEAMMATES/teammates/pull/12746) |
 | 5 | Merged PR: [[#12048] Migrate AccountRequestSearchIndexingWorkerAction #12757](https://github.com/TEAMMATES/teammates/pull/12757) |
@@ -26,7 +25,7 @@
 | 6 | Merged PR: [[#12048] Create IT for GetFeedbackSessionSubmittedGiverSetAction #12778](https://github.com/TEAMMATES/teammates/pull/12778) |
 | 6 | Merged PR: [[#12048] Add tests for CoursesDbIT #12786](https://github.com/TEAMMATES/teammates/pull/12786) |
 | R | Merged PR: [[#12048] Migrate Admin Notifications E2E Test #12793](https://github.com/TEAMMATES/teammates/pull/12793) |
-| R | Authored PR: [[#12048] Migrate AdminSearchPageE2ETest SQL #12811](https://github.com/TEAMMATES/teammates/pull/12811) |
+| R | Merged PR: [[#12048] Migrate AdminSearchPageE2ETest SQL #12811](https://github.com/TEAMMATES/teammates/pull/12811) |
 | R | Merged PR: [[#12048] Migrate AdminSearchPageE2ETest #12838](https://github.com/TEAMMATES/teammates/pull/12838) |
 | 7 | Worked on design document for Account Request Form Upgrade |
 | 7 | Created wireframes for new Admin UI for Account Request Form Upgrade |
@@ -51,6 +50,16 @@
 | 12 | Merged PR: [[#11878] Handle Duplicate Approved Account Requests #13009](https://github.com/TEAMMATES/teammates/pull/13009) |
 | 12 | Reviewed PR: [[#11878] Merge master into feature #13011](https://github.com/TEAMMATES/teammates/pull/13011) |
 | 12 | Reviewed PR: [[#11878] Remove unused modal in AdminHomePage #12998](https://github.com/TEAMMATES/teammates/pull/12998) |
-| 12 | Authored PR: [[#11878] Add tests for Account Request Table #12977](https://github.com/TEAMMATES/teammates/pull/12977) |
-| 12 | Authored PR: [[#11878] Add Admin E2E Tests #13020](https://github.com/TEAMMATES/teammates/pull/13020) |
+| 12 | Merged PR: [[#11878] Add tests for Account Request Table #12977](https://github.com/TEAMMATES/teammates/pull/12977) |
+| 12 | Merged PR: [[#11878] Add Admin E2E Tests #13020](https://github.com/TEAMMATES/teammates/pull/13020) |
 | 12 | Set-up the staging environment for testing the new Account Request Form features |
+| 13 | Reviewed PR: [[#11878] Add sort by created_at for getAllPendingRequests #13038](https://github.com/TEAMMATES/teammates/pull/13038) |
+| 13 | Reviewed PR: [[#11878] Request Page E2E #13015](https://github.com/TEAMMATES/teammates/pull/13015) |
+| 13 | Reviewed PR: [[#11878] Migrate AccountRequestsLogic unit tests #13043](https://github.com/TEAMMATES/teammates/pull/13043) |
+| 13 | Merged PR: [[#11878] Add Toasts #13028](https://github.com/TEAMMATES/teammates/pull/13028) |
+| 13 | Merged PR: [[#11878] Fix Approval Email Bug #13027](https://github.com/TEAMMATES/teammates/pull/13027) |
+| 13 | Merged PR: [[#11878] Fix Overlapping Tooltip #13026](https://github.com/TEAMMATES/teammates/pull/13026) |
+| 13 | Merged PR: [[#11878] Fix Highlighting and Null Statuses #13031](https://github.com/TEAMMATES/teammates/pull/13031) |
+| 13 | Merged PR: [[#11878] Fix Edit #13056](https://github.com/TEAMMATES/teammates/pull/13056) |
+| 13 | Merged PR: [[#11878] Fix Rejection Modal #13059](https://github.com/TEAMMATES/teammates/pull/13059) |
+| 13 | Merged PR: [[#11878] Fix console errors #13058](https://github.com/TEAMMATES/teammates/pull/13058) |
