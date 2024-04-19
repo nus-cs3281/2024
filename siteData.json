@@ -961,6 +961,8 @@
         "vue": "Vue",
         "cypress-2": "Cypress",
         "markdown-it-2": "markdown-it",
+        "vite": "Vite",
+        "eslint-and-stylelint": "Eslint and Stylelint",
         "teammates": "TEAMMATES",
         "ching-ming-yuan": "CHING MING YUAN",
         "data-migration": "Data Migration",
@@ -1253,7 +1255,9 @@
         "pug": "Pug",
         "vue": "Vue",
         "cypress": "Cypress",
-        "markdown-it": "markdown-it"
+        "markdown-it": "markdown-it",
+        "vite": "Vite",
+        "eslint-and-stylelint": "Eslint and Stylelint"
       },
       "headingKeywords": {}
     },
