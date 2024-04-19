@@ -564,7 +564,11 @@
         "large-modifications-to-a-live-system": "Large Modifications to a Live System",
         "a-good-follow-up-after-submitting-a-pr": "A good follow-up after submitting a PR",
         "a-different-view-when-looking-at-a-pr": "A different view when looking at a PR",
-        "github-cli": "GitHub CLI"
+        "github-cli": "GitHub CLI",
+        "lightning-talks": "Lightning Talks",
+        "soft-skills": "Soft Skills",
+        "database-migration": "Database Migration",
+        "scripts": "Scripts"
       },
       "headingKeywords": {}
     },
