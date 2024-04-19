@@ -54,9 +54,9 @@ If a method needs to return a value when called, the return value can be stubbed
 
 * [Mockito website](https://site.mockito.org/)
 
-### Angular
+### Angular forms
 
-#### Forms
+#### Overview
 
 Angular has 2 form types: template-driven, and reactive.
 
@@ -65,3 +65,27 @@ Template-driven forms have implicit data models which are determined by the form
 Reactive forms require an explicitly-defined data model that is then bound to the view. The explicit definition of the model in reactive forms makes it easier to scale and test, particularly for more complex forms.
 
 * [Angular forms overview](https://angular.io/guide/forms-overview)
+
+#### Accessibility
+
+Standard HTML attributes may still need to be set on Angular form inputs to ensure accessibility. For instance, Angular's `Required` validator does not set the `required` attribute on the element, which is used by screen readers, so we need to set it also. Another example would be setting the `aria-invalid` attribute when validation fails.
+
+To make inline validation messages accessible, use `aria-describedby` to make it clear which input the error is associated with.
+
+* [Building accessible forms with Angular](https://coryrylan.com/blog/build-accessible-forms-with-angular)
+
+#### Validation
+
+Angular has some built-in validator functions that can be used to validate form inputs, and allows for custom validators to be created. Validators can be synchronous or asynchronous.
+
+By default, all validators run when the input values change. When there are many validators, the form may lag if validation is done this frequently. To improve performance, the form or input's `updateOn` option can be set to `submit` or `blur` to only run the validators on submit or blur.
+
+* [Validating form input](https://angular.io/guide/form-validation)
+
+### Git
+
+`git rebase` can be used to clean up commit history. In particular, the `--onto` option allows the root to be changed, which is useful when rebasing onto another branch that has been rebased. This helps keep the commit history readable and remove clutter from regular merge commits.
+
+Each Git commit has a committer date and an author date. When rebasing, the committer date is altered. To prevent this, use `--committer-date-is-author-date`.
+
+* [More about rebasing with `--onto`](https://thoughtbot.com/blog/rebasing-your-branch-with-git-rebase-onto)
