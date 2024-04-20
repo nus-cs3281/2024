@@ -1,12 +1,13 @@
 ### Hibernate
 
-As part of the `v9-migration`, I had to familiarise myself with the Hibernate ORM
+As part of the `v9-migration`, I had to familiarise myself with the Hibernate ORM. It is my first time using Hibernate ORM, as I was only familiar with the Eloquent ORM from Laravel, as well as the ORM from Django. ORMs are extremely beneficial as they essentially translate between data representations used in the application and those in the database. It also makes your code more readable as it simplifies complex queries and makes transitioning between various database engines seamless, should the need arise.
 
 Aspects Learnt:
 
 - Learnt the fundamentals of Object-Relational Mapping (ORM), enabling the conversion of data between the database and object-oriented programming languages, in particular Java
 - Usage of `persist` and `merge` to insert or update an entity respectively
 - Learnt about Hibernate's internal caching mechanisms
+- Managing transactions
 
 Resources
 - [GeeksForGeeks Article on Hibernate Caching](https://www.geeksforgeeks.org/hibernate-caching/)
@@ -56,12 +57,39 @@ Aspects Learnt:
 
 When deploying the staging environment for the ARF upgrade, I managed to work with and gain familiarity with the deployment workflow, as well as several GCP tools and the `gcloud` sdk.
 
+Aspects Learnt
+- Navigating GCP and the services they have to offer
+- Setting up OAuth 2.0 Client and Gmail API credentials 
+- Configuring up a VPC for communication between various services
+- Deployment using gcloud 
+- Navigating server logs to investigate issues
+
+Resources:
+- [Guide created by mentors](https://github.com/TEAMMATES/teammates-ops/blob/master/platform-guide.md#deploying-to-a-staging-server)
+
 ### Snapshot Testing
 
 Snapshot testing with Jest is an effective strategy to ensure that user interfaces remain consistent despite code changes. It's important for developers to maintain updated snapshots and commit these changes as part of their regular development process.
 
 Snapshot tests are particularly useful for detecting unexpected changes in the UI. By capturing the "snapshot" of an output, developers can compare the current component render against a stored version. If changes occur that aren't captured in a new snapshot, the test will fail, signaling the need for a review.
 
+### Unit Testing with Mockito
+
+Mockito is a popular Java-based framework used primarily for unit testing. It allows developers to isolate the units of code they are testing, to focus solely on the component of software that is being tested.
+
+Mockito allows developers to create mock implementations of dependencies for a particular class. This way, developers can isolate the behavior of the class itself without needing the actual dependencies to be active. By using mock objects instead of real ones, tests can be simplified as they don’t have to cater to the complexities of actual dependencies, such as database connections or external services. Mockito also provides tools to verify that certain behaviors happened during the test. For example, it can verify that a method was called with certain parameters or a certain number of times.
+
+Resources:
+- [Mockito Tutorials](https://www.toptal.com/java/a-guide-to-everyday-mockito)
+
 ### E2E Testing
 
 E2E Testing allows us to ensure that the application functions as expected from the perspective of the user. This type of testing simulates real user scenarios to validate the complete functionality of the application. Common tools for conducting E2E testing include Selenium, Playwright, and Cypress.
+
+Throughout the semester, I had to migrate several E2E tests and also create some new ones as part of the ARF project, which exposed me to the Page Object Model, which allows for easier testing and maintenance. It enhances code reusability as the same Page Object Model can be reused across related test cases. 
+
+E2E Tests may be the most complicated type of test to write, as it involves multiple components of the application; testing it as a whole, rather than in isolated components. As such, pinpointing the sources of errors or failures can be difficult. E2E Tests can also be flaky at times, passing in one run, and failing on others, which could occur due to numerous reasons such as timing issues, concurrency problems or subtle bugs that occur under specific circumstances. However, it is still highly useful as it helps to identify issues in the interaction between integrated components, and also simulates real user scenarios. 
+
+Resources:
+- [Selenium documentation](https://www.selenium.dev/documentation/overview/)
+- [Page Object Model](https://www.browserstack.com/guide/page-object-model-in-selenium)

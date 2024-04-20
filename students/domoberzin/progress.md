@@ -11,6 +11,10 @@
 * Created wireframes for ARF upgrade
 * Updated Admin Search Page and Home Page UI for Account Requests Display
 * Created Action for Updating Account Requests (i.e. Editing and Approving)
+* Set up staging server for Account Request Form feature
+* Created E2E Tests for new features related to Account Requests
+* Investigated and rectified bugs found on staging server
+* Contributed code reviews for several ARF-related pull requests
 
 #### Achievements by Week
 
