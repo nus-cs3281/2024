@@ -79,6 +79,35 @@
 | 11 | Reviewed PR: [[#11878] Update SearchAccountRequests endpoint #12950](https://github.com/TEAMMATES/teammates/pull/12950)| 
 | 11 | Reviewed PR: [[#11878] Create Update Account Request Action #12982](https://github.com/TEAMMATES/teammates/pull/12982)| 
 | 11 | Reviewed PR: [[#11878] Fix Account Request Update Search Indexing #12984](https://github.com/TEAMMATES/teammates/pull/12984)| 
+| 12 | Project Management: ARF completed BE / FE integration and moved to testing phase. (E2E test and staging test). |
 | 12 | DevOps: Reviewed PR: [[#36] V9 Migration Schema Migration Tool (Liquibase) Documentation #37](https://github.com/TEAMMATES/teammates-ops/pull/37) |
 | 12 | Reviewed PR: [[#11878] Create reject account request endpoint #12985](https://github.com/TEAMMATES/teammates/pull/12985)| 
 | 12 | Reviewed PR: [[#12995] Create documentation for unit tests #12996](https://github.com/TEAMMATES/teammates/pull/12996)| 
+| 12 | Reviewed PR: [[#11878] Convert RejectAccountRequestAction to use transactions #13001](https://github/TEAMMATES/teammates/pull/13001) |
+| 12 | Reviewed PR: [[#11878] Add Error Message for Approving Existing Account #13004](https://github/TEAMMATES/teammates/pull/13004) |
+| 12 | Reviewed PR: [[#11878] Handle Duplicate Approved Account Requests #13009](https://github/TEAMMATES/teammates/pull/13009) |
+| 12 | DevOps: Reviewed PR: [Add note on Liquibase #38](https://github.com/TEAMMATES/teammates-ops/pull/38) |
+| 12 | DevOps: Authored PR: [[#11878] Merge master into feature #13011](https://github.com/TEAMMATES/teammates/pull/13011) |
+| 13 | Project Management: ARF completed staging test and moved to bug fixing and admin testing phase. Communicated with LOG project and course migration lead to prepare for beta.5 release. |
+| 13 | DevOps: Authored: [Update release procedure for schema change #39](https://github.com/TEAMMATES/teammates-ops/pull/39) |
+| 13 | DevOps: Authored: [[#12048] Migrate committers #13052](https://github.com/TEAMMATES/teammates/pull/13052) |
+| 13 | DevOps: Reviewed: [Update schema migration docs #40](https://github.com/TEAMMATES/teammates-ops/pull/40) |
+| 13 | DevOps: [Add documentation for v9 SQL creation and connection #35](https://github.com/TEAMMATES/teammates-ops/pull/35) |
+| 13 | Reviewed PR: [[#12048] Migrate InstructorStudentListPageE2ETest #13014](https://github/TEAMMATES/teammates/pull/13014) |
+| 13 | Reviewed PR: [[#12048] Migrate instructor home page e2e test #13016](https://github/TEAMMATES/teammates/pull/13016) |
+| 13 | Reviewed PR: [[#11878] Add Admin E2E Tests #13020](https://github/TEAMMATES/teammates/pull/13020) |
+| 13 | Reviewed PR: [[#11878] Fix Overlapping Tooltip #13026](https://github/TEAMMATES/teammates/pull/13026) |
+| 13 | Reviewed PR: [[#11878] Fix Approval Email Bug #13027](https://github/TEAMMATES/teammates/pull/13027) |
+| 13 | Reviewed PR: [[#11878] Add Toasts #13028](https://github/TEAMMATES/teammates/pull/13028) |
+| 13 | Reviewed PR: [[#11878] Remove mention of home page URL in email #13030](https://github/TEAMMATES/teammates/pull/13030) |
+| 13 | Reviewed PR: [[#11878] Fix Highlighting and Null Statuses #13031](https://github/TEAMMATES/teammates/pull/13031) |
+| 13 | Reviewed PR: [[#11878] Check if account request is not created by admin before sending email #13032](https://github/TEAMMATES/teammates/pull/13032) |
+| 13 | Reviewed PR: [[#11878] Add SQL injection tests for AccountRequestsDb #13047](https://github/TEAMMATES/teammates/pull/13047) |
+| 13 | Reviewed PR: [[#12048] Update changelog docs and changelog name #13062](https://github/TEAMMATES/teammates/pull/13062) |
+| 13 | Authored PR: [[#13060] Add beta 5 liquibase changelog and developers json #13061](https://github/TEAMMATES/teammates/pull/13061) |
+| 13 | Authored PR: [[#11878] Fix reject email content #13029](https://github/TEAMMATES/teammates/pull/13029) |
+| 13 | Authored PR: [[#11878] Revert "Enable CI on account request form branch" #13049](https://github/TEAMMATES/teammates/pull/13049) |
+| 13 | Authored PR: [[#11878] Account request form #13051](https://github/TEAMMATES/teammates/pull/13051) |
+| 13 | Created Release: [V9.0.0-beta.5](https://github.com/TEAMMATES/teammates/releases/tag/V9.0.0-beta.5) |
+| 13 | Submitted Issue: [Use AccountRequestUpdateRequest as parameter #13064](https://github.com/TEAMMATES/teammates/issues/13064) |
+| 13 | Submitted Issue: [Combine Admin Add Account Request Flow into Instructor Account Request Flow #13066](https://github.com/TEAMMATES/teammates/issues/13066) |
