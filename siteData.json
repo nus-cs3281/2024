@@ -610,6 +610,7 @@
         "angular": "Angular",
         "google-cloud": "Google Cloud",
         "snapshot-testing": "Snapshot Testing",
+        "unit-testing-with-mockito": "Unit Testing with Mockito",
         "e2e-testing": "E2E Testing"
       },
       "headingKeywords": {}
@@ -985,6 +986,7 @@
         "angular-5": "Angular",
         "google-cloud": "Google Cloud",
         "snapshot-testing": "Snapshot Testing",
+        "unit-testing-with-mockito": "Unit Testing with Mockito",
         "e2e-testing": "E2E Testing",
         "tye-jia-jun-marques": "TYE JIA JUN, MARQUES",
         "hibernate-3": "Hibernate",
