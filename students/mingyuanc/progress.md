@@ -45,3 +45,5 @@
 | 13 | Reviewed PR: [[#12048] Data migration: ensure consistency when script is stopped and resumed #13046](https://github.com/TEAMMATES/teammates/pull/13046) |
 | 13 | Reviewed PR: [[#12048] Data migration for feedback entities chain #13045](https://github.com/TEAMMATES/teammates/pull/13045) |
 | 13 | Merged PR: [[#12048] Data migration section chain fixs #13042](https://github.com/TEAMMATES/teammates/pull/13042) |
+| R | Merged PR: [[#12048] migrate instructor deadline ext #13071](https://github.com/TEAMMATES/teammates/pull/13071) |
+| R | Merged PR: [[#12048] associate account to migrated users #13073](https://github.com/TEAMMATES/teammates/pull/13073) |
