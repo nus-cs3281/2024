@@ -1,6 +1,4 @@
-## Liquibase
-
-Liquibase is used to track database schema change in TEAMMATEs. Due to lack of proper documentation, the data migration team spend time figuring out how exactly TEAMMATEs uses it.
+# In CS3282
 
 ## Data Migration
 
@@ -11,13 +9,38 @@ Liquibase is used to track database schema change in TEAMMATEs. Due to lack of p
 * Optimization for speed: we make the scripts faster by allowing batch updates to SQL db. That improves the speed by 10 times. The bottleneck was the SQL insert / updates takes too long.
 * Optimization for usability: we make the scripts either patchable or rerunnable so that data migration has minimal impact on the online time of TEAMMATEs. It was made patchable by checking a flag in the entity or timestamp.
 
+## Schema Migration
+
+In the process of preparing for releases (e.g. v9.0.0-beta.5), I realized the need to make sure schema changes are compatible with the existing code. Here are rules I learnt from our project mentor:
+
+- It is okay to add new tables. If the old version doesn’t use it, it’s as good as non-existent.
+- It is okay to add new nullable columns. If they are intended to be non-nullable, they should either be nullable at the start or have a suitable default value.
+- Columns and tables should not be dropped until all references in the code are removed.
+- Adding and removing constraints should only be done if the business logic can work before and after such addition / removal.
+
+## Project Management
+
+I learned a lot about how to set milestones and release timeline for a project. It is always good to allow more time for testing. Moreover, setting an internal deadline that is earlier than the release deadline is important to allow some time for unexpected bugs and all kinds of unforeseen circumstances.
+
+## Liquibase
+
+Liquibase is used to track database schema change in TEAMMATEs. Due to lack of proper documentation from previous contributors, the data migration team spend time figuring out how exactly TEAMMATEs uses it.
+
+In designing the development flow, we initially also wanted to get contributors to run Liquibase command to generate individual changelog for each change. However, we felt that this might raise the barrier to entry and is hard to resolve schema change conflicts in the case that there are two changes to the same column in one release. Therefore, we decide to let Release Leader to run Liquibase so that it is centralized, reducing maintenance cost.
+
+Resources:
+
+[Liquibase Official Document](https://docs.liquibase.com/change-types/home.html)
+
+
 ## Terraform
 
-* Saves a lot of time for deploying staging server. It will definitely save a lot of time if we have a shared staging server for testing. However TEAMMATEs might not be operating at a large enough scale to see the benefits.
+It can save a lot of time for deploying staging server. It will definitely save a lot of time if we have a shared staging server for testing. However TEAMMATEs might not be operating at a large enough scale to see the benefits.
+
 
 ## Docker
-A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. It is an isolated environment for code. This means that a container has no knowledge of the local operating system, or the local files.
 
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. It is an isolated environment for code. This means that a container has no knowledge of the local operating system, or the local files.
 
 Container v.s. Virtual Machines:
 
