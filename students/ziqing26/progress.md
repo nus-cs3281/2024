@@ -1,3 +1,14 @@
+### TEAMMATES
+
+#### Overview
+
+* Facilitated CS3281 TEAMMATES onboarding.
+* Led initial V9 non-course data migration.
+* Facilitated E2E and unit test migration.
+* Led Instructor Account Request Form (ARF) project.
+* Contributed to V9 related documentations in maintainer guide.
+
+#### Achievements by Week
 
 | Week | Achievements  |
 | --- | ------------ |
@@ -108,6 +119,7 @@
 | 13 | Authored PR: [[#11878] Fix reject email content #13029](https://github/TEAMMATES/teammates/pull/13029) |
 | 13 | Authored PR: [[#11878] Revert "Enable CI on account request form branch" #13049](https://github/TEAMMATES/teammates/pull/13049) |
 | 13 | Authored PR: [[#11878] Account request form #13051](https://github/TEAMMATES/teammates/pull/13051) |
+| 13 | Authored PR: [Add note to check liquibase command run correctly #41](https://github.com/TEAMMATES/teammates-ops/pull/41) |
 | 13 | Created Release: [V9.0.0-beta.5](https://github.com/TEAMMATES/teammates/releases/tag/V9.0.0-beta.5) |
 | 13 | Submitted Issue: [Use AccountRequestUpdateRequest as parameter #13064](https://github.com/TEAMMATES/teammates/issues/13064) |
 | 13 | Submitted Issue: [Combine Admin Add Account Request Flow into Instructor Account Request Flow #13066](https://github.com/TEAMMATES/teammates/issues/13066) |
