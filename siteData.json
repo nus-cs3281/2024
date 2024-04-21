@@ -1546,7 +1546,9 @@
     },
     {
       "src": "students/ziqing26/progress.md",
-      "headings": {},
+      "headings": {
+        "teammates": "TEAMMATES"
+      },
       "headingKeywords": {}
     }
   ]
