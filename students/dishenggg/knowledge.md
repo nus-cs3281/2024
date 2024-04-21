@@ -35,3 +35,17 @@ In unit testing, a single component is isolated and tested by replacing its depe
 * [`when()` and `thenReturn()`](https://www.baeldung.com/mockito-behavior) These are methods that allow us to define the behaviour of other dependencies that are not under test.
 
     For e.g., `when(mockLogic.someMethod(args)).thenReturn(value)` makes it such that when the SUT invokes `someMethod()` with `args` from the `mockLogic` class, `value` is will be returned by `someMethod(args)`.
+
+### GCP
+
+Learnt about how the different features that are provided by GCP and other third parties come together to make Teammates possible.
+
+Most of the information is from the [Platform Guide](https://github.com/TEAMMATES/teammates-ops/blob/master/platform-guide.md) in the teammates-ops repo.
+
+* Setting up OAuth 2.0 to allow users to login with their google credentials
+* Google cloud storage
+* Google cloud SQL
+* Debugging using logs from Google Cloud's logging service
+* [Setting up a cron job](https://cloud.google.com/appengine/docs/flexible/scheduling-jobs-with-cron-yaml)
+* Using email sending services like [Mailjet](https://www.mailjet.com/)
+* Using [DBeaver](https://dbeaver.io/) to insepct and manipulate the SQL database
