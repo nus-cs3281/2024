@@ -518,7 +518,8 @@
       "src": "students/dishenggg/knowledge.md",
       "headings": {
         "hibernate": "Hibernate",
-        "testing": "Testing"
+        "testing": "Testing",
+        "gcp": "GCP"
       },
       "headingKeywords": {}
     },
@@ -1000,6 +1001,7 @@
         "yeo-di-sheng": "YEO DI SHENG",
         "hibernate-5": "Hibernate",
         "testing": "Testing",
+        "gcp": "GCP",
         "zhu-yuanxi": "ZHU YUANXI",
         "end-to-end-testing-with-selenium": "End to end testing with Selenium",
         "purpose-of-e2e-tests": "Purpose of e2e tests",
