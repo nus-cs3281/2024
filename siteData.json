@@ -1517,8 +1517,11 @@
     {
       "src": "students/ziqing26/knowledge.md",
       "headings": {
-        "liquibase": "Liquibase",
+        "in-cs3282": "In CS3282",
         "data-migration": "Data Migration",
+        "schema-migration": "Schema Migration",
+        "project-management": "Project Management",
+        "liquibase": "Liquibase",
         "terraform": "Terraform",
         "docker": "Docker",
         "in-cs3281": "In CS3281",
