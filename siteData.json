@@ -1496,7 +1496,9 @@
         "node-js-versioning": "Node.js versioning",
         "deployment": "Deployment",
         "reuse-principle": "Reuse principle",
-        "documentation": "Documentation"
+        "documentation": "Documentation",
+        "project-management": "Project management",
+        "web-accessibility": "Web accessibility"
       },
       "headingKeywords": {}
     },
@@ -1511,7 +1513,9 @@
     },
     {
       "src": "students/yucheng11122017/progress.md",
-      "headings": {},
+      "headings": {
+        "prs-i-wrote": "PRs I wrote:"
+      },
       "headingKeywords": {}
     },
     {
