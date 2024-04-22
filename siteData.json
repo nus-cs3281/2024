@@ -899,7 +899,10 @@
     },
     {
       "src": "students/kevin9foong/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary:",
+        "key-achievements": "Key achievements:"
+      },
       "headingKeywords": {}
     },
     {
