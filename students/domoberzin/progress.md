@@ -15,6 +15,7 @@
 * Created E2E Tests for new features related to Account Requests
 * Investigated and rectified bugs found on staging server
 * Contributed code reviews for several ARF-related pull requests
+* Create script and workflow for updating account requests id in Solr
 
 #### Achievements by Week
 
@@ -67,3 +68,4 @@
 | 13 | Merged PR: [[#11878] Fix Edit #13056](https://github.com/TEAMMATES/teammates/pull/13056) |
 | 13 | Merged PR: [[#11878] Fix Rejection Modal #13059](https://github.com/TEAMMATES/teammates/pull/13059) |
 | 13 | Merged PR: [[#11878] Fix console errors #13058](https://github.com/TEAMMATES/teammates/pull/13058) |
+| Reading | Merged PR: [[#11878] Account Request Indexing Script #13076](https://github.com/TEAMMATES/teammates/pull/13076) |
