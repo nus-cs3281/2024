@@ -326,7 +326,9 @@
     },
     {
       "src": "students/NereusWB922/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
