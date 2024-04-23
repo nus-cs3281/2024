@@ -1,4 +1,11 @@
 # Progress
+## Summary
+- Added new Title component and documentation
+- Updated frontend dependencies
+- Refactored frontend code
+- Added style rules
+- Minor bug fixes
+
 
 | Week | Merged PRs |
 | --- | --- |
