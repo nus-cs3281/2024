@@ -1,3 +1,9 @@
+### Summary
+- **Fix Bugs**: Fix uncaught error for invalid link navigation in CATcher and some minor bugs found in WATcher preset view feature.
+- **Testing Aspect**: Refactored outdated test cases in WATcher and enable automated testing in pre-push hooks and GitHub Actions.
+- **New Feature**: Implemented an extensible group by feature for WATcher's Issue Viewer. Currently, it supports grouping by assignee and milestone.
+- **User Experience**: Improved WATcher's Activity Dashboard design. Implemented a dropdown menu for easier repo change in WATcher's Issue Viewer.
+
 | Week | Achievements |
 | ---- | ------------ |
 | 3 | Merged PR: [Uncaught error when invalid link is clicked #1239](https://github.com/CATcher-org/CATcher/pull/1239) |
