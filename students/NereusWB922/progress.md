@@ -3,6 +3,7 @@
 - **Testing Aspect**: Refactored outdated test cases in WATcher and enable automated testing in pre-push hooks and GitHub Actions.
 - **New Feature**: Implemented an extensible group by feature for WATcher's Issue Viewer. Currently, it supports grouping by assignee and milestone.
 - **User Experience**: Improved WATcher's Activity Dashboard design. Implemented a dropdown menu for easier repo change in WATcher's Issue Viewer.
+- **Managing**: Deployed CATcher V1.2.0 in week 10.
 
 | Week | Achievements |
 | ---- | ------------ |
