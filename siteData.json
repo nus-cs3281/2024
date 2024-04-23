@@ -1282,7 +1282,8 @@
     {
       "src": "students/sopa301/progress.md",
       "headings": {
-        "progress": "Progress"
+        "progress": "Progress",
+        "summary": "Summary"
       },
       "headingKeywords": {}
     },
