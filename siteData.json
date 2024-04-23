@@ -267,7 +267,10 @@
     },
     {
       "src": "students/MadLamprey/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary",
+        "details": "Details"
+      },
       "headingKeywords": {}
     },
     {
