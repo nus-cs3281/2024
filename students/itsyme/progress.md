@@ -27,4 +27,6 @@
 | 7-13 | Part of weekly sync with CS3281 students |
 | R | Reviewed PR [Move scripts to bottom in page.njk #2522](https://github.com/MarkBind/markbind/pull/2522) |
 | R | Reviewed PR [Add documentation regarding security practices for github actions #2528](https://github.com/MarkBind/markbind/pull/2528) |
+| R | Investigated issue for CI [Document: Node LTS (v20) and python 3.12 does not work on MarkBind install #2496](https://github.com/MarkBind/markbind/issues/2496) |
+| R | Authored PR [Add install setuptools to ci #2530](https://github.com/MarkBind/markbind/pull/2530) |
 
