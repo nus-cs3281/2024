@@ -9,7 +9,6 @@
 | 5 | Created Issue [Validation when specifying custom host #2417](https://github.com/MarkBind/markbind/issues/2417) |
 | 6 | Reviewed PR [UG > PagNav: Misleading sentence #2440](https://github.com/MarkBind/markbind/pull/2440) |
 | 7 | Reviewed PR [Optimize code printing #2445](https://github.com/MarkBind/markbind/pull/2445) |
-| 7 | Mid-sem sync |
 | 8 | Reviewed PR [Re-introduce lazy loading #2367 #2450](https://github.com/MarkBind/markbind/pull/2450) |
 | 8 | Reviewed PR [Migrate layout to Typescript #2452](https://github.com/MarkBind/markbind/pull/2452) |
 | 8 | Fixed commits in `master` branch due to use of "Squash and merge" instead of "Rebase and merge" |
