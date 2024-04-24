@@ -18,13 +18,14 @@
 | 9 | Reviewed PR [Test logger calls in tests for NodeProcessor #2463](https://github.com/MarkBind/markbind/pull/2463) |
 | 10 | Created Issue [Re-Implement CollapseExpandAllButtons into site-nav #2478](https://github.com/MarkBind/markbind/issues/2478) |
 | 10 | Did [Release v5.4.0](https://github.com/MarkBind/markbind/releases/tag/v5.4.0) |
-| 10 | Weekly sync |
 | 11 | Reviewed PR [MarkBind Template for Student Portfolio #2398](https://github.com/MarkBind/markbind/pull/2398) |
 | 11 | Reviewed PR [Migrate core/index.js to Typescript #2482](https://github.com/MarkBind/markbind/pull/2482) |
-| 11 | Weekly sync |
 | 12 | Reviewed PR [Add a reminder when contributor is new to ping all contributor bot #2484](https://github.com/MarkBind/markbind/pull/2484) |
 | 12 | Reviewed PR [Fix imported modal button position off #2487](https://github.com/MarkBind/markbind/pull/2487) |
 | 12 | Reveiwed PR [Add warning for including empty segments or files in optional mode #2506](https://github.com/MarkBind/markbind/pull/2506) |
-| 12 | Weekly sync |
 | 13 | Reviewed PR [Add dataTable plugin #2446](https://github.com/MarkBind/markbind/pull/2446) |
 | 13 | Fixed commits in `master` branch due to use of "Create a merge commit" instead of "Squash and merge" |
+| 7-13 | Part of weekly sync with CS3281 students |
+| R | Reviewed PR [Move scripts to bottom in page.njk #2522](https://github.com/MarkBind/markbind/pull/2522) |
+| R | Reviewed PR [Add documentation regarding security practices for github actions #2528](https://github.com/MarkBind/markbind/pull/2528) |
+
