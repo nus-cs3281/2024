@@ -96,7 +96,8 @@
         "angular": "Angular",
         "typescript": "TypeScript",
         "continuous-integration-continuous-deployment-ci-cd": "Continuous Integration/Continuous Deployment (CI/CD)",
-        "code-quality": "Code Quality"
+        "code-quality": "Code Quality",
+        "testing": "Testing"
       },
       "headingKeywords": {}
     },
@@ -932,6 +933,7 @@
         "typescript": "TypeScript",
         "continuous-integration-continuous-deployment-ci-cd": "Continuous Integration/Continuous Deployment (CI/CD)",
         "code-quality": "Code Quality",
+        "testing": "Testing",
         "misra-aditya": "MISRA ADITYA",
         "angular-2": "Angular",
         "docker": "Docker",
@@ -1019,7 +1021,7 @@
         "git": "Git",
         "yeo-di-sheng": "YEO DI SHENG",
         "hibernate-5": "Hibernate",
-        "testing": "Testing",
+        "testing-2": "Testing",
         "gcp": "GCP",
         "zhu-yuanxi": "ZHU YUANXI",
         "end-to-end-testing-with-selenium": "End to end testing with Selenium",
