@@ -102,7 +102,9 @@
     },
     {
       "src": "students/Arif-Khalid/progress.md",
-      "headings": {},
+      "headings": {
+        "key-contributions": "Key Contributions"
+      },
       "headingKeywords": {}
     },
     {
