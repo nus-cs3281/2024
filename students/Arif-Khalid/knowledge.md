@@ -91,3 +91,41 @@ Code quality is always important but is especially so when there are so many peo
 I learned about code quality through analysing the responses of seniors to my own pull requests as well as other's pull requests, supplementing my knowledge by reading articles on code quality both generally and specific to web development
 * Inspection of pull requests gave me understanding of what is good quality code and what is considered bad along with the reasoning behind those decisions
 * Articles online provided me with more general guidelines pertaining to code quality in large projects, helping fill in the gaps that I didnt encounter in PR reviews
+
+### Testing
+Testing is another important part of any project as it reduces the occurrence of major errors and bugs throughout development. With little prior experience in testing, I sought to learn more about it and apply it in WATcher.
+* Jasmine
+  * A testing framework for javascript
+  * Clean and intuitive syntax
+  * Suite of functionality developed over many years
+  * I learned Jasmine through looking through test cases in CATcher and WATcher, along with reading its official documentation
+    * ``describe(string, function)`` houses related specs labeled by string and defined as function
+    * ``it(string, function)`` defines a spec labeled by string and defined as function
+    * ``expect(any).toBeFalse`` defines an expectation of ``any``. There are a large number of matchers for any possible comparison
+    * ``beforeEach(function)`` defines a function to be called before each of the specs in this describe block
+    * ``createSpyObj(string, string[])`` creates a spy object that acts as a stub for classes that are depended on by what is being tested. Spies can track calls to it and all arguments
+* Test case design
+  * Boundary Value Analysis and equivalence partitioning
+    * Boundary value analysis is a technique where tests are designed to include representatives of boundary values in a range
+    * Equivalence partitioning is a technique where input data is partitioned into units of equivalent data for which tests can be written
+    * These techniques allow for a smaller number of tests to be written, for essentially the same amount of coverage
+      * This is because inputs which would fail/pass for the same reason, such as being an input of an invalid type, are grouped as a single or only a few test cases.
+      * The alternative would be to create tests for each input type in this example, straining developer resources for not much benefit
+  * Testing for behaviour
+    * A common mistake is to test for implementation rather than behaviour
+    * This would result in failed test cases when implementation changes even though the resulting behaviour, what the user would experience, remains the same
+    * Test cases should test for what the result is versus what the implementation is
+    * An example would be testing whether a variable changes in component A correctly vs testing what other components receive from component A after the change
+    * A developer might edit the implementation of component A so the variable no longer changes, however the accurate behaviour of emission to other components remains the same and the test cases should not fail
+  * Testing coverage
+    * Test coverage is how much of the code has actually been ran through during testing
+      * Function/method coverage : based on functions executed e.g., testing executed 90 out of 100 functions
+      * Statement coverage : based on the number of lines of code executed e.g., testing executed 23k out of 25k LOC
+      * Decision/branch coverage : based on the decision points exercised e.g., an if statement evaluated to both true and false with separate test cases during testing is considered 'covered'
+      * Condition coverage : based on the boolean sub-expressions, each evaluated to both true and false with different test cases
+    * A good future implementation would be to implement code coverage as a github action report when making pull requests to main
+    * At the very least, all public functions of a class should be uniquely tested in order to verify behaviour seen by other components
+I learned about testing web applications through Nereus, reading Jasmine documentation, articles and youtube videos about testing and the [CS2113 website](https://nus-cs2113-ay2324s2.github.io/website/index.html)
+* Nereus imparted knowledge of testing which helped me understand the core fundamentals, allowing me to more quickly pick up the technique as I learnt, especially the test case implementation
+* The Jasmine documentation gave me confidence in creating my own test cases for unique behaviour such as changing routes in testing
+* Youtube videos, articles and the CS2113 website helped me to understand and implement test case design techniques to create comprehensive and well designed test cases
