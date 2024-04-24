@@ -480,7 +480,15 @@
     },
     {
       "src": "students/cheehongw/progress.md",
-      "headings": {},
+      "headings": {
+        "cs3282-progress": "CS3282 Progress",
+        "before-semester-contributions": "Before-semester contributions",
+        "catcher": "CATcher",
+        "watcher": "WATcher",
+        "semester-contributions": "Semester contributions",
+        "catcher-2": "CATcher",
+        "watcher-2": "WATcher"
+      },
       "headingKeywords": {}
     },
     {
