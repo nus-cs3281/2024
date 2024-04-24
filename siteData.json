@@ -718,6 +718,7 @@
         "ui": "UI",
         "project-management": "Project Management",
         "upgrading-dependencies": "Upgrading dependencies",
+        "github-actions": "GitHub Actions",
         "husky": "Husky",
         "aws-sagemaker": "AWS SageMaker",
         "micro-frontends": "Micro-frontends"
