@@ -1,3 +1,17 @@
+# Key Contributions
+* Actively participated in submitting and resolving issues found, implementing features and team discussions
+* Focus on bug fixes that hurt the usability of CATcher and WATcher
+* Reviewed PRs constructively with focus on scalability and code style of the existing code base
+* Update CI/CD workflow, specifically improving automation by using an on push deployment and a release drafter template and bot which formatted and displayed release changes  
+  [Automatic deployment #272](https://github.com/CATcher-org/WATcher/pull/272), [Release changelog automation #285](https://github.com/CATcher-org/WATcher/pull/285)
+* Revamp and updates to filter system of WATcher
+  * Adopted a centralised service and observer pattern behaviour  
+    [Refactor certain filters into its own service #259](https://github.com/CATcher-org/WATcher/pull/259), [Refactor sorting #261](https://github.com/CATcher-org/WATcher/pull/261), [Refactor milestone filters #264](https://github.com/CATcher-org/WATcher/pull/264)
+  * Update filters to be stored into and restored from url  
+    [Add filters to url #314](https://github.com/CATcher-org/WATcher/pull/314)
+  * Allow filters to be kept across repo changes  
+    [Keep filters when switching repo #281](https://github.com/CATcher-org/WATcher/pull/281)
+
 | Week | Achievements |
 | ---- | ------------ |
 | 2 | Merged PR: [Hide 0 issue columns #223](https://github.com/CATcher-org/WATcher/pull/223) |
