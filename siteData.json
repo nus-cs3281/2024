@@ -475,7 +475,7 @@
     {
       "src": "students/cheehongw/observations.md",
       "headings": {
-        "project-foo": "Project: Foo",
+        "project-sourceacademy-frontend": "Project: SourceAcademy Frontend",
         "my-contributions": "My Contributions",
         "my-learning-record": "My Learning Record"
       },
@@ -485,12 +485,13 @@
       "src": "students/cheehongw/progress.md",
       "headings": {
         "cs3282-progress": "CS3282 Progress",
+        "summary": "Summary",
         "before-semester-contributions": "Before-semester contributions",
         "catcher": "CATcher",
         "watcher": "WATcher",
-        "semester-contributions": "Semester contributions",
         "catcher-2": "CATcher",
-        "watcher-2": "WATcher"
+        "watcher-2": "WATcher",
+        "sourceacademy": "SourceAcademy"
       },
       "headingKeywords": {}
     },
@@ -1154,12 +1155,12 @@
         "my-contributions-3": "My Contributions",
         "my-learning-record-3": "My Learning Record",
         "wong-chee-hong": "WONG CHEE HONG",
-        "project-foo-3": "Project: Foo",
+        "project-sourceacademy-frontend": "Project: SourceAcademy Frontend",
         "my-contributions-4": "My Contributions",
         "my-learning-record-4": "My Learning Record",
         "markbind": "MarkBind",
         "chan-yu-cheng": "CHAN YU CHENG",
-        "project-foo-4": "Project: Foo",
+        "project-foo-3": "Project: Foo",
         "my-contributions-5": "My Contributions",
         "my-learning-record-5": "My Learning Record",
         "elton-goh-jun-hao": "ELTON GOH JUN HAO",
@@ -1178,7 +1179,7 @@
         "my-contributions-7": "My Contributions",
         "my-learning-record-7": "My Learning Record",
         "lee-wei-david": "LEE WEI, DAVID",
-        "project-foo-5": "Project: Foo",
+        "project-foo-4": "Project: Foo",
         "my-contributions-8": "My Contributions",
         "my-learning-record-8": "My Learning Record",
         "reposense": "RepoSense",
