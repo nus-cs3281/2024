@@ -29,4 +29,5 @@
 | R | Reviewed PR [Add documentation regarding security practices for github actions #2528](https://github.com/MarkBind/markbind/pull/2528) |
 | R | Investigated issue for CI [Document: Node LTS (v20) and python 3.12 does not work on MarkBind install #2496](https://github.com/MarkBind/markbind/issues/2496) |
 | R | Authored PR [Add install setuptools to ci #2530](https://github.com/MarkBind/markbind/pull/2530) |
-
+| R | Reviewed PR [Add missing documentation for attributes overridden by slots #2526](https://github.com/MarkBind/markbind/pull/2526) |
+| R | Reviewed PR [Add tests for logger output when component attributes are overridden by slots #2525](https://github.com/MarkBind/markbind/pull/2525) |
