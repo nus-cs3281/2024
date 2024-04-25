@@ -1062,10 +1062,12 @@
       "src": "students/luminousleek/progress.md",
       "headings": {
         "cs3282-progress": "CS3282 Progress",
+        "summary": "Summary",
         "pr-reviews-catcher": "PR Reviews - CATcher",
         "pr-contributions-catcher": "PR Contributions - CATcher",
         "pr-reviews-watcher": "PR Reviews - WATcher",
-        "pr-contributions-markbind": "PR Contributions - Markbind"
+        "pr-contributions-markbind": "PR Contributions - MarkBind",
+        "issues-raised-markbind": "Issues Raised - MarkBind"
       },
       "headingKeywords": {}
     },
