@@ -39,6 +39,7 @@
 | 8 | Reviewed PR: [Enable pre push hook for npm run test #288](https://github.com/CATcher-org/WATcher/pull/288) |
 | 8 | Reviewed PR: [Remove sorting by assignees in issue sorter #286](https://github.com/CATcher-org/WATcher/pull/286) |
 | 8 | Merged PR: [Refactor milestones to save by name #289](https://github.com/CATcher-org/WATcher/pull/289) |
+| 8 | Pending PR: [Update user workflow #12](https://github.com/CATcher-org/WATcher-docs/pull/12) |
 | 9 | Submitted Issue: [Label filter bar test case error #305](https://github.com/CATcher-org/WATcher/issues/305) |
 | 9 | Reviewed PR: [Hide redundant column pagination #309](https://github.com/CATcher-org/WATcher/pull/309) |
 | 9 | Reviewed PR: [Status filter checkboxes #310](https://github.com/CATcher-org/WATcher/pull/310) |
