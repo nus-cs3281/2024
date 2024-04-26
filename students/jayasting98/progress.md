@@ -105,5 +105,5 @@
 | Rc -  8 | Designed ARF with ARF team | <!--      ? -      ? -->
 | Rc - 13 | Attended weekly ARF meetings | <!--      ? -      ? -->
 |  7 - 13 | Planned ARF task allocation for each milestone with ARF team | <!--      ? -      ? -->
-|  7 - Rd | Mentored Xenos (mainly) and Dominic Berzin (secondarily, with Eunice as the main mentor) | <!--      ? -      ? -->
+|  7 - Rd | Mentored Xenos (primarily) and Dominic Berzin (secondarily, with Eunice as the main mentor) | <!--      ? -      ? -->
 |  8 - 13 | Adjusted ARF design with ARF team for changing requirements or issues predicted or encountered | <!--      ? -      ? -->
