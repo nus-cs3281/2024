@@ -9,7 +9,7 @@
   - In the first half of the semester, primarily Marques
   - In the second half of the semester, primarily Xenos in the second half, and secondarily Dominic Berzin with Eunice (his primary mentor)
 - Developed the Account Request Form (ARF) feature
-  - Prepared the tech design together with the ARF team, and adjusted it for aany changing requirements or problems found
+  - Prepared the tech design together with the ARF team, and adjusted it for any changing requirements or problems found
   - Planned the ARF task allocation for each milestone with the other ARF mentors
   - Implemented the feature together with the ARF team ([my authored PRs](https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+author%3Ajayasting98+11878) for the ARF issue [#11878](https://github.com/TEAMMATES/teammates/issues/11878))
   - Reviewed PRs together with the ARF team ([my reviews](https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+reviewed-by%3Ajayasting98+11878) for the ARF issue [#11878](https://github.com/TEAMMATES/teammates/issues/11878))
