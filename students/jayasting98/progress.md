@@ -1,13 +1,22 @@
 ## Summary
 
-- Aided in migration
+- Aided in the migration from NoSQL (Datastore) to SQL
   - Migrated Action: GetOngoingSessionsAction ([#12710](https://github.com/TEAMMATES/teammates/pull/12710))
   - SQL Injection Tests ([#12857](https://github.com/TEAMMATES/teammates/pull/12857), [#12858](https://github.com/TEAMMATES/teammates/pull/12858))
   - Migrated E2E test: InstructorCourseDetailsPageE2ETest ([#12908](https://github.com/TEAMMATES/teammates/pull/12908))
-  - Reviewed PRs ([#12709](https://github.com/TEAMMATES/teammates/pull/12709), [#12723](https://github.com/TEAMMATES/teammates/pull/12723), [#12732](https://github.com/TEAMMATES/teammates/pull/12732), [#12727](https://github.com/TEAMMATES/teammates/pull/12727), [#12738](https://github.com/TEAMMATES/teammates/pull/12738), [#12739](https://github.com/TEAMMATES/teammates/pull/12739), [#12788](https://github.com/TEAMMATES/teammates/pull/12788), [#12847](https://github.com/TEAMMATES/teammates/pull/12847), [#12801](https://github.com/TEAMMATES/teammates/pull/12801), [#12848](https://github.com/TEAMMATES/teammates/pull/12848), [#12800](https://github.com/TEAMMATES/teammates/pull/12800), [#12851](https://github.com/TEAMMATES/teammates/pull/12851))
+  - Reviewed PRs together with the TEAMMATES team ([my reviews](https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+reviewed-by%3Ajayasting98+12048) for the migration issue [#12048](https://github.com/TEAMMATES/teammates/issues/12048))
 - Mentored junior developers
-  - Primarily Marques in the first half, Xenos in the second half, and secondarily Dominic Berzin with Eunice (his primary mentor)
-- 
+  - In the first half of the semester, primarily Marques
+  - In the second half of the semester, primarily Xenos in the second half, and secondarily Dominic Berzin with Eunice (his primary mentor)
+- Developed the Account Request Form (ARF) feature
+  - Prepared the tech design together with the ARF team, and adjusted it for aany changing requirements or problems found
+  - Planned the ARF task allocation for each milestone with the other ARF mentors
+  - Implemented the feature together with the ARF team ([my authored PRs](https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+author%3Ajayasting98+11878) for the ARF issue [#11878](https://github.com/TEAMMATES/teammates/issues/11878))
+  - Reviewed PRs together with the ARF team ([my reviews](https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+reviewed-by%3Ajayasting98+11878) for the ARF issue [#11878](https://github.com/TEAMMATES/teammates/issues/11878))
+- Submitted issues
+  - Found (and fixed) critical bug where account requests were no longer being indexed ([#12921](https://github.com/TEAMMATES/teammates/issues/12921), [#12923](https://github.com/TEAMMATES/teammates/pull/12923))
+  - Provided some low-hanging fruits for new contributors ([#12900](https://github.com/TEAMMATES/teammates/issues/12900), [#12901](https://github.com/TEAMMATES/teammates/issues/12901), [#12954](https://github.com/TEAMMATES/teammates/issues/12954))
+- Worked on Python (CPython) for my external project. More details can be found in my observations.
 
 ## Submitted Issues
 
@@ -93,7 +102,7 @@
 | Week | Achievements |
 | ---- | ------------ |
 |  2 -  6 | Mentored Marques for onboarding task: [[#12048] Migrate UpdateStudentAction](https://github.com/TEAMMATES/teammates/pull/12727) | <!-- 240128 - 240225 -->
-| Rc -  8 | Designed Account Request Form (ARF) with ARF team | <!--      ? -      ? -->
+| Rc -  8 | Designed ARF with ARF team | <!--      ? -      ? -->
 | Rc - 13 | Attended weekly ARF meetings | <!--      ? -      ? -->
 |  7 - 13 | Planned ARF task allocation for each milestone with ARF team | <!--      ? -      ? -->
 |  7 - Rd | Mentored Xenos (mainly) and Dominic Berzin (secondarily, with Eunice as the main mentor) | <!--      ? -      ? -->
