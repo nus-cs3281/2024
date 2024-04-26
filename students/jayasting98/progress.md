@@ -1,4 +1,4 @@
-# Submitted Issues
+## Submitted Issues
 
 | Week | Achievements |
 | ---- | ------------ |
@@ -8,7 +8,7 @@
 |  9      | [Account requests are no longer search indexed, when they should be](https://github.com/TEAMMATES/teammates/pull/12921) | <!-- 240321          -->
 | 10      | [CreateAccountAction seems to have redundant code](https://github.com/TEAMMATES/teammates/pull/12954) | <!-- 240328          -->
 
-# Authored Pull Requests
+## Authored Pull Requests
 
 | Week | Achievements |
 | ---- | ------------ |
@@ -27,7 +27,7 @@
 | 10      | [[#11878] Foundation for getting by ID in account request endpoints](https://github.com/TEAMMATES/teammates/pull/12957) | <!-- 240328 - 240329 -->
 | 12      | [[#11878] Reference account requests by ID in tests](https://github.com/TEAMMATES/teammates/pull/13017) | <!-- 240414          -->
 
-# Reviewed Pull Requests
+## Reviewed Pull Requests
 
 | Week | Achievements |
 | ---- | ------------ |
@@ -77,7 +77,7 @@
 | Rd      | [[#13064] Use AccountRequestUpdateRequest as parameter](https://github.com/TEAMMATES/teammates/pull/13068) | <!-- 240422 - 240423 -->
 | Rd      | [[#11878] Add CAPTCHA to ARF](https://github.com/TEAMMATES/teammates/pull/13081) | <!-- 240423          -->
 
-# General Project Management
+## General Project Management
 
 | Week | Achievements |
 | ---- | ------------ |
