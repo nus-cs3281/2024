@@ -464,6 +464,12 @@
     {
       "src": "students/cheehongw/knowledge.md",
       "headings": {
+        "cs3282": "CS3282",
+        "node-package-manager-npm-and-yarn": "Node Package Manager (npm) and Yarn",
+        "dependency-management": "Dependency Management",
+        "upgrading-dependencies": "Upgrading Dependencies",
+        "eslint-migration": "ESLint migration",
+        "i18next": "i18next",
         "angular-essentials": "Angular Essentials",
         "e2e-testing-with-playwright": "E2E Testing with Playwright",
         "github-actions": "Github Actions",
