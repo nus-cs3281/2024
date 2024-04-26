@@ -1,3 +1,29 @@
+# CS3282
+
+This semester, I focused my efforts on trying to upgrade the outdated dependencies in CATcher. This was a challenging task as I had to understand the dependencies of the project. Even though the current state of the repository is not what I have hoped to achieve, I hope future devs reading this might find some insights on how to approach this task.
+
+### Node Package Manager (npm) and Yarn
+
+From working with CATcher and SourceAcademy, I have gotten a more solid understanding of how package managers work. Before this, I only saw Node and npm as something we had to install before we can start developing our project. However, the fact is that package managers are a crucial aspect of any project, since they manage the dependencies of the project. 
+
+
+### Dependency Management
+
+In CATcher, I focused on identifying the dependencies that needed to be updated. I learned that dependencies are managed in the `package.json` file, and that the `package-lock.json` file is used to lock the dependencies to a specific version. This is important as it ensures that the project is reproducible across different machines. Unfortunately, this is not used in CATcher, but i believe CATcher will benefit from using a lockfile in the future.
+
+
+### Upgrading Dependencies
+
+Beyond that, I have learnt how to use `npm outdated`, `npm-check` etc to identify outdated dependencies. I also learnt how to use `npm ls` to print out the dependency tree of a given package. This was useful in identifying the dependencies that needed to be updated.
+
+### ESLint migration
+
+I also assisted with the tslint to eslint migration in CATcher. While initially a PR done by a mentee, I had to stay involved and understand the changes made as well. I had to understand how to configure eslint to work with the project. This was a challenging task, but I am glad that I managed to complete it.
+
+### i18next
+
+Beyond work done in CATcher, I also worked on SourceAcademy, where I implemented an i18n framework. i18next is a powerful library that allows for easy translation of text in a project. During my implementation of the i18n framework in SourceAcademy, I referenced several implementations of i18n across various established open source repos such as HospitalRun and FreeCodeCamp for any best practices. From these references, I learned how to structure the i18n files and the various translation resources to make it easy for future translators to add on new translations.
+
 ## Angular Essentials
 I had contributed to CATcher as part of IWM, but I have never really approached the Angular aspects of the project.
 
@@ -62,8 +88,4 @@ Part of working with CATcher source code was frequently encountering Observables
 
 Resources:
 - https://rxjs.dev/
-
-
-
--------------------------------------------------------------------------------
 

@@ -45,6 +45,7 @@
 | Week 7 - 8| Issue Reporter & PR Author   | <ul><li>[Clean up dependencies #1248](https://github.com/CATcher-org/CATcher/pull/1248)</li><li>[Remove wait-on from devDep #1244](https://github.com/CATcher-org/CATcher/issues/1244)</li><li>[tslib unused #1246](https://github.com/CATcher-org/CATcher/issues/1246)</li><li>[Remove node-fetch as direct dependency #1253](https://github.com/CATcher-org/CATcher/issues/1253)</li></ul> | Address neglected depenedencies in CATcher
 | Week 11 | PR Reviewer | [Add documentation for CATcher's parser #1240](https://github.com/CATcher-org/CATcher/pull/1240) | 
 | Week 13 | PR Reviewer | [Add login redirect #1256](https://github.com/CATcher-org/CATcher/pull/1256) | 
+| Reading Week | PR Reviewer & Co-author | [Migrate from TSLint to ESLint #1250](https://github.com/CATcher-org/CATcher/pull/1250) | Had to step in to complete the PR
 
 
 ### WATcher

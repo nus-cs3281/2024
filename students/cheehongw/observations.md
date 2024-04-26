@@ -32,13 +32,11 @@ i18next is a library that allows for internationalization in a React project. It
 Furthermore, the i18n framework that I contributed to has strong type safety and only allows keys that are defined in the translation files to be used, making it easier for future developers to see what keys are allowed on what file. I am grateful for the Sourceacademy maintainers for their guidance in this implementation.
 
 
-
 **Practices and tools from SourceAcademy that could be adopted by CATcher**
 
 SourceAcademy utilises Yarn as their package manager. From almost all points of view, yarn has the exact same functionality as npm, but it is faster and more reliable. As such, we could consider moving over to using Yarn in CATcher as well.
 
-
-Furthermore, I was particularly impressed with the testing framework that they had to ensure any new changes were not breaking.
+Furthermore, I was particularly impressed with the testing framework that they had to ensure any new changes were not breaking. They made use of jest and had an interactive UI test runner that allowed the developer to see which tests were failing and why. This is something that CATcher could consider adopting as well.
 
 
 
