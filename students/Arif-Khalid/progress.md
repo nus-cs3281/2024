@@ -64,4 +64,4 @@
 | 12 | Merged PR: [Fix top and bottom shadow of columns #357](https://github.com/CATcher-org/WATcher/pull/357) |
 | 12 | Merged PR: [Create release V1.2.2 #364](https://github.com/CATcher-org/WATcher/pull/364), Merged PR: [Deploy V1.2.2 #365](https://github.com/CATcher-org/WATcher/pull/365) |
 | 12 | Merged PR: [Fix reset of filters on label fetch #374](https://github.com/CATcher-org/WATcher/pull/374) |
-| 13 | Pending PR: [Add test cases for filters service #312](https://github.com/CATcher-org/WATcher/pull/312) |
+| 13 | Merged PR: [Add test cases for filters service #312](https://github.com/CATcher-org/WATcher/pull/312) |
