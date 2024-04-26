@@ -297,3 +297,43 @@ gh pr checkout PR_NUMBER
 ```
 
 This was a **_life saver_**! Checking out to the developer's branch in his/her fork and reviewing a PR now have never been simpler!
+
+## Lightning Talks
+
+A small section dedicated to the Lightning Talks we had throughout the semester.
+
+I have learnt quite a few things from the talks given by my course mates. There were many interesting technologies that were introduced -- some of which I have heard of, and some that I have used before.
+
+My takeaways from these talks were:
+
+1. Got to learn new technologies. Even though each talk is 7 minutes long, it was a great way to get started and I will be sure to try them out in the future!
+2. Some talks were non-technical but more on the soft skills e.g., Fergus' talk on Tiny PRs, Charisma's talk on how we can improve developers' experience, etc.
+3. Or the AI-related talks too.
+
+## Soft Skills
+
+I believe that CS3282 is a great second part of the Thematic Systems Project pair. I thoroughly enjoyed interacing with the 81 juniors, and more so working with some of them.
+
+It was nice to for a change, take on the role of managing a project.
+
+Reviewing Pull Requests don't look as easy as it seems as I have to understand the changes made and the context of the problem.
+
+It was a really great experience!
+
+# Database Migration
+
+I am glad to have been a part of working on the database migration, not rewriting the functionalities and tests in the codebase, but to actually migration data over to Google Cloud NoSQL.
+
+## Scripts
+
+It was my first time performing database migration. TEAMMATES' mentor Wilson said (roughly), this might be your only chance to migrate a database.
+
+Before this, I had a high level understanding of how database migration would work. However, it was not as I have thought.
+
+There are so many more components to it such as understanding the constraints/restrictions e.g., When we could, and could not, do X, Y and Z., technical challenges imposed by the cloud provider, and writing the **scripts** to perform the migration.
+
+In my opinion, the learnings of this database migration is actually higher due to the fact that we are migrating from NoSQL to SQL. This means having to map the NoSQL documents over to SQL entities and ensuring that the affected relations' constraints are being complied with e.g., Foreign key constraints between 2 related/associated entities.
+
+Aside from these, I have also learnt the steps needed to perform data migration and careful planning is a necessity as each next step relies on the previous.
+
+The cursor figured by Fergus and Nicolas brought back what we were taught in CS2102 too!

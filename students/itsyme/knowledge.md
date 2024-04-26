@@ -37,3 +37,22 @@ I also internalized how to create transitions and effects that fit with the them
 
 As I progressed to start managing the project, I started reviewing and merging PRs. Initially as I reviewed smaller PRs, I had little problem understanding the code and understanding where it can be improved. However, as I reviewed more complex PRs, I began having difficulties understanding the changes quickly. I came across a method to understand code in a more simple manner, the [Rubber Duck Debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) method. Using this helped me to try and understand the code line by line and handle more complex changes more managably, helping me to understanding them better.
 
+### Upgrading dependencies
+
+As I worked on [bump nunjucks to 3.2.4 #2411](https://github.com/MarkBind/markbind/pull/2411), I was initially not confident what to look out for when upgrading dependencies. However, after I worked on this I understood how to look out for breaking changes and to find out how your project is using it in order to confidently upgrade it without breaking things in the project.
+
+### GitHub Actions
+
+I gained a more in depth understanding about GitHub Actions when I was working on [Add install setuptools to ci #2530](https://github.com/MarkBind/markbind/pull/2530). Utilizing conditional runs for the macos platform which required a `brew install` to get the CI to run properly which would throw errors for other platforms which do not use Homebrew.
+
+### Husky
+
+As I researched on improving code cleanliness in my projects and found that Husky was a tool that could be used to not only maintain the code cleanliness of projects but could be used for things like running tests as well. Husky has become a mainstay in all my JS projects together with ESLint, Prettier and lint-staged. I spent some time understanding how Husky has changed the way it should be used by deprecating the use of Husky within the `package.json` and rather is now in the `.husky` folder.
+
+### AWS SageMaker
+
+As I researched on AWS SageMaker for my lightning talk and used it during my internship, I got to understand more about AWS SageMaker and its benefits for hosting AI models in the cloud. AWS SageMaker is beneficial smaller players, or applications which have a pattern of use that comes in sporadic bursts as it reduces the upfront cost of expensive AI infrastructure. SageMaker also offers many services that helpes to simplify the development and deployment of AI models. 
+
+### Micro-frontends
+
+As I worked on researching on micro-frontends for my internship, I gained a deeper understanding of micro-frontends. Micro-frontends are what micro-services for backends, but for the front-end. Micro-frontends allows the splitting up of the front-end and this brings many benefits. From allowing teams to manage their own vertical stack, by owning their own micro-frontend, to reducing the bundle size, micro-frontends are beneficial to large teams. I also worked on a POC of migrating parts of the application using WebPack 5 Module Federation for Next.js which allowed me to fully appreciate it.

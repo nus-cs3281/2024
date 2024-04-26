@@ -1,3 +1,122 @@
+# CS3282
+
+## From internal project (TEAMMATES):
+
+As part of both the database migration and SQL injection testing team, I have learnt:
+
+### Database migration
+
+#### Tradeoffs between noSQL and SQL database offerings:
+
+I had previously read about the reasons behind why we are undertaking the task of migrating from Datastore to CloudSQL, however, I am able to better appreciate the value of this after joining the database migration team.
+
+1. Better developer support/tooling with Cloud SQL
+
+    During migration, we faced issues with Datastore emulator as we could not query the Datastore emulator easily to verify that data was seeded correctly as shown in this [StackOverflow post](https://stackoverflow.com/questions/45861519/how-should-i-query-google-cloud-datastore-emulator-via-command-line).
+
+    This was in contrast with Cloud SQL which uses standard PostgreSQL   can we can simply use a database client and write SQL queries eg, `"SELECT ... from ..."`.
+    Even deleting records from Datastore on the Google Cloud Console was limited to using to UI and only 50 records could be deleted at a time by clicking the delete button and navigating to the next page.
+
+    Hence, Cloud SQL provides significantly more standard and convenient developer experience for future batches.
+
+2. Avoid orphan issues
+
+    One of the issues in our codebase I noticed was with noSQL, we had to ensure orphan record bugs were not present.
+
+    Previously,
+    ```
+    /**
+    * Deletes a feedback session cascade to its associated questions, responses, deadline extensions, etc.
+    */
+    public void deleteFeedbackSessionCascade(String feedbackSessionName, String courseId) {
+        AttributesDeletionQuery query = AttributesDeletionQuery.builder()
+                                            .withCourseId(courseId)
+                                            .withFeedbackSessionName(feedbackSessionName)
+                                            .build();
+        frLogic.deleteFeedbackResponseComments(query);
+        frLogic.deleteFeedbackResponses(query);
+        fqLogic.deleteFeedbackQuestions(query);
+        deLogic.deleteDeadlineExtensions(query);
+
+        fsDb.deleteFeedbackSession(feedbackSessionName, courseId
+    }
+    ```
+    With SQL, we can use Hibernate to define constraints and cascade delete to prevent orphan entities:
+    ```
+    /**
+    * Deletes a feedback session cascade to its associated questions, responses, deadline extensions and so on.
+    */
+    public void deleteFeedbackSessionCascade(String feedbackSessionName, String courseId) {
+        FeedbackSession feedbackSession = fsDb.getFeedbackSession(feedbackSessionName, courseId);
+        fsDb.deleteFeedbackSession(feedbackSession);
+    }
+
+    ```
+    When feedbackSession is deleted, the delete is cascaded to all the related entities. This leads to less potential for bugs and simpler code.
+
+#### Appreciation of 3-tier architecture:
+
+TEAMMATES follows [Martin Fowler's Presentation-Domain-Data Layering](https://martinfowler.com/bliki/PresentationDomainDataLayering.html) closely. This has prevented coupling and enabled us to swap the data layer easily from Datastore to CloudSQL without changing the other layers.
+
+I have learnt the steps needed to ensure migration.
+1. Changing the code to support new
+2. Writing migration scripts
+   1. Seeding database for testing
+   2. Write correctness verification scripts
+3. Perform the migration
+
+During the general steps above, there are some specific challenges which have provided learning opportunities for me:
+
+#### Database paginated queries + PostgreSQL indexing on Primary key (and how PGSQL enforces PK uniqueness):
+
+Since TEAMMATES has large amounts of records which may not fit in memory, I worked on paginating the queries to prevent OutOfMemory errors.
+
+One challenge was that I had to do implement an sort ordering to maintain the pages.
+For example, page 1 contains records starting with 'A', page 2 contains records starting with 'B' and so on... The sorted order ensures that when querying page 2, we would not fetch records queried from page 1.
+
+Initially, I used 'created_at' field but this was slow. I later learnt that using the primary key field was much faster since PostgreSQL builds an index on the primary key leading to faster sorting. PostgreSQL also using this B-tree index to enforce uniqueness of the primary key.
+
+This improved the performance of the database migration script.
+
+#### Writing of batched queries:
+Another optimization to improve query speeds are to send batched queries instead of multiple separate queries. This reduced the network Round time speed and improves the migration script performance.
+
+#### Terraform:
+
+One of the issues I initially faced was setting up the cloud environment on GCP. I learnt and proposed using Hashicorp Terraform which is an infra-as-code platform to manage cloud resources.
+
+As part of my learning journey, I configured the CloudSQL GCP service using Terraform and raised a [discussion](https://github.com/TEAMMATES/teammates/discussions/12756). However, after discussion, introducing Terraform might not be the best idea for now given the overhead for new developers to learn and the scale of our system.
+
+### SQLi Testing
+
+As part of SQL injection testing, I learnt about the risk factors for SQL injection and how to prevent them.
+
+Such as:
+- use of prepared statements with parameterized queries
+This treats the user input as a string literal and hence does not affect the SQL query. This is done by Hibernate which we are using in TEAMMATES.
+
+This cheatsheet on [SQL injection prevention by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) was useful in my learning.
+
+### Multiple Course Structures (MCS)
+
+#### Many-to-many relationship representation
+
+From implementing the new Entity-Relationship schema required for the new feature, I experienced a new issue where `students` and `teams` had a many-to-many relationship.
+
+Hence, I learnt how to represent this using `StudentToTeamsMapping` as shown from the below example from Baeldung.
+![Many-to-many example from Baeldung](baeldung_example.png)
+
+## From lightning talks:
+
+From other's speeches, I have learnt many new technologies such as Gitpod, Python Decorators, making tiny PRs etc. These knowledge has enhanced my awareness of various software tools and ideas to increase my productivity.
+
+From my own preparation/research, I have also learnt more about Stream processing via watching lectures on [Apache Samza](https://www.youtube.com/watch?v=yO3SBU6vVKA&list=PLeKd45zvjcDHJxge6VtYUAbYnvd_VNQCx&index=7).
+
+## From external projects:
+My learnings are listed [here](observations.md#my-learning-record).
+
+---
+
 ## Frontend
 ### Angular (Frontend framework)
 

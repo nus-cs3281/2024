@@ -4,25 +4,25 @@ footer:
 </frontmatter>
 {% from "cs3282-index.md" import projects %}
 
-{% macro print_row(student) %}
+{% macro print_row(student, width) %}
 <tr>
-<td style="width:150px; height:175px">
-<img src="{{ baseUrl }}/students/{{ student[1] }}/photo.png" width="150" /><br>
+<td style="width:150px; height:{{ "175" if width=="100" else "100" }}px">
+<img src="{{ baseUrl }}/students/{{ student[1] }}/photo.png" width="{{ width }}" /><br>
 </td>
 <td valign="top" style="border: 1px solid black; padding:5px">
 
 ****{{ student[0] }}**** <sub>Delivery: `1` `2` `3` `4` `5` | Usefulness: `1` `2` `3` `4` `5`</sub><br>
 <md><sub>{{ criteria }} | Comments:</sub></md>
+{% if width=="150" %}<br>.
 <br>.
 <br>.
 <br>.
-<br>.
-<br>.
+<br>.{% else %}{% endif %}
 </td>
 </tr>
 {% endmacro %}
 
-{% macro print_feedback_table(round) %}
+{% macro print_feedback_table(round, width="150") %}
 
 ## Round {{ round }}
 {{ page_break }}
@@ -34,7 +34,7 @@ footer:
 {% for project in sorted_projects %}
 {% for student in project.students %}
 {% if round in student %}
-{{ print_row(student) }}
+{{ print_row(student, width) }}
 {% endif %}
 {% endfor %}
 {% endfor %}
@@ -67,10 +67,12 @@ footer:
 
 {{ page_break }}
 
-## Round C (week 11, 12, 13)
+## Round C (week 12, 13)
 
+{% set criteria %}{% endset %}
 
+{% set tm = projects[3] %}
 {% set sorted_projects = [projects[3], projects[0], projects[1], projects[2]] %}
-{{ print_feedback_table('C1') }}
-{{ print_feedback_table('C2') }}
-{{ print_feedback_table('C3') }}
+{{ print_feedback_table('C1', "100") }}
+{{ print_feedback_table('C2', "100") }}
+
