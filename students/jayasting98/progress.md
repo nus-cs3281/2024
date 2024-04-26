@@ -22,11 +22,11 @@
 
 | Week | Achievements |
 | ---- | ------------ |
-|  6      | [Users with deadline extensions may not be able to submit feedback responses in V9](https://github.com/TEAMMATES/teammates/pull/12774) | <!-- 240223          -->
-|  8      | [Gradle task componentTests should not stop entirely when only one task fails](https://github.com/TEAMMATES/teammates/pull/12900) | <!-- 240315          -->
-|  8      | [Check if the search service is active in account request search test](https://github.com/TEAMMATES/teammates/pull/12901) | <!-- 240315          -->
-|  9      | [Account requests are no longer search indexed, when they should be](https://github.com/TEAMMATES/teammates/pull/12921) | <!-- 240321          -->
-| 10      | [CreateAccountAction seems to have redundant code](https://github.com/TEAMMATES/teammates/pull/12954) | <!-- 240328          -->
+|  6      | [Users with deadline extensions may not be able to submit feedback responses in V9](https://github.com/TEAMMATES/teammates/issues/12774) | <!-- 240223          -->
+|  8      | [Gradle task componentTests should not stop entirely when only one task fails](https://github.com/TEAMMATES/teammates/issues/12900) | <!-- 240315          -->
+|  8      | [Check if the search service is active in account request search test](https://github.com/TEAMMATES/teammates/issues/12901) | <!-- 240315          -->
+|  9      | [Account requests are no longer search indexed, when they should be](https://github.com/TEAMMATES/teammates/issues/12921) | <!-- 240321          -->
+| 10      | [CreateAccountAction seems to have redundant code](https://github.com/TEAMMATES/teammates/issues/12954) | <!-- 240328          -->
 
 ## Authored Pull Requests
 
