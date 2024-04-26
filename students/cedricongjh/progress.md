@@ -1,14 +1,15 @@
 ## Summary
-- Led the migration of the remaining actions for V9,
-- Led the team in ensuring that there were no regressions in V9-beta (dual DB) through automated and manual testing,
-- Led LOGS project,
-- Reviewed workflows for release with the new SQL DB,
+- Led the migration of the remaining actions for V9.
+- Led the team in ensuring that there were no regressions in V9-beta (dual DB) through automated and manual testing.
+- Led LOGS project.
+- Reviewed workflows for release with the new SQL DB.
 
 ## CS3282 Pre-Sem Progress
 
 |Date|Achievements|
 |----|------------|
 |Nov 27, 2023|Merged PR: [Fix deadline extensions update issue #12601](https://github.com/TEAMMATES/teammates/pull/12601)|
+| Dec 11, 2023 | Submitted Issue: [Copying feedback session: mark session name as mandatory field when copying feedback session](https://github.com/TEAMMATES/teammates/issues/12652) |
 |Dec 11, 2023|Submitted Issue: [Copy course modal: Mandatory fields not highlighted #12653](https://github.com/TEAMMATES/teammates/issues/12653)|
 
 ## CS3282 Progress
