@@ -775,7 +775,10 @@
         "d3-js": "D3.js",
         "angular-material": "Angular Material",
         "google-cloud-datastore-objectify": "Google Cloud Datastore/Objectify",
-        "google-cloud-app-engine": "Google Cloud App Engine"
+        "google-cloud-app-engine": "Google Cloud App Engine",
+        "hibernate": "Hibernate",
+        "liquibase": "Liquibase",
+        "gradle": "Gradle"
       },
       "headingKeywords": {}
     },
