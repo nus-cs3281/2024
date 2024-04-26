@@ -42,3 +42,4 @@
 | 11   | Authored PR: [Fix lint warnings #2182](https://github.com/reposense/RepoSense/pull/2182)                                                                              |
 | 12   | Created Issue: [Add more repos for Cypress frontend tests #2187](https://github.com/reposense/RepoSense/issues/2187)                                                  |
 | 12   | Authored PR: [Add more repos to cypress tests #2188](https://github.com/reposense/RepoSense/pull/2188)                                                                |
+| 13   | Created Issue: [Add Cypress tests for show tags on ramp chart #2195](https://github.com/reposense/RepoSense/issues/2195)                                              |
