@@ -80,7 +80,7 @@ Steps (PR):
 Can be used to reference an action in the same repository, a public repository, or a published Docker container image. The `uses` keyword can also be used to reference an action in a private repository by specifying the repository using the `repository` keyword.
 
 `env`:
-It is best to avoid having expressions `${{ }}` in _run_ portion of a step. Instead, `env` allows defining of variables that store the expression.
+It is best to avoid having expressions {% raw %}`${{ }}` {% endraw %} in _run_ portion of a step. Instead, `env` allows defining of variables that store the expression.
 
 `awk` :
 Can be used to extract a section of body, from a line containing `START` to a line containing `END` (inclusive of full line).
@@ -178,7 +178,7 @@ This can be solved by using tools like Dependabot or Renovatebot by adding a com
 Every credential used in the workflow should have the minimum required permissions to execute the job. 
 In particular, use the ‘permissions’ key to make sure the GITHUB_TOKEN is configured with the least privileges for each job.
 `permissions` can be restricted at the repo, workflow or job level.
-**Environment variables**, like `${{ secrets.GITHUB_TOKEN }}`, should be limited by scope, and should be declared at the step level when possible.
+**Environment variables**, like {% raw %}`${{ secrets.GITHUB_TOKEN }}`{% endraw %}, should be limited by scope, and should be declared at the step level when possible.
 
 **Pull_request_target** (must be used for write access if PR is from forked repo)
 Do not use actions/checkout with this as it can give write permission and secrets access to untrusted code. Any building step, script execution, or even action call could be used to compromise the entire repository. This can be fixed by adding code to ensure that the code being checked out belongs to the base branch, which would also be limiting since the code checked out is not up to date for the PR.
@@ -193,7 +193,7 @@ Even if workflow files are modified or deleted on feature branches, workflows on
 Another solution that allows `pull_request_target` with `actions/checkout` used on the PR branch, is to add an additional step of running workflow only on approval by trusted users, such that the trusted user has to check the changes in the code from the PR to ensure there is no malicious code before running the workflow.
 
 **Untrusted input**
-Don't directly reference values you do not control, such as `echo “${{github.event.pull_request.title}}”`, since it can contain malicious code and lead to an injection attack.
+Don't directly reference values you do not control, such as {% raw %}`echo “${{github.event.pull_request.title}}”`{% endraw %}, since it can contain malicious code and lead to an injection attack.
 Instead use an action with arguments (recommended): 
 ```
 uses: fakeaction/printtitle@v3 
@@ -209,7 +209,7 @@ echo “$PR_TITLE”
 ```
 
 Use [**OIDC**](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) and respective Secrets Manager for access to cloud providers instead of using secrets.
-Use [**GitHub Secrets**](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions) to store keys securely and reference in workflows using `${{}}`.
+Use [**GitHub Secrets**](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions) to store keys securely and reference in workflows using {% raw %}`${{}}`{% endraw %}.
 Can use [**GitGuardian Shield**](https://github.com/GitGuardian/ggshield-action?ref=blog.gitguardian.com) to help with scanning for security vulnerabilities.
 
 ### Typescript
