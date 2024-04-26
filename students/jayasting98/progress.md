@@ -25,6 +25,7 @@
 | 10      | [[#11878] Get account requests by ID in storage update method](https://github.com/TEAMMATES/teammates/pull/12955) | <!-- 240328 - 240329 -->
 | 10      | [[#11878] Get by account request ID in SQL injection tests](https://github.com/TEAMMATES/teammates/pull/12956) | <!-- 240328 - 240329 -->
 | 10      | [[#11878] Foundation for getting by ID in account request endpoints](https://github.com/TEAMMATES/teammates/pull/12957) | <!-- 240328 - 240329 -->
+| 12      | [[#11878] Reference account requests by ID in tests](https://github.com/TEAMMATES/teammates/pull/13017) | <!-- 240414          -->
 
 # Reviewed Pull Requests
 
@@ -49,15 +50,40 @@
 | 10      | [[#11878] Update Admin Home Page UI for ARF](https://github.com/TEAMMATES/teammates/pull/12933) | <!-- 240327          -->
 | 10      | [[#11878] Add snapshot tests for instructor request form UI](https://github.com/TEAMMATES/teammates/pull/12942) | <!-- 240327          -->
 | 10      | [[#11878] Admin Search UI Update for ARF](https://github.com/TEAMMATES/teammates/pull/12945) | <!-- 240327          -->
-| 10 -  ? | [[#11878] Integrate instructor request form with API](https://github.com/TEAMMATES/teammates/pull/12943) | <!-- 240327 -      ? -->
+| 10 - 11 | [[#11878] Integrate instructor request form with API](https://github.com/TEAMMATES/teammates/pull/12943) | <!-- 240327 - 240404 -->
 | 10      | [[#11878] Create instructor request acknowledgement email](https://github.com/TEAMMATES/teammates/pull/12944) | <!-- 240327 - 240330 -->
 | 10      | [[#11878] Merge master into account-request-form](https://github.com/TEAMMATES/teammates/pull/12972) | <!-- 240330 - 240331 -->
-| 10 -  ? | [[#11878] Update SearchAccountRequests endpoint](https://github.com/TEAMMATES/teammates/pull/12950) | <!-- 240331 -      ? -->
+| 10      | [[#11878] Update SearchAccountRequests endpoint](https://github.com/TEAMMATES/teammates/pull/12950) | <!-- 240331          -->
 | 11      | [[#11878] Change institute length limit](https://github.com/TEAMMATES/teammates/pull/12974) | <!-- 240402          -->
 | 11 -  ? | [[#12900] Gradle task componentTests should not stop entirely when only one task fails](https://github.com/TEAMMATES/teammates/pull/12963) | <!-- 240402 -      ? -->
+| 11      | [[#11878] Add Edit and Approve Account Requests functionality](https://github.com/TEAMMATES/teammates/pull/12975) | <!-- 240407          -->
+| 12      | [[#11878] Create reject account request endpoint](https://github.com/TEAMMATES/teammates/pull/12985) | <!-- 240409          -->
+| 12      | [[#11878] Update DeleteAccountRequest to reference by ID](https://github.com/TEAMMATES/teammates/pull/12997) | <!-- 240411          -->
+| 12      | [[#11878] Update ResetAccountRequest to reference by ID](https://github.com/TEAMMATES/teammates/pull/13002) | <!-- 240411          -->
+| 12      | [[#11878] Add Error Message for Approving Existing Account](https://github.com/TEAMMATES/teammates/pull/13004) | <!-- 240411          -->
+| 12      | [[#11878] Get account request by uuid](https://github.com/TEAMMATES/teammates/pull/13007) | <!-- 240411 - 240412 -->
+| 12      | [[#11878] Add tests for Account Request Table](https://github.com/TEAMMATES/teammates/pull/12977) | <!-- 240411 - 240414 -->
+| 12      | [[#11878] Handle Duplicate Approved Account Requests](https://github.com/TEAMMATES/teammates/pull/13009) | <!-- 240412          -->
+| 12      | [[#11878] Merge master into feature](https://github.com/TEAMMATES/teammates/pull/13011) | <!-- 240413          -->
+| 13      | [[#11878] Request Page E2E](https://github.com/TEAMMATES/teammates/pull/13015) | <!-- 240416          -->
+| 13      | [[#12954] CreateAccountAction seems to have redundant code](https://github.com/TEAMMATES/teammates/pull/13039) | <!-- 240416          -->
+| 13      | [[#11878] Remove ref by email and institute](https://github.com/TEAMMATES/teammates/pull/13044) | <!-- 240417          -->
+| 13      | [[#11878] Migrate AccountRequestsLogic unit tests](https://github.com/TEAMMATES/teammates/pull/13043) | <!-- 240417          -->
+| 13      | [[#11878] Add SQL injection tests for AccountRequestsDb](https://github.com/TEAMMATES/teammates/pull/13047) | <!-- 240418          -->
+| 13      | [[#11878] Fix Edit](https://github.com/TEAMMATES/teammates/pull/13056) | <!-- 240418          -->
+| 13      | [[#11878] Fix console errors](https://github.com/TEAMMATES/teammates/pull/13058) | <!-- 240419          -->
+| 13      | [[#11878] Fix Rejection Modal](https://github.com/TEAMMATES/teammates/pull/13059) | <!-- 240419          -->
+| Rd      | [[#11878] Account Request Indexing Script](https://github.com/TEAMMATES/teammates/pull/13076) | <!-- 240422          -->
+| Rd      | [[#13064] Use AccountRequestUpdateRequest as parameter](https://github.com/TEAMMATES/teammates/pull/13068) | <!-- 240422 - 240423 -->
+| Rd      | [[#11878] Add CAPTCHA to ARF](https://github.com/TEAMMATES/teammates/pull/13081) | <!-- 240423          -->
 
 # General Project Management
 
 | Week | Achievements |
 | ---- | ------------ |
 |  2 -  6 | Mentored Marques for onboarding task: [[#12048] Migrate UpdateStudentAction](https://github.com/TEAMMATES/teammates/pull/12727) | <!-- 240128 - 240225 -->
+| Rc -  8 | Designed Account Request Form (ARF) with ARF team | <!--      ? -      ? -->
+| Rc - 13 | Attended weekly ARF meetings | <!--      ? -      ? -->
+|  7 - 13 | Planned ARF task allocation for each milestone with ARF team | <!--      ? -      ? -->
+|  7 - Rd | Mentored Xenos (mainly) and Dominic Berzin (secondarily, with Eunice as the main mentor) | <!--      ? -      ? -->
+|  8 - 13 | Adjusted ARF design with ARF team for changing requirements or issues predicted or encountered | <!--      ? -      ? -->
