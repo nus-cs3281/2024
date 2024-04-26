@@ -216,15 +216,7 @@
     },
     {
       "src": "students/KevinEyo1/knowledge.md",
-      "headings": {
-        "tool-technology-1": "Tool/Technology 1",
-        "github-actions": "GitHub Actions",
-        "node-package-structure": "Node package structure",
-        "plugins": "Plugins",
-        "typescript": "Typescript",
-        "markbind-lists-implementation": "MarkBind Lists Implementation",
-        "general-markbind-implementation-details": "General MarkBind Implementation Details"
-      },
+      "headings": {},
       "headingKeywords": {}
     },
     {
@@ -948,18 +940,11 @@
         "rxjs": "RxJS",
         "markbind": "MarkBind",
         "eyo-kai-wen-kevin": "EYO KAI WEN, KEVIN",
-        "tool-technology-1": "Tool/Technology 1",
-        "github-actions": "GitHub Actions",
-        "node-package-structure": "Node package structure",
-        "plugins": "Plugins",
-        "typescript-2": "Typescript",
-        "markbind-lists-implementation": "MarkBind Lists Implementation",
-        "general-markbind-implementation-details": "General MarkBind Implementation Details",
         "lam-jiu-fong": "LAM JIU FONG",
         "node-package-manager-npm": "Node Package Manager (npm)",
         "stylelint": "Stylelint",
         "commander-js": "Commander.js",
-        "github-actions-2": "Github Actions",
+        "github-actions": "Github Actions",
         "wang-jingting": "WANG JINGTING",
         "vue-and-jest-vue-test-utils": "Vue and Jest/Vue Test Utils",
         "esm-cjs-interoperality": "ESM/CJS interoperality",
