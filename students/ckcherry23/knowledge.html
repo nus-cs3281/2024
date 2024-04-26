@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 5.4.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="/2024/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/2024/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/2024/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/2024/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/2024/markbind/css/markbind.min.css"><script src="/2024/markbind/js/polyfill.min.js"></script>
+    <script src="/2024/markbind/js/vue.min.js"></script>
+    <script src="/2024/markbind/js/markbind.min.js"></script>
+    <script src="knowledge.page-vue-render.js"></script><link rel="stylesheet" href="/2024/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/2024/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+  <link rel="stylesheet" href="/2024/stylesheets/main.css">
+<link rel="icon" href="/2024/favicon.ico"></head>
+<script>
+  const baseUrl = '/2024'
+</script>
+<body >
+<div id="app" data-server-rendered="true"><header fixed=""><div placement="top" data-v-7c0fd418><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-primary" data-v-7c0fd418><div class="container-fluid" data-v-7c0fd418><div class="navbar-left" data-v-7c0fd418><a href="/2024/index.html" title="Home" class="navbar-brand" data-v-7c0fd418>CS3281&amp;2-2024/Students</a></div> <div class="navbar-default" data-v-7c0fd418><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-7c0fd418> <li class="nav-link dropdown" data-v-ccda25c0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-ccda25c0>CS3281</a> <ul class="dropdown-menu" data-v-ccda25c0> <li data-v-ccda25c0><a href="/2024/index.html" class="dropdown-item" data-v-ccda25c0>Students</a></li> <li data-v-ccda25c0><a href="/2024/students/knowledge.html" class="dropdown-item" data-v-ccda25c0>Knowledge</a></li> <li data-v-ccda25c0><a href="https://nus-cs3281.github.io/2024-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByAuthors&amp;breakdown=false" class="dropdown-item" data-v-ccda25c0>Code Dashboard</a></li></ul></li> <li class="nav-link dropdown" data-v-ccda25c0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-ccda25c0>CS3282</a> <ul class="dropdown-menu" data-v-ccda25c0> <li data-v-ccda25c0><a href="/2024/cs3282-index.html" class="dropdown-item" data-v-ccda25c0>Students</a></li> <li data-v-ccda25c0><a href="/2024/students/talksSchedule.html" class="dropdown-item" data-v-ccda25c0>Lightning Talks</a></li></ul></li> <li data-v-7c0fd418><a href="/2024/instructions.html" class="nav-link" data-v-7c0fd418>Instructions</a></li> <li data-v-7c0fd418><a href="https://nus-cs3281.github.io/website/" class="nav-link" data-v-7c0fd418>CS3281&amp;2 Website <span data-v-7c0fd418><span aria-hidden="true" class="glyphicon glyphicon-share-alt" data-v-7c0fd418></span></span></a></li></ul></div> <ul class="navbar-nav navbar-right" data-v-7c0fd418><li data-v-7c0fd418><a href="https://github.com/nus-cs3281/2024" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><span aria-hidden="true" class="fab fa-github" data-v-7c0fd418></span></span></a></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-7c0fd418><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><h3 id="1-tools-and-technologies">1. Tools and Technologies<a href="#1-tools-and-technologies" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <p>The RepoSense frontend is built with Vue.js and Pug, with most of the JavaScript files being migrated to TypeScript over
+the semester. Node.js is used to manage the packages, while static code analysis is performed with ESLint.
+Cypress is the tool of choice for testing the frontend.</p> <h4 id="1-1-vue-js">1.1 Vue.js<a href="#1-1-vue-js" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>Prior to working on RepoSense, I had experienced working with Vue.js using Vuetify components and the
+<a href="https://vuejs.org/api/options-state.html">Options API</a>. However, working on the project allowed me to delve deeper into
+the intricacies of Vue and how to fully utilize its features.</p> <p><strong>1.1.1 MVVM Architecture Pattern</strong></p> <p>Vue.js focuses on the 'ViewModel' layer of the MVVM (Model-View-ViewModel) architectural pattern. This is because it connects
+the Views and Models via 2-way data bindings. In this case, the view is the DOM (Document Object Model), and the models are
+the plain JavaScript objects.</p> <p><strong>1.1.2 Leveraging Template Refs for Custom Behaviors</strong></p> <p>While Vue has a rendering model that abstracts away direct manipulation of the DOM, sometimes it is necessary to have access
+to the DOM to programmatically control an element. Hence, Vue gives us access to <code class="hljs inline no-lang">$refs</code>, which are similar to
+<code class="hljs inline no-lang">document.querySelector('.element')</code> in JavaScript, but are more efficient as they give direct access to the element needed
+rather than returning the first element that matches the given selector. This allowed me to implement custom behaviour such as
+<a href="https://github.com/reposense/RepoSense/pull/1860">pinning the file title</a> within Vue.</p> <p><strong>1.1.3 Reusability with Custom Directives</strong></p> <p>Reuse of code is an essential concept in software engineering, which is why Vue offers custom directives.
+Custom directives allow the reuse of logic that involves low-level DOM access. They are basically objects containing
+lifecycle hooks similar to those of a component.</p> <p>One of the custom directives that RepoSense was already utilizing was a plugin called
+<a href="https://github.com/Akryum/vue-observe-visibility/tree/next"><code class="hljs inline no-lang">vue-observe-visibility</code></a>. This made use of the
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry">IntersectionObserverEntry Web API</a> to observe
+whether an element is in view and execute a function accordingly.</p> <p>During my work on the <a href="https://github.com/reposense/RepoSense/pull/1860">pin file title PR</a>, I encountered a bug where
+tooltips appeared out of the viewport when at the top of the page. As the file title would be pinned to the top of the
+page, this issue needed to be resolved before my PR could be merged. To address this, I thought of using a custom
+directive, and I utilized the <code class="hljs inline no-lang">vue-observe-visibility</code> directive to modify the CSS of the tooltip to be bottom-aligned
+based on visibility changes. While this solution was successful, we required more customization as the tooltip needed
+to move back to being top-aligned when scrolling up. I eventually used template refs to address this issue, but this
+experience allowed me to understand better about custom directives.</p> <h4 id="1-2-vuex">1.2 Vuex<a href="#1-2-vuex" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>Vuex is a state management pattern and library for Vue that serves as the centralized source for all components. It
+enforces rules to ensure that the state can only be mutated in a predictable manner.</p> <p><strong>1.2.1 Single Source of Truth</strong></p> <p>During my work on a <a href="https://github.com/reposense/RepoSense/pull/1939">PR</a> to differentiate between authors when using
+the 'merge group' option in RepoSense, I faced an issue with unsynchronised data copies. Initially, I had stored the
+colors assigned to authors in both a local <code class="hljs inline no-lang">data()</code> variable and the Vuex store. To resolve this, I employed <code class="hljs inline no-lang">mapState</code>
+as a Vue <code class="hljs inline no-lang">computed</code> property to access the Vuex state from Vue components. This approach allowed me to re-evaluate the
+computed property every time the data changed, which triggered DOM updates and allowed a single source of truth.
+However, relying on the global store singleton could potentially be considered an anti-pattern as it would make the code
+difficult to test.</p> <h4 id="1-3-javascript">1.3 JavaScript<a href="#1-3-javascript" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p><strong>1.3.1 Dot vs Bracket Notation for Accessing Object Properties:</strong></p> <p>The dot notation (<code class="hljs inline no-lang">objectName.propertyName</code>) is commonly used to access properties in a clean manner. However, it limits
+property identifiers to alphanumeric characters, <code class="hljs inline no-lang">_</code>, and <code class="hljs inline no-lang">$</code>. On the other hand, the bracket notation
+(<code class="hljs inline no-lang">objectName['propertyName']</code>) can use all UTF-8 characters in property names or even variables that finally resolve to
+a string. This notation is useful when the property name is only known during runtime, as in this
+<a href="https://github.com/reposense/RepoSense/pull/1860">PR</a> where <code class="hljs inline no-lang">this.$refs[file.path]</code> is used because the reference to
+<code class="hljs inline no-lang">file.path</code> is only resolved based on the file being interacted with.</p> <p><strong>1.3.2 ES6 String Interpolation for Cleaner Code</strong></p> <p>ES6 introduced template strings as a concise and readable way to insert values into strings. In contrast, the string
+concatenation approach can be harder to read and edit, and requires creating multiple strings that need to be put
+together. Moreover, string concatenation would take up more memory and computation compared to creating just one string.</p> <h4 id="1-4-typescript">1.4 TypeScript<a href="#1-4-typescript" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>TypeScript is an object-oriented programming language that allows for classes, interfaces, and inheritance support in
+the frontend. It provides static typing and type inference, making it easier to catch errors before runtime.
+Therefore, we decided to migrate our codebase from JavaScript to TypeScript to align our frontend with our OOP Java backend.</p> <p><strong>1.4.1 Class vs Interface for Typing</strong></p> <p>When working on <a href="https://github.com/reposense/RepoSense/pull/1852">my first PR</a> for defining Vue prop types explicitly,
+I initially used classes in TypeScript. However, after gaining more knowledge about TypeScript, I realized that
+interfaces are more suitable for type-checking at compile time. Interfaces have less overhead since they do not exist at
+runtime and are erased when the code is transpiled to JS. Although classes can define methods relevant to class objects,
+this feature was not useful for us. In a <a href="https://github.com/reposense/RepoSense/pull/1965">later PR</a>, we decided to
+switch to using an interface to improve the performance of the frontend.</p> <h4 id="1-5-pug">1.5 Pug<a href="#1-5-pug" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>Pug is a templating language that makes it easier to write reusable HTML components with cleaner syntax. It is useful
+when working with data-driven web applications like RepoSense. Although it can be challenging to find resources that
+provide documentation on
+<a href="https://medium.com/@martinsOnuoha/building-vue-components-with-pug-stylus-564615ed289">using Vue and Pug together</a>,
+Pug's syntax is much faster to develop in than HTML once you get used to it.</p> <h4 id="1-6-sass-and-css">1.6 Sass and CSS<a href="#1-6-sass-and-css" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>Sass is a CSS pre-processor and an extension of CSS. It helps reduce repetition in CSS and saves programming time by
+providing features like variables, mixins, imports, and inheritance. A Sass pre-processor transpiles Sass code into
+standard CSS as browsers can only understand plain CSS code.</p> <p><strong>1.6.1 Choosing between Placeholders and Mixins</strong></p> <p>The difference between mixins and placeholders is that placeholders consolidate mutually-shared code, whereas mixins just
+assign the properties to the individual classes — along with whatever was specific to that class. Because of this, it’s
+preferred to use placeholders. But since placeholders aren’t able to take parameters, it’s better to use mixins in such
+cases.</p> <p>I had to decide between placeholders and mixins when trying to consolidate the code required for a tooltip tail, and assign
+it along with some specific properties depending on whether the tooltip was top-aligned or bottom-aligned. Hence, I made use
+of placeholders for this as they group together mutually-shared code. In another
+<a href="https://github.com/reposense/RepoSense/pull/1979">PR</a>, I used mixins to standardize the fonts used throughout the
+frontend as fonts only need to be assigned to the CSS classes along with their other properties.</p> <h4 id="1-7-cypress">1.7 Cypress<a href="#1-7-cypress" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>Cypress is a powerful web testing framework designed for end-to-end testing. Unlike Selenium, it operates within the application,
+allowing high flexibility to access any objects in the app, including DOM objects and the window, similar to how we do
+within the code itself.</p> <p><strong>1.7.1 Effective and efficient test case design</strong></p> <p>To ensure effective and efficient test case design, I have targeted potential fault points with each of my Cypress test
+cases. However, I noticed repetitive Cypress commands in these test cases, which can be extracted into a common function
+for better reusability. While the rest of the codebase also uses such repetitive commands in all test cases
+for setup, we should plan to extract all the setup commands into a common function to allow for reusability.</p> <h4 id="1-8-linting">1.8 Linting<a href="#1-8-linting" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p>Linting is the process of performing static analysis on code to identify programming or code style errors. While I have used
+code analysis tools of IDEs, I had not explicitly enforced custom coding rules using lints before.</p> <p><strong>1.8.1 Enforcing Custom Coding Rules with ESLint</strong></p> <p>During the migration to TypeScript, we decided to use the Airbnb style guide, similar to how we used it for JavaScript.
+Besides, we defined other <a href="https://typescript-eslint.io/rules/">custom rules</a>, and I created a
+<a href="https://github.com/reposense/RepoSense/issues/1980">first-timer issue</a> that deals with the consistent use of <code class="hljs inline no-lang">T[]</code> or
+<code class="hljs inline no-lang">Array</code> throughout the codebase. This helps enforce coding standards and make the code more consistent and maintainable.</p> <hr> <p>The Backend for RepoSense is written in Java, and testing is done using JUnit. Since RepoSense is for contribution analysis,
+Git commands are highly used within the project. Gradle is used to manage the project dependencies and for DevOps tasks.</p> <h4 id="1-9-git">1.9 Git<a href="#1-9-git" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p><strong>1.9.1 Understanding <code class="hljs inline no-lang">git log</code></strong></p> <p>For working on the <a href="https://github.com/reposense/RepoSense/pull/1882">PR to include merge commits</a> in the web dashboard, some
+backend changes were required as merge commits were not included in the generated report itself. Hence, I had to look into the
+docs of git commands, specifically <code class="hljs inline no-lang">git log</code>, to understand what flags I could make use of to include all the desired
+commits in the report. Previously, we were using the <code class="hljs inline no-lang">--no-merges</code> flag to remove all merges from the report. However, simply
+removing this flag did not help in including all the merge commits in the new report. This may be because git continues to
+simplify “uninteresting” merges in the default mode. Finally, the use of <code class="hljs inline no-lang">--full-history</code> helped include all commits without
+merging any same content commits together. <code class="hljs inline no-lang">git log</code> also had to option to format its output with a <code class="hljs inline no-lang">&lt;format-string&gt;</code>, and
+this formatted output makes it easy for us to parse the results and generate our repository analysis reports.</p> <p><strong>1.9.2 Spoofing for Good</strong></p> <p>I was surprised by how easy it is to commit as someone else using Git as long as one has write access. I had to make use of this
+technique when I had to create a test commit, as only commits from a selected group of users are part of the Cypress test
+dashboard. I <a href="https://github.com/reposense/RepoSense/commit/ffbc714a11c39fae870d1ea994ce200008c63756">spoofed</a> one of
+these users so that the commit to test appears on the test dashboard.</p> <hr> <h3 id="2-software-engineering">2. Software Engineering<a href="#2-software-engineering" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <h4 id="2-1-design-choices">2.1 Design choices<a href="#2-1-design-choices" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p><strong>2.1.1 Object parameter vs multiple parameters for constructors</strong></p> <p>While creating a <code class="hljs inline no-lang">User</code> object in TypeScript, I encountered the challenge of passing in a large number of arguments (~10)
+to construct the object. This made me wonder what the best way of initialising such objects with large number of
+attributes is. I was exploring the use of a single object parameter, as it makes the code much cleaner. However, there
+is a tradeoff of whether it would be type safe to just pass an object without any type as a parameter into the function.
+Yet, I decided to continue with the method of using an object argument as this issue of type safety could be mitigated
+in the future by checking that the object being passed in as the argument implements the <code class="hljs inline no-lang">User</code> interface,
+when migrating to TypeScript, which was eventually done.</p> <h4 id="2-2-reflections">2.2 Reflections<a href="#2-2-reflections" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p><strong>2.2.1 Understanding a Language/Tool Before Working with It</strong></p> <p>Previously, I had the mindset of just making things work without understanding the inner workings of a language or tool.
+However, I realized that this approach only led to superficial knowledge, making each challenge as difficult as the last.
+This semester, I gained a new perspective on how understanding the language/tool can make things easier down the road.
+I now strive for a good balance of theory and practical knowledge to accumulate my understanding and improve over time.</p> <p><strong>2.2.2 Applying the &quot;Make it Work, Make it Right, Make it Fast&quot; Principle</strong></p> <p>While working on a <a href="https://github.com/reposense/RepoSense/pull/1939">PR</a> to differentiate between authors while using
+'merge group', I applied the principle of <em>&quot;Make it work, Make it right, Make it fast.&quot;</em> Initially, I focused on making
+it work and fixing any edge cases. Later on, I refactored the code to optimize it. Additionally, I conducted performance
+analysis for the PR after it was complete, which can be accessed
+<a href="https://github.com/reposense/RepoSense/pull/1939#issuecomment-1518718579">here</a>.</p> <p><strong>2.2.3 Full-Stack Development Experience</strong></p> <p>Working on the <a href="https://github.com/reposense/RepoSense/pull/1882">show merge commits PR</a> provided a chance to work on
+all aspects of the codebase as a frontend developer. I researched Git to find out how to include all merge commits,
+edited the Java backend parsers to include an additional field for whether a commit is a merge commit, and made frontend
+changes to include merge commits within the HTML report. Furthermore, I wrote test cases for frontend Cypress, backend
+unit tests, and system tests. This experience was rewarding as it allowed me to do full-stack development and learn how
+all the components work together while solving a single problem.</p> <hr> <h3 id="3-project-management">3. Project Management<a href="#3-project-management" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <h4 id="3-1-lessons-learned-from-contributing-to-an-open-source-project">3.1 Lessons Learned from Contributing to an Open-Source Project<a href="#3-1-lessons-learned-from-contributing-to-an-open-source-project" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4> <p><strong>3.1.1 Understanding the Contribution Workflow</strong></p> <p>Contributing to RepoSense has provided me with valuable insights into the contribution workflow for open-source projects.
+It has helped me understand the quality expectations that are necessary for maintaining a high-quality codebase.
+However, having strict rules can sometimes hinder the PR review process, leading to longer review cycles. Hence, to
+strike a balance between quality and speed, setting guidelines and maintaining effective communication channels is
+essential.</p> <p><strong>3.1.2 Importance of Documentation</strong></p> <p>Documentation is an integral part of open-source projects, and its importance cannot be overemphasized. It's easy to forget to
+update the documentation after making changes in a PR, leading to outdated documentation. Going forward, I recognize the need to
+maintain an up-to-date documentation to ensure that future contributors have access to accurate and comprehensive information.
+To this end, I suggest having a checklist in the PR issue template to remind contributors of the need to update documentation.</p> <p><strong>3.1.3 Optimal PR Length</strong></p> <p>I received feedback from my mentors that my PRs were too long, leading to difficulty in reviewing. It was suggested that
+breaking down the PRs into smaller ones would make the review process easier. Based on this feedback, I have made a conscious
+effort to create smaller PRs going forward.</p> <p><strong>3.1.4 Understanding Versioning</strong></p> <p>Contributing to RepoSense has provided me with insights into versioning and how it is maintained for open-source projects.
+The process of maintaining separate web pages for documentation of released versions and the master version has been an
+important lesson. To deepen my understanding of project management, I am planning on making a release myself in the near future.</p></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav></div> <footer><div class="text-center"><p>[<strong>This site was generated using <img src="https://markbind.org/favicon.ico" width="25"> <a href="https://markbind.org/">MarkBind 5.4.0</a></strong> on Fri, 26 Apr 2024, 7:39:18 UTC]<br> <span class="dimmed"><small><small>favicon.ico of this site was made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></small></span></p></div></footer></div>
+</body><script src="/2024/markbind/js/bootstrap-utility.min.js"></script>
+<script>
+  MarkBind.setupWithSearch()
+</script>
+</html>
