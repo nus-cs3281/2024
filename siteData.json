@@ -773,7 +773,12 @@
     },
     {
       "src": "students/jayasting98/progress.md",
-      "headings": {},
+      "headings": {
+        "submitted-issues": "Submitted Issues",
+        "authored-pull-requests": "Authored Pull Requests",
+        "reviewed-pull-requests": "Reviewed Pull Requests",
+        "general-project-management": "General Project Management"
+      },
       "headingKeywords": {}
     },
     {
