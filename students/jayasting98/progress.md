@@ -1,3 +1,14 @@
+## Summary
+
+- Aided in migration
+  - Migrated Action: GetOngoingSessionsAction ([#12710](https://github.com/TEAMMATES/teammates/pull/12710))
+  - SQL Injection Tests ([#12857](https://github.com/TEAMMATES/teammates/pull/12857), [#12858](https://github.com/TEAMMATES/teammates/pull/12858))
+  - Migrated E2E test: InstructorCourseDetailsPageE2ETest ([#12908](https://github.com/TEAMMATES/teammates/pull/12908))
+  - Reviewed PRs ([#12709](https://github.com/TEAMMATES/teammates/pull/12709), [#12723](https://github.com/TEAMMATES/teammates/pull/12723), [#12732](https://github.com/TEAMMATES/teammates/pull/12732), [#12727](https://github.com/TEAMMATES/teammates/pull/12727), [#12738](https://github.com/TEAMMATES/teammates/pull/12738), [#12739](https://github.com/TEAMMATES/teammates/pull/12739), [#12788](https://github.com/TEAMMATES/teammates/pull/12788), [#12847](https://github.com/TEAMMATES/teammates/pull/12847), [#12801](https://github.com/TEAMMATES/teammates/pull/12801), [#12848](https://github.com/TEAMMATES/teammates/pull/12848), [#12800](https://github.com/TEAMMATES/teammates/pull/12800), [#12851](https://github.com/TEAMMATES/teammates/pull/12851))
+- Mentored junior developers
+  - Primarily Marques in the first half, Xenos in the second half, and secondarily Dominic Berzin with Eunice (his primary mentor)
+- 
+
 ## Submitted Issues
 
 | Week | Achievements |
