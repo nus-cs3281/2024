@@ -787,6 +787,7 @@
     {
       "src": "students/jayasting98/progress.md",
       "headings": {
+        "summary": "Summary",
         "submitted-issues": "Submitted Issues",
         "authored-pull-requests": "Authored Pull Requests",
         "reviewed-pull-requests": "Reviewed Pull Requests",
