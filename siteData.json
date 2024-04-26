@@ -453,7 +453,11 @@
     },
     {
       "src": "students/cedricongjh/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary",
+        "cs3282-pre-sem-progress": "CS3282 Pre-Sem Progress",
+        "cs3282-progress": "CS3282 Progress"
+      },
       "headingKeywords": {}
     },
     {
