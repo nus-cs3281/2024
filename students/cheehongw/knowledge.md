@@ -16,13 +16,27 @@ In CATcher, I focused on identifying the dependencies that needed to be updated.
 
 Beyond that, I have learnt how to use `npm outdated`, `npm-check` etc to identify outdated dependencies. I also learnt how to use `npm ls` to print out the dependency tree of a given package. This was useful in identifying the dependencies that needed to be updated.
 
+Resources
+- https://docs.npmjs.com/cli/v6/commands/npm-outdated
+- https://www.npmjs.com/package/npm-check
+- https://docs.npmjs.com/cli/v6/commands/npm-ls
+- 
 ### ESLint migration
 
 I also assisted with the tslint to eslint migration in CATcher. While initially a PR done by a mentee, I had to stay involved and understand the changes made as well. I had to understand how to configure eslint to work with the project. This was a challenging task, but I am glad that I managed to complete it.
 
+Resources: 
+- https://eslint.org/docs/user-guide/configuring
+- https://github.com/angular-eslint/angular-eslint/blob/main/docs/MIGRATING_FROM_TSLINT.md
+
 ### i18next
 
 Beyond work done in CATcher, I also worked on SourceAcademy, where I implemented an i18n framework. i18next is a powerful library that allows for easy translation of text in a project. During my implementation of the i18n framework in SourceAcademy, I referenced several implementations of i18n across various established open source repos such as HospitalRun and FreeCodeCamp for any best practices. From these references, I learned how to structure the i18n files and the various translation resources to make it easy for future translators to add on new translations.
+
+Resources:
+- https://www.i18next.com/
+- https://react.i18next.com/
+
 
 ## Angular Essentials
 I had contributed to CATcher as part of IWM, but I have never really approached the Angular aspects of the project.

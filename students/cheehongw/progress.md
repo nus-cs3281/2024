@@ -46,6 +46,8 @@
 | Week 11 | PR Reviewer | [Add documentation for CATcher's parser #1240](https://github.com/CATcher-org/CATcher/pull/1240) | 
 | Week 13 | PR Reviewer | [Add login redirect #1256](https://github.com/CATcher-org/CATcher/pull/1256) | 
 | Reading Week | PR Reviewer & Co-author | [Migrate from TSLint to ESLint #1250](https://github.com/CATcher-org/CATcher/pull/1250) | Had to step in to complete the PR
+| Reading Week | PR Author | [Upgrade to Angular 13 #1249](https://github.com/CATcher-org/CATcher/pull/1249) |
+
 
 
 ### WATcher
@@ -59,7 +61,7 @@
 | Week 6 | PR Reviewer | [Upgrade to Angular 11 #252](https://github.com/CATcher-org/WATcher/pull/252)
 | Recess | PR Reviewer | [Fix zone testing import error #269](https://github.com/CATcher-org/WATcher/pull/269)
 
-### SourceAcademy
+### External Project - SourceAcademy
 
 | Date | Role | Description | Key Achievements |
 | ---- | ---- | ----------- | ---------------- |
