@@ -47,6 +47,7 @@
 | Week 13 | PR Reviewer | [Add login redirect #1256](https://github.com/CATcher-org/CATcher/pull/1256) | 
 | Reading Week | PR Reviewer & Co-author | [Migrate from TSLint to ESLint #1250](https://github.com/CATcher-org/CATcher/pull/1250) | Had to step in to complete the PR
 | Reading Week | PR Author | [Upgrade to Angular 13 #1249](https://github.com/CATcher-org/CATcher/pull/1249) |
+| Reading Week | PR Author | [Fix e2e regression caused by changes in AuthService #1275](https://github.com/CATcher-org/CATcher/pull/1275)
 
 
 
