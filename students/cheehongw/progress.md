@@ -37,6 +37,7 @@
 | Date | Role | Description | Key Achievements |
 | ---- | ---- | ----------- | ---------------- |
 | Week 2 | PR Reviewer | [Uncaught error when invalid link is clicked #1239](https://github.com/CATcher-org/CATcher/pull/1239)
+| Week 4 | PR Reviewer | [Default branch to main #1234](https://github.com/CATcher-org/CATcher/pull/1234)
 | Week 4 | PR Author | [Angular 12 #1242](https://github.com/CATcher-org/CATcher/pull/1242)
 | Week 5 | PR Reviewer | [Faulty list view when back navigating #1243](https://github.com/CATcher-org/CATcher/pull/1243)
 | Week 6 | PR Reviewer | [Fix markdown blockquote preview difference #1245](https://github.com/CATcher-org/CATcher/pull/1245)
@@ -56,7 +57,7 @@
 | Date | Role | Description | Key Achievements |
 | ---- | ---- | ----------- | ---------------- |
 | Week 4 | PR Reviewer | [Show list of hidden users #235](https://github.com/CATcher-org/WATcher/pull/235)
-| Week 4 | PR Reviewer | [Build in Github Actions #239] (https://github.com/CATcher-org/WATcher/pull/239)
+| Week 4 | PR Reviewer | [Build in Github Actions #239](https://github.com/CATcher-org/WATcher/pull/239)
 | Week 5 | PR Reviewer | [Remove unused session-fix-confirmation component #250](https://github.com/CATcher-org/WATcher/pull/250)
 | Week 5 | PR Reviewer | [Remove unused models #253](https://github.com/CATcher-org/WATcher/pull/253)
 | Week 6 | PR Reviewer | [Upgrade to Angular 11 #252](https://github.com/CATcher-org/WATcher/pull/252)
