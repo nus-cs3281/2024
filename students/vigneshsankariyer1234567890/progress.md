@@ -14,6 +14,11 @@
 
 | Date | Role | Description | Key Achievements |
 | ---- | ---- | ----------- | ---------------- |
+| 4 July 2023 | PR Reviewer | [Specify node version in package.json](https://github.com/CATcher-org/CATcher/pull/1202) |
+| 12 Oct 2023 | PR Reviewer | [Fetch settings json directly without api](https://github.com/CATcher-org/CATcher/pull/1215) |
+| 14 Oct 2023 | Version Release | [v3.5.1](https://github.com/CATcher-org/CATcher/pull/1219) |
+| 4 Mar 2024 | Version Release | [v3.5.3](https://github.com/CATcher-org/CATcher/pull/1252) |
+| 4 Mar 2024 | PR Reviewer | [Upgrade to Angular 13](https://github.com/CATcher-org/CATcher/pull/1249) |
 
 ### WATcher
 
