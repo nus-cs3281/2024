@@ -26,3 +26,6 @@
 | 10 | Reviewed PR: [#2151] Update LoadingOverlay and Minor Versions of Node Dependencies #2152 |
 | 12 | Reviewed PR: [#2176] Move from Vue CLI to Vite #2178 |
 | 13 | Reviewed PR: [#2001] Extract c-file-type-checkbox from Summary, Authorship and Zoom #2173 |
+| 13 | Allow CI to pass if Codecov fails #2189 |
+| Reading Week | Merged PR: [#2177] Migrate to Java 11 Syntax and Features #2183 |
+| Reading Week | Merged PR: [#2184] Fix Inconsistent Line Number Colours #2185 |
