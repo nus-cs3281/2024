@@ -1405,7 +1405,8 @@
         "zitadel": "Zitadel",
         "templ": "Templ",
         "ferretdb": "FerretDB",
-        "facebook-demucs": "Facebook Demucs"
+        "facebook-demucs": "Facebook Demucs",
+        "ffmpeg-go": "ffmpeg-go"
       },
       "headingKeywords": {}
     },
