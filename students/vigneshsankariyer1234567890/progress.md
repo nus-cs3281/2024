@@ -9,6 +9,7 @@
   - [Templ](https://github.com/a-h/templ)
   - [FerretDB](https://github.com/FerretDB/FerretDB)
   - [Facebook Demucs](https://github.com/xserrat/docker-facebook-demucs)
+  - [ffmpeg-go](https://github.com/u2takey/ffmpeg-go)
 
 ### CATcher
 
@@ -39,18 +40,29 @@
 
 | Date | Role | Description | Key Achievements |
 | ---- | ---- | ----------- | ---------------- |
+| 15 Mar 2024 | PR Author | [fix: Incorrect button positioning on email verification](https://github.com/zitadel/zitadel/pull/7579) | Fixed template HTML template issue |
+| 3 Apr 2024 | PR Author | [fix: Update url to redirect to name change url](https://github.com/zitadel/zitadel/pull/7683) |
 
 ### Templ
 
 | Date | Role | Description | Key Achievements |
 | ---- | ---- | ----------- | ---------------- |
+| 4 Apr 2024 | PR Author | [docs: Create documentation and examples for Internationalization](https://github.com/a-h/templ/pull/666) | Created SSR page with simple Go server using Templ, Echo, HTMX |
 
 ### FerretDB
 
 | Date | Role | Description | Key Achievements |
 | ---- | ---- | ----------- | ---------------- |
+| 3 Apr 2024 | PR Author | [Add local Changelog generation based on PR titles and labels](https://github.com/FerretDB/FerretDB/pull/4219) | Created customised Changelog that queries GitHub API, loads a Changelog template based on GitHub's own Changelog template, groups PRs by labels and renders to stdout |
 
 ### Facebook Demucs
 
 | Date | Role | Description | Key Achievements |
 | ---- | ---- | ----------- | ---------------- |
+| 13 Mar 2024 | Issue Contributor | [Enhancement: Ensure image runs without dropping into a shell to run the demucs command](https://github.com/xserrat/docker-facebook-demucs/issues/38) |
+
+### ffmpeg-go
+
+| Date | Role | Description | Key Achievements |
+| ---- | ---- | ----------- | ---------------- |
+| 13 Mar 2024 | Issue Contributor | [[Enhancement] Migrate to aws-sdk-go-v2](https://github.com/u2takey/ffmpeg-go/issues/112) |
