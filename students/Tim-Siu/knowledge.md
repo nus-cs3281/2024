@@ -1,6 +1,6 @@
-# How MarkBind Works
+## How MarkBind Works
 
-## MarkBind Rendering Flow
+### MarkBind Rendering Flow
 
 The rendering flow for creating a complete website from Markdown using MarkBind involves several key components and processes:
 
@@ -45,7 +45,7 @@ The rendering flow for creating a complete website from Markdown using MarkBind 
 10. **Output Generation**:
   - Finally, the rendered pages and assets are written to the output directory specified during site initialization.
 
-## Vue.js Integration in MarkBind
+### Vue.js Integration in MarkBind
 
 MarkBind integrates Vue.js for building user interfaces and enhancing the rendering process. Here's how Vue.js is used in MarkBind:
 
@@ -57,7 +57,7 @@ MarkBind integrates Vue.js for building user interfaces and enhancing the render
 
 - **Integration with MarkBind Plugins**: MarkBind plugins can also utilize Vue.js to extend the functionality of the application. Plugins can define custom Vue components, directives, and hooks to interact with the rendering process.
 
-## Build Process and Asset Management
+### Build Process and Asset Management
 
 MarkBind follows a build process to generate the final website and manage the necessary assets:
 
@@ -72,13 +72,13 @@ MarkBind follows a build process to generate the final website and manage the ne
 - **Bootstrap Theme**: MarkBind allows customization of the Bootstrap theme used in the site. The `copyBootstrapTheme` method in `Site/index.ts` handles the copying of the selected Bootstrap theme to the output directory.
 
 ---
-# Libraries used in MarkBind
+## Libraries used in MarkBind
 
-## markdown-it
+### markdown-it
 
 MarkBind uses `markdown-it` for rendering html from markdown files. `markdown-it` is a fast markdown parser and has very extensive plugins support and great extensibility.
 
-### Adding custom rules to `markdown-it` through adding a rule to `markdown-it`'s attribute
+#### Adding custom rules to `markdown-it` through adding a rule to `markdown-it`'s attribute
 
 Adding custom rules to `markdown-it` can be done easily by adding a rule to the attribute.
 For example, if we want to add our rules for rendering fenced code blocks, we can do so by adding a rule to the `markdown-it`'s attribute.
@@ -117,11 +117,11 @@ markdownIt.renderer.rules.fence = (tokens, idx, options, env, slf) => {
 };
 ```
 
-## Cheerio
+### Cheerio
 
 MarkBind uses Cheerio for parsing and manipulating the HTML structure of Markdown files after they have been processed by `markdown-it`. Cheerio is a fast, flexible, and lean implementation of core jQuery designed specifically for the server.
 
-### Loading HTML into Cheerio
+#### Loading HTML into Cheerio
 
 To use Cheerio, we first need to load HTML into it. This is done by passing the HTML string to the `cheerio.load` function.
 
@@ -131,7 +131,7 @@ const $ = cheerio.load('<h2 class="title">Hello world</h2>');
 
 The `$` variable now contains a Cheerio instance that wraps the parsed HTML, and can be used similarly to how we would use jQuery in the browser.
 
-### Selecting Elements
+#### Selecting Elements
 
 Cheerio uses CSS selectors to select elements, just like jQuery. Here are some examples:
 
@@ -149,7 +149,7 @@ $('.text');
 $('h2 a');
 ```
 
-### Manipulating Elements
+#### Manipulating Elements
 
 Once we have selected elements, we can manipulate them in various ways. Some common methods include:
 
@@ -175,7 +175,7 @@ $('#title').text('New Title');
 $('p').append('<span>Some appended text</span>');
 ```
 
-### Rendering Back to HTML
+#### Rendering Back to HTML
 
 After manipulating the parsed HTML with Cheerio, we can render it back to an HTML string using the `html` method.
 
@@ -188,11 +188,11 @@ This is useful when we need to save the manipulated HTML back to a file or send 
 
 Cheerio provides a simple and efficient way to parse and manipulate HTML structures in MarkBind plugins, enabling powerful transformations of the rendered Markdown content.
 
-## Vue.js (focusing on custom directives)
+### Vue.js (focusing on custom directives)
 
 Vue.js is a progressive JavaScript framework for building user interfaces. It provides a declarative and component-based approach to UI development, making it easier to create and maintain complex applications.
 
-### Custom Directives in Vue
+#### Custom Directives in Vue
 
 Vue allows we to extend the behavior of HTML elements or Vue components through custom directives. Custom directives provide a way to encapsulate and reuse DOM manipulation logic across your application.
 
@@ -249,7 +249,7 @@ In this case, `my-directive` is the name of the custom directive, and `value` is
 
 Custom directives provide a powerful way to encapsulate and reuse DOM manipulation logic in Vue applications. They allow we to extend the behavior of elements and solve specific problems related to integrating external libraries or custom functionality.
 
-### Solving Issues with Third-Party Library Integration
+#### Solving Issues with Third-Party Library Integration
 
 When integrating third-party libraries into Vue components, we may encounter scenarios where the library's initialization script doesn't work as expected within the component's lifecycle. This can happen due to timing differences between the library's initialization and the component's rendering process.
 
@@ -287,11 +287,11 @@ To use this directive in a Vue component, we can simply attach it to the desired
 By using the custom directive, we ensure that the library initialization happens at the appropriate time within the component's lifecycle, solving the issue of initialization timing.
 
 ---
-# Some more general web development knowledge
+## Some more general web development knowledge
 
-## JavaScript Module Systems
+### JavaScript Module Systems
 
-### CommonJS (CJS)
+#### CommonJS (CJS)
 
 CommonJS is a module system used in Node.js and other JavaScript environments. It uses the `require()` function to import modules and `module.exports` or `exports` to export modules.
 
@@ -305,7 +305,7 @@ module.exports = {
 }
 ```
 
-### ECMAScript Modules (ESM)
+#### ECMAScript Modules (ESM)
 
 ECMAScript Modules (ESM) is the standard module system introduced in JavaScript with ES6 (ECMAScript 2015). It uses the `import` and `export` keywords for importing and exporting modules.
 
@@ -321,7 +321,7 @@ export default {
 
 ESM provides benefits such as static analysis, tree shaking, and better performance compared to CJS. However, CJS is still widely used, especially in older codebases and libraries.
 
-### Differences between CJS and ESM
+#### Differences between CJS and ESM
 
 - **Syntax:** CJS uses `require()` and `module.exports`, while ESM uses `import` and `export`.
 - **Synchronous vs. Asynchronous:** CJS imports are synchronous and blocking, while ESM imports are asynchronous and non-blocking.
@@ -330,7 +330,7 @@ ESM provides benefits such as static analysis, tree shaking, and better performa
 
 Node.js supports both CJS and ESM, and the module system used depends on the file extension (`.mjs` for ESM and `.js` for CJS) or the `"type": "module"` field in the `package.json` file.
 
-## HTML and DOM Rendering Order
+### HTML and DOM Rendering Order
 
 When a web page is loaded, the browser follows a specific order to render the content:
 
