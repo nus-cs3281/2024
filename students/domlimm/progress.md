@@ -21,6 +21,9 @@ The focus for me in CS3282 was over multiple action items/projects. I did a bit 
   - Vetting Technical Design Docs written by CS3281 students under this project
   - Updated entities with the necessary attributes for MCS to work (just the base for future batches)
   - Involved in further discussions with Kevin and Wei Qing
+- External contributions to 3 projects
+  - Though they were small, I have learnt several things from these 3 projects and could see the contrast between them and TEAMMATES too
+  - Had tried to do a more technical heavy one but couldn't get it working and unfortunately vs. the effort and time spent (https://github.com/mattermost/mattermost/issues/24291)
 
 # CS3282 Pre-Semester's Progress
 
