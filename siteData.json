@@ -1460,6 +1460,7 @@
       "src": "students/weiquu/knowledge.md",
       "headings": {
         "cs3282": "CS3282",
+        "cs3281": "CS3281",
         "frontend": "Frontend",
         "backend": "Backend",
         "others": "Others"
