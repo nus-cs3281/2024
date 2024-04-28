@@ -362,7 +362,9 @@
     },
     {
       "src": "students/Nicolascwy/progress.md",
-      "headings": {},
+      "headings": {
+        "teammates": "TEAMMATES"
+      },
       "headingKeywords": {}
     },
     {
