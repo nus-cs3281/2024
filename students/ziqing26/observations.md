@@ -5,8 +5,6 @@
 
 ### My Contributions
 
-Give a description of your contributions, including links to relevant PRs
-
 PR 1: [docs(core): add DataProvider interface definition #5653](https://github.com/refinedev/refine/pull/5653)
 
 Initially I thought contributing to documentation is easy, but I realize that contributing to documentation requires good understanding of the codebase structure and the workflow.

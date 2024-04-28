@@ -1,11 +1,54 @@
 ### CS3282
-(outline:)
-- SQL Injection
-    - Hibernate (HQL) --> vulnerabilities that may result in SQLi
-    - Stored procedures / Parameterized queries
-- Testing: E2E, integration tests (for new sql actions)
+#### SQL Injection (with ORM: Hibernate)
+After v9 migration from NoSQL to SQL database, we have to protect the new database from SQL injection attacks. 
 
-- ARF
+While working on this project, we had to evaluate if our backend which uses Hibernate ORM. I have previous experience with running SQLi attacks from a computer security introductory module and so had some knowledge of how to do simple testing for it, but this gave me a great chance to understand how injection attacks on modern servers are tested for and prevented.
+
+However, since our backend uses Hibernate ORM, I had to also research on how malicious attackers will attack a Hibernate backend. Hibernate increases our attack surface, so not only do we have to test for SQLi attacks written vulnerable SQL queries, we also have to test for SQLi attacks on HQL (hibernate query language) as well as attacks on hibernate itself. 
+
+Based on the research conducted, we have decided the following:
+1. **SQLi**: Hibernate does us a favour as its Criteria API uses parameterized queries with prepared statements, which isolates the SQL code (which is written by developers) from data (provided by users) without restricting users. We will still write unit test cases (at database layer) to check that passing in a parameter with a SQL injection string fails, but we fortunately do not have to add any additional functionality.
+2. **Attacks on Hibernate**: This is when an attacker specifically targets the hibernate architecture / some vulnerability in Hibernate. This is likely a low priority risk -- with how large-scale Hibernate is used, any vulnerability here would urgently be patched by Hibernate developers (we can find these from CVE database). As long as we keep up-to-date on hibernate versions (ie. upgrade if there is a an important update / bug fix for potential attack on hibernate), which our package manager can help with, we should be ok.
+3. **HQLi**: Taking advantage of vulnerabilities in the Hibernate query language to execute an injection attack. Conclusion: These attacks requires a VERY advanced level of knowledge about HQLi, which is not the most popular language. Additionally, some attacks shown seem to rely on the developer using unsafe methods (eg. createQuery but with string concatenation of the query). 
+- [Video: good understanding of ORM Injection attacks (Very sophisticated attacks on HQLi)](https://www.youtube.com/watch?v=DKEwWy043WI)
+- [Source (Summary of HQLi attacks)](https://www.sonarsource.com/blog/exploiting-hibernate-injections/)
+
+From this project and the research we had to do before discussing ways to move forward, I learned a lot about SQL injection attacks as well as some additional information about our hibernate database:
+- Most modern applications nowadays have AT LEAST be some minimal level of protection for their database / backend servers. The basic SQLi attacks we learn in university will likely not work in real life in isolation. Often, advanced hackers use SQLi attacks in combination with many other techniques to gain access to a server. This was a great experience to understand how SQLi is foundational knowledge for these attacks and how to build upon it to create actual attacks (eg, to modify to use on ORM servers, tricks to bypass certain validation technqiues).
+- Attacks on ORM -- Hibernate Query Language Injection attacks. 
+- Parameterized queries and prepared statements (used in Hibernate's Criteria API)
+- Hibernate: configured hibernate to print the SQL queries the hibernate will generate and use (simulates how a real attacker may clone our repo and make modifications to local configs to observe the queries the orm will create and use)
+
+#### Testing: Migrating E2E Tests
+- E2E Tests: I migrated a few E2E tests for v9 migration: mainly updated the tests to load SQL entities if they have been migrated at that point in v9 development, and for other entities that have not yet migrated, continue using the NoSQL entities. 
+- SQL Injection Tests: Added tests at the database layer to test fields which accept long strings with little-to-no validations. Ensure that hibernate does not treat the data provided as SQL code.
+- Integration tests: I've previously done this during data migration (modifying or writing new integration test cases), but also added new tests for ARF (Account Request Form).
+
+#### Feature Design
+In CS3281, I worked mainly on database migration and had very minimal work on a new feature. Even during the orientation where we technically did work on a feature, it was not merged in and there was very little discussions on the design -- the main objective was to gain an understanding of how the application was structured. 
+
+I gained an excellent idea of how Teammates does Design planning as well as effort estimation and planning for timelines when working on ARF (Account request form):
+1. Initial test design: database / API endpoint design, frontend / UI design, test case design, etc.
+2. Communication with stakeholders (ie. admin): frequent communication with main user(s) of ARF and integrating their requests / feedback into our design (eg. what should be allowed depending on entity's state, UI preferences, etc)
+3. Peer-evaluation: not only for PR reviews, but also evaluating each others' design plans and any additional details we may have missed (eg. following REST principles, fields or entites we may have missed out on, edge cases)
+4. Weekly (Scrum?) Meetings: To keep each other up-to-date on our own progress and discuss issues encountered or possible improvements to make (which we sometimes realise when we start development).
+5. Communicating when timelines cannot be met
+6. Testing in staging / pre-release
+7. Release: being present when we start release and respond if fixes are needed and urgent. 
+
+#### Solr Searching
+ARF was my first chance working with our search engine, solr and it was an unexpectedly large hurdle. 
+
+1. Configurations & Documentation: This was my main pain point when working on this. The changed we implemented was not significant -- simple adding 2 new fields and updating the id field. However, the documentation for solr was very lacking (only about how to setup the docker container) and when there was issues with inserting items for indexing or even getting the instance up and running, there was very little debugging statements to track the source of the issue -- hence, quite a bit of effort and time was taken to trace the issues (not only for local development, but also for running tests as each environment had its own seperate config file)
+However from this, I learned a lot about solr configs (), using solr's GUI () to debug / track the state of the solr instance and using solr in general for insert + indexing, retrieving entries, sorting, etc. 
+
+2. Using solr: 
+    - Updating solr's schema (solr.sh) to add 2 new fields
+    - Updating solr's fields: initially, solr prepends all id of entries with 'java.util.UUID:' as the field was a UUID object when passed to solr for indexing.
+    - Matching with any word in the given string and evaluate the performance cost for this (as the new comments field allows for huge number of words)
+
+Resource:
+- [Apache Solr Guide](https://solr.apache.org/guide/solr/latest/getting-started/introduction.html)
 
 ---
 

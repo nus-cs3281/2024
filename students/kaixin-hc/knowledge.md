@@ -26,7 +26,7 @@ I also learned about the accessibility of scrollbars (https://adrianroselli.com/
 
 This informed my decision that it would be better not to make a scrollable navbar the default, but have a dropdown menu with more options for smaller screens
 
-[]::webkit-scrollbar](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar) pseudo-element does not work for all browsers and should be used with caution.
+[::webkit-scrollbar](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar) pseudo-element does not work for all browsers and should be used with caution.
 
 ## Open source dependencies
 
@@ -90,7 +90,7 @@ Nevertheless, Site.js does use "classes" of managers to manage externals, etc, s
 
 ### Certain functions in javascript
 
-<panel title="JavaScript forEach (and async loops)">
+<panel header="JavaScript forEach (and async loops)">
 
 "JavaScript Array.prototype.forEach loop is not asynchronous. The Array.prototype.forEach method accepts a callback as an argument which can be an asynchronous function, but the forEach method will not wait for any promises to be resolved before moving onto the next iteration." ([Source](https://atomizedobjects.com/blog/javascript/is-javascript-foreach-async/)).
 
@@ -100,12 +100,13 @@ Instead, we could use map and the promise 'class' functions.
 
 </panel>
 
-<panel title="Javascript map can be destructive sometimes">
+<panel header="Javascript map can be destructive sometimes">
 
 Just needed to note this, and consider other options. Refactoring my code allowed me to avoid destructively modifying the list.
 [source](https://dev.to/lofiandcode/
 can-map-mutate-the-original-array-yes-dmb)
 </panel>
+
 
 ### Softwrapping vs hard wrapping code
 

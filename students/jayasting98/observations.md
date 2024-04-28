@@ -47,6 +47,14 @@ In comparison, I do not think this is done in TEAMMATES. I think all the changes
 
 If somebody wants to fix a typo in the Python project, they do not need to post a new issue before making a pull request. They can simply make the pull request immediately. From what I know, this is not the case in TEAMMATES. At the very least, it is not explicitly mentioned in the TEAMMATES developer guide.
 
+##### The Python project automatically merges bug fixes on all its branches
+
+When a Python version is released, people will use that version of Python. They may continue to use that version for their projects even when much newer Python versions are released. Thus, the Python team needs to continue to support older versions (up to a limit) by making sure that bug fixes, and security patches are also made to the supported older Python versions.
+
+Each version is maintained on their own respective Git branch, but all changes are initially made by submitting a PR to the main branch. The PRs are given labels like `needs backport to 3.12` which indicate whether the PR needs to be backported to a specific Git branch for a Python version. When a PR is merged into the main branch, a bot ([miss-islington-app](https://github.com/apps/miss-islington-app)) backports it to older Python branches according to the labels. It does this by submitting the same PR to the Git branches of the relevant Python versions. A member of the Python project team can then merge the PR into the Git branches of the relevant Python versions.
+
+In TEAMMATES, we may often have multiple feature branches in addition to the main branch. Fixes may be made to the main branch that are also required on the feature branches. In TEAMMATES, we often integrate these fixes into the feature branches by manually rebasing the feature branch onto the last commit on the main branch or merging the main branch into the feature branch. In other words, unlike in the Python project where changes in the main branch are almost automatically integrated into the other branches, in TEAMMATES, these changes to the main branch are manually integrated into other branches.
+
 #### Suggestions for the internal project based on external project observations
 
 ##### Changelog with highlights
@@ -56,6 +64,10 @@ Instead of displaying all the changes equally, it may be better to highlight som
 ##### Minor contributions should not require GitHub issues
 
 For minor contributions, it seems like it would be overkill to need to post an issue before a pull request can be made. If it is not already the case, then maybe we should allow minor contributions without their own GitHub issues. We should also make it clear in the developer guide that this is allowed.
+
+##### Automation to integrate changes in the main branch into the feature branches
+
+Instead of manually rebasing onto the main branch or manually merging the main branch into a feature branch, maybe it would be better to do it automatically. Maybe a bot can do this for us. A problem I can foresee with this is if there are merge conflicts. However, it is possible to make a PR for merging branches. The merge conflicts may be resolved manually in the branch created for the PR. While this reintroduces some manual work, the merge conflicts should not occur all the time. If this automation is possible, with some of the changes in the main branch being integrated into the feature branches automatically, this may reduce some of the load on the developers.
 
 [^1]: In the Python project, `NEWS` entries document contributions so that it can be added into the changelog.
 

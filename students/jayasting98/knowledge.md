@@ -1,4 +1,6 @@
-Overall, I believe that because I was the least experienced (or at least I felt I was), I was also able to learn a whole lot from this module, especially front-end-wise.
+CS3281: Overall, I believe that because I was the least experienced (or at least I felt I was), I was also able to learn a whole lot from this module, especially front-end-wise.
+
+CS3282: I still feel like I have much more to learn, but at least I do feel a bit more experienced and confident that I know what I am doing, at least somewhat.
 
 ### Angular
 
@@ -101,3 +103,24 @@ I think the main thing I learned was the task queues, though unfortunately, they
 
 Resources:
 - [Creating Push Queues](https://cloud.google.com/appengine/docs/standard/java/taskqueue/push/creating-push-queues)
+
+### Hibernate
+
+With the migration to SQL, we started to use Hibernate as our object-relational mapping (ORM) tool. While I was familiar with SQL, especially after taking the course CS2102, I was not very familiar with ORMs; I only previously used Django's built-in ORM. I felt Hibernate was extremely verbose compared to Django's ORM. Regardless, I had to use my new Hibernate knowledge to review PRs which used it, while tolerating its verbose syntax. Apparently, this is a popular ORM for Java, so I may need to face this somewhere else, so I guess I need to get used to its syntax.
+
+Resources:
+- [Hibernate User Guide](https://hibernate.org/orm/documentation/6.4/)
+
+### Liquibase
+
+Wilson mentioned Liquibase in our group chat. We also needed to change the database for the account request form (ARF) feature. Thus, I decided to look into this. I never got to dive deep into it because I was not the one who ended up integrating it fully into TEAMMATES (I think it was Nicolas?). Also, the way it was integrated meant that only the release lead generates the Liquibase changelog, so I did not really get to touch it. Still, I did get to learn a bit about Liquibase. From what I saw, it was also quite similar to how Django manages its database migrations, with its changelogs.
+
+Resources:
+- [Liquibase Documentation](https://docs.liquibase.com/home.html)
+
+### Gradle
+
+Back when I was doing CS3281, running tests through Gradle involved only one task, which was the one running our integration tests (which were intended to be unit tests). Now that I came back to TEAMMATES for CS3282, running tests through Gradle now involves more than one task, the task for the unit tests, and the task for the integration tests. When either of the tasks fails, the other task no longer runs. I learned how to prevent that by looking at the documentation of Gradle, and I also tried to integrate this into the GitHub Actions in TEAMMATES by submitting an issue for it ([#12900](https://github.com/TEAMMATES/teammates/issues/12900)). I also learned a lot more about how Gradle works, like how to create tasks, projects, even multi-project builds, settings, build scripts, initialization scripts, etc. It was pretty interesting. I must admit, I previously only used Gradle when all of it was set up for me, so all I needed to do was run commands with Gradle. Now, I think I can set up a Gradle project, and even adjust the settings and build scripts.
+
+Resources:
+- [Gradle User Guide](https://docs.gradle.org/current/userguide/userguide.html)

@@ -20,4 +20,22 @@
 | Recess | Reviewed and Merged PR: | [ Upgrade simple-git version #1843 ](https://github.com/MarkBind/markbind/issues/1843)
 | Recess | Investigate issues / maintanence: investigate [Screenshots of the sample configurations for WebStorm are blurry #1916 ](https://github.com/MarkBind/markbind/issues/1916), mantain [Create table from csv file. #2424](https://github.com/MarkBind/markbind/issues/2424)
 | 7 | Reviewed PR: [Debug cannot import footnote from hash #2441](https://github.com/MarkBind/markbind/pull/2441/files)
-| 7 | Reviewed PR: [ MarkBind Template for Software Project Documentation #2400 ](https://github.com/MarkBind/markbind/pull/2400)
+| 7 | Reviewed PR x2 times: [ MarkBind Template for Software Project Documentation #2400 ](https://github.com/MarkBind/markbind/pull/2400)
+| 7 | Reviewed PR : [MarkBind Template for Student Portfolio #2398](https://github.com/MarkBind/markbind/pull/2398)
+| 7 | Project management: met juniors with a curated list of issues based on project interest with 3282 team, updated the project management guide, reviewed issues in the repo
+| 7 | Discussed [Re-introduce lazy loading for pictures #2367](https://github.com/MarkBind/markbind/issues/2367)
+| 7 | Reviewed / left comments: [ Add text for icon #2444 ](https://github.com/MarkBind/markbind/pull/2444)
+| 8 | Issue mantainence: [#1916](https://github.com/MarkBind/markbind/issues/1916), [all-contributors automation discussion]()
+| 8 | Merged + commented on: [Add keeping fork up to date section in DG
+#2453](https://github.com/MarkBind/markbind/pull/2453)
+| 8 | Merged + Reviewed: [Layout.ts to typescript #2452](https://github.com/MarkBind/markbind/pull/2452)
+
+| 11 | Flagged issues with dependencies and NPM install: 
+| 11 | Mantain repository: 
+| 11 | Merged + Reviewed: [Fix stray space before popover and tooltip #2486](https://github.com/MarkBind/markbind/pull/2486), 
+| 11 | Review: [Change seamless panels to inherit any parent's colours](https://github.com/MarkBind/markbind/pull/2501)
+| 11 | Review: [Rule based html validation against hydration #2493](https://github.com/MarkBind/markbind/pull/2493)
+| 12 | Reviewed + Merged: [ Remove Overridden Question Attributes in Documentation #2513](https://github.com/MarkBind/markbind/pull/2513)
+| 12 | On similar issue, consolidated comments [on untested slot overriding in MarkBind #2476](https://github.com/MarkBind/markbind/issues/2476) and [approved PR #2511](https://github.com/MarkBind/markbind/pull/2511)
+| 12 | Reviewed: [ Improve security of GitHub Actions workflows #2510 ](https://github.com/MarkBind/markbind/pull/2510#pullrequestreview-1996333509) and [ Add note on absolute links #2507 ](https://github.com/MarkBind/markbind/pull/2507)
+| 13 | Maintain Issue Tracker: [Add related comments about navbar highlighting to issue (and recategorise + rename it)](https://github.com/MarkBind/markbind/issues/1749), remove the discussion tag from essentially resolved issues and recategorise [Link to DevGuide in markbind.org](https://github.com/MarkBind/markbind/issues/1161), [migrating bootswatch](https://github.com/MarkBind/markbind/issues/2359) and [Log warning if the include fragment is empty](https://github.com/MarkBind/markbind/issues/2181)
