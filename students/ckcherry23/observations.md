@@ -20,17 +20,18 @@ He suggested that I work on the documentation website, [date-fns.org](https://gi
 
 Next, as per the project's current needs shared by the maintainer, I focussed on improving Duration support in date-fns. I submitted a [proposal to improve Duration support](https://gist.github.com/ckcherry23/e7641d65122259c699b2e1437f33d4c9) to the project maintainer and got started with reviewing issues and PRs related to Duration support. Since one of the PR authors was unresponsive, I took over the PR, fixed the issues, added extensive tests and updated the documentation in [PR#3768](https://github.com/date-fns/date-fns/pull/3768) for `parseISODuration`.
 
-| Date       | Contribution              | Links                                                                                                                                                                                                                  |
-|------------|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 08 Jan 24  | Authored PR #1            | [Add alias formatDate for format function #3653](https://github.com/date-fns/date-fns/pull/3653)                                                                                                                       | 
-| 11 Jan 24  | Authored PR #2            | [Add aliases to functions in typedoc #216](https://github.com/date-fns/date-fns.org/pull/216)                                                                                                                          |
-| 11 Jan 24  | Created issue             | [Blockstyle quotes not readable in light mode #217](https://github.com/date-fns/date-fns.org/issues/217)                                                                                                               |
-| Week 2     | Reviewed PR               | [Add alias isExisting for isExists #3673](https://github.com/date-fns/date-fns/pull/3673)                                                                                                                              |
+
+| Date       | Contribution              | Links                                                                                                                                                                                                          |
+|------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 08 Jan 24  | Authored PR #1            | [Add alias formatDate for format function #3653](https://github.com/date-fns/date-fns/pull/3653)                                                                                                               | 
+| 11 Jan 24  | Authored PR #2            | [Add aliases to functions in typedoc #216](https://github.com/date-fns/date-fns.org/pull/216)                                                                                                                  |
+| 11 Jan 24  | Created issue             | [Blockstyle quotes not readable in light mode #217](https://github.com/date-fns/date-fns.org/issues/217)                                                                                                       |
+| Week 2     | Reviewed PR               | [Add alias isExisting for isExists #3673](https://github.com/date-fns/date-fns/pull/3673)                                                                                                                      |
 | Week 2     | Submitted proposal        | [Proposal to improve Duration support](https://gist.github.com/ckcherry23/e7641d65122259c699b2e1437f33d4c9), [Discussion comment](https://github.com/orgs/date-fns/discussions/3666#discussioncomment-8341732) |
-| Week 3     | Contributed to discussion | [Formatting duration options #3693](https://github.com/orgs/date-fns/discussions/3693)                                                                                                                                 |
-| Week 3-5   | Reviewed PR               | [feat: add parseISODuration #3151](https://github.com/date-fns/date-fns/pull/3151)                                                                                                                                     |
-| Week 6-8   | Suggested improvements    | ExtendedDuration and [Temporal proposal](https://tc39.es/proposal-temporal/docs/duration.html)                                                                                                                         |
-| Week 12-13 | Authored PR #3            | [Add parseISODuration function #3768](https://github.com/date-fns/date-fns/pull/3768)                                                                                                                                  |
+| Week 3     | Contributed to discussion | [Formatting duration options #3693](https://github.com/orgs/date-fns/discussions/3693)                                                                                                                         |
+| Week 3-5   | Reviewed PR               | [feat: add parseISODuration #3151](https://github.com/date-fns/date-fns/pull/3151)                                                                                                                             |
+| Week 6-8   | Suggested improvements    | ExtendedDuration and [Temporal proposal](https://tc39.es/proposal-temporal/docs/duration.html)                                                                                                                 |
+| Week 12-13 | Authored PR #3            | [Add parseISODuration function #3768](https://github.com/date-fns/date-fns/pull/3768)                                                                                                                          |
 
 #### Other Projects
 
@@ -54,7 +55,7 @@ Then I tried my hand at [checkstyle](https://github.com/checkstyle/checkstyle), 
 
 **1.1 Learning why date-fns over others**
 
-Working with a popular npm package, I learned extensively about the library's perks from the documentation itself. I discovered that date-fns utilizes tree-shaking to reduce the size of the final bundle and delved into the [webpack documentation](https://webpack.js.org/guides/tree-shaking/) to understand its functionality. Tree shaking involves dead code elimination to ensure production-ready code with minimal file size, allowing compatibility with tools like webpack, Rollup, etc. 
+Working with a popular npm package, I learned extensively about the library's perks from the documentation itself. I discovered that date-fns utilizes tree-shaking to reduce the size of the final bundle and read the [webpack documentation](https://webpack.js.org/guides/tree-shaking/) to understand its functionality. Tree shaking involves dead code elimination to ensure production-ready code with minimal file size, allowing compatibility with tools like webpack, Rollup, etc. 
 
 The project also employs a function-based API where each function is a pure function, enabling better immutability and testability. Moreover, it allows for importing only the necessary functions, enhancing performance. Additionally, the project offers a functional-programming submodule facilitating improved function composition, which allowed revisiting concepts taught in CS1101S. It also leverages native dates for better performance and compatibility with other libraries.
 
@@ -77,25 +78,25 @@ Additionally, considering date-fns aims to improve Duration support, I explored 
 
 date-fns has a [Contributing Guide](https://date-fns.org/docs/Contributing) detailing how to contribute to the project.
 
-**2.1 No more "Move fast and break things"**
+**2.1 Good: No more "Move fast and break things"**
 
-Having worked in fast-paced environments before, I generally embrace the "move fast and break things" mentality (maybe a bit too much :3 -> RepoSense issues [#2164](https://github.com/reposense/RepoSense/issues/2164) and [#2184](https://github.com/reposense/RepoSense/issues/2184)). However, you do not have that "freedom" when working on an npm package with 20 million weekly downloads. date-fns has a very high bar for code quality. This was a good learning experience for me as even a simple function such as `parseISODuration` required extensive discussions regarding design decisions, for example, whether undefined values should be preserved, what rules should be followed for parsing, etc., and all these should be done based on the standard proposals, the competitior libraries' features, and the community's feedback.
+Having worked in fast-paced environments before, I generally embrace the "move fast and break things" mentality (maybe a bit too much :3 -> RepoSense issues [#2164](https://github.com/reposense/RepoSense/issues/2164) and [#2184](https://github.com/reposense/RepoSense/issues/2184)). However, you do not have that "freedom" when working on an npm package with 20 million weekly downloads. This was a good learning experience for me as even a simple function such as `parseISODuration` required extensive discussions regarding design decisions, for example, whether undefined values should be preserved, what rules should be followed for parsing, etc., and all these should be done based on the standard proposals, the competitior libraries' features, and the community's feedback.
 
-**2.2 Making a difference**
+**2.2 Good: Making a difference**
 
 While many other OSS projects I contributed to involved fixing bugs or adding small features, date-fns was more about making a difference. Since date-fns is a modular library with pure functions, contributors get to work on actual features that can be used by millions of developers worldwide. This was a great motivation for me to contribute to date-fns.
 
-**2.3 Targeted mentorship**
+**2.3 Good: Targeted mentorship**
 
 I reached out to the maintainers of date-fns and they were very helpful in guiding me on how to contribute to the project. This helped me work on the project for a longer period of time and make more meaningful contributions based on the project's needs instead of randomly picking issues to work on. 
 
-**2.4 Difficult community management**
+**2.4 To improve: Community management**
 
 date-fns has a large community and a lot of issues are opened every day. However, the 3-5 maintainers of the project do not have the bandwidth to manage all the issues. This makes it difficult for new contributors to find issues to work on. Moreover, repetitive issues are opened multiple times, leading to duplicated efforts in PRs. This is something that can be improved in date-fns. Also, since there are too many PRs opened, the maintainers have decided to focus on those PRs that contribute towards the project's immediate needs, which is a good strategy to ensure that the project is moving in the right direction.
 
 Sometimes, contributors are not responsive to maintainers' feedback and this leads to abandoned PRs. Instead of starting from scratch, I learned how to handle abandoned PRs by taking over an abandoned PR and getting it merged.
 
-**2.5 Documentation contrasts**
+**2.5 To improve: Documentation contrasts**
 
 While date-fns has a very comprehensive documentation website, the documentation website repository did not have any contribution guidelines, because it was mainly handled by the core team. This made it difficult for me to understand how to contribute to the custom documentation website generator, and I had to reach out to the maintainers for guidance. This is understandable as the documentation site generator does not expect much community contributions, but is still something that can be improved in date-fns.
 

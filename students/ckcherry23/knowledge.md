@@ -1,3 +1,87 @@
+## CS3282
+
+### 1. Expertise Area: Frontend Engineering
+
+In CS3282, I've chosen frontend engineering as my "expertise" area. Given its breadth, I've narrowed my focus to the most popular frontend technology stack today: Next.js, TypeScript, React, and Tailwind CSS. The majority of my recent projects, as showcased in [my project archive](https://ckcherry23.github.io/archive/), have been built using these technologies. As a UI/UX enthusiast, I am also interested in the usability and accessibility aspects of frontend development.
+
+#### 1.1 Open Source Contributions 
+
+My involvement as a RepoSense mentor primarily centers around the frontend in Vue.js and TypeScript. I've been actively reviewing frontend PRs, mentoring new contributors, and working on process improvements as a team. 
+
+Additionally, I've chosen to contribute to an external project that uses TypeScript and React: [date-fns](https://date-fns.org/). Having utilized date-fns in my own projects extensively, I've found it to be an efficient solution for handling dates in JavaScript. My contributions to date-fns include fixing issues and reviewing PRs. I've detailed my insights from working with date-fns [here](/students/ckcherry23/observations.md).
+
+#### 1.2 Lightning Talks
+
+I also delivered one of my lightning talks on [Tailwind CSS](https://tailwindcss.com/), to evangelize it to the class. I have been using Tailwind CSS for a while now, and I find it to be a very efficient way to style web applications. In fact, one of my projects, [artisan.land](https://www.artisan.land/), depends on the atomic classes of Tailwind to [dynamically style components](https://www.artisan.land/components) with user-selected options and generate React code for them. Such a project would not have been possible without the ease of use and flexibility of Tailwind CSS.
+
+Driven by my interest in frontend technologies, I took up the role of Frontend Lead in Google Developer Student Clubs NUS. Leading a team of frontend developers, I initiated the development of a website for an NGO using Next.js, TypeScript, and Tailwind CSS. This experience provided valuable insights into frontend development best practices while allowing me to mentor junior developers. Additionally, I implemented quality-of-life enhancements such as setting up ESLint, Prettier, and refining the CI/CD pipeline. Subsequently, I delivered a lightning talk on improving DevEx, which would benefit NUS-OSS mentors as well. In fact, we've begun slowly integrating these practices into RepoSense, adopting tools like [Vite](https://github.com/reposense/RepoSense/pull/2178) and [Vitest](https://github.com/reposense/RepoSense/pull/2102#issuecomment-1950123596) for faster development and testing, and enhancing CI runs for [improved accuracy](https://github.com/reposense/RepoSense/pull/2189).
+
+#### 1.3 Q/A Community
+
+I tried contributing to Stack Overflow by providing answers to questions related to frontend technologies such as Next.js, React, and component libraries. Some of my answers can be found [here](https://stackoverflow.com/users/15226661/charisma-kausar?tab=answers&sort=activity). 
+
+Engaging with the Stack Overflow community was a good way to reinforce my understanding of these technologies while enabling me to assist others effectively. This experience has helped me improve my communication skills and ability to explain complex concepts in a simple manner. Yet, looking back, I realize that contributing more frequently is difficult as it may seem forced and inauthentic. I believe that contributing organically when I encounter a question that I can answer is more beneficial in the long run.
+
+### 2. Tools and Technologies
+
+#### 2.1 Vue.js
+
+**2.1.1 Single-File Components (SFCs)**
+
+I have been working with Vue.js for a while now, and I find Single-File Components (SFCs) to be a very efficient way to organize Vue components. SFCs allow you to define the template, script, and styles of a component within a single file, making it easier to maintain the component. 
+
+When componentizing our frontend, one of the proposed approches was to split the template, script, and styles into separate files. While this approach does break down the huge file into smaller chunks, it creates multiple files that are highly interrelated instead of multiple loosely coupled components with good separation of concerns.
+
+We decided it was better if we do our modularization by continuing to follow the Single-File Component pattern of Vue. The separation of concerns in SFCs also helps in keeping the codebase clean and reduces context switching when working on a single component, enhancing overall code quality.
+
+#### 2.2 YAML 
+
+For our title component, we decided to migrate from a JSON format `report-config.json` to a YAML format `report-config.yaml`. This choice was because of YAML's superior readability and compact syntax for defining configuratons compared to JSON or XML.
+
+**2.2.1 YAML Frontmatter**
+
+YAML Frontmatter is a YAML block that is placed at the beginning of a file and is used to store metadata about the file. This metadata can be accessed to provide additional information or functionality based on the metadata.
+
+I explored the usage of [frontmatter for a custom navbar](https://github.com/reposense/RepoSense/pull/2102#issuecomment-1919095515) for the RepoSense report. We proposed integrating YAML frontmatter into the user-provided markdown files.  The frontmatter obtained (for example, a list of links and the header color) using a tool such as [gray-matter](https://github.com/jonschlinkert/gray-matter) could be injected into a template header component as props, dynamically rendering the RepoSense HTML report.
+
+#### 2.3 Quality Assurance
+
+**2.3.1 Frontend Testing Methodologies**
+
+In addressing a bug within the RepoSense report where all charts were erroneously grouped under one team, we realised that our end-to-end tests mainly focus on testing features rather than data representation. To avoid this in the future, we decided we needed any of the following:
+
+* Data-driven testing: Add tests to check if the actual JSON data is being represented in the expected manner.
+* Snapshot testing: Implement snapshot testing to ensure there are no visual regressions.
+
+We added more repositories to the Cypress testing data to ensure that the tests cover a wider range of scenarios. This will help us in identifying more bugs and ensuring that the report is accurate and reliable in the future. 
+
+**2.3.2 Frontend Security Best Practices**
+
+When working with mentees for the [Add title component PR](https://github.com/reposense/RepoSense/pull/2102), I realized that we need to be more cautious about the security of our frontend code. So I researched about the library we were using for markdown parsing, `markdown-init`, which had no security vulnerabilities and was also being used extensively by MarkBind. I also learned about the importance of sanitizing user input to prevent XSS attacks. However, since we were using a self-defined title component, we did not need to sanitize the input as we assumed good intentions from the user on their own report.
+
+### 3. Project Management
+
+#### 3.1 Guiding New Contributors
+
+Guiding contributors through a project was definitely a new challenge as a mentor. Each mentee had different working styles and areas of expertise, so I had to adapt my guidance to suit their needs. 
+
+At the beginning, my focus was on recommending issues that were suitable for the mentees' skill levels and expertise. Then, it was about communicating project needs and expectations clearly. 
+
+The biggest challenge was pushing the mentees to partake in more managerial responsibilities within the project. I had to learn how to provide clear instructions and set expectations for the mentees to take on more substantial roles.
+
+#### 3.2 Reviewing PRs
+
+While exploring topics for my lightning talk, I came across a [YouTube video](https://www.youtube.com/watch?v=Y9sp8gONv9M) where a Staff Software Engineer discusses the best practices for reviewing PRs. I also found another [article](https://mtlynch.io/human-code-reviews-2/#aim-to-bring-the-code-up-a-letter-grade-or-two) by an ex-Google engineer that talks about reviewing PRs like a human. These resources gave me a good understanding of how to review PRs constructively. 
+
+Sometimes we got some pretty big PRs, and it was difficult to review them in one go. I learned how to break down the review into smaller chunks, focusing on specific aspects of the code, and providing detailed feedback for improvement at various levels of abstraction. The [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) extension for VS Code was also very helpful in reviewing PRs.
+
+We should also be generous with code examples for clear, uncontroversial improvements. This can help the contributor understand how to make the necessary changes much faster without having to research it themselves. 
+
+Lastly, I learned that a good rule to follow is to aim to bring the code up by a letter grade or two. This means that the reviewer should aim to improve the code quality by a small amount with each review, rather than trying to make it perfect in one go.
+
+---
+
+## CS3281
 ### 1. Tools and Technologies
 The RepoSense frontend is built with Vue.js and Pug, with most of the JavaScript files being migrated to TypeScript over
 the semester. Node.js is used to manage the packages, while static code analysis is performed with ESLint. 

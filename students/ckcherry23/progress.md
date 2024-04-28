@@ -103,3 +103,12 @@ During the semester, I was actively involved in mentoring the CS3281 students an
 | 13 - Recess | Reviewed PR        | [Add optimise timeline feature #2180](https://github.com/reposense/RepoSense/pull/2180)                                                       |
 | Recess      | Created issue      | [Surge preview deployments for many of our latest PRs are not working #2194](https://github.com/reposense/RepoSense/issues/2194)              |
 | Recess      | Reviewed PR        | [[#2148] Show tags on the ramp chart #2163](https://github.com/reposense/RepoSense/pull/2163)                                                 |
+
+### Other Internal Project Contributions
+
+I also contributed to some of the internal projects by reviewing PRs and creating issues.
+
+| Week | Contribution               | Links                                                                                                              | Notes                                                                                                                                           |
+|------|----------------------------|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| 5    | Created issue in TEAMMATES | [Autosave and restore progress if user navigates away #12749](https://github.com/TEAMMATES/teammates/issues/12749) | Requested for periodic autosave and default restore progress feature to be implemented in TEAMMATES.                                            |
+| 8    | Reviewed PR in MarkBind    | [MarkBind Template for Student Portfolio #2398](https://github.com/MarkBind/markbind/pull/2398)                    | Reviewed portfolio design and requested for more documentation. Got RepoSense widget to be included in the portfolio to showcase code projects. |
