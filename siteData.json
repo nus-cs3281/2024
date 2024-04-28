@@ -518,9 +518,14 @@
     {
       "src": "students/ckcherry23/knowledge.md",
       "headings": {
+        "cs3282": "CS3282",
+        "1-expertise-area-frontend-engineering": "1. Expertise Area: Frontend Engineering",
+        "2-tools-and-technologies": "2. Tools and Technologies",
+        "3-project-management": "3. Project Management",
+        "cs3281": "CS3281",
         "1-tools-and-technologies": "1. Tools and Technologies",
         "2-software-engineering": "2. Software Engineering",
-        "3-project-management": "3. Project Management"
+        "3-project-management-2": "3. Project Management"
       },
       "headingKeywords": {}
     },
@@ -537,7 +542,8 @@
       "src": "students/ckcherry23/progress.md",
       "headings": {
         "pre-semester-progress": "Pre-Semester Progress",
-        "cs3282-semester-progress": "CS3282 Semester Progress"
+        "cs3282-semester-progress": "CS3282 Semester Progress",
+        "other-internal-project-contributions": "Other Internal Project Contributions"
       },
       "headingKeywords": {}
     },
