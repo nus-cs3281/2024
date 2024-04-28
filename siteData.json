@@ -1059,7 +1059,9 @@
         "unit-tests": "Unit tests",
         "mocking": "Mocking",
         "using-mockito": "Using Mockito",
-        "snapshot-testing-with-jest": "Snapshot testing with Jest"
+        "snapshot-testing-with-jest": "Snapshot testing with Jest",
+        "hibernate-orm": "Hibernate ORM",
+        "data-migration-with-technology-integration": "Data Migration with Technology Integration"
       },
       "headingKeywords": {}
     },
@@ -1542,13 +1544,17 @@
         "unit-tests": "Unit tests",
         "mocking": "Mocking",
         "using-mockito": "Using Mockito",
-        "snapshot-testing-with-jest": "Snapshot testing with Jest"
+        "snapshot-testing-with-jest": "Snapshot testing with Jest",
+        "hibernate-orm": "Hibernate ORM",
+        "data-migration-with-technology-integration": "Data Migration with Technology Integration"
       },
       "headingKeywords": {}
     },
     {
       "src": "students/yuanxi1/progress.md",
-      "headings": {},
+      "headings": {
+        "teammates": "TEAMMATES"
+      },
       "headingKeywords": {}
     },
     {
