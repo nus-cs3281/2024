@@ -618,6 +618,7 @@
     {
       "src": "students/domlimm/progress.md",
       "headings": {
+        "summary": "Summary",
         "cs3282-pre-semester-s-progress": "CS3282 Pre-Semester's Progress",
         "cs3282-semester-s-progress": "CS3282 Semester's Progress"
       },
