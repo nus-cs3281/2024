@@ -1,5 +1,7 @@
 ### Summary
 
+In WATcher, I primarily identified critical UI issues, significantly enhancing interface and service functionalities to boost user experience and application efficiency. I also contributed to the documentation of WATcher to aid future development. In CATcher, my focus was on migrating the linter from TSLint to ESLint, a crucial step that enhanced code quality and facilitated better maintainability.
+
 ### Details
 
 #### CATcher
@@ -16,6 +18,7 @@
 **Issues Created**
 
 | Week | Issue |
+| ---- | ------ |
 | 6 | [#266](https://github.com/CATcher-org/WATcher/issues/266) Upgrade to Angular 12 |
 | 11 | [#361](https://github.com/CATcher-org/WATcher/issues/361) Make ItemsPerPage common for all card views |
 | 12 | [#363](https://github.com/CATcher-org/WATcher/issues/363) Remodel the design of the Filter bar |
@@ -23,6 +26,7 @@
 **PRs Opened**
 
 | Week | PR |
+| ---- | ------ |
 | 2 | [#228](https://github.com/CATcher-org/WATcher/pull/228) Prevent redirection when repo not set |
 | 4 | [#252](https://github.com/CATcher-org/WATcher/pull/252) Upgrade to Angular 11 |
 | 6 | [#267](https://github.com/CATcher-org/WATcher/pull/267) Upgrade to Angular 12 |
@@ -38,6 +42,7 @@
 **PRs Reviewed**
 
 | Week | PR |
+| ---- | ------ |
 | 6 | [#260](https://github.com/CATcher-org/WATcher/pull/260) Remove test cases for permissions service |
 | 9 | [#313](https://github.com/CATcher-org/WATcher/pull/313) Integrate Grouping Service |
 | 10 | [#334](https://github.com/CATcher-org/WATcher/pull/334) Fix default preset view |
@@ -50,6 +55,7 @@
 **PRs Opened**
 
 | Week | PR |
+| ---- | ------ |
 | 5 | [#13](https://github.com/CATcher-org/WATcher-docs/pull/13) Add devcontainer support |
 | 5 | [#14](https://github.com/CATcher-org/WATcher-docs/pull/14) Update Design page |
 
