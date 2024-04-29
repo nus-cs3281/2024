@@ -1,3 +1,16 @@
+### TEAMMATES
+
+#### Overview
+
+* Led initial V9 non-course data migration.
+* Assisted in unit test migration.
+* Took part in Multiple course structure design
+* Contributed to V9 related documentations in maintainer guide.
+* Led V9 course data migration to onboard and manage a group of junior engineers.
+* Mentored and reviewed contributions by junior engineers
+
+#### Achievements by week
+
 | Week | Achievements |
 | ---- | ------------ |
 | Pre-3282 | Reviewed PR: [Update tzdb version to 2022a #11792](https://github.com/TEAMMATES/teammates/pull/11792) |
@@ -56,4 +69,33 @@
 | 10 | Merged PR: [Relax read notif verification for migration verification script #12937 ](https://github.com/TEAMMATES/teammates/pull/12866) |
 | 10 | Reviewed PR: [Rerunnable Account Request Migration Script #12932](https://github.com/TEAMMATES/teammates/pull/12932) |
 | 10 | Reviewed PR: [add delay to task queuer for indexing account request #12936](https://github.com/TEAMMATES/teammates/pull/12936) |
+| 11 | Merged PR: [V9 Migration Schema Migration Tool (Liquibase) Documentation #37](https://github.com/TEAMMATES/teammates-ops/pull/37) |
+| 11 | Merged PR: [Remove feedbackSession attributes @fetch annotation #12992](https://github.com/TEAMMATES/teammates/pull/12992) |
+| 11 | Reviewed PR: [Configure connection pool using hikari #12978](https://github.com/TEAMMATES/teammates/pull/12978) |
+| 11 | Reviewed PR: [Data migration for course entities #12980](https://github.com/TEAMMATES/teammates/pull/12980) |
+| 11 | Reviewed PR: [Data migration for feedback session entities #12986](https://github.com/TEAMMATES/teammates/pull/12986) |
+| 11 | Reviewed PR: [SeedDb code for student entities #12990](https://github.com/TEAMMATES/teammates/pull/12990) |
+| 11 | Reviewed PR: [Data migration for section entities #12991](https://github.com/TEAMMATES/teammates/pull/12991) |
+| 12 | Merged PR: [Add v9.0.0 tag to liquibase changelog #13005](https://github.com/TEAMMATES/teammates/pull/13005) |
+| 12 | Merged PR: [Add note on Liquibase #38](https://github.com/TEAMMATES/teammates-ops/pull/38) |
+| 12 | Reviewed PR: [Data migration for team entities #13010](https://github.com/TEAMMATES/teammates/pull/13010) |
+| 13 | Merged PR: [Update changelog docs and changelog name #13062](https://github.com/TEAMMATES/teammates/pull/13062) |
+| 13 | Merged PR: [Update schema migration docs #40](https://github.com/TEAMMATES/teammates/pull/12936) |
+| 13 | Reviewed PR: [data migration student chain students #13036](https://github.com/TEAMMATES/teammates/pull/13036) |
+| R | Merged PR: [Add patch script for account request and notifications to amend createdAt field #13077](https://github.com/TEAMMATES/teammates/pull/13077) |
+| R | Merged PR: [Fix seed, migration and verification script for course verification #13086](https://github.com/TEAMMATES/teammates/pull/13086) |
+| R | Merged PR: [Remove clear datastore function #13088](https://github.com/TEAMMATES/teammates/pull/13088) |
+| R | Merged PR: [Add dangling course delete script #13090](https://github.com/TEAMMATES/teammates/pull/13090) |
+| R | Merged PR: [Add unique field to patch account request timestamp script #13093](https://github.com/TEAMMATES/teammates/pull/13093) |
+| R | Reviewed PR: [Data migration section chain fixs #13042](https://github.com/TEAMMATES/teammates/pull/13042) |
+| R | Reviewed PR: [Data migration for feedback entities chain #13045](https://github.com/TEAMMATES/teammates/pull/13045) |
+| R | Reviewed PR: [Data migration: ensure consistency when script is stopped and resumed #13046](https://github.com/TEAMMATES/teammates/pull/13046) |
+| R | Reviewed PR: [Add composite index for data migration #13057](https://github.com/TEAMMATES/teammates/pull/13057) |
+| R | Reviewed PR: [Add migration script for instructors and Deadline Extensions #13071](https://github.com/TEAMMATES/teammates/pull/13071) |
+| R | Reviewed PR: [associate account to migrated users #13073](https://github.com/TEAMMATES/teammates/pull/13073) |
+| R | Reviewed PR: [Add seed and verification scripts for feedback chain #13074](https://github.com/TEAMMATES/teammates/pull/13074) |
+| R | Reviewed PR: [Delete redundant index #13095](https://github.com/TEAMMATES/teammates/pull/13095) |
+| R | Reviewed PR: [Add note to check liquibase command run correctly #41](https://github.com/TEAMMATES/teammates-ops/pull/41) |
+| R | Standby for ARF release - support liquibase configuration |
+| R | Standby for V9 course migration trial |
 

@@ -14,6 +14,7 @@
   * Migrated `AccountRequestsLogicTest` again to work with new changes.
   * Fixed bug where admin creating account still sent emails.
   * Add SQL injection tests for `AccountRequestsDb`.
+  * Add reCAPTCHA to public-facing request form.
 * Created 2 issues: 1 implementation bug and 1 documentation bug.
 
 #### Achievements by Week
@@ -41,3 +42,4 @@
 | 13 | Authored PR: [Check if account request is not created by admin before sending email #13032](https://github.com/TEAMMATES/teammates/pull/13032) |
 | 13 | Authored PR: [Migrate AccountRequestsLogic unit tests #13043](https://github.com/TEAMMATES/teammates/pull/13043) |
 | 13 | Authored PR: [Add SQL injection tests for AccountRequestsDb #13047](https://github.com/TEAMMATES/teammates/pull/13047) |
+| R | Authored PR: [Add CAPTCHA to ARF #13081](https://github.com/TEAMMATES/teammates/pull/13081) |

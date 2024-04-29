@@ -23,6 +23,9 @@
 | 13 | [#2151] Update Stylelint |
 | 13 | [#2151] Update CSS-related Major Dependencies |
 | 13 | [#2158] Add More Documentation for Title Component |
+| Reading | [#2184] Fix Inconsistent Line Number Colours |
+| Reading | [#2151] Update Typescript-related Major Dependencies | 
+| Reading | [#2001] Extract c-file-type-checkboxes from Summary, Authorship and Zoom |
 
 | Week | PRs Reviewed |
 | --- | --- |

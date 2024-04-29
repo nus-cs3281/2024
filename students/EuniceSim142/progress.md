@@ -55,3 +55,26 @@
 | 7 | Reviewed PR: [[#12048] SQL injection test for AccountsDbIT #12800](https://github.com/TEAMMATES/teammates/pull/12800) |
 | 7 | Reviewed PR: [[#12048] SQL injection test for CoursesDbIT #12801](https://github.com/TEAMMATES/teammates/pull/12801) |
 | 7 | Merged PR: [[#12048] SQL injection test for AccountRequestsDbIT #12788](https://github.com/TEAMMATES/teammates/pull/12788) |
+| 9 | Reviewed PR: [[#11878] Add status and comments to AccountRequest #12898](https://github.com/TEAMMATES/teammates/pull/12898) |
+| 9 | Reviewed PR: [[#11878] Add status and comments to AccountRequest #12898](https://github.com/TEAMMATES/teammates/pull/12898) |
+| 9 | Reviewed PR: [[#11878] Modify CreateAccountRequestAction #12913](https://github.com/TEAMMATES/teammates/pull/12913) |
+| 9 | Reviewed PR: [[#11878] Fix AccountRequest migration script #12915](https://github.com/TEAMMATES/teammates/pull/12915) |
+| 9 | Reviewed PR: [[#11878] Add new account request alert email for admins #12926](https://github.com/TEAMMATES/teammates/pull/12926) |
+| 10 | Authored PR: [[#11878] Add GetAllPendingAccountRequests API #12927](https://github.com/TEAMMATES/teammates/pull/12927) |
+| 10 | Authored PR: [[#11878] Update SearchAccountRequests endpoint #12950](https://github.com/TEAMMATES/teammates/pull/12950) |
+| 10 | Reviewed PR: [[#11878] Admin Search UI Update for ARF #12945](https://github.com/TEAMMATES/teammates/pull/12945) |
+| 10 | Merged PR: [[#11878] Admin Search UI Update for ARF #12945](https://github.com/TEAMMATES/teammates/pull/12945) |
+| 10 | Reviewed PR: [[#11878] Get account requests by ID in storage update method #12955](https://github.com/TEAMMATES/teammates/pull/12955) |
+| 10 | Merged PR: [[#11878] Get account requests by ID in storage update method #12955](https://github.com/TEAMMATES/teammates/pull/12955) |
+| 10 | Reviewed PR: [[#11878] Get by account request ID in SQL injection tests #12956](https://github.com/TEAMMATES/teammates/pull/12956) |
+| 10 | Merged PR: [[#11878] Get by account request ID in SQL injection tests #12956](https://github.com/TEAMMATES/teammates/pull/12956) |
+| 10 | Reviewed PR: [[#11878] Merge master into account-request-form #12972](https://github.com/TEAMMATES/teammates/pull/12972) |
+| 11 | Authored PR: [[#11878] Add AccountRequest Rejection email generator. #12987](https://github.com/TEAMMATES/teammates/pull/12987) |
+| 11 | Reviewed PR: [[#11878] Add Edit and Approve Account Requests functionality #12975](https://github.com/TEAMMATES/teammates/pull/12975) |
+| 12 | Authored PR: [[#11878] Add sort by created_at for getAllPendingRequests #13038](https://github.com/TEAMMATES/teammates/pull/13038) |
+| 12 | Reviewed PR: [[#11878] Add tests for Account Request Table #12977](https://github.com/TEAMMATES/teammates/pull/12977) |
+| 12 | Merged PR: [[#11878] Add tests for Account Request Table #12977](https://github.com/TEAMMATES/teammates/pull/12977) |
+| 12 | Reviewed PR: [[#11878] Create reject account request endpoint #12985](https://github.com/TEAMMATES/teammates/pull/12985) |
+| 12 | Reviewed PR: [[#11878] Create Rejection Modal for Account Requests #12989](https://github.com/TEAMMATES/teammates/pull/12989) |
+| 13 | Reviewed PR: [[#11878] Fix Edit #13056](https://github.com/TEAMMATES/teammates/pull/13056) |
+| 13 | Merged PR: [[#11878] Fix Edit #13056](https://github.com/TEAMMATES/teammates/pull/13056) |

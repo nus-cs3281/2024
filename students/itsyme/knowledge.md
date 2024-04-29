@@ -41,6 +41,10 @@ As I progressed to start managing the project, I started reviewing and merging P
 
 As I worked on [bump nunjucks to 3.2.4 #2411](https://github.com/MarkBind/markbind/pull/2411), I was initially not confident what to look out for when upgrading dependencies. However, after I worked on this I understood how to look out for breaking changes and to find out how your project is using it in order to confidently upgrade it without breaking things in the project.
 
+### GitHub Actions
+
+I gained a more in depth understanding about GitHub Actions when I was working on [Add install setuptools to ci #2530](https://github.com/MarkBind/markbind/pull/2530). Utilizing conditional runs for the macos platform which required a `brew install` to get the CI to run properly which would throw errors for other platforms which do not use Homebrew.
+
 ### Husky
 
 As I researched on improving code cleanliness in my projects and found that Husky was a tool that could be used to not only maintain the code cleanliness of projects but could be used for things like running tests as well. Husky has become a mainstay in all my JS projects together with ESLint, Prettier and lint-staged. I spent some time understanding how Husky has changed the way it should be used by deprecating the use of Husky within the `package.json` and rather is now in the `.husky` folder.

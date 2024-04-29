@@ -4,4 +4,4 @@
 
 <!-- Give your internal and external projects related to the module -->
 <span id="projects">[RepoSense](https://github.com/reposense/RepoSense), 
-[date-fns](https://github.com/date-fns/date-fns), [date-fns.org](https://github.com/date-fns/date-fns.org)</span>
+[date-fns](https://github.com/date-fns/date-fns)</span>

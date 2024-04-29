@@ -8,9 +8,9 @@ I have mainly worked on the improvement of visuals, adding some information on t
 
 My [first issue](https://github.com/FreezingMoon/AncientBeast/issues/2536) was to show a 'Skip turn' icon when the user hovers over an active unit. To solve this issue (PR [here](https://github.com/FreezingMoon/AncientBeast/pull/2558)), I added some assets to the assets loaded as well as an additional hint type. Then, I added the 'Skip turn' icon if the new hint type was called.
 
-My [second issue](https://github.com/FreezingMoon/AncientBeast/issues/2537) was to show the selected ability above the hovered hexagon when targeting the ability. This issue presented a different challenge, since the hint types above are only used for units. To solve this issue (PR [here](https://github.com/FreezingMoon/AncientBeast/pull/2567) and still ongoing), I had to add the unit abilities to the assets, and then add an 'ability' class to the hovered hex's overlay visual state, removing the class as necessary. Then, I checked if the 'ability' class was present, got the appropriate ability asset, and set it to be shown above the hexagon.
+My [second issue](https://github.com/FreezingMoon/AncientBeast/issues/2537) was to show the selected ability above the hovered hexagon when targeting the ability. This issue presented a different challenge, since the hint types above are only used for units. To solve this issue (PR [here](https://github.com/FreezingMoon/AncientBeast/pull/2567) and still ongoing), I had to add the unit abilities to the assets, and then add an 'ability' class to the hovered hex's overlay visual state, removing the class as necessary. Then, I checked if the 'ability' class was present, got the appropriate ability asset, and set it to be shown above the hexagon. Unfortunately, due to some complications and a decision to focus more on TEAMMATES work, I have been unable to resolve some of the problems with the PR. I plan to complete it during the exam weeks.
 
-I plan to take on this [third issue](https://github.com/FreezingMoon/AncientBeast/issues/2539) after the PR above is merged, as it is makes use of the changes made in the above 2 PRs.
+Afterwards, I plan to take on this [third issue](https://github.com/FreezingMoon/AncientBeast/issues/2539) after the PR above is merged, as it is makes use of the changes made in the above 2 PRs.
 
 ### My Learning Record
 

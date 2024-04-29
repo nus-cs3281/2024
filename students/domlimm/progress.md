@@ -1,8 +1,35 @@
+# Summary
+
+Since CS3281, I have tried my best to keep up as a maintainer by reviewing PRs and contribute to conversations in Issues and Discussions.
+
+In CS3282, about 80% of the work done was from PR reviews.
+
+Aside from the technicalities, I was also a mentor to Dominic Berzin where I do check-ins with him, review his work done and providing guidance wherever necessary.
+
+The focus for me in CS3282 was over multiple action items/projects. I did a bit of everything except SQL Injection (but was kept in the loop).
+
+- Per-Receiver Submission wrap up
+- Database Migration
+  - Working alongside the team to contribute wherever I can e.g., Scripts, reviewing of PRs
+  - Involved in discussios
+- Migration of actions
+- Did just 1 E2E test migration (will continue contributing/working on this after exams)
+- [Refactoring of entities](https://github.com/TEAMMATES/teammates/pull/12791) that use certain attributes as `string` when they should have been unique identifiers i.e., Foreign Keys, linking to another entity (in the Hibernate way) (will continue work on this after exams)
+  - Updated our ERD to reflect the new changes between the tables in the DB
+- Multiple Course Structures (MCS) project
+  - Involved in the first discussion we had with the team
+  - Vetting Technical Design Docs written by CS3281 students under this project
+  - Updated entities with the necessary attributes for MCS to work (just the base for future batches)
+  - Involved in further discussions with Kevin and Wei Qing
+- External contributions to 3 projects
+  - Though they were small, I have learnt several things from these 3 projects and could see the contrast between them and TEAMMATES too
+  - Had tried to do a more technical heavy one but couldn't get it working and unfortunately vs. the effort and time spent (https://github.com/mattermost/mattermost/issues/24291)
+
 # CS3282 Pre-Semester's Progress
 
 | Date        | Type     | Achievements                                                                                                                                                      |
 | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 12 May 2023 | Reviewed | [[#12267] Instructor getting started page: Fix scroll to top#12419](https://github.com/TEAMMATES/teammates/pull/12419)                                            |
+| 12 May 2023 | Reviewed | [[#12267] Instructor getting started page: Fix scroll to top #12419](https://github.com/TEAMMATES/teammates/pull/12419)                                           |
 | 15 May 2023 | Reviewed | [[#12407] Sort icons in info table headings are hard to see #12429](https://github.com/TEAMMATES/teammates/pull/12429)                                            |
 | 16 May 2023 | Reviewed | [[#12283] Add a download button for instructor view session result (course-wide) #12431](https://github.com/TEAMMATES/teammates/pull/12431)                       |
 | 21 May 2023 | Reviewed | [[#10976] Document frontend standardizations #12436](https://github.com/TEAMMATES/teammates/pull/12436)                                                           |
@@ -45,6 +72,7 @@
 
 | Week    | Type           | Achievements                                                                                                                                |
 | ------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | Merged         | [[#12052] Per Receiver Submission #12053](https://github.com/TEAMMATES/teammates/pull/12053)                                                |
 | 1       | Reviewed       | [[#12657] Instructor Home Page: Students dropdown buttons of the wrong colour . #12691](https://github.com/TEAMMATES/teammates/pull/12691)  |
 | 2       | Reviewed       | [[#12048] Migrate UpdateInstructorAction #12434](https://github.com/TEAMMATES/teammates/pull/12434)                                         |
 | 2       | Reviewed       | [[#12699] Replace ng command in setting-up.md #12701](https://github.com/TEAMMATES/teammates/pull/12701)                                    |
