@@ -8,7 +8,7 @@ In CS3282, I've chosen frontend engineering as my "expertise" area. Given its br
 
 My involvement as a RepoSense mentor primarily centers around the frontend in Vue.js, TypeScript znd Cypress.
 
-Additionally, I've chosen to contribute to an external project that uses TypeScript and React: [date-fns](https://date-fns.org/). Having utilized date-fns in my own projects extensively, I've found it to be an efficient solution for handling dates in JavaScript. I've detailed my insights from contributing to date-fns [here](/students/ckcherry23/observations.md).
+Additionally, I've chosen to contribute to an external project that uses TypeScript and React: [date-fns](https://date-fns.org/). Having utilized date-fns in my own projects extensively, I've found it to be an efficient solution for handling dates in JavaScript. I've detailed my insights from contributing to date-fns [here](/2024/students/ckcherry23/observations.md).
 
 #### 1.2 Lightning Talks
 
