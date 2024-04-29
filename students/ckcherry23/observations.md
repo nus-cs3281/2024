@@ -21,6 +21,8 @@ He suggested that I work on the documentation website, [date-fns.org](https://gi
 Next, as per the project's current needs shared by the maintainer, I focussed on improving Duration support in date-fns. I submitted a [proposal to improve Duration support](https://gist.github.com/ckcherry23/e7641d65122259c699b2e1437f33d4c9) to the project maintainer and got started with reviewing issues and PRs related to Duration support. Since one of the PR authors was unresponsive, I took over the PR, fixed the issues, added extensive tests and updated the documentation in [PR#3768](https://github.com/date-fns/date-fns/pull/3768) for `parseISODuration`.
 
 
+**Timeline of Contributions**
+
 | Date       | Contribution              | Links                                                                                                                                                                                                          |
 |------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 08 Jan 24  | Authored PR #1            | [Add alias formatDate for format function #3653](https://github.com/date-fns/date-fns/pull/3653)                                                                                                               | 
@@ -57,7 +59,7 @@ Then I tried my hand at [checkstyle](https://github.com/checkstyle/checkstyle), 
 
 Working with a popular npm package, I learned extensively about the library's perks from the documentation itself. I discovered that date-fns utilizes tree-shaking to reduce the size of the final bundle and read the [webpack documentation](https://webpack.js.org/guides/tree-shaking/) to understand its functionality. Tree shaking involves dead code elimination to ensure production-ready code with minimal file size, allowing compatibility with tools like webpack, Rollup, etc. 
 
-The project also employs a function-based API where each function is a pure function, enabling better immutability and testability. Moreover, it allows for importing only the necessary functions, enhancing performance. Additionally, the project offers a functional-programming submodule facilitating improved function composition, which allowed revisiting concepts taught in CS1101S. It also leverages native dates for better performance and compatibility with other libraries.
+The project also employs a function-based API where each function is a pure function, enabling better immutability and testability. Moreover, it allows for importing only the necessary functions, enhancing performance. Additionally, the project offers a functional-programming submodule facilitating improved function composition, which allowed revisiting some concepts taught in CS1101S.
 
 **1.2 Testing npm packages**
 
@@ -65,11 +67,11 @@ Since I worked on an npm package, I learned various methods to test npm packages
 
 **1.3 Generating documentation**
 
-date-fns uses TypeDoc to generate documentation for the project. I used [the offical TypeDoc docs](https://typedoc.org/guides/overview/) to understand its functionality. The project had a staging deployment for documentation, with content stored in Firebase. The documentation site generator created documentation based on the TSDoc comments deployed on Firebase. The TSDoc standard was used for documenting the code, akin to JavaDoc. Having worked with multiple TypeScript projects before, this was my first experience using a TypeScript documentation generator, and it was smooth.
+date-fns uses TypeDoc to generate documentation for the project. I used [the offical TypeDoc docs](https://typedoc.org/guides/overview/) to understand its functionality. The documentation site generator created documentation based on the TSDoc comments deployed on Firebase. The TSDoc standard was used for documenting the code, akin to JavaDoc. Having worked with multiple TypeScript projects before, this was my first experience using a TypeScript documentation generator, and it was smooth.
 
 **1.4 Date manipulation in JavaScript**
 
-Exploring the history of date manipulation in JavaScript and its evolution over time was enlightening. I learned about various methods for date manipulation in JavaScript and compared date-fns with competing libraries like Moment.js and Day.js. 
+Exploring the history of [date manipulation in JavaScript](https://medium.com/@vitorbritto/mastering-date-an-time-in-javascript-a4c12501aa6a) and its evolution over time was enlightening. I learned about various methods for date manipulation in JavaScript and compared date-fns with competing libraries like [Moment.js](https://momentjs.com/) and [Day.js](https://day.js.org/).
 
 Additionally, considering date-fns aims to improve Duration support, I explored the experimental ECMAScript [Temporal proposal](https://tc39.es/proposal-temporal/docs/duration.html) that seeks to provide native support for Durations in JavaScript. This proposal could potentially enhance duration functions without using our library, however, polyfills like these tend to be heavy, prompting date-fns to implement a lightweight solution as an interim API with a minimal subset of the Temporal proposal.
 
@@ -80,7 +82,7 @@ date-fns has a [Contributing Guide](https://date-fns.org/docs/Contributing) deta
 
 **2.1 Good: No more "Move fast and break things"**
 
-Having worked in fast-paced environments before, I generally embrace the "move fast and break things" mentality (maybe a bit too much :3 -> RepoSense issues [#2164](https://github.com/reposense/RepoSense/issues/2164) and [#2184](https://github.com/reposense/RepoSense/issues/2184)). However, you do not have that "freedom" when working on an npm package with 20 million weekly downloads. This was a good learning experience for me as even a simple function such as `parseISODuration` required extensive discussions regarding design decisions, for example, whether undefined values should be preserved, what rules should be followed for parsing, etc., and all these should be done based on the standard proposals, the competitior libraries' features, and the community's feedback.
+Having worked in fast-paced environments before, I generally embrace the "move fast and break things" mentality (maybe a bit too much :3 -> RepoSense issues [#2164](https://github.com/reposense/RepoSense/issues/2164) and [#2184](https://github.com/reposense/RepoSense/issues/2184)). However, you do not have that "freedom" when working on an npm package with 20 million weekly downloads. This was a good learning experience for me as even a simple function such as `parseISODuration` required extensive discussions regarding design decisions, for example, whether undefined values should be preserved, what rules should be followed for parsing, etc., and all these should consider the standard proposals, the competitior libraries' features, and the community's feedback.
 
 **2.2 Good: Making a difference**
 
@@ -92,13 +94,13 @@ I reached out to the maintainers of date-fns and they were very helpful in guidi
 
 **2.4 To improve: Community management**
 
-date-fns has a large community and a lot of issues are opened every day. However, the 3-5 maintainers of the project do not have the bandwidth to manage all the issues. This makes it difficult for new contributors to find issues to work on. Moreover, repetitive issues are opened multiple times, leading to duplicated efforts in PRs. This is something that can be improved in date-fns. Also, since there are too many PRs opened, the maintainers have decided to focus on those PRs that contribute towards the project's immediate needs, which is a good strategy to ensure that the project is moving in the right direction.
+date-fns has a large community and a lot of issues are opened every day. However, the 3-5 maintainers of the project do not have the bandwidth to manage all the issues. This makes it difficult for new contributors to find issues to work on. Moreover, repetitive issues are opened multiple times, leading to duplicated efforts in PRs. This is something that can be improved in date-fns.
 
-Sometimes, contributors are not responsive to maintainers' feedback and this leads to abandoned PRs. Instead of starting from scratch, I learned how to handle abandoned PRs by taking over an abandoned PR and getting it merged.
+Since there are too many PRs opened, the maintainers have decided to only focus on those PRs that contribute towards the project's long-term goals, which is a good strategy to ensure that the project is moving in the right direction. Sometimes, contributors are not responsive to maintainers' feedback and this leads to abandoned PRs. Instead of starting from scratch, I learned how to handle abandoned PRs by taking over one and completing the work.
 
 **2.5 To improve: Documentation contrasts**
 
-While date-fns has a very comprehensive documentation website, the documentation website repository did not have any contribution guidelines, because it was mainly handled by the core team. This made it difficult for me to understand how to contribute to the custom documentation website generator, and I had to reach out to the maintainers for guidance. This is understandable as the documentation site generator does not expect much community contributions, but is still something that can be improved in date-fns.
+While date-fns has a very comprehensive documentation website, the [documentation website generator](https://github.com/date-fns/date-fns.org) did not have any contribution guidelines, because it was mainly handled by the core team. This made it difficult for me to understand how to contribute to the custom documentation website generator, and I had to reach out to the maintainers for guidance. This is understandable as the documentation site generator does not expect much community contributions, but is still something that can be improved in date-fns.
 
 #### 3. Suggestions for RepoSense
 
