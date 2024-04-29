@@ -6,7 +6,7 @@ In CS3282, I've chosen frontend engineering as my "expertise" area. Given its br
 
 #### 1.1 Open Source Contributions 
 
-My involvement as a RepoSense mentor primarily centers around the frontend in Vue.js, TypeScript znd Cypress.
+My involvement as a RepoSense mentor primarily centers around the frontend in Vue.js, TypeScript and Cypress.
 
 Additionally, I've chosen to contribute to an external project that uses TypeScript and React: [date-fns](https://date-fns.org/). Having utilized date-fns in my own projects extensively, I've found it to be an efficient solution for handling dates in JavaScript. I've detailed my insights from contributing to date-fns [here](/2024/students/ckcherry23/observations.md).
 
@@ -14,13 +14,13 @@ Additionally, I've chosen to contribute to an external project that uses TypeScr
 
 I have been using Tailwind CSS for a while now, and I find it to be a very efficient way to style web applications. In fact, one of my projects, [artisan.land](https://www.artisan.land/), depends on the atomic classes of Tailwind to [dynamically style components](https://www.artisan.land/components) with user-selected options and generate React code for them. Such a project would not have been possible without the utility-first nature of Tailwind CSS. I also delivered one of my lightning talks on [Tailwind CSS](https://tailwindcss.com/), to evangelize it to the class.
 
-Driven by my interest in frontend technologies, I took up the role of Frontend Lead in Developer Student Club. This experience provided valuable insights into frontend development best practices while allowing me to mentor junior developers. Additionally, I implemented quality-of-life enhancements such as setting up ESLint, Husky pre-commit hooks, and refining the CI/CD pipeline. Subsequently, I delivered a lightning talk on improving DevEx, which would benefit NUS-OSS mentors as well. In fact, we've begun slowly integrating these practices into RepoSense, adopting tools like [Vite](https://github.com/reposense/RepoSense/pull/2178) and [Vitest](https://github.com/reposense/RepoSense/pull/2102#issuecomment-1950123596) for faster development and testing on the frontend, and enhancing CI runs for [improved accuracy](https://github.com/reposense/RepoSense/pull/2189).
+Driven by my interest in frontend technologies, I took up the role of Frontend Lead in Developer Student Club. This experience provided valuable insights into frontend development best practices while allowing me to mentor junior developers. Additionally, I implemented quality-of-life enhancements such as setting up ESLint and Husky pre-commit hooks, and refining the CI/CD pipeline. Subsequently, I delivered a lightning talk on improving DevEx, which would benefit NUS-OSS mentors as well. In fact, we've begun slowly integrating these practices into RepoSense, adopting tools like [Vite](https://github.com/reposense/RepoSense/pull/2178) and [Vitest](https://github.com/reposense/RepoSense/pull/2102#issuecomment-1950123596) for faster development and testing on the frontend, and enhancing CI runs for [improved accuracy](https://github.com/reposense/RepoSense/pull/2189).
 
 #### 1.3 Q/A Community
 
 I tried contributing to Stack Overflow by providing answers to questions related to frontend technologies such as Next.js, React, and component libraries. Some of my answers can be found [here](https://stackoverflow.com/users/15226661/charisma-kausar?tab=answers&sort=activity). 
 
-Engaging with the Stack Overflow community was a good way to reinforce my understanding of these technologies while enabling me to assist others effectively and to explain complex concepts in a simple manner. Yet, looking back, I realize that contributing more frequently is difficult as it may seem forced and inauthentic. I believe that contributing organically when I encounter a question that I can answer is more beneficial in the long run.
+Engaging with the Stack Overflow community was a good way to reinforce my understanding of these technologies while enabling me to assist others effectively and explain complex concepts in a simple manner. Yet, looking back, I realize that contributing more frequently is difficult as it may seem forced and inauthentic. I believe that contributing organically when I encounter a question that I can answer is more beneficial in the long run.
 
 ### 2. Tools and Technologies
 
@@ -30,13 +30,13 @@ Engaging with the Stack Overflow community was a good way to reinforce my unders
 
 I have been working with Vue.js for a while now, and I find Single-File Components (SFCs) to be a very efficient way to organize Vue components. SFCs allow you to define the template, script, and styles of a component within a single file, making it easier to maintain the component. 
 
-When componentizing our frontend, one of the proposed approches was to split the template, script, and styles into separate files. While this approach does break down the huge file into smaller chunks, it creates multiple files that are highly interrelated instead of multiple loosely coupled components with good separation of concerns.
+When componentizing our frontend, one of the proposed approaches was to split the template, script, and styles into separate files. While this approach does break down the huge file into smaller chunks, it creates multiple files that are highly interrelated instead of multiple loosely coupled components with good separation of concerns.
 
-We decided it was better if we do our modularization by continuing to follow the Single-File Component pattern of Vue. The separation of concerns in SFCs also helps in keeping the codebase clean and reduces context switching when working on a single component, enhancing overall code quality.
+We decided it was better if we did our modularization by continuing to follow the Single-File Component pattern of Vue. The separation of concerns in SFCs also helps in keeping the codebase clean and reduces context switching when working on a single component, enhancing overall code quality.
 
 #### 2.2 YAML 
 
-For our title component, we decided to migrate from a JSON format `report-config.json` to a YAML format `report-config.yaml`. This choice was because of YAML's superior readability and compact syntax for defining configuratons compared to JSON or XML.
+For our title component, we decided to migrate from a JSON format `report-config.json` to a YAML format `report-config.yaml`. This choice was because of YAML's superior readability and compact syntax for defining configurations compared to JSON or XML.
 
 **2.2.1 YAML Frontmatter**
 
@@ -65,7 +65,7 @@ When working with mentees for the [Add title component PR](https://github.com/re
 
 Guiding contributors through a project was definitely a new challenge as a mentor. Each mentee had different working styles and areas of expertise, so I had to adapt my guidance to suit their needs. 
 
-At the beginning, my focus was on recommending issues that were suitable for the mentees' skill levels and expertise. Then, it was about communicating project needs and expectations clearly. 
+In the beginning, my focus was on recommending issues that were suitable for the mentees' skill levels and expertise. Then, it was about communicating project needs and expectations clearly.
 
 The biggest challenge was pushing the mentees to partake in more managerial responsibilities within the project. I had to learn how to provide clear instructions and set expectations for the mentees to take on more substantial roles without micromanaging them.
 

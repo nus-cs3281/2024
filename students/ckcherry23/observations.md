@@ -63,11 +63,11 @@ The project also employs a function-based API where each function is a pure func
 
 **1.2 Testing npm packages**
 
-Since I worked on an npm package, I learned various methods to test npm packages locally beyond standard unit testing. Instead of repeatedly publishing the package to npm (which I would have done a year ago -_-), I utilized `npm link` to test the package locally in other JavaScript projects. I learned about this approach from [Urban Sanden's blog](https://urre.me/writings/test-local-npm-packages/). Additionally, I used `npm tsx` to get a TypeScript REPL (Read-Eval-Print-Loop) and require the respective date-fns function to test them within the terminal. This was facilitated by [tsx](https://tsx.is/), which stands for TypeScript Execute, and enables running TypeScript in Node.js with improved Developer Experience (watch mode, scripts, etc).
+Since I worked on an npm package, I learned various methods to test npm packages locally beyond standard unit testing. Instead of repeatedly publishing the package to npm (which I would have done a year ago -_-), I utilized `npm link` to test the package locally in other JavaScript projects. I learned about this approach from [Urban Sanden's blog](https://urre.me/writings/test-local-npm-packages/). Additionally, I used `npm tsx` to get a TypeScript REPL (Read-Eval-Print-Loop) and required the respective date-fns function to test them within the terminal. This was facilitated by [tsx](https://tsx.is/), which stands for TypeScript Execute, and enables running TypeScript in Node.js with improved Developer Experience (watch mode, scripts, etc).
 
 **1.3 Generating documentation**
 
-date-fns uses TypeDoc to generate documentation for the project. I used [the offical TypeDoc docs](https://typedoc.org/guides/overview/) to understand its functionality. The documentation site generator created documentation based on the TSDoc comments deployed on Firebase. The TSDoc standard was used for documenting the code, akin to JavaDoc. Having worked with multiple TypeScript projects before, this was my first experience using a TypeScript documentation generator, and it was smooth.
+date-fns uses TypeDoc to generate documentation for the project. I used [the official TypeDoc docs](https://typedoc.org/guides/overview/) to understand its functionality. The documentation site generator created documentation based on the TSDoc comments deployed on Firebase. The TSDoc standard was used for documenting the code, akin to JavaDoc. Having worked with multiple TypeScript projects before, this was my first experience using a TypeScript documentation generator, and it was smooth.
 
 **1.4 Date manipulation in JavaScript**
 
@@ -82,7 +82,7 @@ date-fns has a [Contributing Guide](https://date-fns.org/docs/Contributing) deta
 
 **2.1 Good: No more "Move fast and break things"**
 
-Having worked in fast-paced environments before, I generally embrace the "move fast and break things" mentality (maybe a bit too much :3 -> RepoSense issues [#2164](https://github.com/reposense/RepoSense/issues/2164) and [#2184](https://github.com/reposense/RepoSense/issues/2184)). However, you do not have that "freedom" when working on an npm package with 20 million weekly downloads. This was a good learning experience for me as even a simple function such as `parseISODuration` required extensive discussions regarding design decisions, for example, whether undefined values should be preserved, what rules should be followed for parsing, etc., and all these should consider the standard proposals, the competitior libraries' features, and the community's feedback.
+Having worked in fast-paced environments before, I generally embrace the "move fast and break things" mentality (maybe a bit too much :3 -> RepoSense issues [#2164](https://github.com/reposense/RepoSense/issues/2164) and [#2184](https://github.com/reposense/RepoSense/issues/2184)). However, you do not have that "freedom" when working on an npm package with 20 million weekly downloads. This was a good learning experience for me as even a simple function such as `parseISODuration` required extensive discussions regarding design decisions, for example, whether undefined values should be preserved, what rules should be followed for parsing, etc., and all these should consider the standard proposals, the competitor libraries' features, and the community's feedback.
 
 **2.2 Good: Making a difference**
 
@@ -110,8 +110,8 @@ date-fns has a system where maintainers provide weekly advice to contributors to
 
 **3.2 Automatic documentation generation**
 
-Looking at the custom documentation generator for date-fns, it got me thinking if there is a way to automatically generate documentation for RepoSense, especially for the CLI arguments and the configuration files. This would help new contributors understand the project better and also assist in maintaining up-to-date documentation. Although the work required to set up the documentation generator might be substantial, it could prove to be a worthwhile investment in the long run, particularly if well-documented.
+Looking at the custom documentation generator for date-fns got me thinking about whether there is a way to automatically generate documentation for RepoSense, especially for the CLI arguments and the configuration files. This would help new contributors understand the project better and also assist in maintaining up-to-date documentation. Although the work required to set up the documentation generator might be substantial, it could prove to be a worthwhile investment in the long run, particularly if well-documented.
 
 **3.3 New contributor issues**
 
-If we aim to attract more first-time contributors to NUS-OSS projects as opposed to long-term contributors, we could establish a system akin to checkstyle's approach by labeling issues as "good first issue," "good second issue," and so on. By doing this, RepoSense can streamline the onboarding process and foster a welcoming community for a diverse pool of contributors. This would also help in managing the influx of new contributors and ensure that they have a smooth onboarding experience.
+If we aim to attract more first-time contributors to NUS-OSS projects as opposed to long-term contributors, we could establish a system akin to checkstyle's approach by labelling issues as "good first issue," "good second issue," and so on. By doing this, RepoSense can streamline the onboarding process and foster a welcoming community for a diverse pool of contributors. This would also help in managing the influx of new contributors and ensure that they have a smooth onboarding experience.

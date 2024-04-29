@@ -45,7 +45,7 @@ in the issue tracker.
 
 ### CS3282 Semester Progress
 
-During the semester, I was actively involved in mentoring the CS3281 students and guiding them in their PRs. I met with CS3281 students atleast biweekly to discuss their progress and help them with their issues. I also reviewed their PRs and provided guidance on picking up management tasks in the project. Lastly, I merged PRs and helped to manage the project's issue tracker.
+During the semester, I was actively involved in mentoring the CS3281 students and guiding them in their PRs. I met with CS3281 students at least biweekly to discuss their progress and help them with their issues. I also reviewed their PRs and provided guidance on picking up management tasks in the project. Lastly, I merged PRs and helped to manage the project's issue tracker.
 
 | Week        | Contribution       | Links                                                                                                                                         |
 |-------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
