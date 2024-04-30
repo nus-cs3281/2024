@@ -2,7 +2,7 @@
 
 ### 1. Expertise Area: Frontend Engineering
 
-In CS3282, I've chosen frontend engineering as my "expertise" area. Given its breadth, I've narrowed my focus to the most popular frontend technology stack today: Next.js, TypeScript, React, and Tailwind CSS. The majority of my recent projects, as listed in [my project archive](https://ckcherry23.github.io/archive/), have been built using these technologies. As a UI/UX enthusiast, I am also interested in the usability and accessibility aspects of frontend development.
+In CS3282, I've chosen frontend engineering as my "expertise" area. Given its breadth, I narrowed my focus to the most popular frontend technology stack today: Next.js, TypeScript, React, and Tailwind CSS. The majority of my recent projects, as listed in [my project archive](https://ckcherry23.github.io/archive/), have been built using these technologies. As a UI/UX enthusiast, I am also interested in the usability and accessibility aspects of frontend development.
 
 #### 1.1 Open Source Contributions 
 
