@@ -31,6 +31,7 @@ footer:
 **Usefulness to YOU**: `1` not useful at all | `3` >25% of the talk useful | `5` >75% of the talk useful
 
 <table style="width:100%">
+<tbody>
 {% for project in sorted_projects %}
 {% for student in project.students %}
 {% if round in student %}
@@ -38,6 +39,7 @@ footer:
 {% endif %}
 {% endfor %}
 {% endfor %}
+</tbody>
 </table>
 <hr>
 {{ page_break }}
