@@ -1,3 +1,11 @@
+### Summary
+
+- Reviewed PRs of CS3281 students and FYP for RepoSense
+- Created issues as well as suggested/discussed new issues for CS3281 students to create
+- Guided with CS3281 mentees physically as well as over telegram
+- Reviewed scripts and slides of + had dry runs with CS3282 members for lightning talks
+- Contributed to Supabase with 3 merged PRs and 1 issue (+ 1 unmerged PR)
+
 | Week       | Achievements                                                                                                                                                        |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 13/05/2023 | Reviewed PR: [Fix non-rendering PlantUML diagram #2005](https://github.com/reposense/RepoSense/pull/2005)                                                           |
