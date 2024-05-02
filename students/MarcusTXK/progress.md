@@ -37,7 +37,7 @@
 | 4          | Reviewed PR: [Refactor RepoConfiguration to simplify constructor complexity #2078](https://github.com/reposense/RepoSense/pull/2078)                                |
 | 5          | Created Issue: [Fix failing cypress test for range changes in chartview #2111](https://github.com/reposense/RepoSense/issues/2111)                                  |
 | 6          | Reviewed PR: [Refactor CliArguments to conform to RepoConfiguration's Builder Pattern #2118](https://github.com/reposense/RepoSense/pull/2118)                      |
-| Recess     | Reviewed PR: [Add originality threshold flag #2122](https://github.com/reposense/RepoSense/pull/2122)                                                               |
+| R          | Reviewed PR: [Add originality threshold flag #2122](https://github.com/reposense/RepoSense/pull/2122)                                                               |
 | 7          | Reviewed PR: [Improve performance #2108](https://github.com/reposense/RepoSense/pull/2108)                                                                          |
 | 9          | Reviewed PR: [Minor Enhancements to Existing Regex Code #2115](https://github.com/reposense/RepoSense/pull/2115)                                                    |
 | 9          | Reviewed PR: [Bump follow-redirects from 1.15.4 to 1.15.6 in /frontend #2160](https://github.com/reposense/RepoSense/pull/2160)                                     |
@@ -48,4 +48,6 @@
 | 11         | Reviewed PR: [Fix lint warnings #2182](https://github.com/reposense/RepoSense/pull/2182)                                                                            |
 | 11         | Reviewed PR: [Fix Inconsistent Line Number Colours #2185](https://github.com/reposense/RepoSense/pull/2185)                                                         |
 | 12         | Reviewed PR: [Update CSS-related Major Dependencies #2154](https://github.com/reposense/RepoSense/pull/2154)                                                        |
-| Recess     | Reviewed PR: [Implement authorship analysis #2140](https://github.com/reposense/RepoSense/pull/2140)                                                                |
+| 13         | Reviewed PR: [Implement authorship analysis #2140](https://github.com/reposense/RepoSense/pull/2140)                                                                |
+| R          | Reviewed PR: [Add optimise timeline feature #2180](https://github.com/reposense/RepoSense/pull/2180)                                                                |
+| R          | Reviewed PR: [Move from Vue CLI to Vite #2178](https://github.com/reposense/RepoSense/pull/2178)                                                                    |
