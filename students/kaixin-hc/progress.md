@@ -51,3 +51,5 @@
 | Reading Week | [Resolve workflow changes]() (docs PR - above) + close all milestones in repository
 | Exam Week | Repository mantainence(eg: closing finished issues, commenting on others: [Project Roadmap Review](https://github.com/MarkBind/markbind/issues/813), [python 3.12 dependency issue](https://github.com/MarkBind/markbind/issues/2496))
 | Exam Week | Released [v5.5.0](https://github.com/MarkBind/markbind/releases/tag/v5.5.0)
+| Exam Week | Investigated and closed issues: [Migrate all MarkBind components from vue-strap to bootstrap-vue](https://github.com/MarkBind/markbind/issues/814) (open since 2018!) and [ Vue hydration issues caused by invalid HTML make page unscrollable after clicking on modal #2025 ](https://github.com/MarkBind/markbind/issues/2025)
+| Exam Week | Released [v5.5.1](https://github.com/MarkBind/markbind/releases/tag/v5.5.1) and released [v5.5.2](https://github.com/MarkBind/markbind/releases/tag/v5.5.1) patches as we troubleshooted issues 
