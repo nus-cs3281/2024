@@ -189,6 +189,8 @@
         "rxjs": "RxJS",
         "jasmine-and-jest": "Jasmine and Jest",
         "backend": "Backend",
+        "migration-of-data": "Migration of data",
+        "connection-pools": "Connection pools",
         "google-cloud-datastore": "Google Cloud Datastore",
         "git-rerere": "Git ReReRe",
         "additional-tips": "Additional Tips"
@@ -314,7 +316,9 @@
     },
     {
       "src": "students/MarcusTXK/progress.md",
-      "headings": {},
+      "headings": {
+        "summary": "Summary"
+      },
       "headingKeywords": {}
     },
     {
