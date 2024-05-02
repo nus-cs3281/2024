@@ -1,13 +1,33 @@
+#### Overview
+
+* Aided in the migration of logic from NoSQL (Datastore) to SQL
+  - Migrated SubmitFeedbackResponseAction and it's relevant tests
+  - Reviewed other actions authored by others
+* Took part in Multiple course structure initial discussions
+* Researched and created the SQL setup on Google Cloud Platform
+  - Creation of database and VPC to connect to the application
+  - Updated the relevant documentation on teammates-ops
+  - Created the relevant SQL commands for creating a non-superuser for production usage
+  - Researched and setup the Hikari connection pool for Hibernate
+* Authored and reviewed PRs in the initial non-course migration
+  - Researched and gave alternatives on the methods of migration (by application code or BigQuery on GCP)
+  - Created the staging environment for non-course migration to test
+* Reviewed and gave suggestions for the Logs project
+  - Primarily guided Di Sheng on some user considerations, overall design and review of PRs
+* Authored and reviewed PRs in course migration
+  - Mentored and reviewed the PRs and overall design for the mentee developers
+
+#### Achievements by Week
 | Week | Achievements |
 | ---- | ------------ |
-| Before | Reviewed PR (merged): [[#9976] Instructor copying course: Progress bar does not load when no feedback sessions are copied](https://github.com/TEAMMATES/teammates/pull/11906) |
-| Before | Reviewed PR (merged): [[#11639] Create DateTime service and replace time-related magic numbers](https://github.com/TEAMMATES/teammates/pull/11943) |
-| Before | Reviewed PR (merged): [[#11911] Instructor copying course: Progress bar does not load when no feedback sessions are copied](https://github.com/TEAMMATES/teammates/pull/11914) |
+| Before CS3282 | Reviewed PR (merged): [[#9976] Instructor copying course: Progress bar does not load when no feedback sessions are copied](https://github.com/TEAMMATES/teammates/pull/11906) |
+| Before CS3282 | Reviewed PR (merged): [[#11639] Create DateTime service and replace time-related magic numbers](https://github.com/TEAMMATES/teammates/pull/11943) |
+| Before CS3282 | Reviewed PR (merged): [[#11911] Instructor copying course: Progress bar does not load when no feedback sessions are copied](https://github.com/TEAMMATES/teammates/pull/11914) |
 |  2 - 3 | Authored PR (merged): [[#12048] Migrate SubmitFeedbackResponseAction's Logic and Db methods](https://github.com/TEAMMATES/teammates/pull/12732) |
 |  2 - 3 | Reviewed PR (merged): [[#12048] Migrate GetCourseJoinStatusAction](https://github.com/TEAMMATES/teammates/pull/12713) |
 |  2 - 3 | Authored PR (merged): [[#12048] Migrate SubmitFeedbackResponseAction](https://github.com/TEAMMATES/teammates/pull/12720) |
-|  2 - 3 | Authored PR (In Progress): [[#12048] Migrate OPTIMIZED_SAVING_POLICY_APPLIED for updateFeedbackResponseComment](https://github.com/TEAMMATES/teammates/pull/12745) |
-|  2 - 3 | Authored PR (In Progress): [[#12048] Migrate SubmitFeedbackResponseAction's tests](https://github.com/TEAMMATES/teammates/pull/12760) |
+|  2 - 3 | Authored PR (closed): [[#12048] Migrate OPTIMIZED_SAVING_POLICY_APPLIED for updateFeedbackResponseComment](https://github.com/TEAMMATES/teammates/pull/12745) |
+|  2 - 3 | Authored PR (merged): [[#12048] Migrate SubmitFeedbackResponseAction tests ](https://github.com/TEAMMATES/teammates/pull/13033) |
 |  4 - 5 | Authored PR (merged): [[#12048] Add DataMigrationEntitiesBaseScriptSql and DataMigrationForAccountSql](https://github.com/TEAMMATES/teammates/pull/12766) |
 |  4 - 5 | Authored PR (merged): [[#12048] Add verify to seed db](https://github.com/TEAMMATES/teammates/pull/12767) |
 |  5 - 6 | Reviewed PR (merged): [[#12048] Create script to verify row count for non-course entities](https://github.com/TEAMMATES/teammates/pull/12824) |
@@ -39,3 +59,7 @@
 |  12 | Reviewed PR (merged): [[#12048] Data migration for section entities](https://github.com/TEAMMATES/teammates/pull/12991) |
 |  12 | Reviewed PR (merged): [[#12048] Remove feedbackSession attributes @fetch annotation](https://github.com/TEAMMATES/teammates/pull/12992) |
 |  13 | Reviewed PR (merged): [ [#11843] Update front end for session activity logs](https://github.com/TEAMMATES/teammates/pull/12973) |
+|  Reading Week | Authored PR (merged): [ [#12048] Delete redundant index ](https://github.com/TEAMMATES/teammates/pull/13095) |
+|  Reading Week | Authored PR (merged): [ [#12048] Hot fix for migration](https://github.com/TEAMMATES/teammates/pull/13092) |
+|  Reading Week | Authored PR (merged): [ [#12048] Prepare for migration testing](https://github.com/TEAMMATES/teammates/pull/13089) |
+|  Reading Week | Authored PR (merged): [ [#12048] Add database changes and speed up seeding](https://github.com/TEAMMATES/teammates/pull/13085) |

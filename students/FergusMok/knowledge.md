@@ -28,6 +28,37 @@ Jasmine is a testing framework. It describes test cases, and can make use of `sp
 Jest is another testing framework used for snapshots. We're able to take snapshots, save them, and compare them later when running the tests again. This is especially useful for regression testing.
 
 # Backend
+### Migration of data
+The 2 main considerations for migration this year was: correctness and performance. I've always been more interested in the performance aspect, and have learnt great amount of things during both processes.
+
+#### Eager and lazy loading
+The biggest improvement in performance can be found when switching from lazy loading to eager loading. The scenario would be having to query for a collection of entities's relations. Lazy loading would be to query one entity's relations at a time, and eager loading would be to query the entire collections' relations in 1 single query. Lazy loading would incur N round-trip times to the database, leading it to be extremely slow. This is also called the N+1 query problem.
+
+However, a main limitation of this method would be the Out-Of-Memory (OoM) error. Lazy loading is preferred only in the situtation where the collection of entities' relations are extremely huge, leading to an inability to load all of them at once in memory. A method the course migration team has done was to query the number of relations the collection has. If it exceeds a certain threshold, we will utilize the lazy method to prevent OoM. Likewise, we are also able to increase the available memory in a Java program.
+
+#### Batch loading by the database ORM
+One of the biggest improvements seen was also configuring our ORM to utilize batch-loading and batch-saving. Behind the scenes, the ORM may only send a UPDATE request after reaching 5 entities or so. However, an even better method would be asking the ORM to send the request when reaching 50 entities. In fact, this is a pattern recommended by the Hibernate ORM. Implementation can be seen here:
+
+https://github.com/TEAMMATES/teammates/pull/12896/files
+
+In fact, Hibernate also has common patterns for saving in batches for the most optimal performance
+
+https://docs.jboss.org/hibernate/core/3.3/reference/en/html/batch.html
+
+#### Utilizing traditional database techniques
+When loading a large amount of entities, a wise method to improve performance was to only load needed fields. In traditional SQL, this would be done with the SELECT method. Reducing the amount of data to be loaded has significantly improved our query times during migration, with up to 50% at certain times.
+
+Another method would the main querying-speed improvers for SQL, indexes. When querying the entire database with an ordered method, a intuitive method would be the sort by createdAt. However, we should instead sort by an index. In fact, all database tables have an implicit index, which is the ID column. Hence, the team used the ID column to sort instead to improve querying performance.
+
+### Connection pools
+With the set-up of the SQL database on production, one unseen circumstance during deployment was choosing of the connection pool tool. Connection pools contain the pool of connections for users to query the database. These pools must scale the number of connections accordingly, and also handle any dead connections. 
+
+During the deployment on production, we initially received errors as our default connection pool was not testing connections on whether they were dead before handing it to users. I quickly learnt that proper connection pools will usually send a **connection test query** ("SELECT 1") before handing the connection to users.
+
+Apart from correctness of connections, connection pools are one of the most important parts when scaling a database's performance. There are many considerations, such as setting the minimum and maximum size of connection pools. A very shocking and counter-intuitive learning point was that DBAs often overestimate the size of connection pools, and reducing the size can actually lead to a 50x improvement. In fact, there's a formula given by PostgreSQL to calculate the optimal number of connections your server can handle, number of connections connections = ((core_count * 2) + effective_spindle_count). More can be read up here:
+
+Hikari Connection Pool tuning: https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
+
 ### Google Cloud Datastore
 I learnt how Datastore's key-value works, it's strengths and limitations, and important conventions. These conventions are seemly counterintuitive for users with an SQL background for smaller applications, but makes sense when building applications at scale.
 
@@ -46,7 +77,7 @@ Former Googler: https://ikaisays.com/2011/01/25/app-engine-datastore-tip-monoton
 The convention is to prepend with a known amount of random numbers/hash, or prepend the ID with other useful fields that can be used for querying later on.
 
 Schema Design: https://cloud.google.com/bigtable/docs/schema-design
-#### Indexes
+#### Datastore Indexes
 Datastore is built in a way that requires indexes for every single field that requires that needs to be queried. This is because Datastore cannot reference the data of columns, and ONLY the key during the query. The (counterintuitive) convetion is to make indexes for most fields of an entity, and this can lead to 90% of the storage for an entity to be indexes alone. This leads to a trade-off for more performance at scale. 
 
 However, Google does not bill for storage, and only for writes and reads.
