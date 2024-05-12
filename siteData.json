@@ -947,7 +947,9 @@
         "javascript-with-regard-to-object-oriented-programming": "Javascript with regard to object oriented programming",
         "certain-functions-in-javascript": "Certain functions in javascript",
         "softwrapping-vs-hard-wrapping-code": "Softwrapping vs hard wrapping code",
-        "css-vendor-locking": "CSS Vendor Locking:"
+        "css-vendor-locking": "CSS Vendor Locking:",
+        "precommit-hooks": "Precommit hooks",
+        "ant-design": "Ant design"
       },
       "headingKeywords": {}
     },
@@ -958,6 +960,8 @@
         "sphinx": "Sphinx",
         "hsr-optimizer": "HSR Optimizer",
         "react-admin": "React-Admin",
+        "supabase": "Supabase",
+        "godot-supabase": "godot-supabase",
         "my-contributions": "My Contributions",
         "my-learning-record": "My Learning Record"
       },
@@ -1294,6 +1298,8 @@
         "sphinx": "Sphinx",
         "hsr-optimizer": "HSR Optimizer",
         "react-admin": "React-Admin",
+        "supabase": "Supabase",
+        "godot-supabase": "godot-supabase",
         "my-contributions-9": "My Contributions",
         "my-learning-record-9": "My Learning Record",
         "lee-wei-david": "LEE WEI, DAVID",
