@@ -3,14 +3,17 @@
 * Release: 5.5.0 and patches 5.5.1 and 5.5.2:
 * Project management
   * Prepared idea and facillitated Saturday code sprint to onboard juniors
-  * Regular repository maintenance and labelling, as well as investigating and closing old issues and creating new ones usually related to project maintenance (examples - not comprehensive: adding clarifications [#2091](https://github.com/MarkBind/markbind/issues/2091), investigation and closing ([#633](https://github.com/MarkBind/markbind/issues/633), [#1916](https://github.com/MarkBind/markbind/issues/1916)), adding/changing labels [#2547](https://github.com/MarkBind/markbind/issues/2547), new issues ([goal](https://github.com/MarkBind/markbind/issues/2459), [#2496](https://github.com/MarkBind/markbind/issues/2496), [template deploy buttons](https://github.com/MarkBind/markbind/issues/2552)), [linking related issues](https://github.com/MarkBind/markbind/issues/2541))
+  * Regular repository maintenance and labelling, as well as investigating and closing old issues and creating new ones usually related to project maintenance (examples - not comprehensive: adding clarifications [#2091](https://github.com/MarkBind/markbind/issues/2091#issuecomment-1909719113), investigation and closing ([#633](https://github.com/MarkBind/markbind/issues/633), [#1916](https://github.com/MarkBind/markbind/issues/1916)), adding/changing labels [#2547](https://github.com/MarkBind/markbind/issues/2547), new issues ([goal](https://github.com/MarkBind/markbind/issues/2459), [#2496](https://github.com/MarkBind/markbind/issues/2496), [template deploy buttons](https://github.com/MarkBind/markbind/issues/2552)), [linking related issues](https://github.com/MarkBind/markbind/issues/2541))
   * (Re)introduction of GitHub projects, clean up of github projects to create a targeted project roadmap and provide group goals and direction + documentation for the above
   * Discussion/investigation of [github teams related permissions issues](https://github.com/MarkBind/markbind/issues/2073)
 * PR Review Examples:
   * Templates: [Software Project](https://github.com/MarkBind/markbind/pull/2400), [Personal Resume](https://github.com/MarkBind/markbind/pull/2398)
   * Review of Teammates docs upgrade: [Upgrade to latest MarkBind version ](https://github.com/TEAMMATES/teammates/pull/12893#event-12140069832)
+  * Testing: [Standardise NodeProcessor.data.ts constant names #2476](https://github.com/MarkBind/markbind/issues/2476) and reviews on related PRs
+  * Dev experience: completing typescript migration ([#2482](https://github.com/MarkBind/markbind/pull/2482), [#2481](https://github.com/MarkBind/markbind/pull/2481), [#2480](https://github.com/MarkBind/markbind/pull/2480)) (I also suggested this task to the juniors!), [ Utilize GitHub Actions to check for SEMVER impact label #2470 ](https://github.com/MarkBind/markbind/pull/2470), [ Add a reminder when contributor is new to ping all contributor bot #2484 ](https://github.com/MarkBind/markbind/pull/2484#pullrequestreview-1983735630)
+  * User facing features: [Change seamless panels to inherit any parent's colours](https://github.com/MarkBind/markbind/pull/2501), [ Support Bootstrap icons #2494 ](https://github.com/MarkBind/markbind/pull/2494)
 * PR examples - this year prioritised docs/maintenance related issues to also give the juniors a chance to work on big issues
-  * Docs maintenance: eg [](https://github.com/MarkBind/markbind/pull/2505)
+  * Docs maintenance: eg [Update recommended IDE](https://github.com/MarkBind/markbind/pull/2505)
   * Code maintenance: eg [Remove generated PUML image and exclude it from .gitignore #2497](https://github.com/MarkBind/markbind/pull/2497) and associated issue [2498](https://github.com/MarkBind/markbind/issues/2498)
 
 
@@ -43,6 +46,7 @@
 | 7 | Reviewed / left comments: [ Add text for icon #2444 ](https://github.com/MarkBind/markbind/pull/2444)
 | 8 | Issue mantainence: [#1916](https://github.com/MarkBind/markbind/issues/1916), [all-contributors automation discussion]()
 | 8 | Merged + commented on: [Add keeping fork up to date section in DG #2453](https://github.com/MarkBind/markbind/pull/2453)
+| 8 | Commented on and reviewed [ Add dataTable plugin #2446 ](https://github.com/MarkBind/markbind/pull/2446#issuecomment-1990329474)
 | 8 | Merged + Reviewed: [Layout.ts to typescript #2452](https://github.com/MarkBind/markbind/pull/2452)
 | 10 | Review & Merge: [ Efficient validation for intra-link with hash #2465 ](https://github.com/MarkBind/markbind/pull/2465)
 | 10 | Review & Merge: [ Utilize GitHub Actions to check for SEMVER impact label #2470 ](https://github.com/MarkBind/markbind/pull/2470)
@@ -54,6 +58,7 @@
 | 11 | Flagged issues with [dependencies and NPM install](https://github.com/MarkBind/markbind/issues/2496)
 | 11 | Mantain repository
 | 11 | Write issue + Review PRs + PR related to testing of PUML: [Remove generated PUML file wrongly included](https://github.com/MarkBind/markbind/commit/2d6ca0113a9d90f713a70aea9c81087ecedc09b4), reviewed [necessary refactoring PR](https://github.com/MarkBind/markbind/commit/003822f9acef4f36ecc942e2aef668e36085a8d5), [made issue & investigated](https://github.com/MarkBind/markbind/issues/2498)
+| 11 | Reviewed and commented on [ Include link to the migrated AB3 website on our showcase #2517 ](https://github.com/MarkBind/markbind/pull/2517), flagging the issue with the migrated website
 | 11 | Chore: docs PR - [Update documentation for recommended IDE ](https://github.com/MarkBind/markbind/commit/74e580b837730a44f9fb5dc7b92cd2ad2de1ae5c)
 | 11 | Merged + Reviewed: [Fix stray space before popover and tooltip #2486](https://github.com/MarkBind/markbind/pull/2486), 
 | 11 | Review: [Change seamless panels to inherit any parent's colours](https://github.com/MarkBind/markbind/pull/2501)
