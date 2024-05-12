@@ -726,6 +726,10 @@
     {
       "src": "students/gok99/knowledge.md",
       "headings": {
+        "cs3282": "CS3282",
+        "functional-logic-programming": "Functional logic programming",
+        "effect-systems": "Effect systems",
+        "cs3281": "CS3281",
         "gradle": "Gradle",
         "github-actions-and-api": "GitHub Actions and API",
         "git-remotes": "Git Remotes",
