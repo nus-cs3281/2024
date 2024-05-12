@@ -1,3 +1,11 @@
+### Summary
+
+- Reviewed PRs of CS3281 students and FYP for RepoSense
+- Created issues as well as suggested/discussed new issues for CS3281 students to create
+- Guided with CS3281 mentees physically as well as over telegram
+- Reviewed scripts and slides + had dry runs with CS3282 RepoSense members for lightning talks
+- Contributed to Supabase with 3 merged PRs and 1 issue (+ 1 unmerged PR)
+
 | Week       | Achievements                                                                                                                                                        |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 13/05/2023 | Reviewed PR: [Fix non-rendering PlantUML diagram #2005](https://github.com/reposense/RepoSense/pull/2005)                                                           |
@@ -28,3 +36,18 @@
 | 4          | Reviewed PR: [Updating SystemTestUtil::assertJson to compare Json objects instead of line-by-line analysis #2087](https://github.com/reposense/RepoSense/pull/2087) |
 | 4          | Reviewed PR: [Refactor RepoConfiguration to simplify constructor complexity #2078](https://github.com/reposense/RepoSense/pull/2078)                                |
 | 5          | Created Issue: [Fix failing cypress test for range changes in chartview #2111](https://github.com/reposense/RepoSense/issues/2111)                                  |
+| 6          | Reviewed PR: [Refactor CliArguments to conform to RepoConfiguration's Builder Pattern #2118](https://github.com/reposense/RepoSense/pull/2118)                      |
+| R          | Reviewed PR: [Add originality threshold flag #2122](https://github.com/reposense/RepoSense/pull/2122)                                                               |
+| 7          | Reviewed PR: [Improve performance #2108](https://github.com/reposense/RepoSense/pull/2108)                                                                          |
+| 9          | Reviewed PR: [Minor Enhancements to Existing Regex Code #2115](https://github.com/reposense/RepoSense/pull/2115)                                                    |
+| 9          | Reviewed PR: [Bump follow-redirects from 1.15.4 to 1.15.6 in /frontend #2160](https://github.com/reposense/RepoSense/pull/2160)                                     |
+| 9          | Reviewed PR: [Revert "[#2109] Add search by tag functionality" #2165](https://github.com/reposense/RepoSense/pull/2165)                                             |
+| 10         | Reviewed PR: [Fix Vulnerabilities #2143](https://github.com/reposense/RepoSense/pull/2143)                                                                          |
+| 10         | Reviewed PR: [Update LoadingOverlay and Minor Versions of Node Dependencies #2152](https://github.com/reposense/RepoSense/pull/2152)                                |
+| 10         | Reviewed PR: [Bump webpack-dev-middleware from 5.3.3 to 5.3.4 in /frontend #2168](https://github.com/reposense/RepoSense/pull/2168)                                 |
+| 11         | Reviewed PR: [Fix lint warnings #2182](https://github.com/reposense/RepoSense/pull/2182)                                                                            |
+| 11         | Reviewed PR: [Fix Inconsistent Line Number Colours #2185](https://github.com/reposense/RepoSense/pull/2185)                                                         |
+| 12         | Reviewed PR: [Update CSS-related Major Dependencies #2154](https://github.com/reposense/RepoSense/pull/2154)                                                        |
+| 13         | Reviewed PR: [Implement authorship analysis #2140](https://github.com/reposense/RepoSense/pull/2140)                                                                |
+| R          | Reviewed PR: [Add optimise timeline feature #2180](https://github.com/reposense/RepoSense/pull/2180)                                                                |
+| R          | Reviewed PR: [Move from Vue CLI to Vite #2178](https://github.com/reposense/RepoSense/pull/2178)                                                                    |

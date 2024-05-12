@@ -14,7 +14,9 @@
     {
       "glob": "**/*.md"
     }
-  ],"style": {
+  ],
+  "pagesExclude": ["**/*-fragment.md"],
+  "style": {
     "bootstrapTheme": "bootswatch-pulse",
     "codeTheme": "light"
   },
