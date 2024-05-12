@@ -955,9 +955,9 @@
       "src": "students/kaixin-hc/observations.md",
       "headings": {
         "project-godot": "Project: Godot",
-        "react-admin": "React-Admin",
         "sphinx": "Sphinx",
         "hsr-optimizer": "HSR Optimizer",
+        "react-admin": "React-Admin",
         "my-contributions": "My Contributions",
         "my-learning-record": "My Learning Record"
       },
@@ -965,7 +965,9 @@
     },
     {
       "src": "students/kaixin-hc/progress.md",
-      "headings": {},
+      "headings": {
+        "spotlighted-achievements-work": "Spotlighted achievements/work:"
+      },
       "headingKeywords": {}
     },
     {
@@ -1287,9 +1289,9 @@
         "practices-tools-from-mattermost-that-could-be-adopted-by-markbind": "Practices/tools from Mattermost that could be adopted by Markbind",
         "hannah-chia-kai-xin": "HANNAH CHIA KAI XIN",
         "project-godot": "Project: Godot",
-        "react-admin": "React-Admin",
         "sphinx": "Sphinx",
         "hsr-optimizer": "HSR Optimizer",
+        "react-admin": "React-Admin",
         "my-contributions-9": "My Contributions",
         "my-learning-record-9": "My Learning Record",
         "lee-wei-david": "LEE WEI, DAVID",
