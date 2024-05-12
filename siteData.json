@@ -296,13 +296,19 @@
         "node-package-manager-npm": "Node Package Manager (npm)",
         "stylelint": "Stylelint",
         "commander-js": "Commander.js",
-        "github-actions": "Github Actions"
+        "github-actions": "Github Actions",
+        "chrome-devtools": "Chrome DevTools",
+        "nunjucks": "Nunjucks",
+        "jest": "Jest",
+        "mdn-web-docs": "mdn web_docs"
       },
       "headingKeywords": {}
     },
     {
       "src": "students/LamJiuFong/progress.md",
-      "headings": {},
+      "headings": {
+        "summary-of-key-contributions": "Summary of Key Contributions"
+      },
       "headingKeywords": {}
     },
     {
@@ -1052,10 +1058,14 @@
         "stylelint": "Stylelint",
         "commander-js": "Commander.js",
         "github-actions-2": "Github Actions",
+        "chrome-devtools": "Chrome DevTools",
+        "nunjucks": "Nunjucks",
+        "jest": "Jest",
+        "mdn-web-docs": "mdn web_docs",
         "wang-jingting": "WANG JINGTING",
         "vue-and-jest-vue-test-utils": "Vue and Jest/Vue Test Utils",
         "esm-cjs-interoperality": "ESM/CJS interoperality",
-        "nunjucks": "Nunjucks",
+        "nunjucks-2": "Nunjucks",
         "bootstrap": "Bootstrap",
         "wang-yiwen": "WANG YIWEN",
         "tool-technology-git": "Tool/Technology git",
