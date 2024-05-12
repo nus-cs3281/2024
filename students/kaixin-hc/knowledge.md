@@ -133,3 +133,14 @@ Husky orchestrates Git hooks within Node.js environments, facilitating essential
 
 ### Ant design
 Similar to material UI. No very notable observations, except that familiarity with at least one component design system seems to make picking up others much easier.
+
+### Vue hydration
+Incomplete or incorrect HTML structures can disrupt Vue's hydration process, particularly evident when essential elements like table tags are missing. This was occuring throughout MarkBind and actually there are still issues open relating to this like a strange double scroll effect in safari.
+
+Vue relies on valid HTML structures to effectively bind data and update the DOM. Without proper tags, Vue's hydration mechanism may fail, leading to rendering issues or even component malfunctions. For instance, if table tags are omitted, Vue may struggle to properly interpret and render table-related components or directives, resulting in unexpected behavior or errors. 
+
+Over time, browsers have become more robust; nevertheless despite my research I am not sure how often this propogates. The better solution might just be a linter to help make sure I write wellformed HTML for projects that also use vue...
+
+### Project management
+
+While harder to write about, I honed my instincts for project management and got a lot of hands on practice this semester. Some of my reflections are in observations.md

@@ -83,7 +83,3 @@ Here is my transferred comment with explanation summarising discord discussion
 This feature was interesting to me because of how it interfaced with the game itself. Because there are multiple ways to develop a character, players might want to score / optimise their character to different stats. This was an interesting mid-point solution working towards a bigger solution in the future (multiple saved builds)
 
 It was also interesting how data was separated. Originally I wrote this PR to call a function from the data class (separation of concerns) but as the data class is in .js and not .ts (slow migration) and the feature is relatively isolated, they suggested I put it all into one file where it was called instead.
-
-### My Learning Record
-
-See knowledge.md for things learned.
