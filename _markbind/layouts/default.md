@@ -10,11 +10,17 @@
     <li><a href="{{ baseUrl }}/students/knowledge.html" class="dropdown-item">Knowledge</a></li>
     <li>
         <a href="https://nus-cs3281.github.io/{{ year }}-dashboard/?search=&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByAuthors&breakdown=false" class="dropdown-item">Code Dashboard</a>
-      </li>
+    </li>
+    <li>
+        <a href="{{ baseUrl }}/activities-dashboard.html" class="dropdown-item">Activities Dashboard</a>
+    </li>
   </dropdown>
   <dropdown header="CS3282" class="nav-link">
     <li><a href="{{ baseUrl }}/cs3282-index.html" class="dropdown-item">Students</a></li>
     <li><a href="{{ baseUrl }}/students/talksSchedule.html" class="dropdown-item">Lightning Talks</a></li>
+    <li>
+    <a href="{{ baseUrl }}/activities-dashboard.html" class="dropdown-item">Activities Dashboard</a>
+    </li>
   </dropdown>
   <li>
     <a href="{{ baseUrl }}/instructions.html" class="nav-link">Instructions</a>

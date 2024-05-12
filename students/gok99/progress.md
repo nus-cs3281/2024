@@ -31,3 +31,13 @@
 | 7 | Reviewed PR: [Improve performance #2108](https://github.com/reposense/RepoSense/pull/2108) |
 | 7 | Reviewed PR: [Add originality threshold flag #2122](https://github.com/reposense/RepoSense/pull/2122) |
 | 7 | Reviewed PR: [Resolve Merge Conflict #2139](https://github.com/reposense/RepoSense/pull/2139) |
+| 9 | Reviewed PR: [[#2141] Use optionals for return values that may be null to enforce a client check](https://github.com/reposense/RepoSense/pull/2144) |
+| 9 | Reviewed PR: [[#2164] Revert "[#2109] Add search by tag functionality"](https://github.com/reposense/RepoSense/pull/2165) |
+| 10 | Reviewed PR: [[#944] Implement authorship analysis](https://github.com/reposense/RepoSense/pull/2140) |
+| 10 | Reviewed PR: [Add more testcases](https://github.com/reposense/testrepo-Alpha/pull/21) |
+| R | Reviewied PR: [[#2177] Migrate to Java 11 Syntax and Features](https://github.com/reposense/RepoSense/pull/2183) |
+| R | Reviewed PR: [[#2170] Add Blurbs for Repos](https://github.com/reposense/RepoSense/pull/2191) |
+| R | Reviewed PR: [[#2161] One-Stop Config File for Code Portfolio](https://github.com/reposense/RepoSense/pull/2192) |
+| R | Contributed to discussion in: [Surge preview deployments for many of our latest PRs are not working](https://github.com/reposense/RepoSense/issues/2194) |
+| R | Opened Issue: [Use GitBlameLineInfo for processing git blame output in aggregateBlameAuthorModifiedAndDateInfo](https://github.com/reposense/RepoSense/issues/2196) |
+| R | Contributed to discussion in: [Simplify Config File Creation and Project Scaffolding Process](https://github.com/reposense/RepoSense/issues/2199) | 

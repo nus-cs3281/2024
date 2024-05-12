@@ -1,3 +1,21 @@
+## CS3282
+
+In general, the theme of my explorations and work in CS3282 revolves around ideas in programming language research and functional programming, which are all things I'd like to pursue in the future. The lightning talks exposed me to new ideas in programming languages (some described below). The book review assignment gave me the valuable counter-opinion that formal methods and newer fancy-type systems might actually limit the flexibility of real-world software. Java, which is very much an unfancy language, is certainly very practical and doesn't have support for many of these techniques. Regardless, we can borrow ideas like immutability and apply them to any practical system. To that effect, I've also tried to start refactors of the RepoSense backend to introduce principles like immutability and optional monads to make things easier to maintain and reason about.
+
+Overall, I really appreciated the flexibility afforded by CS3282, which allowed me to explore more fringe and niche ideas that are starting to make their way into the programming practitioner's toolkit.
+
+### Functional logic programming
+
+In my explorations for the first lightning talk, I also came across functional logic programming. I had previously been separately familiar with functional and logic programming, and it was nice to see a foundational work for a core calculus for the combination of these paradigms, each of which has rich literature. The [Verse Calculus](https://simon.peytonjones.org/assets/pdfs/verse-conf.pdf) provides a minimal language that can be evaluated with a consistent set of rewrite rules that have a number of nice properties. This work comes out of Epic Games by researchers like Simon Peyton Jones, Lennart Augustsson, Guy Steele, and Ranjit Jhala, all people I've heard of before relating to other highly influential work.
+
+### Effect systems
+
+Research for my second lightning talk got me interested in and learning about effect systems. Effect systems refer to systems that track and allow reasoning about unobvious side effects that functions and routines could have, like mutation, divergence (possible nontermination), network access, exceptions, etc. I found several real-world (used in practice) examples of effect systems like Scala Zio, Effect-TS (inspired heavily by Zio), and algebraic effects in OCaml (which very recently got significant syntactical updates in OCaml 5.3). The theory for algebraic effect systems is very rich and shows that effect systems are at least as expressive as monadic effects, which are widely adopted in pure functional programming languages like Haskell.
+
+---
+
+## CS3281
+
 ### Gradle
  
 Gradle is a very flexible build automation tool used for everything from testing and formatting, to builds and deployments. Unlike with other build automation tools like Maven where build scripts written in XML (a widely hated feature of the tool), Gradle build scripts are written in a domain specific language based on Groovy or Kotlin, which are both JVM based languages. This means that it can interact seamlessly with Java libraries.
