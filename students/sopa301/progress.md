@@ -1,6 +1,7 @@
 # Progress
 ## Summary
 - Added new Title component and documentation
+- Replace Vue CLI build tool with Vite
 - Updated frontend dependencies
 - Refactored frontend code
 - Added style rules
@@ -26,6 +27,7 @@
 | Reading | [#2184] Fix Inconsistent Line Number Colours |
 | Reading | [#2151] Update Typescript-related Major Dependencies | 
 | Reading | [#2001] Extract c-file-type-checkboxes from Summary, Authorship and Zoom |
+| Reading | [#2176] Move from Vue CLI to Vite |
 
 | Week | PRs Reviewed |
 | --- | --- |
@@ -65,4 +67,5 @@
 | 10 | Add Blurbs for Repos |
 | 10 | Enforce No Spacing Between Methods in Vue Files |
 | 10 | Replace Vue CLI with Vite |
+| Reading | Refactor c-title to use c-markdown-chunk |
 
