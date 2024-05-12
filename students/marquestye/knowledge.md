@@ -1,3 +1,14 @@
+### Datastore
+
+Datastore is a NoSQL document database. While it provides scalability and performance advantages, it falls short when dealing with complex queries. While writing migration scripts, I read up on the following from the Datastore documentation:
+
+- property indexes and composite indexes
+- optimization on multiple field queries
+- cursor paging
+
+References:
+- [Datastore docs](https://cloud.google.com/datastore/docs)
+
 ### Hibernate
 
 TEAMMATES uses Hibernate, an Object-Relational Mapping framework which allows us to interact with the database without writing SQL commands. It abstracts these low-level database interactions, enabling developers to work with high-level objects and queries instead. I read up on some Hibernate basics:
@@ -5,6 +16,7 @@ TEAMMATES uses Hibernate, an Object-Relational Mapping framework which allows us
 - JPA persistence context / Hibernate session
 - entity states: transient, persistent, detached
 - entity operations: persist, merge, evict
+- criteria queries
 
 References:
 - [Hibernate docs](https://docs.jboss.org/hibernate/orm/4.0/devguide/en-US/html_single/)
