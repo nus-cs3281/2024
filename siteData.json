@@ -1120,6 +1120,7 @@
         "unit-testing-with-mockito": "Unit Testing with Mockito",
         "e2e-testing": "E2E Testing",
         "tye-jia-jun-marques": "TYE JIA JUN, MARQUES",
+        "datastore": "Datastore",
         "hibernate-3": "Hibernate",
         "mockito-2": "Mockito",
         "docker-2": "Docker",
@@ -1190,6 +1191,7 @@
     {
       "src": "students/marquestye/knowledge.md",
       "headings": {
+        "datastore": "Datastore",
         "hibernate": "Hibernate",
         "mockito": "Mockito",
         "docker": "Docker"
