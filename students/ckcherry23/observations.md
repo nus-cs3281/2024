@@ -45,7 +45,7 @@ When applying for CS3281, I contributed to [matplotlib](https://github.com/matpl
 
 **react-awesome-loaders**
 
-I also tried contributing to [react-awesome-loaders](https://github.com/ashutosh1919/react-awesome-loaders), a React component library, in Dec 2023. Although the library had amazing loader designs, it used Node 12 and could not be utilized in modern projects using Next.js, which has a minimum Node requirement of Node 18. I successfully updated the node version in the project and used `ncu` or `npm-check-updates` to update old dependencies in [PR#24](https://github.com/ashutosh1919/react-awesome-loaders/pull/24). Unfortunately, the documentation site could not be updated to Node 18 as it was created with [smooth-doc](https://github.com/gregberge/smooth-doc), which was not compatible with Node 18. Considering that I needed to migrate the entire documentation site to a new framework, I put the PR on hold and it was not merged.
+I also tried contributing to [react-awesome-loaders](https://github.com/ashutosh1919/react-awesome-loaders), a React component library, in Dec 2023. Although the library had amazing loader designs, it used Node 12 and could not be utilized in modern projects using Next.js, which has a minimum Node requirement of Node 18. I successfully updated the node version in the project and used `ncu` or `npm-check-updates` to update old dependencies in [PR#24](https://github.com/ashutosh1919/react-awesome-loaders/pull/24). Unfortunately, the documentation site could not be updated as it was created with [smooth-doc](https://github.com/gregberge/smooth-doc), which was not compatible with Node 18. Considering that I needed to migrate the entire documentation site to a new framework, I put the PR on hold and it was not merged.
 
 **checkstyle**
 
@@ -67,7 +67,7 @@ Since I worked on an npm package, I learned various methods to test npm packages
 
 **1.3 Generating documentation**
 
-date-fns uses TypeDoc to generate documentation for the project. I used [the official TypeDoc docs](https://typedoc.org/guides/overview/) to understand its functionality. The documentation site generator created documentation based on the TSDoc comments deployed on Firebase. The TSDoc standard was used for documenting the code, akin to JavaDoc. Having worked with multiple TypeScript projects before, this was my first experience using a TypeScript documentation generator, and it was smooth.
+date-fns uses TypeDoc to generate documentation for the project. I used [the official TypeDoc docs](https://typedoc.org/guides/overview/) to understand its functionality. The documentation site generator created documentation based on the TSDoc comments deployed on Firebase. The TSDoc standard was used for documenting the code, akin to JavaDoc. Having worked with multiple TypeScript projects before, this was my first experience using a TypeScript documentation generator, and it was smooth and convenient.
 
 **1.4 Date manipulation in JavaScript**
 

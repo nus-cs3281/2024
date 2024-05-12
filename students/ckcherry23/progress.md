@@ -103,12 +103,20 @@ During the semester, I was actively involved in mentoring the CS3281 students an
 | 13 - Recess | Reviewed PR        | [Add optimise timeline feature #2180](https://github.com/reposense/RepoSense/pull/2180)                                                       |
 | Recess      | Created issue      | [Surge preview deployments for many of our latest PRs are not working #2194](https://github.com/reposense/RepoSense/issues/2194)              |
 | Recess      | Reviewed PR        | [[#2148] Show tags on the ramp chart #2163](https://github.com/reposense/RepoSense/pull/2163)                                                 |
+| Exam        | Reviewed PR        | [[#2195] Add cypress test for show tag when grouping by author and by none #2197](https://github.com/reposense/RepoSense/pull/2197)           |
+| Exam        | Reviewed PR        | [[#2176] Move from Vue CLI to Vite #2178](https://github.com/reposense/RepoSense/pull/2178)                                                   |
+| Exam        | Reviewed PR        | [[#2170] Add Blurbs for Repos #2191](https://github.com/reposense/RepoSense/pull/2191)                                                        |
+| Exam        | Reviewed PR        | [[#2161] One-Stop Config File for Code Portfolio #2192](https://github.com/reposense/RepoSense/pull/2192)                                     |
+| Exam        | Created issue      | [Switch to pnpm package manager for frontend #2201](https://github.com/reposense/RepoSense/issues/2201)                                       |
+| Exam        | Revamped issue     | [Use Husky pre-push hooks to run linters #1215](https://github.com/reposense/RepoSense/issues/1215)                                           |
+
 
 ### Other Internal Project Contributions
 
 I also contributed to some of the internal projects by reviewing PRs and creating issues.
 
-| Week | Contribution               | Links                                                                                                              | Notes                                                                                                                                           |
-|------|----------------------------|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| 5    | Created issue in TEAMMATES | [Autosave and restore progress if user navigates away #12749](https://github.com/TEAMMATES/teammates/issues/12749) | Requested for periodic autosave and default restore progress feature to be implemented in TEAMMATES.                                            |
-| 8    | Reviewed PR in MarkBind    | [MarkBind Template for Student Portfolio #2398](https://github.com/MarkBind/markbind/pull/2398)                    | Reviewed portfolio design and requested for more documentation. Got RepoSense widget to be included in the portfolio to showcase code projects. |
+| Week | Contribution                | Links                                                                                                                   | Notes                                                                                                                                           |
+|------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| 5    | Created issue in TEAMMATES  | [Autosave and restore progress if user navigates away #12749](https://github.com/TEAMMATES/teammates/issues/12749)      | Requested for periodic autosave and default restore progress feature to be implemented in TEAMMATES.                                            |
+| 8    | Reviewed PR in MarkBind     | [MarkBind Template for Student Portfolio #2398](https://github.com/MarkBind/markbind/pull/2398)                         | Reviewed portfolio design and requested for more documentation. Got RepoSense widget to be included in the portfolio to showcase code projects. |
+| Exam | Discussed issue in MarkBind | [CS2103 website build fails due to missing bootstrap-icons.css #2538](https://github.com/MarkBind/markbind/issues/2538) | Reported issues with the CS3281/2 2024 website build and suggested making CI status fail on deployment issues for better developer experience.  |

@@ -28,7 +28,7 @@ Engaging with the Stack Overflow community was a good way to reinforce my unders
 
 **2.1.1 Single-File Components (SFCs)**
 
-I have been working with Vue.js for a while now, and I find Single-File Components (SFCs) to be a very efficient way to organize Vue components. SFCs allow you to define the template, script, and styles of a component within a single file, making it easier to maintain the component. 
+After working with Vue.js for the RepoSense frontend, I find Single-File Components (SFCs) to be a very efficient way to organize Vue components. SFCs allow you to define the template, script, and styles of a component within a single file, making it easier to maintain the component.
 
 When componentizing our frontend, one of the proposed approaches was to split the template, script, and styles into separate files. While this approach does break down the huge file into smaller chunks, it creates multiple files that are highly interrelated instead of multiple loosely coupled components with good separation of concerns.
 
@@ -42,7 +42,7 @@ For our title component, we decided to migrate from a JSON format `report-config
 
 YAML Frontmatter is a YAML block that is placed at the beginning of a file and is used to store metadata about the file. This metadata can be accessed to provide additional information or functionality based on the metadata.
 
-I explored the usage of [frontmatter for a custom navbar](https://github.com/reposense/RepoSense/pull/2102#issuecomment-1919095515) for the RepoSense report. We proposed integrating YAML frontmatter into the user-provided markdown files.  The frontmatter obtained (for example, a list of links and the header color) using a tool such as [gray-matter](https://github.com/jonschlinkert/gray-matter) could be injected into a template header component as props, dynamically rendering the RepoSense HTML report.
+I explored the usage of [frontmatter for a custom navbar](https://github.com/reposense/RepoSense/pull/2102#issuecomment-1919095515) for the RepoSense report. We proposed integrating YAML frontmatter into the user-provided markdown files.  The frontmatter obtained (for example, a list of links and the header color) using a tool such as [gray-matter](https://github.com/jonschlinkert/gray-matter) could be injected into a template header component as props, dynamically rendering the RepoSense HTML report navbar.
 
 #### 2.3 Quality Assurance
 
@@ -53,7 +53,7 @@ In addressing a bug within the RepoSense report where all charts were erroneousl
 * Data-driven testing: Add tests to check if the actual JSON data is being represented in the expected manner.
 * Snapshot testing: Implement snapshot testing to ensure there are no visual regressions.
 
-We added more repositories to the Cypress testing data to ensure that the tests cover a wider range of scenarios. This will help us in identifying more bugs and ensuring that the report is accurate and reliable in the future. 
+We added more repositories to the Cypress testing data to ensure that the tests cover a wider range of scenarios. This will help us in identifying more bugs and ensuring that the report is accurate and reliable in the future. Snapshot testing will also be implemented in the future to ensure that the report's visual representation remains consistent without any regressions.
 
 **2.3.2 Frontend Security Best Practices**
 
